@@ -1,0 +1,60 @@
+######## Mailing Api
+create and api end point that accept the following
+    title
+    body of the Mail
+    cover image url 
+    receiver
+a request to the endpoint should send mail to the receiver
+it should be authenticated with request token
+
+
+######### obscurification Algorithrm
+
+Create an api for obscurification of text.
+How it works
+A user can make api request to the api 
+He will supply the following credentials
+    api key
+    body of the text (body)
+    salt string (str)
+
+Psuedocode
+
+ - The api recieve a call with the following
+    apikey, body and str 
+
+    obscurification
+step one : reverse the body 
+step two : divide it by two: part1 and part2
+step three: join part2 and part1
+step four: split str into array of five strings
+step five: replace every vowel in the body with {{str[index of the vowel]}} while the capital vowel should be {{str[index of the vowel]}}cp
+step six: replace every white space with {{}} 
+step seven: a call this api returns obscured string (body)
+
+Example
+assuming I make api call the api with the following parameters
+key: "b5Dup?4de1xpwuiduueyf"
+str: "b5Dup?4de1"
+body: "come waiting simultanous"
+
+what the function will do
+STEP 1 
+$body = "suonatlumis gnitiaw emoc"
+
+STEP 2
+    part1 = " suonatlumis ";
+    part2 = "gnitiaw emoc";
+
+STEP 3 
+part2 + part1 = "gnitiaw emoc suonatlumis ";
+
+STEP 4
+
+["b5","Du","p?","4d","e1"]
+
+step 5 & 6
+$body = "{{}}s{{e1}}{{4d}}n{{b5}}tl{{e1}}m{{p?}}s{{}}gn{{p?}}t{{p?}}{{b5}}w{{}}{{D{{e1}}}}m{{4d}}c";
+return $body;
+
+########## Build another endpoint for reverse the obscurification
