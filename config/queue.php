@@ -70,6 +70,10 @@ return [
             'block_for' => null,
             'after_commit' => false,
         ],
+        
+        'failed' => [
+            'database' => 'pgsql', 'table' => 'failed_jobs',
+        ],
 
     ],
 

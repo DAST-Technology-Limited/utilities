@@ -36,13 +36,13 @@ return [
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
-            'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+            'host' => env('MAIL_HOST', 'smtp.dast.tech'),
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-            'username' => env('MAIL_USERNAME'),
-            'password' => env('MAIL_PASSWORD'),
-            'timeout' => null,
-            'local_domain' => env('MAIL_EHLO_DOMAIN'),
+            'username' => env('admin@dast.tech'),
+            'password' => env('Email@dAdmin1'),
+            'timeout' => 90,
+            'local_domain' => env('dast.tech'),
         ],
 
         'ses' => [
@@ -92,9 +92,11 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'admin@dast.tech'),
+        'name' => env('MAIL_FROM_NAME', 'DAST'),
     ],
+
+    'reply_to' => ['address' => env("MAIL_REPLY_TO",'admin@dast.tech'), 'name' => env("APP_NAME", "DAST")],
 
     /*
     |--------------------------------------------------------------------------

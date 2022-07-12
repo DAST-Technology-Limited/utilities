@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Mail\SendEmail;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('email-test/{email}', function($email){
+    $details['email'] = $email;
+    $details['replyTo'] = "admin@dast.tech";
+    dispatch(new App\Jobs\SendEmailJob($details));
+    echo($email);
+    });
+
+    Route::get('email-test', function(){
+       $send = new SendEmail();
+       $send->build();
+        });

@@ -42,6 +42,14 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+        
+        'database' => [
+            'connection' => 'mysql2',
+            'driver' => 'database',
+            'table' => 'jobs',
+            'queue' => 'default',
+            'expire' => 60,
+        ], 
 
         'mysql' => [
             'driver' => 'mysql',
