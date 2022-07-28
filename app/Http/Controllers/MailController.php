@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Mail;
 use Illuminate\Http\Request;
+use App\Mail\SendEmail;
+use App\Jobs\SendEmailJob;
+use App\Models\MailSender;
+use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Support\Facades\Validator;
 
 class MailController extends Controller
 {
@@ -12,74 +16,38 @@ class MailController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function send(Request $request)
     {
-        //
+      try {
+        $validator  = Validator::make($request->all(),[
+            "subject"=>"required|string",
+            "body"=>"required|string",
+            "sender_email"=>"required|string|email",
+            "sender_name"=>"required|string",
+            "reciever_email"=>"required|string|email",
+            "reciever_name"=>"required|string",
+            "view"=>"required|string"
+
+        ]);
+    
+        if($validator->fails()){
+                
+            return response()->json(["status"=>false, "data"=>$validator->errors()]);       
+        }
+
+       $mail = MailSender::create($request->all());
+       if($mail){
+        return response()->json(["status"=>true, "data"=>["message"=>"Mail sent"]]);       
+       }
+       else{
+        
+        return response()->json(["status"=>false, "data"=>["Failed"]]);  
+       }
+      } catch (\Throwable $th) {
+        return $th;
+        return response()->json(["status"=>false, "data"=>["Something went wrong"]]);  
+      }
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Mail  $mail
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Mail $mail)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Mail  $mail
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Mail $mail)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Mail  $mail
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Mail $mail)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Mail  $mail
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Mail $mail)
-    {
-        //
-    }
+  
 }

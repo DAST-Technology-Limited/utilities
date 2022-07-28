@@ -13,13 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('mails', function (Blueprint $table) {
+        Schema::create('mail_senders', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->string('sender');
-            $table->string('banner');
-            $table->string('recipient_email');
-            $table->string('recipient_name');
+            $table->string('subject');
+            $table->string('body');
+            $table->string('sender_email');
+            $table->string('sender_name');
+            $table->string('reciever_email');
+            $table->string('reciever_name');
+            $table->string('view');
+            $table->integer('attemps')->default(0);
             $table->timestamps();
         });
     }
@@ -31,6 +34,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('mails');
+        Schema::dropIfExists('mail_senders');
     }
 };

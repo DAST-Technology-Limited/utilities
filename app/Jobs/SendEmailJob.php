@@ -27,7 +27,7 @@ $this->details = $details;
 */
 public function handle()
 {
-$email = new SendEmail();
-echo Mail::to($this->details['email'])->send($email);
+$email = new SendEmail($this->details);
+ Mail::to($this->details['email'])->send($email);
 }
 }
