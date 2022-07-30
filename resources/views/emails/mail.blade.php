@@ -27,8 +27,8 @@
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
+    font-weight: 500;
+    font-size: 50px;
     /* or 60px */
 
     letter-spacing: 1px;
