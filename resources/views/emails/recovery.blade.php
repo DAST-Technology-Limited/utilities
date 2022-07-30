@@ -84,7 +84,7 @@
         flex-grow: 0;">
         {{$data->body}}
     
-        @include('inc.footer');
+        @include('inc.footer')
     
         </body>
         </html>

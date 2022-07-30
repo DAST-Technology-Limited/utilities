@@ -1,6 +1,6 @@
 <br><br>
     <img src="https://app.dast.tech/images/logo.png" alt="Logo"> <img src="https://app.dast.tech/images/dast.png" style="width: 61px;height: 32px;" alt="Logo">
-x`
+
     <hr style="color:white">
     {{-- Socials --}}
     <a href="https://mobile.twitter.com/DastCommunity?t=9hyFOcQGgx1gKi3c1blSNA&s=09"><img src="https://app.dast.tech/images/twitter.png" style="width:30px" alt="Logo"> </a>
