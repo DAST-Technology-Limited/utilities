@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('mail_senders', function (Blueprint $table) {
             $table->id();
             $table->string('subject');
-            $table->string('body');
+            $table->longText('body');
             $table->string('sender_email');
             $table->string('sender_name');
             $table->string('reciever_email');
