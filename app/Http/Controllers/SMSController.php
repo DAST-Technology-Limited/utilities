@@ -40,6 +40,12 @@ class SMSController extends Controller
         return $th;
         return response()->json(["status"=>false, "data"=>["Something went wrong"]]);  
       }
+      
+      finally{
+        
+        \Artisan::call("schedule:run");
+        
+        }
     }
 
 
@@ -55,7 +61,7 @@ class SMSController extends Controller
                            ) 
                   ); 
  
-        print($message->sid);
+      $delivery = $message->sid;
 
     }
 

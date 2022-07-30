@@ -18,6 +18,8 @@ class MailController extends Controller
      */
     public function send(Request $request)
     {
+
+      
       try {
         $validator  = Validator::make($request->all(),[
             "subject"=>"required|string",
@@ -46,6 +48,11 @@ class MailController extends Controller
       } catch (\Throwable $th) {
         return $th;
         return response()->json(["status"=>false, "data"=>["Something went wrong"]]);  
+      }
+      finally{
+        
+      \Artisan::call("schedule:run");
+      
       }
     }
 
