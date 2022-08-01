@@ -44,7 +44,7 @@ class Kernel extends ConsoleKernel
                 $sent->delete();
 
                } catch (\Throwable $th) {
-              dd($th);
+            //   dd($th);
                }
             }           
         })->everyMinute();
