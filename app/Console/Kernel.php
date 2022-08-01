@@ -31,7 +31,6 @@ class Kernel extends ConsoleKernel
                 $sent->delete();
 
                } catch (\Throwable $th) {
-              
                }
             }           
         })->everyMinute();
@@ -45,7 +44,7 @@ class Kernel extends ConsoleKernel
                 $sent->delete();
 
                } catch (\Throwable $th) {
-              
+              dd($th);
                }
             }           
         })->everyMinute();

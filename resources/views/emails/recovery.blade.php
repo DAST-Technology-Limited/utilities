@@ -82,7 +82,7 @@
         flex: none;
         order: 3;
         flex-grow: 0;">
-        {{$data->body}}
+         {!!html_entity_decode($data->body)!!}
     
         @include('inc.footer')
     
