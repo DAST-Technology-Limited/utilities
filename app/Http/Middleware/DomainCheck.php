@@ -19,6 +19,7 @@ class DomainCheck
     {
         $allowedHosts = explode(',', env('ALLOWED_DOMAINS'));
         $origin = request()->host();
+        print($origin);
         if(!(isset($origin) && in_array($origin, $allowedHosts))){
            
             return response(array("status"=>false, "message"=>"Unsupported host"), 401);
