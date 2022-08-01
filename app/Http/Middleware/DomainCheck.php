@@ -18,21 +18,13 @@ class DomainCheck
     public function handle($request, Closure $next)
     {
         $allowedHosts = explode(',', env('ALLOWED_DOMAINS'));
-
-        $requestHost = parse_url($request->getHttpHost(),  PHP_URL_HOST);
-        if(!app()->runningUnitTests()) {
-            if(!in_array($requestHost,$allowedHosts)) {
-                $requestInfo = [
-                    'host' => $requestHost,
-                    'ip' => $request->getClientIp(),
-                    'url' => $request->getRequestUri(),
-                    'agent' => $request->header('User-Agent'),
-                ];
-                
-                return response(array("status"=>false, "message"=>"Unsupport request origin"), 401);
+        $origin = request()->host();
+        if(!(isset($origin) && in_array($origin, $allowedHosts))){
+           
+            return response(array("status"=>false, "message"=>"Unsupported host"), 401);
 
             }
-        }
+   
 
         return $next($request);
     }
