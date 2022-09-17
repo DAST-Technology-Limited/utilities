@@ -44,7 +44,7 @@
     order: 3;
     flex-grow: 0;">
         If you have questions or need help, don't hesitate to contact our support team! <br><br>
-    DAST USA Inc, 4 World Trade Center, 150 Greenwich Street, 62nd Floor, New York, NY 10007, USA	<br><br>
+    DAST Technology LTD, No 26, Enugu Road, Nsukka, Enugu State, Nigeria<br><br>
 
     Terms & Condition  <span style="color:white">|</span>  Privacy Policy  <span style="color:white">|</span> Contact Us <br><br>
 
