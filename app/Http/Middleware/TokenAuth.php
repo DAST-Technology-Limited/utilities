@@ -20,11 +20,11 @@ class TokenAuth
     {
           
         $ptoken = new PlatformTokenController();
-        if(!isset($request->token)||!$ptoken->isValidToken($request->token)){
+        // if(!isset($request->token)||!$ptoken->isValidToken($request->token)){
             
-            // dd($request->token);
-            return response(array("status"=>false, "message"=>"Incorrect Token"), 401);
-        }
+        //     // dd($request->token);
+        //     return response(array("status"=>false, "message"=>"Incorrect Token"), 401);
+        // }
         
         return $next($request);
     }
