@@ -38,3 +38,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     // Route::post('/user', [App\Http\Controllers\Controller::class, 'store'])->name('store');
     // Route::put('/user/{user}', [App\Http\Controllers\UserController::class, 'update'])->name('update');
     // Route::delete('/user/{user}', [App\Http\Controllers\UserController::class, 'delete'])->name('delete');
+
+
+    // Other end points
+    require_once "chatgpt.php";
+    require_once "telegram.php";
