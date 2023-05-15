@@ -48,49 +48,49 @@ class WebHook extends Controller
             } else if (isset($update['message']['left_chat_participant'])) {
                 $type = 'left_chat_member';
 
-                if ($chat_id == env('DIGITMONI_GROUP')) {
-                    User::where('tgid', $sender_id)
-                        ->update([
-                            'digitmoni_group' => '0'
-                        ]);
-                }
+                // if ($chat_id == env('DIGITMONI_GROUP')) {
+                //     User::where('tgid', $sender_id)
+                //         ->update([
+                //             'digitmoni_group' => '0'
+                //         ]);
+                // }
 
-                if ($chat_id == env('CRYPTO_HUB')) {
-                    User::where('tgid', $sender_id)
-                        ->update([
-                            'signal_group' => '0'
-                        ]);
-                }
+                // if ($chat_id == env('CRYPTO_HUB')) {
+                //     User::where('tgid', $sender_id)
+                //         ->update([
+                //             'signal_group' => '0'
+                //         ]);
+                // }
 
-                if ($chat_id == env('SIGNAL_GROUP')) {
-                    User::where('tgid', $sender_id)
-                        ->update([
-                            'crypto_hub' => '0'
-                        ]);
-                }
+                // if ($chat_id == env('SIGNAL_GROUP')) {
+                //     User::where('tgid', $sender_id)
+                //         ->update([
+                //             'crypto_hub' => '0'
+                //         ]);
+                // }
             } else if (isset($update['message']['new_chat_participant'])) {
                 $type = 'new_chat_member';
 
-                if ($chat_id == env('DIGITMONI_GROUP')) {
-                    User::where('tgid', $sender_id)
-                        ->update([
-                            'digitmoni_group' => '1'
-                        ]);
-                }
+                // if ($chat_id == env('DIGITMONI_GROUP')) {
+                //     User::where('tgid', $sender_id)
+                //         ->update([
+                //             'digitmoni_group' => '1'
+                //         ]);
+                // }
 
-                if ($chat_id == env('CRYPTO_HUB')) {
-                    User::where('tgid', $sender_id)
-                        ->update([
-                            'signal_group' => '1'
-                        ]);
-                }
+                // if ($chat_id == env('CRYPTO_HUB')) {
+                //     User::where('tgid', $sender_id)
+                //         ->update([
+                //             'signal_group' => '1'
+                //         ]);
+                // }
 
-                if ($chat_id == env('SIGNAL_GROUP')) {
-                    User::where('tgid', $sender_id)
-                        ->update([
-                            'crypto_hub' => '1'
-                        ]);
-                }
+                // if ($chat_id == env('SIGNAL_GROUP')) {
+                //     User::where('tgid', $sender_id)
+                //         ->update([
+                //             'crypto_hub' => '1'
+                //         ]);
+                // }
 
                 return $update;
             }
@@ -99,31 +99,31 @@ class WebHook extends Controller
             if ($chat_type !== "" && $chat_type == 'private') {
 
                 // handling /start
-                if (strpos($type, '/start') !== false) {
+                if (strpos($type, '/start') !== false || true) {
                     $referrer = explode(" ", $type);
-                    count($referrer) > 1 ? $referrer = $referrer[1] : $referrer = "1609019384";
+                    // count($referrer) > 1 ? $referrer = $referrer[1] : $referrer = "1609019384";
 
 
-                    $user = User::where('tgid', $sender_id)->get();
+                    // $user = User::where('tgid', $sender_id)->get();
 
-                    if (count($user) == 0) {
+                    // if (count($user) == 0) {
 
-                        $is_new_user = true;
+                    //     $is_new_user = true;
 
-                        User::create(
-                            [
-                                'name' => $sender_name,
-                                'tgid' => $sender_id,
-                                'email' => $sender_name . $sender_id . "@gmail.com",
-                                'referred_by' => $referrer,
-                                'password' => Hash::make($sender_id)
-                            ]
-                        );
+                    //     User::create(
+                    //         [
+                    //             'name' => $sender_name,
+                    //             'tgid' => $sender_id,
+                    //             'email' => $sender_name . $sender_id . "@gmail.com",
+                    //             'referred_by' => $referrer,
+                    //             'password' => Hash::make($sender_id)
+                    //         ]
+                    //     );
 
-                        $user = User::where('tgid', $sender_id)->get();
-                    }
+                    //     $user = User::where('tgid', $sender_id)->get();
+                    // }
 
-                    $this->sendWelcome($user);
+                    $this->sendMessage($sender_id, "Welcome");
                 }
 
                 //start ends here
