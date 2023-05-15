@@ -13,7 +13,6 @@ use Orhanerday\OpenAi\OpenAi;
 class TelegramController extends Controller
 {
     public $client;
-
     public function __construct()
     {
         $this->client = new OpenAi(env("OPENAI_API_KEY"));
@@ -22,15 +21,22 @@ class TelegramController extends Controller
 
     public function getUpdates(Request $request)
     {
-        $update = $request->all();
-        $update = array_reverse($update);
-        $content = json_encode($update);
-        file_put_contents("update.txt", $content);
-return;
-        if (count($update) > 0) {
+        if (env("MODE") == "live") {
+            $update = json_decode($request->message);
+        } else {
+            $update = file_get_contents(env("TELEGRAM_BOT_LINK") . "getUpdates", true);
+            $update = json_decode($update);
+            $count = count($update->result);
+            if ($count == 0) {
+                return;
+            }
+            $update = $update->result[$count - 1];
+        }
+        // return;
+        if ($update) {
             // Extract important infomation
-            $sender_id = $update['message']['from']['id'];
-            $sender_name = $update['message']['from']['first_name'];
+            $sender_id = $update->message->from->id;
+            $sender_name = $update->message->from->first_name;
             $chat_id = "";
             $chat_type = '';
             $date = "";
@@ -39,9 +45,9 @@ return;
             $is_new_user = false;
             $group_id = '';
 
-            if (isset($update['message']['chat'])) {
-                $chat_id = $update['message']['chat']['id'];
-                $chat_type = $update['message']['chat']['type'];
+            if (isset($update->message->chat)) {
+                $chat_id = $update->message->chat->id;
+                $chat_type = $update->message->chat->type;
             }
 
             //Handling private messages
@@ -51,7 +57,7 @@ return;
                     'messages' => [
                         [
                             "role" => "user",
-                            "content" => $update['message']['chat']['text']
+                            "content" => $update->message->text
                         ],
                     ],
                     'temperature' => 1.0,
