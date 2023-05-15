@@ -24,7 +24,9 @@ class TelegramController extends Controller
     {
         $update = $request->all();
         $update = array_reverse($update);
-
+        $content = json_encode($update);
+        file_put_contents("update.txt", $content);
+return;
         if (count($update) > 0) {
             // Extract important infomation
             $sender_id = $update['message']['from']['id'];
