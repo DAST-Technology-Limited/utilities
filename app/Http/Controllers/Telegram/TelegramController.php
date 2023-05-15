@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
-
+namespace App\Http\Controllers\Telegram;
+use App\Http\Controllers\Controller;
 use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\URL;
 
-class WebHook extends Controller
+class TelegramController extends Controller
 {
 
     //keywords
@@ -20,7 +20,7 @@ class WebHook extends Controller
     public function getUpdates(Request $request)
     {
         $update = $request->all();
-
+        dd($update);
         // $update = file_get_contents(env("TELEGRAM_BOT_LINK")."getUpdates", true);
         // $update = json_decode($update, true);
 
