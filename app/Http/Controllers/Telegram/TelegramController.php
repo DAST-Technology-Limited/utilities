@@ -1,29 +1,28 @@
 <?php
 
 namespace App\Http\Controllers\Telegram;
+
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\URL;
+use Orhanerday\OpenAi\OpenAi;
 
 class TelegramController extends Controller
 {
+    public $client;
 
-    //keywords
-    private $keywords = [
-        '/start', 'Balance',  'Withdraw', 'Invite Link', 'My Wallet', 'Set Wallet', '/set_wallet'
-    ];
+    public function __construct()
+    {
+        $this->client = new OpenAi(env("OPENAI_API_KEY"));
+    }
 
 
     public function getUpdates(Request $request)
     {
         $update = $request->all();
-        dd($update);
-        // $update = file_get_contents(env("TELEGRAM_BOT_LINK")."getUpdates", true);
-        // $update = json_decode($update, true);
-
         $update = array_reverse($update);
 
         if (count($update) > 0) {
@@ -43,169 +42,28 @@ class TelegramController extends Controller
                 $chat_type = $update['message']['chat']['type'];
             }
 
-            if (isset($update['message']['text'])) {
-                $type = $update['message']['text'];
-            } else if (isset($update['message']['left_chat_participant'])) {
-                $type = 'left_chat_member';
-
-                // if ($chat_id == env('DIGITMONI_GROUP')) {
-                //     User::where('tgid', $sender_id)
-                //         ->update([
-                //             'digitmoni_group' => '0'
-                //         ]);
-                // }
-
-                // if ($chat_id == env('CRYPTO_HUB')) {
-                //     User::where('tgid', $sender_id)
-                //         ->update([
-                //             'signal_group' => '0'
-                //         ]);
-                // }
-
-                // if ($chat_id == env('SIGNAL_GROUP')) {
-                //     User::where('tgid', $sender_id)
-                //         ->update([
-                //             'crypto_hub' => '0'
-                //         ]);
-                // }
-            } else if (isset($update['message']['new_chat_participant'])) {
-                $type = 'new_chat_member';
-
-                // if ($chat_id == env('DIGITMONI_GROUP')) {
-                //     User::where('tgid', $sender_id)
-                //         ->update([
-                //             'digitmoni_group' => '1'
-                //         ]);
-                // }
-
-                // if ($chat_id == env('CRYPTO_HUB')) {
-                //     User::where('tgid', $sender_id)
-                //         ->update([
-                //             'signal_group' => '1'
-                //         ]);
-                // }
-
-                // if ($chat_id == env('SIGNAL_GROUP')) {
-                //     User::where('tgid', $sender_id)
-                //         ->update([
-                //             'crypto_hub' => '1'
-                //         ]);
-                // }
-
-                return $update;
-            }
-
             //Handling private messages
             if ($chat_type !== "" && $chat_type == 'private') {
+                $chat = $this->client->chat([
+                    'model' => 'gpt-3.5-turbo',
+                    'messages' => [
+                        [
+                            "role" => "user",
+                            "content" => $update['message']['chat']['text']
+                        ],
+                    ],
+                    'temperature' => 1.0,
+                    'max_tokens' => 4000,
+                    'frequency_penalty' => 0,
+                    'presence_penalty' => 0,
+                ]);
+
+                $d = json_decode($chat);
 
                 // handling /start
                 if (strpos($type, '/start') !== false || true) {
                     $referrer = explode(" ", $type);
-                    // count($referrer) > 1 ? $referrer = $referrer[1] : $referrer = "1609019384";
-
-
-                    // $user = User::where('tgid', $sender_id)->get();
-
-                    // if (count($user) == 0) {
-
-                    //     $is_new_user = true;
-
-                    //     User::create(
-                    //         [
-                    //             'name' => $sender_name,
-                    //             'tgid' => $sender_id,
-                    //             'email' => $sender_name . $sender_id . "@gmail.com",
-                    //             'referred_by' => $referrer,
-                    //             'password' => Hash::make($sender_id)
-                    //         ]
-                    //     );
-
-                    //     $user = User::where('tgid', $sender_id)->get();
-                    // }
-
-                    $this->sendMessage($sender_id, "Welcome");
-                }
-
-                //start ends here
-
-                // handling withdrawal
-                else if (strpos($type, 'Withdraw') !== false) {
-
-                    $user = User::where('tgid', $sender_id)->get();
-
-                    if (count($user) !== 0) {
-
-                        $fund_password = rand(100000, 999999);
-                        User::where('tgid', $sender_id)
-                            ->update([
-                                'fund_password' => $fund_password
-                            ]);
-
-                        $balance = $user[0]['balance'] == null ? "0.0" : $user[0]['balance'];
-                        $text = "Follow this link to make withdrawal👇 \n" . URL::to("/withdraw/" . $sender_id) . "/" . $fund_password;
-                        $this->sendMessage($sender_id, $text);
-                    }
-                }
-
-
-                // handling subscription
-                else if (strpos($type, 'Subscribe') !== false) {
-
-                    $user = User::where('tgid', $sender_id)->get();
-
-                    if (count($user) !== 0) {
-                        $text = "SUBSCRIPTION LINKS: \n\nCrypto Payment👇\n" . URL::to("/fund/" . $sender_id) . 
-                        " \n\nATM Card, USSD & Transfer Payment👇\nhttps://digitmoni.com/signal_sub/" . $sender_id . 
-                        "\n\nNote: Crypto payment is made in dapp browser. You only get referal bonus if you pay with crypto option.";
-                        $this->sendMessage($sender_id, $text);
-                    }
-                }
-
-
-                // handling balance
-                else if (strpos($type, 'Balance') !== false) {
-
-                    $user = User::where('tgid', $sender_id)->get();
-
-                    if (count($user) !== 0) {
-
-                        $balance = $user[0]['balance'] == null ? "0.0" : $user[0]['balance'];
-
-                        $text = "Your balance is $$balance";
-                        $this->sendMessage($sender_id, $text);
-                    }
-                }
-
-                // handling Invite
-                else  if (strpos($type, 'Invite Link') !== false) {
-
-                    $text = "Your referal link is👇 \n" . env('PROMO_BOT_LINK') . $sender_id . "\n\n Keep sharing it to earn more reward";
-                    $this->sendMessage($sender_id, $text);
-                }
-
-                 // Signal Link
-                 else  if (strpos($type, '/signal') !== false) {
-
-                   $this->getSignalLink($sender_id);
-                }
-
-
-                // handling Expiry
-                else if (strpos($type, 'Expiry') !== false) {
-                //     $UserActivate = new UserActivate();
-                //     $user = $UserActivate->checkmember($sender_id);
-
-                //     if ($user['status']) {
-                //         $date = $user["data"][2];
-                //         $date = Carbon::createFromTimeStamp($date)->diffForHumans();
-                //         $text = "Your subscription expiry date:  " . $date;
-                //         $this->sendMessage($sender_id, $text);
-                //     } else {
-                //         return;
-                //     }
-                } else {
-                    $text = "Command not found, please direct all your complains to @masterclems or /start";
-                    $this->sendMessage($sender_id, $text);
+                    $this->sendMessage($sender_id, $d->choices[0]->message->content);
                 }
             }
             return;
@@ -321,20 +179,20 @@ class TelegramController extends Controller
 
     public function getSignalLink($tgid)
     {
-    //     $UserActivate = new UserActivate();
-    //     $user = $UserActivate->checkmember($tgid);
+        //     $UserActivate = new UserActivate();
+        //     $user = $UserActivate->checkmember($tgid);
 
-    //     if ($user['status']) {
-    //         $date = $user["data"][2];
-    //         $date = Carbon::createFromTimeStamp($date)->diffForHumans();
-    //         $text = "";
-    //         if (strpos($date, 'ago') !== false){
-    //             $text = "Your subscription status is inactive. To join the signal group kindly subscribe";
-    //         }else{
-    //             $text = "Your subscription status is active. Join the signal group from the link  below👇\n\n https://t.me/digitmoni_signal";
-    //         }
+        //     if ($user['status']) {
+        //         $date = $user["data"][2];
+        //         $date = Carbon::createFromTimeStamp($date)->diffForHumans();
+        //         $text = "";
+        //         if (strpos($date, 'ago') !== false){
+        //             $text = "Your subscription status is inactive. To join the signal group kindly subscribe";
+        //         }else{
+        //             $text = "Your subscription status is active. Join the signal group from the link  below👇\n\n https://t.me/digitmoni_signal";
+        //         }
 
-    //         $this->sendMessage($tgid, $text);
-    //     }
+        //         $this->sendMessage($tgid, $text);
+        //     }
     }
 }
