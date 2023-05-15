@@ -18,11 +18,10 @@ class TelegramController extends Controller
         $this->client = new OpenAi(env("OPENAI_API_KEY"));
     }
 
-
     public function getUpdates(Request $request)
     {
         if (env("MODE") == "live") {
-            $update = json_decode($request->message);
+            $update = json_decode(json_encode($request->all()));
         } else {
             $update = file_get_contents(env("TELEGRAM_BOT_LINK") . "getUpdates", true);
             $update = json_decode($update);
@@ -52,6 +51,7 @@ class TelegramController extends Controller
 
             //Handling private messages
             if ($chat_type !== "" && $chat_type == 'private') {
+                $this->sendMessage($sender_id, "Processing...");
                 $chat = $this->client->chat([
                     'model' => 'gpt-3.5-turbo',
                     'messages' => [
