@@ -29,7 +29,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     echo("Sent");
 //     });
 
-    
+
     Route::post('/sendmail', [App\Http\Controllers\MailController::class, 'send'])->name('sendmail');
     Route::post('/sendsms', [App\Http\Controllers\SMSController::class, 'send'])->name('sendsms');
     Route::post('/subscribe', [App\Http\Controllers\SubscribersController::class, 'send'])->name('subscribe');
