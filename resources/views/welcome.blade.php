@@ -412,7 +412,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
                 
                   <li class="hsg-nav__dropdown-item">
-                    <a class="ga_nav_link homepage-nav-about-desktop" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > About Us">About Us</a>
+                    <a class="ga_nav_link homepage-nav-about-desktop" href="/dast-about" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > About Us">About Us</a>
                   </li>
                 
               
@@ -493,7 +493,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
                 <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-1">
                   <span class="hsg-nav__link-label">
-                  DAST APP
+                <a href="https://dast.tech/">  DAST DAPP</a>
                     
                   </span>
                 </button>
@@ -513,7 +513,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             <div class="hsg-nav__box-link-none" >
                               
                               <div class="hsg-nav__header-container" style="background: rgb(46, 46, 87);color:white;">
-                                <h3 class="hsg-nav__header">The DAST APP Platform</h3>
+                                <h3 class="hsg-nav__header">The DAST DAPP Platform</h3>
                                 <p class="hsg-nav__subheader" gtm="">Additionally, DAST can help identify vulnerabilities that arise due to specific configurations or environments that may not be apparent during development.</p>
                               </div>
                             </div>
@@ -669,7 +669,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
               <div class="hsg-nav__link-wrapper">
                 
-                <a href="" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                <a href="/dast-pay" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
                   <span class="hsg-nav__link-label">
                    DAST PAY
                     
@@ -681,7 +681,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             </li>
             
             <li class="hsg-nav__group-item hsg-nav__group-item--order-3  hsg-nav__group-item--has-dropdown ">
-              <a href="">
+              <a href="/dast-chat">
               <div class="hsg-nav__link-wrapper" >
                 
                 <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-3">
@@ -1841,7 +1841,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div id="hs_cos_wrapper_module_1580840709351146" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 
 </div>
-<footer class="hsg-footer">
+<footer class="hsg-footer" style="background: rgb(1, 1, 33);">
   <div class="hsg-footer__layout">
     <button id="back-link" class="hsg-footer__logo-caret">
       
@@ -1975,19 +1975,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 </section>
 
           <section class="hsg-footer__nav-column ">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Partners</button>
-  </h2>
+  
   <ul>
    
    
-    <li class="hsg-footer__nav-item" data-order="3">
-      <a class="ga_nav_link " href="" data-order="3" data-linkorder="3" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Partners > HubSpot for Startups">
-        HubSpot for Startups</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="4">
-      <a class="ga_nav_link " href="" data-order="4" data-linkorder="4" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Partners > Affiliate Program">
-        Affiliate Program</a>
     </li>
     </ul>
 </section>

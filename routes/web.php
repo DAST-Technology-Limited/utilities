@@ -1,10 +1,13 @@
 <?php
 
+use App\Http\Controllers\DastPagesController;
+use App\Http\Controllers\LanguageController;
 use App\Http\Middleware\DomainCheck;
 use App\Http\Middleware\TokenAuth;
 use Illuminate\Support\Facades\Route;
 use App\Mail\SendEmail;
 use App\Models\MailSender;
+use Illuminate\Routing\RouteRegistrar;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,3 +38,11 @@ Route::get('email-test', function(){
     dispatch(new App\Jobs\SendEmailJob($details));
     echo("Sent");
     });
+
+    ////dast pages route
+    Route::get('/dast-about',[DastPagesController::class,'about']);
+    Route::get('/dast-app',[DastPagesController::class,'app']);
+    Route::get('/dast-chat',[DastPagesController::class,'chat']);
+    Route::get('/dast-pay',[DastPagesController::class,'pay']);
+
+
