@@ -493,7 +493,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
                 <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-1">
                   <span class="hsg-nav__link-label">
-                <a href="https://dast.tech/">  DAST DAPP</a>
+                <a href="https://dast.tech/">  DASTdAPP</a>
                     
                   </span>
                 </button>
@@ -671,7 +671,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
                 <a href="/dast-pay" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
                   <span class="hsg-nav__link-label">
-                   DAST PAY
+                   DASTPay
                     
                   </span>
                 </a>
@@ -686,7 +686,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
                 <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-3">
                   <span class="hsg-nav__link-label">
-                  DAST CHAT
+                  DAST GPT
                     
                   </span>
                 </button>
@@ -1342,8 +1342,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="homepage-hero-branding-rollout__content">
       <div class="homepage-hero-branding-rollout__text">
         
-        <h1 class="homepage-hero-branding-rollout__text-title -secondary">DAST - The Next Generation of Digital Asset Security</h1>
-        <p class="homepage-hero-branding-rollout__text-description"> As the world increasingly moves towards a digital economy, the security of digital assets has become a critical concern for businesses and individuals alike. With the rise of blockchain technology and the proliferation of digital assets, there is a growing need for innovative solutions to secure these assets and protect against cyber threats.</p>
+        <h1 class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</h1>
+        <p class="homepage-hero-branding-rollout__text-description">DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses, and organisations. 
+      </p>
         <div class="homepage-hero-branding-rollout__cta">
           <a  class="homepage-hero-branding-rollout__cta-link cl-button -primary -large homepage-hero-cta" href="">
             Explore DAST<span class="visually-hidden">Explore DAST</span></a><a class="homepage-hero-branding-rollout__cta-link cl-button -secondary -large homepage-hero2-cta" href="">
@@ -1366,10 +1367,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div id="hs_cos_wrapper_product" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><section class="home-growth-stack home-products-feature-v2" data-background="off-white">
   <div class="home-growth-stack__logo-wrapper">
     <h2 class="home-growth-stack__logo-header">What is DAST?</h2>
-    <p class="home-growth-stack__logo-description">DAST stands for Digital Asset Security Token, and its mission is to provide a secure and reliable platform for managing and trading digital assets. By leveraging blockchain technology and advanced security measures, DAST aims to revolutionize the way digital assets are secured and traded.</p>
+    <p class="home-growth-stack__logo-description">DAST stands for Digital Asset Security Token At DAST Technology, we are committed to providing world-class web3 and AI technology solutions to our clients through innovation, research, and development. We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth..</p>
     <div class="home-growth-stack__ctas">
-      <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cl-button -primary -regular homepage-platform-demo cta--primary" href="https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=www.hubspot.com&amp;hubs_signup-cta=homepage-platform-demo">Demo premium CRM</a>
-      <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -secondary -regular homepage-platform-free cta--secondary" href="https://app.hubspot.com/signup-hubspot/crm?hubs_signup-url=www.hubspot.com&amp;hubs_signup-cta=homepage-platform-free">Get free CRM</a>
+      <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cl-button -primary -regular homepage-platform-demo cta--primary" href="https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=www.hubspot.com&amp;hubs_signup-cta=homepage-platform-demo">Get a Demo</a>
+      <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -secondary -regular homepage-platform-free cta--secondary" href="https://app.hubspot.com/signup-hubspot/crm?hubs_signup-url=www.hubspot.com&amp;hubs_signup-cta=homepage-platform-free">Dast GPT</a>
     </div>
   </div>
   <div class="home-products-feature__container hsg-page-width-normal">
@@ -1378,10 +1379,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  trademark ">Security Tokenization</h3>
+          <h3 class="home-products-feature__card--headline  trademark ">SAVE AND SECURE ASSETS</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description">DAST uses a proprietary security tokenization process to convert digital assets into secure tokens that can be traded and managed on its platform. This process provides enhanced security and transparency for digital asset transactions.</p>
+          <p class="home-products-feature__card--content-description"> You can secure your digital assets by saving it on the DAST security technology layer. It is encrypted and backed up on the blockchain. Only your wallet will be able to view or edit it. DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation.</p>
           <div class="home-products-feature__features">
             <h4 class="home-products-feature__card--heading">Popular Features</h4>
             <div class="home-products-feature__card--list">
@@ -1391,21 +1392,22 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <svg class="cl-icon" aria-hidden="true">
                     <use href="#check-circle" />
                   </svg>
-                  Lead generation
+                  User can recover his asset
+
                 </li>
                 
                 <li>
                   <svg class="cl-icon" aria-hidden="true">
                     <use href="#check-circle" />
                   </svg>
-                  Marketing automation
+                  Next of kin can recover asset
                 </li>
                 
                 <li>
                   <svg class="cl-icon" aria-hidden="true">
                     <use href="#check-circle" />
                   </svg>
-                  Analytics
+                  Up to 5 trusted contacts to validate next of kin recovery
                 </li>
                 
               </ul>
@@ -1425,12 +1427,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  registered-trademark ">Multi-Currency Support</h3>
+          <h3 class="home-products-feature__card--headline  registered-trademark ">DAST PAY</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description"> DAST supports a wide range of digital currencies, including Bitcoin, Ethereum, and other popular cryptocurrencies, as well as fiat currencies. This allows users to manage and trade multiple types of digital assets on a single platform.
+          <p class="home-products-feature__card--content-description">  DASTPay is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions. Seamlessly integrated into major messaging apps, DASTPay empowers you to effortlessly carry out bill payments, mobile payments, and cross-border remittance, all in one secure and convenient platform.
 
-            Advanced Security Measures: DAST employs a range of advanced security measures to ensure the safety of users' digital assets.</p>
+</p>
           <div class="home-products-feature__features">
             <h4 class="home-products-feature__card--heading">Popular Features</h4>
             <div class="home-products-feature__card--list">
@@ -1440,21 +1442,21 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <svg class="cl-icon" aria-hidden="true">
                     <use href="#check-circle" />
                   </svg>
-                  Advanced CRM
+                  Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins
                 </li>
                 
                 <li>
                   <svg class="cl-icon" aria-hidden="true">
                     <use href="#check-circle" />
                   </svg>
-                  Meeting scheduling
+                  Integration with payment platforms
                 </li>
                 
                 <li>
                   <svg class="cl-icon" aria-hidden="true">
                     <use href="#check-circle" />
                   </svg>
-                  Payments
+                  AIRTIME AND DATA
                 </li>
                 
               </ul>
@@ -1474,10 +1476,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  trademark ">Regulatory Compliance</h3>
+          <h3 class="home-products-feature__card--headline  trademark ">DAST GPT</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description">DAST is committed to complying with all relevant regulations and laws governing the digital asset space. It works closely with regulatory bodies and law enforcement agencies to ensure that its platform is safe and compliant for users.</p>
+          <p class="home-products-feature__card--content-description"> 
+            This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
+            Join DASTGPT Bot on telegram today and unlock a world of endless possibilities!
+
+            .</p>
           <div class="home-products-feature__features">
             <h4 class="home-products-feature__card--heading">Popular Features</h4>
             <div class="home-products-feature__card--list">
@@ -1487,21 +1493,27 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <svg class="cl-icon" aria-hidden="true">
                     <use href="#check-circle" />
                   </svg>
-                  Tickets
+                  Interactive Chatbot powered by ChatGPT AI
                 </li>
                 
                 <li>
                   <svg class="cl-icon" aria-hidden="true">
                     <use href="#check-circle" />
                   </svg>
-                  Customer feedback
+                  Educational Database of major Web3 companies 
                 </li>
                 
                 <li>
                   <svg class="cl-icon" aria-hidden="true">
                     <use href="#check-circle" />
                   </svg>
-                  Knowledge base
+                  Early access to web3 job opportunities 
+                </li>
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Engaging and informative conversations
                 </li>
                 
               </ul>
@@ -1691,8 +1703,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div class="hsg-page-width-normal">
   <div class="home-customers__content-wrapper">
     <div class="home-customers__text-wrapper">
-      <h2 class="home-customers__stat">177,000+</h2>
-      <p class="home-customers__stat-description">customers in over <strong>120</strong> countries hoping to grow their businesses with DAST</p>
+      <h2 class="home-customers__stat">500 M+</h2>
+      <p class="home-customers__stat-description">customers in over <strong>120</strong> countries hoping to grow and Secure their Assets with DAST</p>
     </div>
     <div class="home-customers__logos-grid">
       
@@ -1753,11 +1765,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
   
     
-      <h2 class="csol-cta-content-block-header"> DAST - The Next Generation of Digital Asset Security</h2>
+      <h2 class="csol-cta-content-block-header"> DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</h2>
     
   
 
-        <p class="csol-cta-content-block-description">DAST is poised to become a leader in the digital asset security space. So let's dive in and learn more about this exciting new company.</p>
+        <p class="csol-cta-content-block-description">Our team of experts is passionate about creating a more equitable and inclusive world through the power of web2, web3, and AI technologies; we work tirelessly to ensure that our solutions are secure, scalable, and user-friendly.</p>
 
         <div class="csol-cta-content-block-buttons">
           
@@ -1823,7 +1835,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
             </div>
           
-        </div><span class="csol-cta-content-block-disclaimer">DAST can help identify vulnerabilities.</span>
+        </div><span class="csol-cta-content-block-disclaimer">DAST,providing world-class web3 and AI technology solutions to our clients through innovation, research, and development</span>
         </div>
 
       
