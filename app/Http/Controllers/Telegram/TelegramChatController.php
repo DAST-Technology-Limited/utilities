@@ -43,7 +43,7 @@ class TelegramChatController extends Controller
         }
     }
 
-    public function handleChat($text, $max_token = 100)
+    public function handleChat($text, $max_token = 1000)
     {
         $this->baseTelegram->sendMessage($this->user_id, "Processing...");
         $chat = $this->client->chat([
