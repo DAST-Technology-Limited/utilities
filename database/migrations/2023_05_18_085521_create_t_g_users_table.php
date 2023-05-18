@@ -13,11 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('chat_g_p_t_s', function (Blueprint $table) {
+        Schema::create('t_g_users', function (Blueprint $table) {
             $table->id();
-            $table->text("questions");
-            $table->longText("response")->nullable();
-            $table->foreignId("t_g_user_id")->constrained("users")->onUpdate('cascade')->onDelete('cascade');
+            $table->string("user_id")->nullable();
+            $table->string("tg_id");
+            $table->string("tg_username");
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('chat_g_p_t_s');
+        Schema::dropIfExists('t_g_users');
     }
 };
