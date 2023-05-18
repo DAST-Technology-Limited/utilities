@@ -16,7 +16,7 @@ class UserController extends Controller
        if(count($user) > 0)
        {
         $user = $user[0];
-        $subdetails["totalrequests"] = $user->chats()->where("created_at", 'LIKE', "%{date('Y-m-d')}%")->count();
+        $subdetails["totalrequests"] = $user->chats()->where("created_at", 'LIKE', "%".date('Y-m-d')."%")->count();
         $subdetails["active_sub"] = Carbon::parse($user->active_sub)->isFuture();
        }
        else {
