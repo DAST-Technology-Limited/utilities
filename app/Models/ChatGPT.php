@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class ChatGPT extends Model
 {
     use HasFactory;
+    protected $guarded = [];
 }

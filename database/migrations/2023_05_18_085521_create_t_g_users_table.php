@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string("user_id")->nullable();
             $table->string("tg_id");
             $table->string("tg_username");
+            $table->timestamp('active_sub')->useCurrent();
             $table->timestamps();
         });
     }

@@ -2,16 +2,18 @@
 
 namespace App\Http\Controllers\Telegram;
 
+use App\Classes\BotTypes;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class BaseTelegramController extends Controller
 {
     public $bot_link;
-
-    public function __construct($bot_link)
+    public $bot_type;
+    public function __construct($bot_link, $bot_type)
     {
         $this->bot_link = $bot_link;
+        $this->bot_type = $bot_type;
     }
 
     public function getUpdate(Request $request)
@@ -51,75 +53,30 @@ class BaseTelegramController extends Controller
         curl_close($ch);
     }
 
-    public function sendWelcome($user)
+    public function sendWelcome($user_id)
     {
-        $button = array(array("🤑 Withdraw", "💰 Balance", "🔗Invite Link"), array("💴 Subscribe", "⏰ Expiry"));
-        $button = array("keyboard" => $button, "resize_keyboard" => true, "one_time_keyboard" => false);
-        $encodedButton = json_encode($button);
-        $inline_buttons = array();
+        $bot_types = new BotTypes();
+        if ($this->bot_type == $bot_types->getBotChat()) {
+            $msg1 = array(
+                "chat_id" => $user_id,
+                "text" => "Welcome to DAST GPT BOT\n How may I help you?",
+                "parse_mode" => "html"
+            );
 
-        $digitmoni_group = $user[0]['digitmoni_group'];
-        $signal_group = $user[0]['signal_group'];
-        $crypto_hub = $user[0]['crypto_hub'];
+            $ch = curl_init();
+            $options = array(
+                CURLOPT_URL => $this->bot_link . "sendMessage",
+                CURLOPT_POST => 1,
+                CURLOPT_POSTFIELDS => $msg1,
+                CURLOPT_RETURNTRANSFER => 1
+            );
 
-        if ($digitmoni_group != '1') {
-            array_push($inline_buttons, array(array(
-                "text" => "🎉Join Digitmoni Group🎉",
-                "url" => "https://t.me/Digit_moni"
-            )));
+            curl_setopt_array($ch, $options);
+            $update = curl_exec($ch);
+            curl_close($ch);
         }
+        else if ($this->bot_type == $bot_types->getBotPay()) {
 
-        if ($crypto_hub != '1') {
-            array_push($inline_buttons, array(array(
-                "text" => "🎉Join Crypto Hub🎉",
-                "url" => "https://t.me/digitcryptohub"
-            )));
         }
-
-        $replyMarkup = array("inline_keyboard" => $inline_buttons);
-        $encodedMarkup = json_encode($replyMarkup);
-
-        $msg1 = array(
-            "chat_id" => $user[0]['tgid'],
-            "text" => "Welcome to Digitmoni\n",
-            "parse_mode" => "html",
-            "reply_markup" => $encodedMarkup
-        );
-
-        // remove inline buttons if user have joined all groups
-        if (count($inline_buttons) < 1) {
-            unset($msg1['reply_markup']);
-        }
-
-        $msg2 = array(
-            "chat_id" => $user[0]['tgid'],
-            "text" => "...",
-            "parse_mode" => "html",
-            "reply_markup" => $encodedButton
-        );
-        $ch = curl_init();
-
-        $options = array(
-            CURLOPT_URL => env("TELEGRAM_BOT_LINK") . "sendMessage",
-            CURLOPT_POST => 1,
-            CURLOPT_POSTFIELDS => $msg1,
-            CURLOPT_RETURNTRANSFER => 1
-        );
-
-        $options2 = array(
-            CURLOPT_URL => env("TELEGRAM_BOT_LINK") . "sendMessage",
-            CURLOPT_POST => 1,
-            CURLOPT_POSTFIELDS => $msg2,
-            CURLOPT_RETURNTRANSFER => 1
-        );
-
-        curl_setopt_array($ch, $options);
-        $update = curl_exec($ch);
-
-
-        curl_setopt_array($ch, $options2);
-        curl_exec($ch);
-
-        curl_close($ch);
     }
 }
