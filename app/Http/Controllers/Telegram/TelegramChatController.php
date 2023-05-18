@@ -75,7 +75,6 @@ class TelegramChatController extends Controller
                     $this->baseTelegram->sendWelcome($this->user_id);
                 } else {
                     $sub_details = $this->userController->verifySub($this->user_id);
-                    dd($sub_details);
                     if ($sub_details["active_sub"] || $sub_details["totalrequests"] < 10) {
                         $createQuestion = true;
                         $response = $this->handleChat($command);
