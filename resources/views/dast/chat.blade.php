@@ -1386,10 +1386,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       
     </div>
     
-      <h4 style="font-size:small;color: rgb(1, 1, 49)" class="academy-typing-hero__content--title" aria-label="">
+      <h3 style="font-size:large;color: rgb(1, 1, 49)" class="academy-typing-hero__content--title" aria-label="">
         Welcome to DASTGPT Bot <span class="academy-typing-hero__content--title-text" data-firstloop="Your Gateway to Web3" data-secondloop=" and AI Technologies 
         " data-thirdloop=" Interactive Chatbot powered by ChatGPT AI">CHAT PLATFORM</span>
-      </h4>
+      </h3>
     
   </div>
   <p class="academy-typing-hero__content--description">This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
@@ -1416,8 +1416,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-
-<div id="hs_cos_wrapper_module_159838332363129" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><section class="certs">
+{{-- 
+<div id="hs_cos_wrapper_module_159838332363129" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><section class="certs"> --}}
 <div class="hsg-page-width-normal">
 <div class="section-header certs__header">
   <h3>Your Gateway to Web3 and AI Technologies 
