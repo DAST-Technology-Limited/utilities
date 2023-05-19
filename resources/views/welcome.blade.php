@@ -1337,7 +1337,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   
 
 
-<section class="homepage-hero-branding-rollout right-aligned-image" data-background="white"style="background: rgb(46, 46, 87);color:white;">
+<section class="homepage-hero-branding-rollout right-aligned-image" data-background="white"style="background-color: rgb(1, 1, 37);;color:white;">
   <div class="homepage-hero-branding-rollout__container hsg-page-width-normal">
     <div class="homepage-hero-branding-rollout__content">
       <div class="homepage-hero-branding-rollout__text">
@@ -1354,8 +1354,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="homepage-hero-branding-rollout__media">
         
           <div class="homepage-hero-branding-rollout__media-wrapper">
-            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a HubSpot user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their HubSpot CRM platform" src="https://www.hubspot.com/hubfs/EN%20Round%203%20Variant%201%20Desktop%20(2).webp">
-            <img class="homepage-hero-branding-rollout__media-image--mobile" alt="View of a HubSpot user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their HubSpot CRM platform" src="https://www.hubspot.com/hubfs/EN%20Round%203%20Variant%201%20Desktop%20(2).webp">
+            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://dast.tech/assets/images/ideology%20image.png">
+            <img class="homepage-hero-branding-rollout__media-image--mobile" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST platform" src="https://dast.tech/assets/images/sp.png">
           </div>
         
       </div>
@@ -1643,7 +1643,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class=" csol-full-width-cta-card-image">
         <div class="csol-full-width-cta-card-graphic-container "></div>
         <div class="csol-full-width-cta-card-background">
-          <img class="csol-full-width-cta-card-background-image" src="https://www.hubspot.com/hs-fs/hubfs/Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png?width=400&amp;height=330&amp;name=Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png" alt="HubSpot CMO shares predictions on AI" width="400" height="330" loading="lazy" srcset="https://www.hubspot.com/hs-fs/hubfs/Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png?width=200&amp;height=165&amp;name=Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png 200w, https://www.hubspot.com/hs-fs/hubfs/Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png?width=400&amp;height=330&amp;name=Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png 400w, https://www.hubspot.com/hs-fs/hubfs/Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png?width=600&amp;height=495&amp;name=Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png 600w, https://www.hubspot.com/hs-fs/hubfs/Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png?width=800&amp;height=660&amp;name=Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png 800w, https://www.hubspot.com/hs-fs/hubfs/Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png?width=1000&amp;height=825&amp;name=Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png 1000w, https://www.hubspot.com/hs-fs/hubfs/Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png?width=1200&amp;height=990&amp;name=Kipps%20thoughts%20on%20the%20future%20of%20AI-1.png 1200w" sizes="(max-width: 400px) 100vw, 400px">
+          <img class="csol-full-width-cta-card-background-image" src="https://dast.tech/assets/images/key.png" alt="HubSpot CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
         </div>
       
       </div>
@@ -1651,7 +1651,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
   
     
-      <h3 class="csol-full-width-cta-card-header">DAST offers a comprehensive and secure platform for managing and trading digital assets. Its unique security tokenization process and advanced security measures set it apart from other platforms in the space</h3>
+      <h3 class="csol-full-width-cta-card-header">In today's fast-paced world, where technology is rapidly evolving, businesses and organizations are constantly seeking innovative solutions to address real-world challenges. That's where DAST, a leading technology company, comes into play. DAST specializes in providing cutting-edge software development, blockchain solutions, and digital services that empower individuals, businesses, and organizations across various sectors. By harnessing the power of blockchain technology and artificial intelligence (AI), DAST is revolutionizing industries and driving innovation towards a more inclusive and equitable future.</h3>
     
   
 
@@ -1704,7 +1704,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div class="home-customers__content-wrapper">
     <div class="home-customers__text-wrapper">
       <h2 class="home-customers__stat">500 M+</h2>
-      <p class="home-customers__stat-description">customers in over <strong>120</strong> countries hoping to grow and Secure their Assets with DAST</p>
+      <p class="home-customers__stat-description">peoples in over <strong>120</strong> countries hoping to grow and Secure their Assets with DAST</p>
     </div>
     <div class="home-customers__logos-grid">
       
@@ -1765,7 +1765,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
   
     
-      <h2 class="csol-cta-content-block-header"> DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</h2>
+      <h2 class="csol-cta-content-block-header"> DAST -  DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation</h2>
     
   
 
@@ -1840,7 +1840,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       
         <div class="csol-cta-content-block-image">
-          <img src="https://www.hubspot.com/hubfs/cta_contentblock_headshot_man.png" alt="" loading="lazy">
+          <img src="https://dast.tech/assets/images/whyus.png" alt="" loading="lazy">
         </div>
       
     </div>
@@ -2061,12 +2061,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="hsg-footer__apps">
       
       
-      <a class="ga_nav_link hsg-footer__app" href="" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Download on the App Store">
-        <img class="homepage-mobile-footer-apple" src="https://53.fs1.hubspotusercontent-na1.net/hubfs/53/app%20store%20high%20res.png" alt="Download on the App Store" loading="lazy">
-      </a>
-      <a class="ga_nav_link hsg-footer__app" href="" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Get it on Google Play">
-        <img class="homepage-mobile-footer-google" src="https://53.fs1.hubspotusercontent-na1.net/hubfs/53/google%20play%20high%20res.png" alt="Get it on Google Play" loading="lazy">
-      </a>
+     
       
     </div>
     <div class="hsg-footer__logo">
