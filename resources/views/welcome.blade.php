@@ -1,7 +1,7 @@
 
 <!doctype html><html lang="en"><head>
     <meta charset="utf-8">
-    <title>DAST - Blockchain Web Services</title>
+    <title>DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</title>
     <style>
       .cl-button{border:1px solid;border-radius:3px;cursor:pointer;display:inline-block;font-size:1rem;font-weight:500;text-align:center;text-decoration:none;transition:background-color .15s linear,color .15s linear}.cl-button:focus-visible,.cl-button:hover{text-decoration:none}.cl-button.-disabled,.cl-button:disabled{cursor:not-allowed;opacity:.5}.cl-button.-primary{background-color:#ff5c35;border-color:transparent;color:#fff}.cl-button.-primary:focus-visible,.cl-button.-primary:hover{background-color:#ffcec2}.cl-button.-primary:active{background-color:#d44325}.cl-button.-primary:focus-visible{outline:2px solid #0b8484;outline-offset:2px}.high-contrast .cl-button.-primary{background-color:#1d0cff}.high-contrast .cl-button.-primary:focus-visible,.high-contrast .cl-button.-primary:hover{background-color:#cee2ff;color:#0c009e}.cl-button.-primaryDark{background-color:#fff;border-color:transparent;color:#2e475d}.cl-button.-primaryDark:focus-visible,.cl-button.-primaryDark:hover{background-color:#f6f9fc}.cl-button.-primaryDark:active{background-color:#eaf0f6}.cl-button.-primaryDark:focus-visible{outline:2px solid #b7ecec;outline-offset:2px}.cl-button.-secondary{background-color:#fff;border-color:#ff5c35;color:#ff5c35}.cl-button.-secondary:focus-visible,.cl-button.-secondary:hover{background-color:#ffebe6}.cl-button.-secondary:active{background-color:#ffebe6}.cl-button.-secondary:focus-visible{outline:2px solid #0b8484;outline-offset:2px}.high-contrast .cl-button.-secondary{background-color:#edf8ff;border-color:#180bb1;color:#180bb1}.high-contrast .cl-button.-secondary:focus-visible,.high-contrast .cl-button.-secondary:hover{background-color:#caebff;border-color:#180bb1;color:#180bb1}.cl-button.-secondaryDark{background-color:transparent;border-color:#fff;color:#fff}.cl-button.-secondaryDark:focus-visible,.cl-button.-secondaryDark:hover{background-color:#fff;color:#2e475d}.cl-button.-secondaryDark:active{background-color:#fff;color:#2e475d}.cl-button.-secondaryDark:focus-visible{outline:2px solid #b7ecec;outline-offset:2px}.cl-button.-tertiary{background-color:#3e5974;border-color:#3e5974;color:#fff}.cl-button.-tertiary:focus-visible,.cl-button.-tertiary:hover{background-color:#516f90}.cl-button.-tertiary:active{background-color:#2e475d}.cl-button.-tertiary:focus-visible{outline:2px solid #0b8484;outline-offset:2px}.cl-button.-tertiaryDark{background-color:#eaf0f6;border-color:#b6c7d6;color:#516f90}.cl-button.-tertiaryDark:focus-visible,.cl-button.-tertiaryDark:hover{background-color:#f6f9fc;border-color:#b6c7d6}.cl-button.-tertiaryDark:active{background-color:#b6c7d6;border-color:#7691ad}.cl-button.-tertiaryDark:focus-visible{outline:2px solid #b7ecec;outline-offset:2px}.cl-button.-small{font-size:.875rem;line-height:1.57;padding:.25rem 1rem}.cl-button.-medium,.cl-button.-regular{font-size:1rem;line-height:1.75;padding:.5rem 2rem}.cl-button.-large{font-size:1.125rem;line-height:1.78;padding:1rem 2.5rem}.home-community-board{background-image:linear-gradient(45deg,#0fbfbf,#4fb06d);padding:7rem 0}.high-contrast .home-community-board{background:#2e475d}@media(max-width:767px){.home-community-board{padding:6rem 0 2.75rem}}.home-community-board__grid-wrapper{margin:30px 0}@media(min-width:501px){.home-community-board__grid-wrapper{display:flex;flex-flow:row wrap;margin:80px 0 0}}.home-community-board__grid-item{padding:30px;text-align:center}@media(min-width:1025px){.home-community-board__grid-item{flex:1 1 25%;max-width:25%}}@media(min-width:501px)and (max-width:1024px){.home-community-board__grid-item{flex:1 1 50%;max-width:50%}}@media(min-width:501px){.home-community-board__grid-item{border-bottom:1px solid #fff;border-right:1px solid #fff}}@media(min-width:1025px){.home-community-board__grid-item:nth-child(4n){border-right:0}.home-community-board__grid-item:nth-child(n+5){border-bottom:0}}@media(min-width:501px)and (max-width:1024px){.home-community-board__grid-item:nth-child(2n){border-right:0}.home-community-board__grid-item:nth-child(n+7){border-bottom:0}}.home-community-board__grid-icon{bottom:0;left:0;margin:auto;max-height:100%;max-width:150px;position:absolute;right:0;top:0}.home-community-board__grid-icon-wrapper{height:40px;margin-bottom:15px;position:relative}.home-community-board__grid-stat{color:#fff;display:inline-block;font-size:2.25rem;font-weight:600;line-height:1.38;margin:0 0 5px}.home-community-board__grid-stat.stat-plus-after{padding-right:10px;position:relative}.home-community-board__grid-stat.stat-plus-after:after{color:#fff;content:"+";display:inline-block;font-size:1rem;font-weight:500;position:absolute;right:0;top:0}.home-community-board__grid-stat-description{color:#fff;font-size:1rem;font-weight:500;margin:0}.convert-community-board .section-header{padding:0}.convert-community-board .section-header .hsg-page-width-normal{max-width:802px}.convert-community-board .home-community-board__grid-wrapper{display:flex;flex-flow:row wrap;justify-content:center;margin:5rem 0 0}.convert-community-board .home-community-board__grid-item{border-bottom:1px solid #fff;border-right:1px solid #fff;flex:1 1 50%;max-width:50%}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item{flex:1 1 26%;max-width:26%}}.convert-community-board .home-community-board__grid-item:nth-child(2n){border-right:0}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item:nth-child(2n){border-right:1px solid #fff}}.convert-community-board .home-community-board__grid-item:nth-child(3n){border-right:1px solid #fff}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item:nth-child(3n){border-right:0}.convert-community-board .home-community-board__grid-item:nth-child(4n){border-bottom:0;border-right:1px solid #fff}}.convert-community-board .home-community-board__grid-item:nth-child(5n){border-bottom:0}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item:nth-child(5n){border-right:1px solid #fff}}.convert-community-board .home-community-board__grid-item:nth-child(6n){border-bottom:0;border-right:0}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item:nth-child(6n){border-bottom:0;border-right:0}}.convert-community-board .home-community-board__grid-stat{font-size:2.25rem}.convert-community-board .home-community-board__grid-stat:after{font-size:1.125rem;font-weight:600;position:relative}
 
@@ -85,7 +85,8 @@
 
 <meta name="theme-color" content="#FF7A59">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="description" content="HubSpot's CRM platform contains the marketing, sales, service, operations, and website-building software you need to grow your business.">
+<meta name="description" content="DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses, and organisations. 
+">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <link rel="shortcut icon" href="https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png">
@@ -103,10 +104,10 @@
 
     
 
-    <meta property="og:description" content="HubSpot's CRM platform contains the marketing, sales, service, operations, and website-building software you need to grow your business.">
-    <meta property="og:title" content="HubSpot | Software, Tools, Resources for Your Business">
-    <meta name="twitter:description" content="HubSpot's CRM platform contains the marketing, sales, service, operations, and website-building software you need to grow your business.">
-    <meta name="twitter:title" content="HubSpot | Software, Tools, Resources for Your Business">
+    <meta property="og:description" content="At DAST Technology, we are committed to providing world-class web3 and AI technology solutions to our clients through innovation, research, and development.">
+    <meta property="og:title" content="DAST |  We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.">
+    <meta name="twitter:description" content="DAST|Discover the limitless possibilities of web3 and AI with DASTGPT Bot">
+   
 
     
 
@@ -158,7 +159,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <meta property="fb:pages" content="6039999393">
 
 
-<meta property="og:image" content="https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/buzz/HubSpotOpenGraph.png#keepProtocol">
+<meta property="og:image" content="">
 <meta property="og:image:width" content="1206">
 <meta property="og:image:height" content="633">
 
@@ -218,7 +219,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 </style> 
     
 
-<meta name="generator" content="HubSpot"></head>
+<meta name="generator" content="DAST"></head>
 <body>
 
     
@@ -417,10 +418,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
               
                 
-                  <li class="hsg-nav__dropdown-item">
-                    <a href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Careers">Careers</a>
-                  </li>
-                
               
                 
                   <li class="hsg-nav__dropdown-item">
@@ -429,15 +426,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
               
                 
-                  <li class="hsg-nav__dropdown-item">
-                    <a href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Investor Relations">Investor Relations</a>
-                  </li>
                 
               
                 
-                  <li class="hsg-nav__dropdown-item">
-                    <a href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Management Team">Management Team</a>
-                  </li>
                 
               </ul>
           </li>
@@ -451,11 +442,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <nav class="hsg-nav-menu" data-fixed-element="target" aria-label="Primary Navigation">
     <div class="hsg-page-width-normal">
       <div class="hsg-nav__inner">
-        <a href="/" id="hsg-nav__logo" aria-label="HubSpot" class="ga_nav_link logo-utility-nav" data-ga_nav_type="header_nav" data-ga_nav_tree_text="HubSpot Logo">
+        <a style="color: rgb(1, 1, 49)"  href="/" id="hsg-nav__logo" aria-label="DAST" class="ga_nav_link logo-utility-nav" data-ga_nav_type="header_nav" data-ga_nav_tree_text="dast ">
         DAST TECH
-          <img id="hsg-nav__logo-fixed" alt="HubSpot" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjdweCIgaGVpZ2h0PSIyOHB4IiB2aWV3Qm94PSIwIDAgMjcgMjgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUxLjMgKDU3NTQ0KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT7OmE1hcmtldGluZy9Mb2dvcy9TcHJvY2tldDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJNSEUtUG9zdC1MYXVuY2gtVXBkYXRlcyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9Is6YTWFya2V0aW5nL0xvZ29zL1Nwcm9ja2V0IiBmaWxsPSIjZjk1YzM1Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTE5LjYxNDIzMywyMC4xNzcxMTYyIEMxNy41MjI4MDQxLDIwLjE3NzExNjIgMTUuODI3NDI0MSwxOC40OTkzNDU3IDE1LjgyNzQyNDEsMTYuNDI5OTk5NSBDMTUuODI3NDI0MSwxNC4zNjAyOTM3IDE3LjUyMjgwNDEsMTIuNjgyNTIzMiAxOS42MTQyMzMsMTIuNjgyNTIzMiBDMjEuNzA1NjYxOSwxMi42ODI1MjMyIDIzLjQwMTA0MTgsMTQuMzYwMjkzNyAyMy40MDEwNDE4LDE2LjQyOTk5OTUgQzIzLjQwMTA0MTgsMTguNDk5MzQ1NyAyMS43MDU2NjE5LDIwLjE3NzExNjIgMTkuNjE0MjMzLDIwLjE3NzExNjIgTTIwLjc0Nzg3NzUsOS4yMTU1MTQyOSBMMjAuNzQ3ODc3NSw1Ljg4MTkwNzIyIEMyMS42MjcxNzg4LDUuNDcwOTE0NTcgMjIuMjQzMDUzLDQuNTkwNjc4MzMgMjIuMjQzMDUzLDMuNTY5MTI5NjcgTDIyLjI0MzA1MywzLjQ5MjE4MDkxIEMyMi4yNDMwNTMsMi4wODIyOTI3MyAyMS4wNzc0MzM4LDAuOTI4NzgwNTQ1IDE5LjY1Mjc0NzgsMC45Mjg3ODA1NDUgTDE5LjU3NTM1NDgsMC45Mjg3ODA1NDUgQzE4LjE1MDY2ODgsMC45Mjg3ODA1NDUgMTYuOTg1MDQ5NiwyLjA4MjI5MjczIDE2Ljk4NTA0OTYsMy40OTIxODA5MSBMMTYuOTg1MDQ5NiwzLjU2OTEyOTY3IEMxNi45ODUwNDk2LDQuNTkwNjc4MzMgMTcuNjAwOTIzOCw1LjQ3MTI3NDE0IDE4LjQ4MDIyNTEsNS44ODIyNjY3OSBMMTguNDgwMjI1MSw5LjIxNTUxNDI5IEMxNy4xNzEwODM2LDkuNDE1Nzk2OCAxNS45NzQ5NDMyLDkuOTUwMTIzMjEgMTQuOTg4NDU0NSwxMC43MzY1MTA3IEw1LjczOTQ0MDg2LDMuNjE2NTkzMzkgQzUuODAwNDgzMjYsMy4zODQ2Njg0IDUuODQzMzU4MjgsMy4xNDU5MTE1MSA1Ljg0MzcyMTYzLDIuODk0OTI5MTIgQzUuODQ1MTc1MDIsMS4yOTg0MjIyMyA0LjUzOTMwMzY4LDAuMDAyMTU5MzE0ODYgMi45MjUzMTM1NiwxLjg3MzExMTA3ZS0wNiBDMS4zMTIwNTAxNCwtMC4wMDE3OTU5OTUwMSAwLjAwMTgxODYzMTM4LDEuMjkwODcxMTggMS44OTMyOTY1ZS0wNiwyLjg4NzczNzY1IEMtMC4wMDE4MTQ4NDQ3OSw0LjQ4NDYwNDEyIDEuMzA0MDU2NDksNS43ODA4NjcwMyAyLjkxODA0NjYxLDUuNzgyNjY0OSBDMy40NDM4MTA2MSw1Ljc4MzM4NDA1IDMuOTMwNjk2NDIsNS42MzU1OTkyOSA0LjM1NzI2NjUyLDUuMzk1NDA0MTEgTDEzLjQ1NTEyNzUsMTIuMzk5NTM4NyBDMTIuNjgxNTYwNCwxMy41NTUyMDg0IDEyLjIyODEwMjYsMTQuOTM5NTY2OCAxMi4yMjgxMDI2LDE2LjQyOTk5OTUgQzEyLjIyODEwMjYsMTcuOTkwMTg5NCAxMi43MjYyNTIyLDE5LjQzMzUxOCAxMy41Njc3NjUzLDIwLjYyMDQ3MDUgTDEwLjgwMTIzNjUsMjMuMzU4NjIzNyBDMTAuNTgyNTAxMywyMy4yOTM1NDA4IDEwLjM1NTc3MjMsMjMuMjQ4MjM0NiAxMC4xMTUyMzYyLDIzLjI0ODIzNDYgQzguNzg5MzgwNzYsMjMuMjQ4MjM0NiA3LjcxNDIzNTE2LDI0LjMxMTg1MzMgNy43MTQyMzUxNiwyNS42MjM5Mzc1IEM3LjcxNDIzNTE2LDI2LjkzNjM4MTIgOC43ODkzODA3NiwyOCAxMC4xMTUyMzYyLDI4IEMxMS40NDE0NTUsMjggMTIuNTE2MjM3MywyNi45MzYzODEyIDEyLjUxNjIzNzMsMjUuNjIzOTM3NSBDMTIuNTE2MjM3MywyNS4zODY2MTg5IDEyLjQ3MDQ1NTUsMjUuMTYxODg1NCAxMi40MDQ2ODk2LDI0Ljk0NTQyMjEgTDE1LjE0MTQyMzgsMjIuMjM3MTEzNSBDMTYuMzgzNzA5MywyMy4xNzUyNDExIDE3LjkzMDg0MzUsMjMuNzM5MDUyNiAxOS42MTQyMzMsMjMuNzM5MDUyNiBDMjMuNjkzNTM2NywyMy43MzkwNTI2IDI3LDIwLjQ2NjU3MyAyNywxNi40Mjk5OTk1IEMyNywxMi43NzU2NTI3IDI0LjI4NzI0NjcsOS43NTY2NzI2IDIwLjc0Nzg3NzUsOS4yMTU1MTQyOSIgaWQ9Ik1hcmtldGluZy9Mb2dvcy9TcHJvY2tldCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+">
+          <img id="hsg-nav__logo-fixed" alt="DAST" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjdweCIgaGVpZ2h0PSIyOHB4IiB2aWV3Qm94PSIwIDAgMjcgMjgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUxLjMgKDU3NTQ0KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT7OmE1hcmtldGluZy9Mb2dvcy9TcHJvY2tldDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJNSEUtUG9zdC1MYXVuY2gtVXBkYXRlcyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9Is6YTWFya2V0aW5nL0xvZ29zL1Nwcm9ja2V0IiBmaWxsPSIjZjk1YzM1Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTE5LjYxNDIzMywyMC4xNzcxMTYyIEMxNy41MjI4MDQxLDIwLjE3NzExNjIgMTUuODI3NDI0MSwxOC40OTkzNDU3IDE1LjgyNzQyNDEsMTYuNDI5OTk5NSBDMTUuODI3NDI0MSwxNC4zNjAyOTM3IDE3LjUyMjgwNDEsMTIuNjgyNTIzMiAxOS42MTQyMzMsMTIuNjgyNTIzMiBDMjEuNzA1NjYxOSwxMi42ODI1MjMyIDIzLjQwMTA0MTgsMTQuMzYwMjkzNyAyMy40MDEwNDE4LDE2LjQyOTk5OTUgQzIzLjQwMTA0MTgsMTguNDk5MzQ1NyAyMS43MDU2NjE5LDIwLjE3NzExNjIgMTkuNjE0MjMzLDIwLjE3NzExNjIgTTIwLjc0Nzg3NzUsOS4yMTU1MTQyOSBMMjAuNzQ3ODc3NSw1Ljg4MTkwNzIyIEMyMS42MjcxNzg4LDUuNDcwOTE0NTcgMjIuMjQzMDUzLDQuNTkwNjc4MzMgMjIuMjQzMDUzLDMuNTY5MTI5NjcgTDIyLjI0MzA1MywzLjQ5MjE4MDkxIEMyMi4yNDMwNTMsMi4wODIyOTI3MyAyMS4wNzc0MzM4LDAuOTI4NzgwNTQ1IDE5LjY1Mjc0NzgsMC45Mjg3ODA1NDUgTDE5LjU3NTM1NDgsMC45Mjg3ODA1NDUgQzE4LjE1MDY2ODgsMC45Mjg3ODA1NDUgMTYuOTg1MDQ5NiwyLjA4MjI5MjczIDE2Ljk4NTA0OTYsMy40OTIxODA5MSBMMTYuOTg1MDQ5NiwzLjU2OTEyOTY3IEMxNi45ODUwNDk2LDQuNTkwNjc4MzMgMTcuNjAwOTIzOCw1LjQ3MTI3NDE0IDE4LjQ4MDIyNTEsNS44ODIyNjY3OSBMMTguNDgwMjI1MSw5LjIxNTUxNDI5IEMxNy4xNzEwODM2LDkuNDE1Nzk2OCAxNS45NzQ5NDMyLDkuOTUwMTIzMjEgMTQuOTg4NDU0NSwxMC43MzY1MTA3IEw1LjczOTQ0MDg2LDMuNjE2NTkzMzkgQzUuODAwNDgzMjYsMy4zODQ2Njg0IDUuODQzMzU4MjgsMy4xNDU5MTE1MSA1Ljg0MzcyMTYzLDIuODk0OTI5MTIgQzUuODQ1MTc1MDIsMS4yOTg0MjIyMyA0LjUzOTMwMzY4LDAuMDAyMTU5MzE0ODYgMi45MjUzMTM1NiwxLjg3MzExMTA3ZS0wNiBDMS4zMTIwNTAxNCwtMC4wMDE3OTU5OTUwMSAwLjAwMTgxODYzMTM4LDEuMjkwODcxMTggMS44OTMyOTY1ZS0wNiwyLjg4NzczNzY1IEMtMC4wMDE4MTQ4NDQ3OSw0LjQ4NDYwNDEyIDEuMzA0MDU2NDksNS43ODA4NjcwMyAyLjkxODA0NjYxLDUuNzgyNjY0OSBDMy40NDM4MTA2MSw1Ljc4MzM4NDA1IDMuOTMwNjk2NDIsNS42MzU1OTkyOSA0LjM1NzI2NjUyLDUuMzk1NDA0MTEgTDEzLjQ1NTEyNzUsMTIuMzk5NTM4NyBDMTIuNjgxNTYwNCwxMy41NTUyMDg0IDEyLjIyODEwMjYsMTQuOTM5NTY2OCAxMi4yMjgxMDI2LDE2LjQyOTk5OTUgQzEyLjIyODEwMjYsMTcuOTkwMTg5NCAxMi43MjYyNTIyLDE5LjQzMzUxOCAxMy41Njc3NjUzLDIwLjYyMDQ3MDUgTDEwLjgwMTIzNjUsMjMuMzU4NjIzNyBDMTAuNTgyNTAxMywyMy4yOTM1NDA4IDEwLjM1NTc3MjMsMjMuMjQ4MjM0NiAxMC4xMTUyMzYyLDIzLjI0ODIzNDYgQzguNzg5MzgwNzYsMjMuMjQ4MjM0NiA3LjcxNDIzNTE2LDI0LjMxMTg1MzMgNy43MTQyMzUxNiwyNS42MjM5Mzc1IEM3LjcxNDIzNTE2LDI2LjkzNjM4MTIgOC43ODkzODA3NiwyOCAxMC4xMTUyMzYyLDI4IEMxMS40NDE0NTUsMjggMTIuNTE2MjM3MywyNi45MzYzODEyIDEyLjUxNjIzNzMsMjUuNjIzOTM3NSBDMTIuNTE2MjM3MywyNS4zODY2MTg5IDEyLjQ3MDQ1NTUsMjUuMTYxODg1NCAxMi40MDQ2ODk2LDI0Ljk0NTQyMjEgTDE1LjE0MTQyMzgsMjIuMjM3MTEzNSBDMTYuMzgzNzA5MywyMy4xNzUyNDExIDE3LjkzMDg0MzUsMjMuNzM5MDUyNiAxOS42MTQyMzMsMjMuNzM5MDUyNiBDMjMuNjkzNTM2NywyMy43MzkwNTI2IDI3LDIwLjQ2NjU3MyAyNywxNi40Mjk5OTk1IEMyNywxMi43NzU2NTI3IDI0LjI4NzI0NjcsOS43NTY2NzI2IDIwLjc0Nzg3NzUsOS4yMTU1MTQyOSIgaWQ9Ik1hcmtldGluZy9Mb2dvcy9TcHJvY2tldCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+">
           
-          <img id="hsg-nav__logo-mobile" alt="HubSpot" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjdweCIgaGVpZ2h0PSIyOHB4IiB2aWV3Qm94PSIwIDAgMjcgMjgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUxLjMgKDU3NTQ0KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT7OmE1hcmtldGluZy9Mb2dvcy9TcHJvY2tldDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJNSEUtUG9zdC1MYXVuY2gtVXBkYXRlcyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9Is6YTWFya2V0aW5nL0xvZ29zL1Nwcm9ja2V0IiBmaWxsPSIjZjk1YzM1Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTE5LjYxNDIzMywyMC4xNzcxMTYyIEMxNy41MjI4MDQxLDIwLjE3NzExNjIgMTUuODI3NDI0MSwxOC40OTkzNDU3IDE1LjgyNzQyNDEsMTYuNDI5OTk5NSBDMTUuODI3NDI0MSwxNC4zNjAyOTM3IDE3LjUyMjgwNDEsMTIuNjgyNTIzMiAxOS42MTQyMzMsMTIuNjgyNTIzMiBDMjEuNzA1NjYxOSwxMi42ODI1MjMyIDIzLjQwMTA0MTgsMTQuMzYwMjkzNyAyMy40MDEwNDE4LDE2LjQyOTk5OTUgQzIzLjQwMTA0MTgsMTguNDk5MzQ1NyAyMS43MDU2NjE5LDIwLjE3NzExNjIgMTkuNjE0MjMzLDIwLjE3NzExNjIgTTIwLjc0Nzg3NzUsOS4yMTU1MTQyOSBMMjAuNzQ3ODc3NSw1Ljg4MTkwNzIyIEMyMS42MjcxNzg4LDUuNDcwOTE0NTcgMjIuMjQzMDUzLDQuNTkwNjc4MzMgMjIuMjQzMDUzLDMuNTY5MTI5NjcgTDIyLjI0MzA1MywzLjQ5MjE4MDkxIEMyMi4yNDMwNTMsMi4wODIyOTI3MyAyMS4wNzc0MzM4LDAuOTI4NzgwNTQ1IDE5LjY1Mjc0NzgsMC45Mjg3ODA1NDUgTDE5LjU3NTM1NDgsMC45Mjg3ODA1NDUgQzE4LjE1MDY2ODgsMC45Mjg3ODA1NDUgMTYuOTg1MDQ5NiwyLjA4MjI5MjczIDE2Ljk4NTA0OTYsMy40OTIxODA5MSBMMTYuOTg1MDQ5NiwzLjU2OTEyOTY3IEMxNi45ODUwNDk2LDQuNTkwNjc4MzMgMTcuNjAwOTIzOCw1LjQ3MTI3NDE0IDE4LjQ4MDIyNTEsNS44ODIyNjY3OSBMMTguNDgwMjI1MSw5LjIxNTUxNDI5IEMxNy4xNzEwODM2LDkuNDE1Nzk2OCAxNS45NzQ5NDMyLDkuOTUwMTIzMjEgMTQuOTg4NDU0NSwxMC43MzY1MTA3IEw1LjczOTQ0MDg2LDMuNjE2NTkzMzkgQzUuODAwNDgzMjYsMy4zODQ2Njg0IDUuODQzMzU4MjgsMy4xNDU5MTE1MSA1Ljg0MzcyMTYzLDIuODk0OTI5MTIgQzUuODQ1MTc1MDIsMS4yOTg0MjIyMyA0LjUzOTMwMzY4LDAuMDAyMTU5MzE0ODYgMi45MjUzMTM1NiwxLjg3MzExMTA3ZS0wNiBDMS4zMTIwNTAxNCwtMC4wMDE3OTU5OTUwMSAwLjAwMTgxODYzMTM4LDEuMjkwODcxMTggMS44OTMyOTY1ZS0wNiwyLjg4NzczNzY1IEMtMC4wMDE4MTQ4NDQ3OSw0LjQ4NDYwNDEyIDEuMzA0MDU2NDksNS43ODA4NjcwMyAyLjkxODA0NjYxLDUuNzgyNjY0OSBDMy40NDM4MTA2MSw1Ljc4MzM4NDA1IDMuOTMwNjk2NDIsNS42MzU1OTkyOSA0LjM1NzI2NjUyLDUuMzk1NDA0MTEgTDEzLjQ1NTEyNzUsMTIuMzk5NTM4NyBDMTIuNjgxNTYwNCwxMy41NTUyMDg0IDEyLjIyODEwMjYsMTQuOTM5NTY2OCAxMi4yMjgxMDI2LDE2LjQyOTk5OTUgQzEyLjIyODEwMjYsMTcuOTkwMTg5NCAxMi43MjYyNTIyLDE5LjQzMzUxOCAxMy41Njc3NjUzLDIwLjYyMDQ3MDUgTDEwLjgwMTIzNjUsMjMuMzU4NjIzNyBDMTAuNTgyNTAxMywyMy4yOTM1NDA4IDEwLjM1NTc3MjMsMjMuMjQ4MjM0NiAxMC4xMTUyMzYyLDIzLjI0ODIzNDYgQzguNzg5MzgwNzYsMjMuMjQ4MjM0NiA3LjcxNDIzNTE2LDI0LjMxMTg1MzMgNy43MTQyMzUxNiwyNS42MjM5Mzc1IEM3LjcxNDIzNTE2LDI2LjkzNjM4MTIgOC43ODkzODA3NiwyOCAxMC4xMTUyMzYyLDI4IEMxMS40NDE0NTUsMjggMTIuNTE2MjM3MywyNi45MzYzODEyIDEyLjUxNjIzNzMsMjUuNjIzOTM3NSBDMTIuNTE2MjM3MywyNS4zODY2MTg5IDEyLjQ3MDQ1NTUsMjUuMTYxODg1NCAxMi40MDQ2ODk2LDI0Ljk0NTQyMjEgTDE1LjE0MTQyMzgsMjIuMjM3MTEzNSBDMTYuMzgzNzA5MywyMy4xNzUyNDExIDE3LjkzMDg0MzUsMjMuNzM5MDUyNiAxOS42MTQyMzMsMjMuNzM5MDUyNiBDMjMuNjkzNTM2NywyMy43MzkwNTI2IDI3LDIwLjQ2NjU3MyAyNywxNi40Mjk5OTk1IEMyNywxMi43NzU2NTI3IDI0LjI4NzI0NjcsOS43NTY2NzI2IDIwLjc0Nzg3NzUsOS4yMTU1MTQyOSIgaWQ9Ik1hcmtldGluZy9Mb2dvcy9TcHJvY2tldCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+">
+          <img id="hsg-nav__logo-mobile" alt="DAST" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjdweCIgaGVpZ2h0PSIyOHB4IiB2aWV3Qm94PSIwIDAgMjcgMjgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUxLjMgKDU3NTQ0KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT7OmE1hcmtldGluZy9Mb2dvcy9TcHJvY2tldDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJNSEUtUG9zdC1MYXVuY2gtVXBkYXRlcyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9Is6YTWFya2V0aW5nL0xvZ29zL1Nwcm9ja2V0IiBmaWxsPSIjZjk1YzM1Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTE5LjYxNDIzMywyMC4xNzcxMTYyIEMxNy41MjI4MDQxLDIwLjE3NzExNjIgMTUuODI3NDI0MSwxOC40OTkzNDU3IDE1LjgyNzQyNDEsMTYuNDI5OTk5NSBDMTUuODI3NDI0MSwxNC4zNjAyOTM3IDE3LjUyMjgwNDEsMTIuNjgyNTIzMiAxOS42MTQyMzMsMTIuNjgyNTIzMiBDMjEuNzA1NjYxOSwxMi42ODI1MjMyIDIzLjQwMTA0MTgsMTQuMzYwMjkzNyAyMy40MDEwNDE4LDE2LjQyOTk5OTUgQzIzLjQwMTA0MTgsMTguNDk5MzQ1NyAyMS43MDU2NjE5LDIwLjE3NzExNjIgMTkuNjE0MjMzLDIwLjE3NzExNjIgTTIwLjc0Nzg3NzUsOS4yMTU1MTQyOSBMMjAuNzQ3ODc3NSw1Ljg4MTkwNzIyIEMyMS42MjcxNzg4LDUuNDcwOTE0NTcgMjIuMjQzMDUzLDQuNTkwNjc4MzMgMjIuMjQzMDUzLDMuNTY5MTI5NjcgTDIyLjI0MzA1MywzLjQ5MjE4MDkxIEMyMi4yNDMwNTMsMi4wODIyOTI3MyAyMS4wNzc0MzM4LDAuOTI4NzgwNTQ1IDE5LjY1Mjc0NzgsMC45Mjg3ODA1NDUgTDE5LjU3NTM1NDgsMC45Mjg3ODA1NDUgQzE4LjE1MDY2ODgsMC45Mjg3ODA1NDUgMTYuOTg1MDQ5NiwyLjA4MjI5MjczIDE2Ljk4NTA0OTYsMy40OTIxODA5MSBMMTYuOTg1MDQ5NiwzLjU2OTEyOTY3IEMxNi45ODUwNDk2LDQuNTkwNjc4MzMgMTcuNjAwOTIzOCw1LjQ3MTI3NDE0IDE4LjQ4MDIyNTEsNS44ODIyNjY3OSBMMTguNDgwMjI1MSw5LjIxNTUxNDI5IEMxNy4xNzEwODM2LDkuNDE1Nzk2OCAxNS45NzQ5NDMyLDkuOTUwMTIzMjEgMTQuOTg4NDU0NSwxMC43MzY1MTA3IEw1LjczOTQ0MDg2LDMuNjE2NTkzMzkgQzUuODAwNDgzMjYsMy4zODQ2Njg0IDUuODQzMzU4MjgsMy4xNDU5MTE1MSA1Ljg0MzcyMTYzLDIuODk0OTI5MTIgQzUuODQ1MTc1MDIsMS4yOTg0MjIyMyA0LjUzOTMwMzY4LDAuMDAyMTU5MzE0ODYgMi45MjUzMTM1NiwxLjg3MzExMTA3ZS0wNiBDMS4zMTIwNTAxNCwtMC4wMDE3OTU5OTUwMSAwLjAwMTgxODYzMTM4LDEuMjkwODcxMTggMS44OTMyOTY1ZS0wNiwyLjg4NzczNzY1IEMtMC4wMDE4MTQ4NDQ3OSw0LjQ4NDYwNDEyIDEuMzA0MDU2NDksNS43ODA4NjcwMyAyLjkxODA0NjYxLDUuNzgyNjY0OSBDMy40NDM4MTA2MSw1Ljc4MzM4NDA1IDMuOTMwNjk2NDIsNS42MzU1OTkyOSA0LjM1NzI2NjUyLDUuMzk1NDA0MTEgTDEzLjQ1NTEyNzUsMTIuMzk5NTM4NyBDMTIuNjgxNTYwNCwxMy41NTUyMDg0IDEyLjIyODEwMjYsMTQuOTM5NTY2OCAxMi4yMjgxMDI2LDE2LjQyOTk5OTUgQzEyLjIyODEwMjYsMTcuOTkwMTg5NCAxMi43MjYyNTIyLDE5LjQzMzUxOCAxMy41Njc3NjUzLDIwLjYyMDQ3MDUgTDEwLjgwMTIzNjUsMjMuMzU4NjIzNyBDMTAuNTgyNTAxMywyMy4yOTM1NDA4IDEwLjM1NTc3MjMsMjMuMjQ4MjM0NiAxMC4xMTUyMzYyLDIzLjI0ODIzNDYgQzguNzg5MzgwNzYsMjMuMjQ4MjM0NiA3LjcxNDIzNTE2LDI0LjMxMTg1MzMgNy43MTQyMzUxNiwyNS42MjM5Mzc1IEM3LjcxNDIzNTE2LDI2LjkzNjM4MTIgOC43ODkzODA3NiwyOCAxMC4xMTUyMzYyLDI4IEMxMS40NDE0NTUsMjggMTIuNTE2MjM3MywyNi45MzYzODEyIDEyLjUxNjIzNzMsMjUuNjIzOTM3NSBDMTIuNTE2MjM3MywyNS4zODY2MTg5IDEyLjQ3MDQ1NTUsMjUuMTYxODg1NCAxMi40MDQ2ODk2LDI0Ljk0NTQyMjEgTDE1LjE0MTQyMzgsMjIuMjM3MTEzNSBDMTYuMzgzNzA5MywyMy4xNzUyNDExIDE3LjkzMDg0MzUsMjMuNzM5MDUyNiAxOS42MTQyMzMsMjMuNzM5MDUyNiBDMjMuNjkzNTM2NywyMy43MzkwNTI2IDI3LDIwLjQ2NjU3MyAyNywxNi40Mjk5OTk1IEMyNywxMi43NzU2NTI3IDI0LjI4NzI0NjcsOS43NTY2NzI2IDIwLjc0Nzg3NzUsOS4yMTU1MTQyOSIgaWQ9Ik1hcmtldGluZy9Mb2dvcy9TcHJvY2tldCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+">
 
           
         </a>
@@ -470,13 +461,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
         </button>
 
-        <div class="hsg-nav__group-item--search-container">
-          
-          <!-- pageLang: en -->
-  <input type="search" class="" data-id="hsg-nav__search-input" placeholder="Search HubSpot.com" data-config="{&quot;contexts&quot;:[{&quot;selected&quot;:true,&quot;id&quot;:&quot;website&quot;,&quot;cx&quot;:&quot;009219321729865762236:z9gsnksfc30&quot;,&quot;label&quot;:&quot;Search HubSpot.com&quot;},{&quot;selected&quot;:null,&quot;id&quot;:&quot;blog&quot;,&quot;cx&quot;:&quot;009219321729865762236:fzizmixjdmi&quot;,&quot;label&quot;:&quot;Search the blog&quot;}],&quot;loadMoreButton&quot;:&quot;Load More Results&quot;,&quot;noResults&quot;:[&quot;That's odd...&quot;,&quot;couldn't find quite the right match.&quot;,&quot;Don't worry, try searching again up top.&quot;]}" aria-label="Search">
-  
-          
-        </div>
+       
 
         <div class="hsg-nav__burger-wrapper" style="background: rgb(46, 46, 87);color:white;">
           <button class="hsg-nav__burger" aria-expanded="false" aria-controls="burger-submenu">
@@ -493,7 +478,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
                 <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-1">
                   <span class="hsg-nav__link-label">
-                <a href="https://dast.tech/">  DASTdAPP</a>
+                <a style="color: rgb(1, 1, 49)"  href="https://dast.tech/">  DASTdAPP</a>
                     
                   </span>
                 </button>
@@ -504,7 +489,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <!-- Software -->
                   <ul id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
                     <li class="hsg-nav__dropdown-list-title">
-                      <h2 class="hsg-nav__dropdown-list-title-text">Dast Dapp</h2>
+                      <h2 style="color: rgb(1, 1, 49)"  class="hsg-nav__dropdown-list-title-text">Dast Dapp</h2>
                     </li>
                     <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
                       <div class="hsg-nav__dropdown-column">
@@ -512,155 +497,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           
                             <div class="hsg-nav__box-link-none" >
                               
-                              <div class="hsg-nav__header-container" style="background: rgb(46, 46, 87);color:white;">
-                                <h3 class="hsg-nav__header">The DAST DAPP Platform</h3>
-                                <p class="hsg-nav__subheader" gtm="">Additionally, DAST can help identify vulnerabilities that arise due to specific configurations or environments that may not be apparent during development.</p>
+                              <div class="hsg-nav__header-container">
+                                <h3 class="hsg-nav__header">The DASTdAPP</h3>
+                                <p class="hsg-nav__subheader" gtm="">Digital Access Security Token Chain is to become the infrastructure of provable trust for all. Furthermore, Digital Access Security Token intends building up a security technology layer that helps users to secure and recover their digital assets for their family members or next of kin in case of unforeseen circumstances like loss of life. It will serve as a secured recovery technology for assets of loved ones.</p>
                               </div>
                             </div>
                           
                          
                           
-                            <a href="" class="ga_nav_link hsg-nav__box-link nav-software-freecrm" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Free HubSpot CRM">
-                              
-                              <div class="hsg-nav__header-container">
-                                <h3 class="hsg-nav__header hsg-nav__header-link">Easy Access</h3>
-                                <p class="hsg-nav__subheader" gtm="crm"></p>
-                              </div>
-                              
-                            </a>
-                          
-                         
-                          
-                            <a href="" class="ga_nav_link hsg-nav__box-link nav-software-platform" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Overview of all products">
-                              
-                              <div class="hsg-nav__header-container">
-                                <h3 class="hsg-nav__header hsg-nav__header-link">Enhanced Security</h3>
-                                <p class="hsg-nav__subheader" gtm="crm"></p>
-                              </div>
-                              
-                            </a>
-                          
-                        
-                      </div>
                     </li>
-                    <li class="hsg-nav__dropdown-row">
-                      <p class="hsg-nav__dropdown-row-description"></p>
-                      
-                        <a href="" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
-                          
-                          <div class="hsg-nav__box-link-icon" aria-hidden="true">
-                            
-                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="marketing-linear0" gradientunits="userSpaceOnUse" x1="280" y1="640" x2="1200" y2="640" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="marketing-linear1" gradientunits="userSpaceOnUse" x1="481.9" y1="607.34" x2="1438.1" y2="1312.66" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> </defs> <g id="marketing-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 12 9 C 10.34375 9 9 10.34375 9 12 L 9 20 C 9 21.3125 9.855469 22.476562 11.109375 22.867188 C 12.363281 23.253906 13.726562 22.78125 14.472656 21.699219 L 19.972656 13.699219 C 20.601562 12.785156 20.675781 11.59375 20.15625 10.609375 C 19.640625 9.621094 18.621094 9.003906 17.507812 9 Z M 12 9 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear0);" d="M 12 15 C 13.65625 15 15 13.65625 15 12 L 15 4 C 15 2.6875 14.144531 1.523438 12.890625 1.132812 C 11.636719 0.746094 10.273438 1.21875 9.527344 2.300781 L 4.027344 10.300781 C 3.394531 11.21875 3.324219 12.410156 3.84375 13.398438 C 4.363281 14.382812 5.386719 15 6.5 15 Z M 12 15 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 15 4 C 15 5.65625 13.65625 7 12 7 C 10.34375 7 9 5.65625 9 4 C 9 2.34375 10.34375 1 12 1 C 13.65625 1 15 2.34375 15 4 Z M 15 4 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear1);" d="M 17.5 15 L 6.5 15 C 4.84375 15 3.5 13.65625 3.5 12 C 3.5 10.34375 4.84375 9 6.5 9 L 17.5 9 C 19.15625 9 20.5 10.34375 20.5 12 C 20.5 13.65625 19.15625 15 17.5 15 Z M 17.5 15 " /> </g> </svg>
-                            
-                          </div>
-                          
-                          <div class="hsg-nav__header-container">
-                            <h4 class="hsg-nav__header" gtm="marketing">
-                              Security Tokenization
-                            </h4>
-                            <p class="hsg-nav__subheader" gtm="marketing">Marketing automation software. <span class="hsg-nav__subheader-highlight"></span></p>
-                          </div>
-                          
-                        </a>
-                      
-                        <a href="" class="ga_nav_link hsg-nav__box-link nav-software-sales" gtm="sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Sales Hub">
-                          
-                          <div class="hsg-nav__box-link-icon" aria-hidden="true">
-                            
-                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="sales-linear0" gradientunits="userSpaceOnUse" x1="344.47" y1="825.51" x2="1334.74" y2="1555.96" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> <lineargradient id="sales-linear1" gradientunits="userSpaceOnUse" x1="104.27" y1="817.7" x2="1860.91" y2="817.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="sales-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 19.75 18.609375 L 14.871094 3.59375 C 14.5 2.363281 13.355469 1.464844 12 1.464844 C 10.644531 1.464844 9.5 2.363281 9.128906 3.59375 L 4.25 18.609375 C 3.847656 19.84375 4.289062 21.199219 5.339844 21.960938 C 6.390625 22.726562 7.816406 22.726562 8.867188 21.960938 L 12 19.6875 L 15.132812 21.960938 L 15.136719 21.964844 C 16.1875 22.726562 17.609375 22.726562 18.660156 21.960938 C 19.710938 21.199219 20.152344 19.84375 19.75 18.609375 Z M 19.75 18.609375 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear0);" d="M 16.898438 22.535156 C 16.261719 22.535156 15.644531 22.335938 15.132812 21.960938 L 2.3125 12.648438 C 0.972656 11.675781 0.675781 9.796875 1.648438 8.457031 C 2.625 7.117188 4.5 6.820312 5.839844 7.792969 L 18.660156 17.109375 C 19.710938 17.871094 20.152344 19.226562 19.75 20.460938 C 19.347656 21.699219 18.195312 22.535156 16.898438 22.535156 Z M 16.898438 22.535156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear1);" d="M 20.5 13.222656 L 4.078125 13.222656 C 2.421875 13.222656 1.078125 11.878906 1.078125 10.222656 C 1.078125 8.5625 2.421875 7.222656 4.078125 7.222656 L 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 Z M 20.5 13.222656 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 C 18.84375 13.222656 17.5 11.878906 17.5 10.222656 C 17.5 8.5625 18.84375 7.222656 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 Z M 23.5 10.222656 " /> </g> </svg>
-                            
-                          </div>
-                          
-                          <div class="hsg-nav__header-container">
-                            <h4 class="hsg-nav__header" gtm="sales">
-                              Real-Time Notifications
-                            </h4>
-                            <p class="hsg-nav__subheader" gtm="sales"> transactions, and security alerts. <span class="hsg-nav__subheader-highlight"></span></p>
-                          </div>
-                          
-                        </a>
-                      
-                        <a href="" class="ga_nav_link hsg-nav__box-link nav-software-service" gtm="service" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Service Hub">
-                          
-                          <div class="hsg-nav__box-link-icon" aria-hidden="true">
-                            
-                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="service-linear0" gradientunits="userSpaceOnUse" x1="684.58" y1="1448.12" x2="1469" y2="663.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.28" style="stop-color:rgb(100%,39.607843%,23.137255%);stop-opacity:1;" /> <stop offset="0.44" style="stop-color:rgb(100%,49.019608%,29.411765%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,64.705882%,39.215686%);stop-opacity:1;" /> <stop offset="0.65" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="service-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 2.25 11.75 C 1.023438 10.527344 0.546875 8.746094 0.992188 7.074219 C 1.4375 5.402344 2.746094 4.097656 4.414062 3.652344 C 6.085938 3.203125 7.871094 3.683594 9.089844 4.910156 L 18.839844 14.660156 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 2.25 11.75 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#service-linear0);" d="M 5.160156 14.660156 L 14.910156 4.910156 C 16.128906 3.683594 17.914062 3.203125 19.585938 3.652344 C 21.253906 4.097656 22.5625 5.402344 23.007812 7.074219 C 23.453125 8.746094 22.976562 10.527344 21.75 11.75 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 5.160156 14.660156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.167969 8.328125 C 23.167969 11 21 13.167969 18.328125 13.167969 C 15.65625 13.167969 13.492188 11 13.492188 8.328125 C 13.492188 5.65625 15.65625 3.492188 18.328125 3.492188 C 21 3.492188 23.167969 5.65625 23.167969 8.328125 Z M 23.167969 8.328125 " /> </g> </svg>
-                            
-                          </div>
-                          
-                          <div class="hsg-nav__header-container">
-                            <h4 class="hsg-nav__header" gtm="service">
-                              User-Friendly Interface
-                            </h4>
-                            <p class="hsg-nav__subheader" gtm="service">Customer service software. <span class="hsg-nav__subheader-highlight"></span></p>
-                          </div>
-                          
-                        </a>
-                      
-                        <a href="" class="ga_nav_link hsg-nav__box-link nav-software-cms" gtm="cms" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > CMS Hub">
-                          
-                          <div class="hsg-nav__box-link-icon" aria-hidden="true">
-                            
-                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="cms-linear0" gradientunits="userSpaceOnUse" x1="80" y1="1360" x2="1840" y2="1360" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.01" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="cms-linear1" gradientunits="userSpaceOnUse" x1="80" y1="560" x2="1840" y2="560" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="1" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="cms-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear0);" d="M 19 21 L 5 21 C 2.789062 21 1 19.210938 1 17 C 1 14.789062 2.789062 13 5 13 L 19 13 C 21.210938 13 23 14.789062 23 17 C 23 19.210938 21.210938 21 19 21 Z M 19 21 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23 17 C 23 19.210938 21.210938 21 19 21 C 16.789062 21 15 19.210938 15 17 C 15 14.789062 16.789062 13 19 13 C 21.210938 13 23 14.789062 23 17 Z M 23 17 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear1);" d="M 19 11 L 15 11 C 12.789062 11 11 9.210938 11 7 C 11 4.789062 12.789062 3 15 3 L 19 3 C 21.210938 3 23 4.789062 23 7 C 23 9.210938 21.210938 11 19 11 Z M 5 3 C 2.789062 3 1 4.789062 1 7 C 1 9.210938 2.789062 11 5 11 C 7.210938 11 9 9.210938 9 7 C 9 4.789062 7.210938 3 5 3 Z M 5 3 " /> </g> </svg>
-                            
-                          </div>
-                          
-                          <div class="hsg-nav__header-container">
-                            <h4 class="hsg-nav__header" gtm="cms">
-                              CMS Hub
-                            </h4>
-                            <p class="hsg-nav__subheader" gtm="cms">Customizable Alerts. <span class="hsg-nav__subheader-highlight"></span></p>
-                          </div>
-                          
-                        </a>
-                      
-                        <a href="#" class="ga_nav_link hsg-nav__box-link nav-software-operations" gtm="operations" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Operations Hub">
-                          
-                          <div class="hsg-nav__box-link-icon" aria-hidden="true">
-                            
-                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="operations-linear0" gradientunits="userSpaceOnUse" x1="811.74" y1="137.44" x2="1704.76" y2="936.69" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.19" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.61" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="operations-linear1" gradientunits="userSpaceOnUse" x1="1165.5" y1="1710.61" x2="258.72" y2="1097.05" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.16" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.95" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="operations-linear2" gradientunits="userSpaceOnUse" x1="5451.57" y1="14216.84" x2="6344.59" y2="15016.1" gradienttransform="matrix(-0.0125,0.000000000000000002,-0.000000000000000002,-0.0125,82,200)"> <stop offset="0.11" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.88" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="operations-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 5.070312 19 C 3.925781 19 2.878906 18.347656 2.375 17.316406 C 1.875 16.289062 2 15.0625 2.703125 14.160156 C 3.234375 13.476562 3.503906 12.75 3.503906 12 C 3.503906 11.25 3.234375 10.523438 2.703125 9.839844 C 1.695312 8.535156 1.933594 6.65625 3.238281 5.640625 C 4.542969 4.625 6.421875 4.855469 7.441406 6.160156 C 8.789062 7.894531 9.503906 9.914062 9.503906 12 C 9.503906 14.085938 8.789062 16.105469 7.441406 17.839844 C 6.871094 18.574219 5.996094 19 5.070312 19 Z M 5.070312 19 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 18.929688 19 C 18.003906 19 17.128906 18.574219 16.558594 17.839844 C 15.210938 16.105469 14.496094 14.085938 14.496094 12 C 14.496094 9.914062 15.210938 7.894531 16.558594 6.160156 C 17.214844 5.308594 18.277344 4.875 19.34375 5.019531 C 20.40625 5.164062 21.3125 5.871094 21.714844 6.863281 C 22.117188 7.859375 21.957031 8.996094 21.296875 9.839844 C 20.765625 10.523438 20.496094 11.25 20.496094 12 C 20.496094 12.75 20.765625 13.476562 21.296875 14.160156 C 22 15.0625 22.125 16.289062 21.625 17.316406 C 21.121094 18.347656 20.074219 19 18.929688 19 Z M 18.929688 19 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 6.078125 11.070312 C 5.601562 11.070312 5.128906 11.035156 4.660156 10.972656 C 3.019531 10.746094 1.875 9.230469 2.101562 7.589844 C 2.328125 5.949219 3.839844 4.800781 5.484375 5.027344 C 6.339844 5.148438 7.101562 5.015625 7.75 4.640625 C 8.402344 4.265625 8.894531 3.671875 9.222656 2.871094 C 9.84375 1.335938 11.59375 0.597656 13.128906 1.222656 C 14.664062 1.84375 15.402344 3.59375 14.777344 5.128906 C 13.949219 7.167969 12.558594 8.792969 10.75 9.835938 C 9.339844 10.652344 7.746094 11.070312 6.078125 11.070312 Z M 6.078125 11.070312 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 12 23 C 11 23 10.070312 22.503906 9.511719 21.675781 C 8.953125 20.847656 8.84375 19.792969 9.222656 18.871094 C 10.050781 16.832031 11.441406 15.207031 13.25 14.164062 C 15.054688 13.121094 17.160156 12.726562 19.339844 13.027344 C 20.980469 13.253906 22.125 14.769531 21.898438 16.410156 C 21.671875 18.050781 20.160156 19.199219 18.515625 18.972656 C 17.660156 18.851562 16.898438 18.984375 16.25 19.359375 C 15.597656 19.734375 15.105469 20.328125 14.777344 21.128906 C 14.320312 22.261719 13.21875 23 12 23 Z M 12 23 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#operations-linear0);" d="M 17.921875 11.070312 C 16.253906 11.070312 14.660156 10.652344 13.25 9.835938 C 11.441406 8.792969 10.050781 7.167969 9.222656 5.128906 C 8.597656 3.59375 9.335938 1.84375 10.871094 1.222656 C 12.40625 0.597656 14.15625 1.335938 14.777344 2.871094 C 15.105469 3.667969 15.597656 4.265625 16.25 4.640625 C 16.898438 5.015625 17.660156 5.148438 18.515625 5.027344 C 20.160156 4.800781 21.671875 5.949219 21.898438 7.589844 C 22.125 9.230469 20.980469 10.746094 19.339844 10.972656 C 18.871094 11.035156 18.398438 11.070312 17.921875 11.070312 Z M 17.921875 11.070312 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#operations-linear1);" d="M 12 23 C 10.78125 23 9.679688 22.261719 9.222656 21.128906 C 8.894531 20.328125 8.402344 19.734375 7.75 19.359375 C 7.101562 18.984375 6.339844 18.851562 5.484375 18.972656 C 3.839844 19.199219 2.328125 18.050781 2.101562 16.410156 C 1.875 14.769531 3.019531 13.253906 4.660156 13.027344 C 6.839844 12.726562 8.945312 13.121094 10.75 14.164062 C 12.558594 15.207031 13.949219 16.832031 14.777344 18.871094 C 15.15625 19.792969 15.046875 20.847656 14.488281 21.675781 C 13.929688 22.503906 13 23 12 23 Z M 12 23 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 21.929688 8 C 21.929688 9.65625 20.585938 11 18.929688 11 C 17.269531 11 15.929688 9.65625 15.929688 8 C 15.929688 6.34375 17.269531 5 18.929688 5 C 20.585938 5 21.929688 6.34375 21.929688 8 Z M 21.929688 8 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#operations-linear2);" d="M 6.089844 12.9375 C 7.757812 12.9375 9.351562 13.355469 10.753906 14.164062 C 12.554688 15.203125 13.949219 16.835938 14.777344 18.878906 C 15.402344 20.414062 14.664062 22.164062 13.128906 22.789062 C 11.59375 23.414062 9.84375 22.675781 9.222656 21.140625 C 8.890625 20.332031 8.398438 19.734375 7.753906 19.359375 C 7.269531 19.078125 6.710938 18.9375 6.09375 18.9375 C 5.890625 18.9375 5.683594 18.953125 5.484375 18.980469 C 3.839844 19.207031 2.328125 18.0625 2.101562 16.421875 C 1.871094 14.777344 3.019531 13.265625 4.660156 13.039062 C 5.132812 12.972656 5.613281 12.9375 6.089844 12.9375 Z M 6.089844 12.9375 " /> </g> </svg>
-                            
-                          </div>
-                          
-                          <div class="hsg-nav__header-container">
-                            <h4 class="hsg-nav__header" gtm="operations">
-                              Portfolio Tracking
-                            </h4>
-                            <p class="hsg-nav__subheader" gtm="operations">News and Analysis. <span class="hsg-nav__subheader-highlight"></span></p>
-                          </div>
-                          
-                        </a>
-                      
-                    </li>
-                    <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links hsg-nav__dropdown-row--links-horizontal">
-                      <div class="hsg-nav__dropdown-column">
-                        
-                          
-                        
-                          
-                        
-                          
-                        
-                          
-                        
-                          
-                        
-                          
-                            <a href="" class="ga_nav_link hsg-nav__box-link nav-software-marketplace" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > App Marketplace">
-                              <span>
-                                <h3 class="hsg-nav__header">App Marketplace</h3>
-                                <p class="hsg-nav__subheader" gtm="app">Connect your favorite apps to DAST. <span class="hsg-nav__subheader-highlight">See all integrations</span></p>
-                              </span>
-                              
-                            </a>
-                          
-                        
-                          
-                        
-                          
-                        
-                      </div>
-                    </li>
+                    
                   </ul>
                 
               
@@ -669,7 +515,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
               <div class="hsg-nav__link-wrapper">
                 
-                <a href="/dast-pay" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                <a style="color: rgb(1, 1, 49)"  href="/dast-pay" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
                   <span class="hsg-nav__link-label">
                    DASTPay
                     
@@ -685,8 +531,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <div class="hsg-nav__link-wrapper" >
                 
                 <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-3">
-                  <span class="hsg-nav__link-label">
-                  DAST GPT
+                  <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
+                  DASTGPT
                     
                   </span>
                 </button>
@@ -696,7 +542,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
                   <ul id="hsg-nav-submenu-3" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards" >
                     <li class="hsg-nav__dropdown-list-title">
-                      <h2 class="hsg-nav__dropdown-list-title-text">Resources</h2>
+                      <h2 class="hsg-nav__dropdown-list-title-text">DAST BOT</h2>
                     </a>
                     </li>
                     
@@ -728,17 +574,17 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     
                     <li class="hsg-nav__link-section" gtm="">
                       <div class="hsg-nav__link-section-icon-wrapper">
-                        <img class="hsg-nav__link-section-icon hsg-nav__box-link-icon" src="//53.fs1.hubspotusercontent-na1.net/hubfs/53/WBZ-1165%20Global%20Nav%20Redesign/1-icon.svg" alt="">
+                       
                       </div>
                       <div class="hsg-nav__header-container">
                         <h3 class="h4 hsg-nav__header" gtm="">
-                          Education
+                          Interactive Chatbot powered by ChatGPT AI 
                         </h3>
                         
                         
                         <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Blog">
                           <p class="hsg-nav__subheader" gtm="">
-                            Blog
+                            Educational Database of major Web3 companies
                           </p>
                           
                         </a>
@@ -747,7 +593,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Ebooks, Guides &amp; More">
                           <p class="hsg-nav__subheader" gtm="">
-                            Ebooks, Guides &amp; More
+                            Ask questions and get personalised answers  
                           </p>
                           
                         </a>
@@ -760,7 +606,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Inbound Methodology">
                           <p class="hsg-nav__subheader" gtm="">
-                            Inbound Methodology
+                            Explore AI/Web3 technologies and concepts 
                           </p>
                           
                         </a>
@@ -769,7 +615,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <a href="" class="ga_nav_link hsg-nav__box-link HS_nav_bar" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > INBOUND 2023">
                           <p class="hsg-nav__subheader" gtm="">
-                            INBOUND 2023
+                            Available for free, 24/7 
                           </p>
                           
                         </a>
@@ -810,11 +656,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     
                     <li class="hsg-nav__link-section" gtm="">
                       <div class="hsg-nav__link-section-icon-wrapper">
-                        <img class="hsg-nav__link-section-icon hsg-nav__box-link-icon" src="//53.fs1.hubspotusercontent-na1.net/hubfs/53/WBZ-1165%20Global%20Nav%20Redesign/2-icon.svg" alt="">
+                       
                       </div>
                       <div class="hsg-nav__header-container">
                         <h3 class="h4 hsg-nav__header" gtm="">
-                          Why DAST ?
+                          Why DASTGPT ?
                         </h3>
                         
                         
@@ -834,16 +680,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Case Studies">
                           <p class="hsg-nav__subheader" gtm="">
-                            Case Studies
+                            This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
                           </p>
                           
                         </a>
                         
                         
                         
-                        <a href="//www.hubspot.com/why-choose-hubspot" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Why Choose HubSpot?">
+                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Why Choose DAST?">
                           <p class="hsg-nav__subheader" gtm="">
-                            Why Choose DAST?
+                            Discover the limitless possibilities of web3 and AI with DASTGPT Bot.
                           </p>
                           
                         </a>
@@ -876,12 +722,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     
                     <li class="hsg-nav__link-section" gtm="">
                       <div class="hsg-nav__link-section-icon-wrapper">
-                        <img class="hsg-nav__link-section-icon hsg-nav__box-link-icon" src="//53.fs1.hubspotusercontent-na1.net/hubfs/53/WBZ-1165%20Global%20Nav%20Redesign/3-icon.svg" alt="">
+                        
                       </div>
                       <div class="hsg-nav__header-container">
-                        <h3 class="h4 hsg-nav__header" gtm="">
-                          Services
-                        </h3>
+                        
                         
                         
                         
@@ -931,11 +775,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     
                     <li class="hsg-nav__link-section" gtm="">
                       <div class="hsg-nav__link-section-icon-wrapper">
-                        <img class="hsg-nav__link-section-icon hsg-nav__box-link-icon" src="//53.fs1.hubspotusercontent-na1.net/hubfs/53/WBZ-1165%20Global%20Nav%20Redesign/4-icon.svg" alt="">
+                        
                       </div>
                       <div class="hsg-nav__header-container">
                         <h3 class="h4 hsg-nav__header" gtm="">
-                          User Resources
+                          Premium Features: 
                         </h3>
                         
                         
@@ -959,7 +803,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Partner Programs">
                           <p class="hsg-nav__subheader" gtm="">
-                            Partner Programs
+                            Exclusive access to advanced Web3 resources
                           </p>
                           
                         </a>
@@ -968,7 +812,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Developer Tools">
                           <p class="hsg-nav__subheader" gtm="">
-                            Developer Tools
+                            Priority support and faster response times 
                           </p>
                           
                         </a>
@@ -977,16 +821,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Community">
                           <p class="hsg-nav__subheader" gtm="">
-                            Community
+                            Access to premium Web3 company profiles 
                           </p>
                           
                         </a>
                         
                         
                         
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > HubSpot Ecosystem">
+                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > DAST Ecosystem">
                           <p class="hsg-nav__subheader" gtm="">
-                            DAST Ecosystem
+                            Early access to web3 job opportunities
                           </p>
                           
                         </a>
@@ -1018,7 +862,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             <li class="hsg-nav__group-item  hsg-nav__group-item--has-dropdown  hsg-nav__group-item--about-mobile">
               <div class="hsg-nav__link-wrapper">
                 <button class="hsg-nav__link homepage-nav-about-mobile" aria-expanded="false" aria-controls="hsg-nav-about-submenu-mobile">
-                  <span class="hsg-nav__link-label">
+                  <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
                     About
                     
                   </span>
@@ -1064,7 +908,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
                 
                 <li class="">
-                  <a href="//www.hubspot.com/careers" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Careers">
+                  <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Careers">
                     <div class="hsg-nav__header">Careers</div>
                     
                   </a>
@@ -1073,7 +917,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
                 
                 <li class="">
-                  <a href="//www.hubspot.com/company/contact" class="ga_nav_link hsg-nav__box-link  homepage-nav-contact-us " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">
+                  <a href="" class="ga_nav_link hsg-nav__box-link  homepage-nav-contact-us " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">
                     <div class="hsg-nav__header">Contact Us</div>
                     
                   </a>
@@ -1081,21 +925,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 
                 
                 
-                <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
-                  <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Investor Relations">
-                    <div class="hsg-nav__header">Investor Relations</div>
-                    
-                  </a>
-                </li>
                 
                 
                 
-                <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
-                  <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Management Team">
-                    <div class="hsg-nav__header">Management Team</div>
-                    
-                  </a>
-                </li>
+                
+                
                 
                 </ul>
               
@@ -1202,7 +1036,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
     
       <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="">
-        Get started free <span class="visually-hidden">Get started with DAST</span>
+        Get started  <span class="visually-hidden">Get started with DAST</span>
       </a>
     
   </div> 
@@ -1264,7 +1098,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <li class="hsg-nav__group-item">
   <div class="hsg-nav__link-wrapper">
-    <a href="//offers.hubspot.com/contact-sales" class="ga_nav_link hsg-nav__link  homepage-nav-contact-sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Contact Sales">
+    <a href="" class="ga_nav_link hsg-nav__link  homepage-nav-contact-sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Contact Sales">
           <span class="hsg-nav__link-label hsg-nav__link-label--contact-us">
             <svg aria-hidden="true" width="14" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="currentColor" transform="translate(-317 -81)" fill-rule="evenodd" d="M323.963 81c2.124 0 3.852 1.778 3.852 3.964 0 1.905-.56 3.606-1.435 4.719-.661.843-1.502 1.35-2.417 1.35-.908 0-1.742-.5-2.4-1.33-.884-1.114-1.452-2.823-1.452-4.739 0-2.186 1.728-3.964 3.852-3.964zm3.487 9.089a8.438 8.438 0 012.898 2.2c.432.508.422 1.26-.012 1.766-1.545 1.805-3.812 2.945-6.33 2.945-2.547 0-4.836-1.165-6.382-3.004-.41-.488-.376-1.22.037-1.705a8.437 8.437 0 012.836-2.174c.895 1.272 2.118 2.06 3.466 2.06 1.358 0 2.59-.799 3.487-2.088z" /></svg>
             Contact Sales</span>
@@ -1342,19 +1176,19 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="homepage-hero-branding-rollout__content">
       <div class="homepage-hero-branding-rollout__text">
         
-        <h1 class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</h1>
+        <h3 class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</h3>
         <p class="homepage-hero-branding-rollout__text-description">DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses, and organisations. 
       </p>
         <div class="homepage-hero-branding-rollout__cta">
-          <a  class="homepage-hero-branding-rollout__cta-link cl-button -primary -large homepage-hero-cta" href="">
-            Explore DAST<span class="visually-hidden">Explore DAST</span></a><a class="homepage-hero-branding-rollout__cta-link cl-button -secondary -large homepage-hero2-cta" href="">
+          <a  class="homepage-hero-branding-rollout__cta-link cl-button -primary -small homepage-hero-cta" href="">
+            Explore DAST<span class="visually-hidden">Explore DAST</span></a><a class="homepage-hero-branding-rollout__cta-link cl-button -secondary -small homepage-hero2-cta" href="">
  Get started <span class="visually-hidden"> Get started</span></a></div>
-        <p class="homepage-hero-branding-rollout__text-microcopy">DAST - a new company at the forefront of digital asset security. </p>
+        <p class="homepage-hero-branding-rollout__text-microcopy">DAST -  company at the forefront of digital asset security. </p>
       </div>
       <div class="homepage-hero-branding-rollout__media">
         
           <div class="homepage-hero-branding-rollout__media-wrapper">
-            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://dast.tech/assets/images/ideology%20image.png">
+            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://images.unsplash.com/photo-1614064850003-13dbfd69fd11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRpZ2l0YWwlMjBzZWN1cml0eSUyMGtleXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
             <img class="homepage-hero-branding-rollout__media-image--mobile" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST platform" src="https://dast.tech/assets/images/sp.png">
           </div>
         
@@ -1366,8 +1200,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
   <div id="hs_cos_wrapper_product" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><section class="home-growth-stack home-products-feature-v2" data-background="off-white">
   <div class="home-growth-stack__logo-wrapper">
-    <h2 class="home-growth-stack__logo-header">What is DAST?</h2>
-    <p class="home-growth-stack__logo-description">DAST stands for Digital Asset Security Token At DAST Technology, we are committed to providing world-class web3 and AI technology solutions to our clients through innovation, research, and development. We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth..</p>
+    <h2 class="home-growth-stack__logo-header" style="color: rgb(1, 1, 49)" >What is DAST?</h2>
+    <p class="home-growth-stack__logo-description" style="color: rgb(1, 1, 49)" >DAST stands for Digital Asset Security Token At DAST Technology, we are committed to providing world-class web3 and AI technology solutions to our clients through innovation, research, and development. We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth..</p>
     <div class="home-growth-stack__ctas">
       <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cl-button -primary -regular homepage-platform-demo cta--primary" href="https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=www.hubspot.com&amp;hubs_signup-cta=homepage-platform-demo">Get a Demo</a>
       <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -secondary -regular homepage-platform-free cta--secondary" href="https://app.hubspot.com/signup-hubspot/crm?hubs_signup-url=www.hubspot.com&amp;hubs_signup-cta=homepage-platform-free">Dast GPT</a>
@@ -1379,10 +1213,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  trademark ">SAVE AND SECURE ASSETS</h3>
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  trademark ">SAVE AND SECURE ASSETS</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description"> You can secure your digital assets by saving it on the DAST security technology layer. It is encrypted and backed up on the blockchain. Only your wallet will be able to view or edit it. DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation.</p>
+          <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description"> You can secure your digital assets by saving it on the DAST security technology layer. It is encrypted and backed up on the blockchain. Only your wallet will be able to view or edit it. DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation.</p>
           <div class="home-products-feature__features">
             <h4 class="home-products-feature__card--heading">Popular Features</h4>
             <div class="home-products-feature__card--list">
@@ -1427,10 +1261,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  registered-trademark ">DAST PAY</h3>
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  registered-trademark ">DASTPay</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description">  DASTPay is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions. Seamlessly integrated into major messaging apps, DASTPay empowers you to effortlessly carry out bill payments, mobile payments, and cross-border remittance, all in one secure and convenient platform.
+          <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description">  DASTPay is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions. Seamlessly integrated into major messaging apps, DASTPay empowers you to effortlessly carry out bill payments, mobile payments, and cross-border remittance, all in one secure and convenient platform.
 
 </p>
           <div class="home-products-feature__features">
@@ -1476,10 +1310,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  trademark ">DAST GPT</h3>
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  trademark ">DAST GPT</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description"> 
+          <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description"> 
             This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
             Join DASTGPT Bot on telegram today and unlock a world of endless possibilities!
 
@@ -1533,10 +1367,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/CMSHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  registered-trademark ">User-Friendly Interface</h3>
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  registered-trademark ">User-Friendly Interface</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description">DAST's platform is designed to be user-friendly and accessible to users of all levels of expertise. Its intuitive interface allows users to easily manage and trade their digital assets, and its customer support team is available 24/7 to assist with any issues.</p>
+          <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description">DAST's platform is designed to be user-friendly and accessible to users of all levels of expertise. Its intuitive interface allows users to easily manage and trade their digital assets, and its customer support team is available 24/7 to assist with any issues.</p>
           <div class="home-products-feature__features">
             <h4 class="home-products-feature__card--heading">Popular Features</h4>
             <div class="home-products-feature__card--list">
@@ -1582,10 +1416,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/OperationsHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="max-width: 100%; height: auto; width: 30px">
-          <h3 class="home-products-feature__card--headline  registered-trademark ">Automated Portfolio Management</h3>
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  registered-trademark ">Automated Portfolio Management</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description"> DAST offers an automated portfolio management tool that allows users to easily manage their digital asset investments. Users can set their investment preferences and risk tolerance, and DAST's algorithm will automatically manage their portfolio to maximize returns. </p>
+          <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description"> DAST offers an automated portfolio management tool that allows users to easily manage their digital asset investments. Users can set their investment preferences and risk tolerance, and DAST's algorithm will automatically manage their portfolio to maximize returns. </p>
           <div class="home-products-feature__features">
             <h4 class="home-products-feature__card--heading">Popular Features</h4>
             <div class="home-products-feature__card--list">
@@ -1643,7 +1477,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class=" csol-full-width-cta-card-image">
         <div class="csol-full-width-cta-card-graphic-container "></div>
         <div class="csol-full-width-cta-card-background">
-          <img class="csol-full-width-cta-card-background-image" src="https://dast.tech/assets/images/key.png" alt="HubSpot CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
+          <img class="csol-full-width-cta-card-background-image" src="https://dast.tech/assets/images/key.png" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
         </div>
       
       </div>
@@ -1651,12 +1485,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
   
     
-      <h3 class="csol-full-width-cta-card-header">In today's fast-paced world, where technology is rapidly evolving, businesses and organizations are constantly seeking innovative solutions to address real-world challenges. That's where DAST, a leading technology company, comes into play. DAST specializes in providing cutting-edge software development, blockchain solutions, and digital services that empower individuals, businesses, and organizations across various sectors. By harnessing the power of blockchain technology and artificial intelligence (AI), DAST is revolutionizing industries and driving innovation towards a more inclusive and equitable future.</h3>
+      <h3 class="csol-full-width-cta-card-header">In today's fast-paced world, where technology is rapidly evolving, businesses and organizations are constantly seeking innovative solutions to address real-world challenges. That's where DAST, a leading technology company, comes into play...</h3>
     
   
 
         
-          <p class="csol-full-width-cta-card-description -large">DAST CMO PRAISE discusses his predictions for how DAST will revolutionize the future of Blockchain.</p>
+          <p class="csol-full-width-cta-card-description -large">DAST CMO PRAISE, discusses his predictions for how DAST will revolutionize the future of Blockchain.</p>
         
           <div class="csol-full-width-cta-card-cta">
             
@@ -1703,8 +1537,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div class="hsg-page-width-normal">
   <div class="home-customers__content-wrapper">
     <div class="home-customers__text-wrapper">
-      <h2 class="home-customers__stat">500 M+</h2>
-      <p class="home-customers__stat-description">peoples in over <strong>120</strong> countries hoping to grow and Secure their Assets with DAST</p>
+      <h3 class="home-customers__stat">500 M+</h3>
+      <p style="color: rgb(1, 1, 49) class="home-customers__stat-description">peoples in over <strong>120</strong> countries hoping to grow and Secure their Assets with DAST</p>
     </div>
     <div class="home-customers__logos-grid">
       
@@ -1765,11 +1599,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
   
     
-      <h2 class="csol-cta-content-block-header"> DAST -  DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation</h2>
+      <h4 class="csol-cta-content-block-header" style="font-size: large;font-weight:bolder;"> DAST -  DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation</h4>
     
   
 
-        <p class="csol-cta-content-block-description">Our team of experts is passionate about creating a more equitable and inclusive world through the power of web2, web3, and AI technologies; we work tirelessly to ensure that our solutions are secure, scalable, and user-friendly.</p>
+        <h5 style="color: rgb(1, 1, 49)" class="csol-cta-content-block-description">Our team of experts is passionate about creating a more equitable and inclusive world through the power of web2, web3, and AI technologies; we work tirelessly to ensure that our solutions are secure, scalable, and user-friendly.</h5>
 
         <div class="csol-cta-content-block-buttons">
           
@@ -1790,11 +1624,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   
   
     <a class="
-  cl-button -primary -large -white homepage-bottom
-" href="https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=www.hubspot.com&amp;hubs_signup-cta=homepage-bottom" rel="noreferrer ">
+  cl-button -primary -small -white homepage-bottom
+" href="" rel="noreferrer ">
       Get a demo
       
-        <span class="visually-hidden"> From its unique approach to security tokenization to its user-friendly platform,</span>
+        <span class="visually-hidden"> we work tirelessly to ensure that our solutions are secure, scalable, and user-friendly.</span>
       
     </a>
   
@@ -1821,11 +1655,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   
   
     <a class="
-  cl-button -secondary -large -white homepage-bottom2
+  cl-button -secondary -small -white homepage-bottom2
 " href="" rel="noreferrer " style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
-      Get started free
+      Get started 
       
-        <span class="visually-hidden"> From its unique approach to security tokenization to its user-friendly platform,s</span>
+        <span class="visually-hidden"> We aim to foster a culture of transparency</span>
       
     </a>
   
@@ -1882,10 +1716,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
     
     
-    <li class="hsg-footer__nav-item" data-order="6">
-      <a class="ga_nav_link " href="" data-order="6" data-linkorder="7" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Lead Management Software">
-        Lead Management Software</a>
-    </li>
+    
     
     
     
@@ -1893,7 +1724,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
     <li class="hsg-footer__nav-item" data-order="12">
       <a class="ga_nav_link " href="" data-order="12" data-linkorder="13" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Chatbot Builder">
-        Free Chatbot Builder</a>
+        DAST Chatbot </a>
     </li>
     <li class="hsg-footer__nav-item" data-order="13">
       <a class="ga_nav_link " href="" data-order="13" data-linkorder="14" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Live Chat Software">
@@ -1981,7 +1812,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     </li>
     <li class="hsg-footer__nav-item" data-order="1">
       <a class="ga_nav_link " href="" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
-        Join a Local User Group</a>
+        Join our Telegram Group</a>
     </li>
     </ul>
 </section>
@@ -2065,20 +1896,20 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       
     </div>
     <div class="hsg-footer__logo">
-      <a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="HubSpot Logo">
+      <a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="DAST Logo">
       
       <p>Copyright © 2023 DAST, Inc.</p>
       </div>
     <div class="hsg-footer__copyright">
       <ul>
-        <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
-          Legal Stuff</a></li>
+        <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
+          Dast Tech</a></li>
         <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
-          Privacy Policy</a></li>
+          DASTdAPP</a></li>
         <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
-          Security</a></li>
-        <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
-          Website Accessibility</a></li>
+          DASTGPT</a></li>
+        <li><a href="/about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
+          ABOUT US</a></li>
         <li class="hs-footer-cookie-settings" hidden>
           <a href="javascript:void(0)"></a>
         </li>
