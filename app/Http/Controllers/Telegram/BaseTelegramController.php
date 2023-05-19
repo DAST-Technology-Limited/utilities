@@ -53,6 +53,27 @@ class BaseTelegramController extends Controller
         curl_close($ch);
     }
 
+    public function deleteMessage($chat_id, $message_id)
+    {
+        $msg1 = array(
+            "chat_id" => $chat_id,
+            "message_id" => $message_id,
+            "parse_mode" => "html"
+        );
+        $ch = curl_init();
+        $options = array(
+            CURLOPT_URL => $this->bot_link . "deleteMessage",
+            CURLOPT_POST => 1,
+            CURLOPT_POSTFIELDS => $msg1,
+            CURLOPT_RETURNTRANSFER => 1
+        );
+
+        curl_setopt_array($ch, $options);
+        $update = curl_exec($ch);
+
+        curl_close($ch);
+    }
+
     public function sendWelcome($user_id)
     {
         $bot_types = new BotTypes();
@@ -77,6 +98,35 @@ class BaseTelegramController extends Controller
         }
         else if ($this->bot_type == $bot_types->getBotPay()) {
 
+            $keyboard = array(
+                array("Airtime"),
+                array("Data"),
+                array("Electricity"),
+                array("WAEC"),
+            );
+            $ReplyKeyboardMarkup = array(
+                "keyboard" => $keyboard, 
+                "is_persistent" => true, 
+                "one_time_keyboard" => true);
+
+            $msg1 = array(
+                "chat_id" => $user_id,
+                "text" => "Welcome to DASTPAY BOT! \nHow may I help you?",
+                "reply_markup" => json_encode($ReplyKeyboardMarkup),
+                "parse_mode" => "html"
+            );
+
+            $ch = curl_init();
+            $options = array(
+                CURLOPT_URL => $this->bot_link . "sendMessage",
+                CURLOPT_POST => 1,
+                CURLOPT_POSTFIELDS => $msg1,
+                CURLOPT_RETURNTRANSFER => 1
+            );
+
+            curl_setopt_array($ch, $options);
+            $update = curl_exec($ch);
+            curl_close($ch);
         }
     }
 }
