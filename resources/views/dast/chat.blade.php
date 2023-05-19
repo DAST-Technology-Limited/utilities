@@ -409,7 +409,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 ],
   "themes": {
     "default": {
-      "image": "https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/academy/images/illustrations/marketing-automation.svg",
+      "image": "https://dast.tech/assets/images/key.png",
       "color": "colorSecondary3"
     },
     "contact_management": {
@@ -1355,11 +1355,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     </div>
     
       <h1 class="academy-typing-hero__content--title" aria-label="">
-        DAST <span class="academy-typing-hero__content--title-text" data-firstloop="BEST PLACE TO BE" data-secondloop="AMAZING RIGHT?" data-thirdloop="100%">CHAT PLATFORM</span>
+        Welcome to DASTGPT Bot <span class="academy-typing-hero__content--title-text" data-firstloop="Your Gateway to Web3" data-secondloop=" and AI Technologies 
+        " data-thirdloop=" Interactive Chatbot powered by ChatGPT AI">CHAT PLATFORM</span>
       </h1>
     
   </div>
-  <p class="academy-typing-hero__content--description">Hello there! Have questions or need assistance with our platform? Our team at DAST is here to help! Please feel free to chat with us anytime by clicking on the chat icon in the bottom right corner of your screen. We're always ready to assist you and ensure you have the best possible experience with our platform.</p>
+  <p class="academy-typing-hero__content--description">This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
+    Discover the limitless possibilities of web3 and AI with DASTGPT Bot.
+    </p>
   <div class="academy-typing-hero__ctas">
     <a tabindex="0" class="academy-typing-hero__ctas--cta cta--primary cta--large academy-home-hero" href="">
      Let's Talk NOW!!!
@@ -1367,7 +1370,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   </div>
   <ul class="academy-typing-hero__content--features">
     
-      <li>100% free &amp; online</li>
+      <li>50% free &amp; online</li>
     
       <li>Unlimited access</li>
     
@@ -1393,115 +1396,67 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div id="hs_cos_wrapper_module_159838332363129" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><section class="certs">
 <div class="hsg-page-width-normal">
 <div class="section-header certs__header">
-  <h2>DAST RECOGNISED CHAT PLATFORM</h2>
+  <h2>Your Gateway to Web3 and AI Technologies 
+  </h2>
   <p>
-    Join the 165,000+ professionals who've grown their careers by getting IN TOUCH with DAST CHAT.
+    DAST is proud to offer a range of innovative GPT (Generative Pre-trained Transformer) services that leverage the power of AI to enhance user experiences, provide personalized information, and explore the exciting realms of Web3 technologies. Here are some of the key GPT services provided by DAST:
   </p>
 </div>
 
-<div class="certs__list-wrap">
+<div class="certs__list-wrap" style="background: rgb(1, 1, 33);color:white;">
   <ul class="certs__list">
     <li class="certs__list-item">
       <a href="https://academy.hubspot.com/courses/inbound" class="academy-home-certifications-position1">
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/inbound.svg" alt="">
         </div>
-        <h3>Inbound</h3>
+        <h3>Interactive Chatbot powered by ChatGPT AI</h3>
       </a>
-      <p>Attract leads, engage prospects, and delight customers using the inbound methodology.</p>         
+      <p>DAST's Interactive Chatbot, powered by ChatGPT AI, offers users a conversational and intuitive interface to interact with. This AI-powered chatbot is designed to understand natural language queries and provide relevant and accurate responses. </p>         
     </li>
   
     <li class="certs__list-item">
-      <a href="https://academy.hubspot.com/courses/social-media" class="academy-home-certifications-position2">
+      <a href="" class="academy-home-certifications-position2">
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/social-media.svg" alt="">
         </div>
-        <h3>Social Media</h3>
+        <h3>Educational Database of major Web3 companies</h3>
       </a>
-      <p>Extend your reach and generate leads with a multi-channel social media strategy.</p>         
+      <p>DAST has curated an extensive educational database that focuses on major Web3 companies. This database serves as a valuable resource for individuals and organizations looking to explore and understand the Web3 landscape.  </p>         
     </li>
   
     <li class="certs__list-item">
-      <a href="https://academy.hubspot.com/courses/email-marketing" class="academy-home-certifications-position3">
+      <a href="" class="academy-home-certifications-position3">
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/email-marketing.svg" alt="">
         </div>
-        <h3>Email Marketing</h3>
+        <h3>Ask questions and get personalised answers</h3>
       </a>
-      <p>Communicate with impact, drive growth, and deliver revenue with strategic email.</p>         
+      <p>DAST's GPT services enable users to ask specific questions and receive personalized answers tailored to their needs. Whether it's seeking guidance on blockchain technology, AI concepts, or specific applications within Web3, users can pose their questions and receive detailed and relevant responses.</p>         
     </li>
   
     <li class="certs__list-item">
-      <a href="https://academy.hubspot.com/courses/content-marketing" class="academy-home-certifications-position4">
+      <a href="" class="academy-home-certifications-position4">
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/content-marketing.svg" alt="">
         </div>
-        <h3>Content Marketing</h3>
+        <h3>Discover decentralised finance (DeFi) and artificial intelligence (AI) </h3>
       </a>
-      <p>Fuel your business by creating and promoting remarkable content.</p>         
+      <p>DAST's GPT services facilitate the exploration of two exciting domains: decentralized finance (DeFi) and artificial intelligence (AI). Users can gain insights into the disruptive potential of DeFi, which offers transparent, secure, and inclusive financial systems built on blockchain technology. </p>         
     </li>
   
     <li class="certs__list-item">
-      <a href="https://academy.hubspot.com/courses/inbound-sales" class="academy-home-certifications-position5">
+      <a href="" class="academy-home-certifications-position5">
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/seo.svg" alt="">
         </div>
-        <h3>Inbound Sales</h3>
+        <h3>Staying updated with blockchain protocols</h3>
       </a>
-      <p>Get certified. Grow your pipeline. Close more deals. Grow your career.</p>         
+      <p>Staying updated with blockchain protocols is crucial for individuals and organizations looking to navigate the rapidly evolving landscape of decentralized technologies. As blockchain protocols continue to advance and new ones emerge, understanding their features, functionalities, and potential use cases becomes essential.</p>         
     </li>
   </ul>
 </div>
 
-<div class="hsg-full-width-cta" data-background="white">
-<div class="hsg-full-width-cta__wrapper hsg-page-width-normal">
-  <div class="cta__wrapper">
-      <a class="cta--primary cta--medium academy-home-certifications-button" href="https://academy.hubspot.com/courses#certsOnly=true">View all certifications</a>
-  </div>
-</div>
-</div>
-</div>
-</section></div>
-
-<div style="background: rgb(1, 1, 33);" id="hs_cos_wrapper_module_160457232093220" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><section class="side-by-side">
-<div class="side-by-side__learn " style="background: rgb(1, 1, 33);">
-<div class="side-by-side__content-wrapper" style="background: rgb(1, 1, 33);">
-  <div class="side-by-side__content-body">
-    <img data-src="https://f.hubspotusercontent00.net/hubfs/53/learn-badge.svg" alt="" class="hsg-deferred">
-    <h3>Grow with DASR services</h3>
-    <p>
-      Get up to speed quickly on popular business topics with our free services.
-    </p>
-  </div>
-  <div class="side-by-side__cta-wrapper">
-    <a class="cta--secondary-light cta--medium academy-home-juxtaposed-left" href="">
-      View all courses
-    </a>
-  </div>
-</div>
-</div>
-
-<div class="side-by-side__central">
-<p>or</p>
-</div>
-
-<div class="side-by-side__earn" style="background: rgb(1, 1, 33);">
-<div class="side-by-side__content-wrapper" style="background: rgb(1, 1, 33);">
-  <div class="side-by-side__content-body">
-    <img data-src="https://f.hubspotusercontent00.net/hubfs/53/earn-badge.svg" alt="" class="hsg-deferred">
-    <h3>Earn asset security</h3>
-    <p>
-      Grow your career by completing certifications and adding industry-recognized badges to your LinkedIn profile.
-    </p>
-  </div>
-  <div class="side-by-side__cta-wrapper">
-    <a class="cta--secondary-light cta--medium academy-home-juxtaposed-right" href="">
-      View all products
-    </a>
-  </div>
-</div>
-</div>
-</section></div>
 
 <section>
   
@@ -1528,22 +1483,22 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="hsg-multi-col__wrapper hs-page-width-module">
 <div class="hsg-multi-col__item">
   <div class="hsg-multi-col-item__text-content">
-    <h3 class="hsg-multi-col__name">Advance your career</h3>
-    <div class="hsg-multi-col__description"><p><span>Invest in yourself and your career by staying up to date on the latest trends in digital marketing, sales, customer support, and more.</span></p></div>
+    <h3 class="hsg-multi-col__name">Expertise in Emerging Technologiesr</h3>
+    <div class="hsg-multi-col__description"><p><span>DAST specializes in cutting-edge technologies such as blockchain and AI. By partnering with DAST, individuals and organizations gain access to a team of experts with in-depth knowledge and experience in these technologies..</span></p></div>
     <!-- generateModuleCtas Called -->
   </div>
 </div>
 <div class="hsg-multi-col__item">
   <div class="hsg-multi-col-item__text-content">
-    <h3 class="hsg-multi-col__name">Show off your skills</h3>
-    <div class="hsg-multi-col__description"><p><span>Add a globally recognized certification to your LinkedIn profile to show your employer — or future employer — you know your stuff.</span></p></div>
+    <h3 class="hsg-multi-col__name">Solving Real-World Problems</h3>
+    <div class="hsg-multi-col__description"><p><span>A DAST is dedicated to using technology to address real-world challenges across various sectors. By partnering with DAST, individuals and organizations can collaborate on innovative projects that have a meaningful impact. </span></p></div>
     <!-- generateModuleCtas Called -->
   </div>
 </div>
 <div class="hsg-multi-col__item">
   <div class="hsg-multi-col-item__text-content">
-    <h3 class="hsg-multi-col__name">Grow Your Business</h3>
-    <div class="hsg-multi-col__description"><p><span>Build your business strategy on the inbound methodology to generate more leads, close more deals, and delight your customers.</span></p></div>
+    <h3 class="hsg-multi-col__name">Driving Innovation and Competitiveness</h3>
+    <div class="hsg-multi-col__description"><p><span>In today's rapidly evolving digital landscape, staying competitive requires embracing innovation. Partnering with DAST allows individuals, businesses, and organizations to stay at the forefront of technological advancements..</span></p></div>
     <!-- generateModuleCtas Called -->
   </div>
 </div>
@@ -1563,7 +1518,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <section style="background: rgb(1, 1, 33);" class="hsg-promo-bar" data-background="dark">
 <div class="hsg-page-width-normal"><div class="hsg-promo-bar__contents is-link" style="background: rgb(1, 1, 33);">
     <div class="hsg-promo-bar__container" >
-      <a href="" target="_blank" class="hsg-promo-bar__text-link">Stay sharp. Learn from leading experts on the latest business trends.</a>
+      <a href="" target="_blank" class="hsg-promo-bar__text-link">We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.</a>
 </div>
 
    
