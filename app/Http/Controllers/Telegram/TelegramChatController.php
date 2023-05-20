@@ -39,7 +39,7 @@ class TelegramChatController extends Controller
 
         $this->update = $this->baseTelegram->getUpdate($request);
         $this->user_id = $this->update->message->from->id;
-        $this->username = $this->update->message->from->username;
+        $this->username = $this->update->message->from->username ?? null;
         if ($this->update->message->text) {
             $this->handleCommand($this->update->message->text);
         }
