@@ -18,4 +18,22 @@ class DastPagesController extends Controller
    public function pay(){
     return view('dast.pay');
    }
+
+
+   public function contact(){
+      return view('dast.contact');
+     }
+
+
+     public function partners(){
+      return view('dast.partner');
+     }
+     
+
+
+     
+     public function lab(){
+      return view('dast.lab');
+     }
+     
 }

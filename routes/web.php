@@ -44,5 +44,11 @@ Route::get('email-test', function(){
     Route::get('/dast-app',[DastPagesController::class,'app']);
     Route::get('/dast-chat',[DastPagesController::class,'chat']);
     Route::get('/dast-pay',[DastPagesController::class,'pay']);
+    Route::get('/dast-contact',[DastPagesController::class,'contact']);
+    Route::get('/dast-partners',[DastPagesController::class,'partners']);
+    Route::get('/dast-lab',[DastPagesController::class,'lab']);
+
+
+
 
 

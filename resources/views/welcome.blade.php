@@ -358,7 +358,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             
             
             
-            <a class="ga_nav_link homepage-nav-login" data-logged-in-text="Go to my account" data-logged-in-href="" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Log in">Log in</a>
+            <a class="ga_nav_link homepage-nav-login" data-logged-in-text="Go to my account" data-logged-in-href="" href="/dast-contact" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Log in">Contact Us</a>
           
         </li>
 
@@ -444,9 +444,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="hsg-nav__inner">
         <a style="color: rgb(1, 1, 49)"  href="/" id="hsg-nav__logo" aria-label="DAST" class="ga_nav_link logo-utility-nav" data-ga_nav_type="header_nav" data-ga_nav_tree_text="dast ">
         DAST TECH
-          <img id="hsg-nav__logo-fixed" alt="DAST" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjdweCIgaGVpZ2h0PSIyOHB4IiB2aWV3Qm94PSIwIDAgMjcgMjgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUxLjMgKDU3NTQ0KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT7OmE1hcmtldGluZy9Mb2dvcy9TcHJvY2tldDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJNSEUtUG9zdC1MYXVuY2gtVXBkYXRlcyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9Is6YTWFya2V0aW5nL0xvZ29zL1Nwcm9ja2V0IiBmaWxsPSIjZjk1YzM1Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTE5LjYxNDIzMywyMC4xNzcxMTYyIEMxNy41MjI4MDQxLDIwLjE3NzExNjIgMTUuODI3NDI0MSwxOC40OTkzNDU3IDE1LjgyNzQyNDEsMTYuNDI5OTk5NSBDMTUuODI3NDI0MSwxNC4zNjAyOTM3IDE3LjUyMjgwNDEsMTIuNjgyNTIzMiAxOS42MTQyMzMsMTIuNjgyNTIzMiBDMjEuNzA1NjYxOSwxMi42ODI1MjMyIDIzLjQwMTA0MTgsMTQuMzYwMjkzNyAyMy40MDEwNDE4LDE2LjQyOTk5OTUgQzIzLjQwMTA0MTgsMTguNDk5MzQ1NyAyMS43MDU2NjE5LDIwLjE3NzExNjIgMTkuNjE0MjMzLDIwLjE3NzExNjIgTTIwLjc0Nzg3NzUsOS4yMTU1MTQyOSBMMjAuNzQ3ODc3NSw1Ljg4MTkwNzIyIEMyMS42MjcxNzg4LDUuNDcwOTE0NTcgMjIuMjQzMDUzLDQuNTkwNjc4MzMgMjIuMjQzMDUzLDMuNTY5MTI5NjcgTDIyLjI0MzA1MywzLjQ5MjE4MDkxIEMyMi4yNDMwNTMsMi4wODIyOTI3MyAyMS4wNzc0MzM4LDAuOTI4NzgwNTQ1IDE5LjY1Mjc0NzgsMC45Mjg3ODA1NDUgTDE5LjU3NTM1NDgsMC45Mjg3ODA1NDUgQzE4LjE1MDY2ODgsMC45Mjg3ODA1NDUgMTYuOTg1MDQ5NiwyLjA4MjI5MjczIDE2Ljk4NTA0OTYsMy40OTIxODA5MSBMMTYuOTg1MDQ5NiwzLjU2OTEyOTY3IEMxNi45ODUwNDk2LDQuNTkwNjc4MzMgMTcuNjAwOTIzOCw1LjQ3MTI3NDE0IDE4LjQ4MDIyNTEsNS44ODIyNjY3OSBMMTguNDgwMjI1MSw5LjIxNTUxNDI5IEMxNy4xNzEwODM2LDkuNDE1Nzk2OCAxNS45NzQ5NDMyLDkuOTUwMTIzMjEgMTQuOTg4NDU0NSwxMC43MzY1MTA3IEw1LjczOTQ0MDg2LDMuNjE2NTkzMzkgQzUuODAwNDgzMjYsMy4zODQ2Njg0IDUuODQzMzU4MjgsMy4xNDU5MTE1MSA1Ljg0MzcyMTYzLDIuODk0OTI5MTIgQzUuODQ1MTc1MDIsMS4yOTg0MjIyMyA0LjUzOTMwMzY4LDAuMDAyMTU5MzE0ODYgMi45MjUzMTM1NiwxLjg3MzExMTA3ZS0wNiBDMS4zMTIwNTAxNCwtMC4wMDE3OTU5OTUwMSAwLjAwMTgxODYzMTM4LDEuMjkwODcxMTggMS44OTMyOTY1ZS0wNiwyLjg4NzczNzY1IEMtMC4wMDE4MTQ4NDQ3OSw0LjQ4NDYwNDEyIDEuMzA0MDU2NDksNS43ODA4NjcwMyAyLjkxODA0NjYxLDUuNzgyNjY0OSBDMy40NDM4MTA2MSw1Ljc4MzM4NDA1IDMuOTMwNjk2NDIsNS42MzU1OTkyOSA0LjM1NzI2NjUyLDUuMzk1NDA0MTEgTDEzLjQ1NTEyNzUsMTIuMzk5NTM4NyBDMTIuNjgxNTYwNCwxMy41NTUyMDg0IDEyLjIyODEwMjYsMTQuOTM5NTY2OCAxMi4yMjgxMDI2LDE2LjQyOTk5OTUgQzEyLjIyODEwMjYsMTcuOTkwMTg5NCAxMi43MjYyNTIyLDE5LjQzMzUxOCAxMy41Njc3NjUzLDIwLjYyMDQ3MDUgTDEwLjgwMTIzNjUsMjMuMzU4NjIzNyBDMTAuNTgyNTAxMywyMy4yOTM1NDA4IDEwLjM1NTc3MjMsMjMuMjQ4MjM0NiAxMC4xMTUyMzYyLDIzLjI0ODIzNDYgQzguNzg5MzgwNzYsMjMuMjQ4MjM0NiA3LjcxNDIzNTE2LDI0LjMxMTg1MzMgNy43MTQyMzUxNiwyNS42MjM5Mzc1IEM3LjcxNDIzNTE2LDI2LjkzNjM4MTIgOC43ODkzODA3NiwyOCAxMC4xMTUyMzYyLDI4IEMxMS40NDE0NTUsMjggMTIuNTE2MjM3MywyNi45MzYzODEyIDEyLjUxNjIzNzMsMjUuNjIzOTM3NSBDMTIuNTE2MjM3MywyNS4zODY2MTg5IDEyLjQ3MDQ1NTUsMjUuMTYxODg1NCAxMi40MDQ2ODk2LDI0Ljk0NTQyMjEgTDE1LjE0MTQyMzgsMjIuMjM3MTEzNSBDMTYuMzgzNzA5MywyMy4xNzUyNDExIDE3LjkzMDg0MzUsMjMuNzM5MDUyNiAxOS42MTQyMzMsMjMuNzM5MDUyNiBDMjMuNjkzNTM2NywyMy43MzkwNTI2IDI3LDIwLjQ2NjU3MyAyNywxNi40Mjk5OTk1IEMyNywxMi43NzU2NTI3IDI0LjI4NzI0NjcsOS43NTY2NzI2IDIwLjc0Nzg3NzUsOS4yMTU1MTQyOSIgaWQ9Ik1hcmtldGluZy9Mb2dvcy9TcHJvY2tldCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+">
-          
-          <img id="hsg-nav__logo-mobile" alt="DAST" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjdweCIgaGVpZ2h0PSIyOHB4IiB2aWV3Qm94PSIwIDAgMjcgMjgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUxLjMgKDU3NTQ0KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT7OmE1hcmtldGluZy9Mb2dvcy9TcHJvY2tldDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJNSEUtUG9zdC1MYXVuY2gtVXBkYXRlcyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9Is6YTWFya2V0aW5nL0xvZ29zL1Nwcm9ja2V0IiBmaWxsPSIjZjk1YzM1Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTE5LjYxNDIzMywyMC4xNzcxMTYyIEMxNy41MjI4MDQxLDIwLjE3NzExNjIgMTUuODI3NDI0MSwxOC40OTkzNDU3IDE1LjgyNzQyNDEsMTYuNDI5OTk5NSBDMTUuODI3NDI0MSwxNC4zNjAyOTM3IDE3LjUyMjgwNDEsMTIuNjgyNTIzMiAxOS42MTQyMzMsMTIuNjgyNTIzMiBDMjEuNzA1NjYxOSwxMi42ODI1MjMyIDIzLjQwMTA0MTgsMTQuMzYwMjkzNyAyMy40MDEwNDE4LDE2LjQyOTk5OTUgQzIzLjQwMTA0MTgsMTguNDk5MzQ1NyAyMS43MDU2NjE5LDIwLjE3NzExNjIgMTkuNjE0MjMzLDIwLjE3NzExNjIgTTIwLjc0Nzg3NzUsOS4yMTU1MTQyOSBMMjAuNzQ3ODc3NSw1Ljg4MTkwNzIyIEMyMS42MjcxNzg4LDUuNDcwOTE0NTcgMjIuMjQzMDUzLDQuNTkwNjc4MzMgMjIuMjQzMDUzLDMuNTY5MTI5NjcgTDIyLjI0MzA1MywzLjQ5MjE4MDkxIEMyMi4yNDMwNTMsMi4wODIyOTI3MyAyMS4wNzc0MzM4LDAuOTI4NzgwNTQ1IDE5LjY1Mjc0NzgsMC45Mjg3ODA1NDUgTDE5LjU3NTM1NDgsMC45Mjg3ODA1NDUgQzE4LjE1MDY2ODgsMC45Mjg3ODA1NDUgMTYuOTg1MDQ5NiwyLjA4MjI5MjczIDE2Ljk4NTA0OTYsMy40OTIxODA5MSBMMTYuOTg1MDQ5NiwzLjU2OTEyOTY3IEMxNi45ODUwNDk2LDQuNTkwNjc4MzMgMTcuNjAwOTIzOCw1LjQ3MTI3NDE0IDE4LjQ4MDIyNTEsNS44ODIyNjY3OSBMMTguNDgwMjI1MSw5LjIxNTUxNDI5IEMxNy4xNzEwODM2LDkuNDE1Nzk2OCAxNS45NzQ5NDMyLDkuOTUwMTIzMjEgMTQuOTg4NDU0NSwxMC43MzY1MTA3IEw1LjczOTQ0MDg2LDMuNjE2NTkzMzkgQzUuODAwNDgzMjYsMy4zODQ2Njg0IDUuODQzMzU4MjgsMy4xNDU5MTE1MSA1Ljg0MzcyMTYzLDIuODk0OTI5MTIgQzUuODQ1MTc1MDIsMS4yOTg0MjIyMyA0LjUzOTMwMzY4LDAuMDAyMTU5MzE0ODYgMi45MjUzMTM1NiwxLjg3MzExMTA3ZS0wNiBDMS4zMTIwNTAxNCwtMC4wMDE3OTU5OTUwMSAwLjAwMTgxODYzMTM4LDEuMjkwODcxMTggMS44OTMyOTY1ZS0wNiwyLjg4NzczNzY1IEMtMC4wMDE4MTQ4NDQ3OSw0LjQ4NDYwNDEyIDEuMzA0MDU2NDksNS43ODA4NjcwMyAyLjkxODA0NjYxLDUuNzgyNjY0OSBDMy40NDM4MTA2MSw1Ljc4MzM4NDA1IDMuOTMwNjk2NDIsNS42MzU1OTkyOSA0LjM1NzI2NjUyLDUuMzk1NDA0MTEgTDEzLjQ1NTEyNzUsMTIuMzk5NTM4NyBDMTIuNjgxNTYwNCwxMy41NTUyMDg0IDEyLjIyODEwMjYsMTQuOTM5NTY2OCAxMi4yMjgxMDI2LDE2LjQyOTk5OTUgQzEyLjIyODEwMjYsMTcuOTkwMTg5NCAxMi43MjYyNTIyLDE5LjQzMzUxOCAxMy41Njc3NjUzLDIwLjYyMDQ3MDUgTDEwLjgwMTIzNjUsMjMuMzU4NjIzNyBDMTAuNTgyNTAxMywyMy4yOTM1NDA4IDEwLjM1NTc3MjMsMjMuMjQ4MjM0NiAxMC4xMTUyMzYyLDIzLjI0ODIzNDYgQzguNzg5MzgwNzYsMjMuMjQ4MjM0NiA3LjcxNDIzNTE2LDI0LjMxMTg1MzMgNy43MTQyMzUxNiwyNS42MjM5Mzc1IEM3LjcxNDIzNTE2LDI2LjkzNjM4MTIgOC43ODkzODA3NiwyOCAxMC4xMTUyMzYyLDI4IEMxMS40NDE0NTUsMjggMTIuNTE2MjM3MywyNi45MzYzODEyIDEyLjUxNjIzNzMsMjUuNjIzOTM3NSBDMTIuNTE2MjM3MywyNS4zODY2MTg5IDEyLjQ3MDQ1NTUsMjUuMTYxODg1NCAxMi40MDQ2ODk2LDI0Ljk0NTQyMjEgTDE1LjE0MTQyMzgsMjIuMjM3MTEzNSBDMTYuMzgzNzA5MywyMy4xNzUyNDExIDE3LjkzMDg0MzUsMjMuNzM5MDUyNiAxOS42MTQyMzMsMjMuNzM5MDUyNiBDMjMuNjkzNTM2NywyMy43MzkwNTI2IDI3LDIwLjQ2NjU3MyAyNywxNi40Mjk5OTk1IEMyNywxMi43NzU2NTI3IDI0LjI4NzI0NjcsOS43NTY2NzI2IDIwLjc0Nzg3NzUsOS4yMTU1MTQyOSIgaWQ9Ik1hcmtldGluZy9Mb2dvcy9TcHJvY2tldCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+">
+         
 
           
         </a>
@@ -525,6 +523,32 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               </div>
               
             </li>
+
+
+
+
+
+ 
+            <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
+              <div class="hsg-nav__link-wrapper">
+                
+                <a style="color: rgb(1, 1, 49)"  href="/dast-lab" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                  <span class="hsg-nav__link-label">
+                   DAST Lab
+                    
+                  </span>
+                </a>
+                
+              </div>
+              
+            </li>
+
+
+
+
+
+
+
             
             <li class="hsg-nav__group-item hsg-nav__group-item--order-3  hsg-nav__group-item--has-dropdown ">
               <a href="/dast-chat">
@@ -1031,13 +1055,15 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div class="header-nav__ctas ">
     
     <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
-      Get a demo <span class="visually-hidden"></span>
+      DAST Armies <span class="visually-hidden"></span>
     </a>
     
     
-      <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="">
-        Get started  <span class="visually-hidden">Get started with DAST</span>
+      <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/dast-partners">
+        DAST Partners <span class="visually-hidden">DAST Partners</span>
       </a>
+
+      
     
   </div> 
 
@@ -1114,12 +1140,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
               
               
-              <a href="" data-logged-in-text="Go to my account" data-logged-in-href="" class="ga_nav_link" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Log in">Log in</a>
+              <a href="" data-logged-in-text="Go to my account" data-logged-in-href="" class="ga_nav_link" data-ga_nav_type="header_nav" >Contact Us</a>
               
             </li>
             <li class="hsg-nav__group-item">
               
-              <a class="ga_nav_link hsg-nav__group-item--utility" href="https://help.hubspot.com/?_ga=2.23678194.978470726.1592315215-1192486389.1556035228" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
+              <a class="ga_nav_link hsg-nav__group-item--utility" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
               
             </li>
           </ul>
@@ -1136,19 +1162,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<!--[if lte IE 10]>
-<a href="http://outdatedbrowser.com" class="browser-upgrade-notification" style="width: 100%; text-align: center; color: #FFF; background-color: #11434c; display: block;">
-  <p style="font-size: .875em; color: #FFF; padding: 15px 0px; margin: 0px;">
-    <img class="browser-upgrade-notification__emoji"
-          src="https://www.hubspot.com/hubfs/assets/hubspot.com/icons/Sad_Face_Emoji_large.png?t=1494954070529" alt=""
-          style="max-height: 1.3em; position: relative; top: 4px; right: 3px;">
-      Looks like your browser is stuck in the past. Update to the latest version for a better, faster, stronger (and safer) browsing experience.
-    <img class="browser-upgrade-notification__arrow"
-          src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/icons/Arrow.png" style="position: relative; left: 0%;">
-  </p>
-</a>
-<![endif]-->
-  <!--Publish Embargo Module --->
   
 
   <div id="hs_cos_wrapper_module_16637605146933" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
@@ -1188,7 +1201,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="homepage-hero-branding-rollout__media">
         
           <div class="homepage-hero-branding-rollout__media-wrapper">
-            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://images.unsplash.com/photo-1614064850003-13dbfd69fd11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRpZ2l0YWwlMjBzZWN1cml0eSUyMGtleXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://dast.tech/assets/images/key.png">
             <img class="homepage-hero-branding-rollout__media-image--mobile" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST platform" src="https://dast.tech/assets/images/sp.png">
           </div>
         
@@ -1794,7 +1807,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         Blog</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="6">
-      <a class="ga_nav_link " href="" data-order="6" data-linkorder="6" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Contact Us">
+      <a class="ga_nav_link " href="/dast-contact" data-order="6" data-linkorder="6" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Contact Us">
         Contact Us</a>
     </li>
     </ul>
@@ -1908,6 +1921,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           DASTdAPP</a></li>
         <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
           DASTGPT</a></li>
+
+
+
+
+
+
+          
         <li><a href="/about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
           ABOUT US</a></li>
         <li class="hs-footer-cookie-settings" hidden>
