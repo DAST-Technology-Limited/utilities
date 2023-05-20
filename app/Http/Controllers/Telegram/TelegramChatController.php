@@ -91,7 +91,7 @@ class TelegramChatController extends Controller
             }
         } catch (\Throwable $th) {
         } finally {
-            $user = TGUser::firstOrCreate(["tg_id" => $this->user_id, "tg_username" => $this->username]);
+            $user = TGUser::firstOrCreate(["tg_id" => $this->user_id, "tg_username" => $this->username ?? ""]);
             if ($createQuestion) {
                 $user->chats()->create(["t_g_user_id" => $this->user_id, "questions" => $command, "response" => $response]);
             }
