@@ -1,7 +1,9 @@
 
 <!doctype html><html lang="en"><head>
     <meta charset="utf-8">
-    <title>Build and Manage Your Website on CMS Hub | HubSpot</title>
+    <title>
+        Welcome to DAST Lab: Empowering Global Talents in Web3 and AI Training & Technologies!
+        </title>
     
 
 <style>
@@ -1186,7 +1188,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     </a>
                   
                 </li><li class="hsg-breadcrumbs__item"><a style="color:white;"class="hsg-breadcrumbs__link current-link" href="">
-                      DASTPay
+                      DAST Lab
                     </a>
                   
                 </li>
@@ -1201,7 +1203,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <section style="background: rgb(1, 1, 33); color:white;"  class="product-core-header" data-background="white">
   <div class="product-core-header__container left">
     <div class="product-core-header__image">
-      <img class="product-core-header__image-inner hsg-deferred" data-src="https://www.hubspot.com/hubfs/CMS-Hub-Featured-Image@2x.png" alt="dast">
+      <img class="product-core-header__image-inner hsg-deferred" data-src="https://dast.tech/assets/images/ideology%20image.png" alt="dast">
     </div>
     <div class="product-core-header__text">
       
@@ -1210,45 +1212,45 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
             <span class="sales-hub-icon" style="background-image: url(https://www.hubspot.com/hubfs/product_icons_2022/CMSHub_Icon_Gradient_RGB_24px.svg); "></span>
           
-          dastpay
+          dast Lab
         </strong>
       
-      <h3 class="product-core-header__text-title">Simplify Your Finances, Anytime, Anywhere with Speed
-      </h3>
+      <h4 style="font-size: large;" class="product-core-header__text-title">Empowering Global Talents in Web3 and AI Training & Technologies!
+
+      </h4>
       
       <div class="product-core-header__ctas ">
         <a href="" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Get a demo</a>
         
-          <a href="" class="product-core-header__text--cta-secondary cta--secondary product-core-header__text-multi-cta cms-hero-2">
-            Get started free
-          </a>
         
       </div>
       <div class="product-core-header__accordion-container"><ul class="hsg-accordion" data-size="small" data-display-option="card">
             <li class="hsg-accordion__item">
                 <button class="hsg-accordion__label">
-                  <h3 class="hsg-accordion__label-text cms-hero-product">Convenient Bill Payments</h3>
+                  <h3 class="hsg-accordion__label-text cms-hero-product">Comprehensive Training</h3>
                 </button>
                 <div class="hsg-accordion__content">
-                  <div><p> Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. With DASTPay, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone.
+                  <div><p> Our expert-led courses cover a wide range of web2 and web3 technologies, providing you with a solid foundation and hands-on experience.
+
                   </p></div>
                 </div>
               </li>
               <li class="hsg-accordion__item">
                 <button class="hsg-accordion__label">
-                  <h3 class="hsg-accordion__label-text cms-hero-pricing">Seamless Mobile Payments</h3>
+                  <h3 class="hsg-accordion__label-text cms-hero-pricing">Job Placement Assistance</h3>
                 </button>
                 <div class="hsg-accordion__content">
-                  <div><p>F Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores, DASTPay provides a seamless payment experience that's fast, reliable, and convenient.
+                  <div><p> Upon course completion, gain access to our extensive network of tech companies actively seeking skilled professionals. We connect you with exciting job opportunities that align with your expertise.
                   </p></div>
                 </div>
               </li>
               <li class="hsg-accordion__item">
                 <button class="hsg-accordion__label">
-                  <h3 class="hsg-accordion__label-text cms-hero-features">Cross-border Remittance Made Simple</h3>
+                  <h3 class="hsg-accordion__label-text cms-hero-features">Supportive Community:</h3>
                 </button>
                 <div class="hsg-accordion__content">
-                  <div><p>Sending money across borders has never been easier. DASTPay offers a reliable and cost-effective solution for cross-border remittance, allowing you to transfer funds to your loved ones or business partners globally, with competitive exchange rates and minimal fees.
+                  <div><p>Join a vibrant community of learners, mentors, and industry experts who are passionate about sharing knowledge and fostering growth.
+
                   </p></div>
                 </div>
               </li>
@@ -1294,7 +1296,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-            <button class="h4 hsg-tabs__heading hsg-visible-lte-mobile hsg-tabs__active-mobile sales-jtbd1 marketers-tab" data-tab="0">DAST Pay</button>
+            <button class="h4 hsg-tabs__heading hsg-visible-lte-mobile hsg-tabs__active-mobile sales-jtbd1 marketers-tab" data-tab="0">DAST Lab</button>
             <div data-tab="0" class="hsg-tabs__content hsg-tabs__active hsg-tabs__active-mobile">
 
               <!-- Section Header -->
@@ -1302,11 +1304,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 <section class="section-header product-tabs-cms__tab-section">
                   
                     <h3 class="section-header__header">
-                      DASTPay is your passport to a more streamlined and efficient financial lifestyle. Embrace the future of fintech and unlock the power of seamless bill payments, mobile payments, and cross-border remittance with DASTPay.
+                        At DAST Lab, we offer cutting-edge courses designed to equip you with the skills needed to thrive in the digital age.
+                        Empower Your Future with Web3 Skills at DAST Lab!
+                        
                     </h3>
                   
                   
-                    <p>Access DASTPay with whatsapp or telegram today and take control of your financial world, wherever you are.
+                    <p>Our commitment to your success doesn't end with course completion. Access ongoing resources, workshops, webinars, networking events and partnerships to fuel your continuous professional development and growth.
+                        .
                     </p>
                   
                 </section>
@@ -1319,9 +1324,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <div class="hsg-cta-block__inner">
                     <div class="hsg-flex hsg-cta-block__content-wrapper">
                       <div class="hsg-cta-block__content hsg-cta-block__content--half">
-                        <h3 class="hsg-cta-block__header">DASTPay</h3>
-                        <p class="hsg-cta-block__subheader">The content payments, mobile payments, and cross-border remittance with DASTPay.
-                          Access DASTPay with whatsapp or telegram today and take control of your financial world, wherever you are.
+                        <h3 class="hsg-cta-block__header">DAST Lab</h3>
+                        <p class="hsg-cta-block__subheader">Don't miss out on this opportunity to upgrade your skills and unlock exciting career prospects. Join DAST Lab today and become part of a thriving community shaping the future of technology in Africa.
+                            Are you ready to embark on a transformative learning journey?
+                            
                           .</p>
 
                         
@@ -1330,7 +1336,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       Get a demo
     </a>
     <a class="cta--secondary cta--small cms-marketers-2" href="">
-      Get started 
+      Enroll Now
     </a>
     
                         </div>
@@ -1343,7 +1349,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             <div class="hsg-video-gallery__playbar">
                                 
                             </div>
-                            <img style="width: 100%; margin: auto; display: block;"  data-tracking="" class="vidyard-player-embed hsg-deferred " src="https://images.unsplash.com/photo-1556742077-0a6b6a4a4ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBheXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" >
+                            <img style="width: 100%; margin: auto; display: block;"  data-tracking="" class="vidyard-player-embed hsg-deferred " src="https://dast.tech/assets/images/sp.png" >
                           </div>
                           
                         
@@ -1362,8 +1368,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     <div class="section-header product-tabs-cms__tab-section">
                       
                         <h4 class="section-header__header">
-                          Key Features:That
-                          make this possible:
+                            Why choose DAST Lab?
                         </h4>
                       
                     </div>
@@ -1377,12 +1382,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           <div class="hsg-multi-col-item__text-content">
                             
                               <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/drag-and-drop-website-builder?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Integration with Major Messaging Apps</a>
+                                <a href="https://www.hubspot.com/products/cms/drag-and-drop-website-builder?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Lifelong Learning</a>
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Access DASTPay directly within your favourite messaging apps (Telegram or whatsapp), eliminating the need to switch between multiple applications. Send money, pay bills, and manage your finances seamlessly, all while staying connected with friends and family.
+                              <div class="hsg-multi-col__description"><p>Our commitment to your success doesn't end with course completion. Access ongoing resources, workshops, webinars, networking events and partnerships to fuel your continuous professional development and growth.
+
                                 .</p></div>
                             
 
@@ -1398,12 +1404,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           <div class="hsg-multi-col-item__text-content">
                             
                               <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/website-themes-templates?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Robust Security and Privacy</a>
+                                <a href="">Enhanced Career Prospects</a>
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p> Your financial security is our top priority. DASTPay employs state-of-the-art encryption technology and strict security measures to ensure that your transactions and personal information are protected at all times..</p></div>
+                              <div class="hsg-multi-col__description"><p>  Acquired in-demand skills that make you stand out in the job market, opening doors to exciting career opportunities..</p></div>
                             
 
                             
@@ -1418,32 +1424,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           <div class="hsg-multi-col-item__text-content">
                             
                               <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/crm?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">User-friendly Interface</a>
+                                <a href="https://www.hubspot.com/products/crm?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Active in the Tech Revolution</a>
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>TExperience a sleek and intuitive interface that makes navigating DASTPay a breeze. Whether you're a tech-savvy individual or new to digital payments, our user-friendly design ensures a smooth and enjoyable user experience.</p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/web-hosting?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Convenient Bill Payments</a>
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. With DASTPay, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone.
+                              <div class="hsg-multi-col__description"><p>You would become part of a rapidly evolving industry that drives innovation and shapes the future of Africa's digital landscape in the global market. 
                                 .</p></div>
                             
 
@@ -1459,12 +1445,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           <div class="hsg-multi-col-item__text-content">
                             
                               <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/custom-domain-connection?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Seamless Mobile Payments</a>
+                                <a href="https://www.hubspot.com/products/cms/web-hosting?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Contributing to Economic Growth</a>
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores, DASTPay provides a seamless payment experience that's fast, reliable, and convenient.</p></div>
+                              <div class="hsg-multi-col__description"><p>By developing your tech skills, you'll play a crucial role in driving economic growth and technological advancement in Africa.
+
+                                .</p></div>
                             
 
                             
@@ -1479,12 +1467,32 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           <div class="hsg-multi-col-item__text-content">
                             
                               <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/free-blog-maker?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Cross-border Remittance Made Simple</a>
+                                <a href="https://www.hubspot.com/products/cms/custom-domain-connection?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Fuel Your Continuous Professional Development with Lifelong Learning</a>
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Sending money across borders has never been easier. DASTPay offers a reliable and cost-effective solution for cross-border remittance, allowing you to transfer funds to your loved ones or business partners globally, with competitive exchange rates and minimal fees.
+                              <div class="hsg-multi-col__description"><p>Our commitment to your success doesn't end with course completion. We offer ongoing resources, workshops, webinars, networking events, and partnerships to support your continuous professional development and growth.</p></div>
+                            
+
+                            
+                          </div>
+                        </div>
+                      
+                    
+                      
+                        <div class="hsg-multi-col__item">
+                          
+
+                          <div class="hsg-multi-col-item__text-content">
+                            
+                              <h5 class="hsg-multi-col__name">
+                                <a href="https://www.hubspot.com/products/cms/free-blog-maker?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Expert-Led Courses for Web2 and Web3 Technologies</a>
+                              </h5>
+                            
+
+                            
+                              <div class="hsg-multi-col__description"><p>Our comprehensive training offers expert-led courses that cover a wide range of web2 and web3 technologies. You'll gain a solid foundation and valuable hands-on experience in these cutting-edge areas, equipping you with the skills needed to thrive in the tech industry.
 
                                 .</p></div>
                             
@@ -1504,13 +1512,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
+            <button class="h4 hsg-tabs__heading hsg-visible-lte-mobile sales-jtbd2 developers-tab" data-tab="1">Unlock Exciting Job Opportunities with Job Placement Assistance</button>
             <div data-tab="1" class="hsg-tabs__content">
 
               <!-- Section Header -->
               
                 <section class="section-header product-tabs-cms__tab-section">
                   
-                   
+                    <h2 class="section-header__header">
+                        "Industry-Relevant Curriculum Tailored to Current Trends
+                    </h2>
                   
                   
                   
@@ -1524,11 +1535,15 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <div class="hsg-cta-block__inner">
                     <div class="hsg-flex hsg-cta-block__content-wrapper">
                       <div class="hsg-cta-block__content hsg-cta-block__content--half">
-                        
+                        <h3 class="hsg-cta-block__header">Industry-Relevant Curriculum Tailored to Current Trends</h3>
+                        <p class="hsg-cta-block__subheader">Our curriculum is designed to stay up-to-date with the latest industry trends and demands. You'll learn in-demand skills and technologies that are highly relevant to the current tech landscape, ensuring that you're equipped with the knowledge and expertise that employers are looking for..</p>
 
                         
                         <div class="hsg-cta-block__cta-wrapper ">
-                          
+                          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-developers-1" href="https://developers.hubspot.com/docs/cms/guides/getting-started?utm_source=Main%20Site&amp;utm_medium=Product%20Page&amp;utm_campaign=Getting%20Started%20Button">
+      Get started on the CMS
+    </a>
+    
     
                         </div>
 
@@ -1732,6 +1747,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
+            <button class="h4 hsg-tabs__heading hsg-visible-lte-mobile sales-jtbd3 it-teams-tab" data-tab="2">IT Teams</button>
             <div data-tab="2" class="hsg-tabs__content">
 
               <!-- Section Header -->
@@ -1946,18 +1962,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="hsg-flex hsg-cta-block__content-wrapper">
       <div class="hsg-cta-block__content hsg-cta-block__content--half">
         
-          <h2 class="hsg-cta-block__header">Unlock the Power of Seamless Finance with DASTPay</h2>
+          <h2 class="hsg-cta-block__header">Unlock the Power of Success with DAST Lab</h2>
         
-        <p class="hsg-cta-block__subheader">You can access DASTPay conveniently through popular messaging apps like WhatsApp or Telegram, allowing you to manage your finances wherever you are. With DASTPay, you can enjoy the benefits of a seamless and efficient financial platform that simplifies your payment processes and provides a more convenient and accessible experience.</p>
+        <p class="hsg-cta-block__subheader">Don't miss out on this opportunity to upgrade your skills and unlock exciting career prospects. Join DAST Lab today and become part of a thriving community shaping the future of technology in Africa.</p>
 
         
         <div class="hsg-cta-block__cta-wrapper ">
-          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-migrations-1" href="https://ecosystem.hubspot.com/marketplace/solutions?eco_certification=8030" target="_blank" data-mce-target="_blank">
-      Find a partner
+          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-migrations-1" href="" target="_blank" data-mce-target="_blank">
+      Enroll Now
     </a>
-    <a class="cta--secondary cta--small cms-migrations-2" href="">
-      Talk to Sales
-    </a>
+    
     
         </div></div>
         
@@ -1977,7 +1991,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <section class="accordion-2-col" data-background="dark">
   <div class="hsg-page-width-normal">
     
-      <h3 style="font-size: large;" class="accordion-2-col__header">DastPay FAQ ...</h3>
+      <h2 class="accordion-2-col__header">Dast Lab FAQ ...</h2>
     
     
       
@@ -1988,12 +2002,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">What is DASTPay?</h3>
+              <h3 class="hsg-accordion__label-text">How does DAST Lab ensure the security of its training platform and participants' data?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p>DASTPay is a fintech mobile app that simplifies financial transactions such as bill payments, mobile payments, and cross-border remittance. It is designed to provide a seamless and convenient platform for managing your finances..</p></div>
+              <div><p> At DAST Lab, we prioritize the security of our training platform and the protection of participants' data. We implement robust security measures, including encryption protocols, access controls, and regular security audits, to safeguard the confidentiality and integrity of the platform and the data shared by our participants..</p></div>
             </div>
           </li>
         
@@ -2002,12 +2016,15 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">How can I access DASTPay?</h3>
+              <h3 class="hsg-accordion__label-text">Is my personal information safe with DAST Lab?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p>You can access DASTPay through major messaging apps like WhatsApp or Telegram. Simply download the DASTPay app and link it to your preferred messaging app to start using its features..</p></div>
+              <div><p>Yes, your personal information is safe with DAST Lab. We adhere to strict privacy policies and comply with relevant data protection regulations. We take necessary precautions to secure your personal information and ensure it is only used for the intended purposes within the scope of our training programs.
+
+                Q: How is the confidentiality of the training materials maintained at DAST Lab?
+                A: DAST Lab treats the training materials provided to participants as highly confidential. We have measures in place to prevent unauthorized access or sharing of the training materials. Participants are expected to adhere to the terms and conditions regarding the use and confidentiality of the materials to maintain their integrity..</p></div>
             </div>
           </li>
         
@@ -2016,12 +2033,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">What types of bills can I pay with DASTPay?</h3>
+              <h3 class="hsg-accordion__label-text">What measures are taken to prevent unauthorized access to DAST Lab's learning platform?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p>DASTPay allows you to conveniently settle various bills, including utilities (such as electricity), subscriptions (Airtime, Data, Cable TV), and educational examination pins (WAEC and NECO)..</p></div>
+              <div><p>DAST Lab employs various security measures to prevent unauthorized access to our learning platform. These measures include secure user authentication mechanisms, strong password policies, and regular monitoring of system logs to detect and respond to any suspicious activity promptly...</p></div>
             </div>
           </li>
         
@@ -2030,12 +2047,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">Is DASTPay secure?</h3>
+              <h3 class="hsg-accordion__label-text"> How does DAST Lab handle potential security incidents or data breaches?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p>Yes, DASTPay prioritizes the security of your financial transactions. It implements robust security measures to protect your personal and payment information, ensuring a safe and reliable experience.. <a href=""><span>Learn more</span></a>.</p></div>
+              <div><p> In the event of a security incident or data breach, DAST Lab has incident response protocols in place. We will take immediate action to mitigate the impact, investigate the incident thoroughly, and notify affected individuals as required by applicable laws and regulations. <a href=""><span>Learn more</span></a>.</p></div>
             </div>
           </li>
         </ul>
@@ -2049,12 +2066,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">Can I use DASTPay for online and offline purchases?</h3>
+              <h3 class="hsg-accordion__label-text"> Can I report a security vulnerability or concern I find in DAST Lab's systems?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p>Absolutely. DASTPay enables seamless mobile payments, allowing you to make secure transactions for both online and offline purchases. Whether you're shopping online or at local stores, DASTPay offers a convenient payment solution..</p></div>
+              <div><p> Yes, we encourage participants to report any security vulnerabilities or concerns they discover in our systems. DAST Lab has a responsible disclosure policy in place, and we appreciate the proactive involvement of our community in helping us maintain a secure learning environment. You can reach out to our support team or designated security contacts to report any findings.</p></div>
             </div>
           </li>
         
@@ -2063,12 +2080,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">How does DASTPay handle cross-border remittance?</h3>
+              <h3 class="hsg-accordion__label-text">Does DAST Lab conduct regular security audits or assessments?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p> DASTPay simplifies cross-border remittance by providing a reliable and cost-effective solution. It allows you to transfer funds internationally, with competitive exchange rates and minimal fees, making it easier to send money to your loved ones or business partners abroad..</p></div>
+              <div><p>  Yes, DAST Lab conducts regular security audits and assessments to evaluate the effectiveness of our security controls and identify areas for improvement. These audits help us ensure that our training platform maintains a high level of security and protects participants' data.</p></div>
             </div>
           </li>
         
@@ -2077,12 +2094,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">Can I track my transaction history with DASTPay?</h3>
+              <h3 class="hsg-accordion__label-text">What should I do if I suspect fraudulent activity related to DAST Lab?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p>Yes, DASTPay provides a transaction history feature that allows you to track and review your past transactions. You can easily access this information within the app to keep track of your financial activities.</p></div>
+              <div><p>If you suspect any fraudulent activity related to DAST Lab, such as phishing attempts or unauthorized use of our brand, please notify us immediately. You can reach out to our support team or designated contacts to report the suspicious activity, and we will investigate the matter accordingly.</p></div>
             </div>
           </li>
         
@@ -2103,7 +2120,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <ol class="hsg-page-width-normal">
       <li class="hsg-multi-row__item">
           <div class="hsg-multi-row__text-content">
-            <div class="hsg-multi-row__description"><p>"DASTPay is a powerful fintech mobile app that simplifies bill payments, mobile payments, and cross-border remittance. It offers a user-friendly interface, enabling you to handle your finances conveniently and securely. With its seamless integration into messaging apps and its focus on providing a smooth user experience, DASTPay empowers you to take control of your financial world and enjoy a more streamlined and efficient financial lifestyle."</p></div>
+            <div class="hsg-multi-row__description"><p>DAST Lab prioritizes platform and data security, maintains confidentiality of training materials, prevents unauthorized access, handles security incidents diligently, encourages responsible disclosure, conducts regular security audits, and addresses suspected fraudulent activity promptly.</p></div>
             <div class="hsg-multi-row__employee">
               <div class="hsg-multi-row__employee-info">
                 
@@ -2200,60 +2217,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             </svg>
           </button>
         </div>
-        <div class="cl-carousel-rail" data-cl-carousel="rail">
-          <ul class="cl-carousel-train">
-            
-              <li class="multi-col-cards-carousel__card cl-carousel-slide cl-card -white -border">
-                
-                  
-                  <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="Marketing Hub" width="30" height="30" style="width: 30px; height: auto;">
-                
-                <h3 class="multi-col-cards-carousel__card--heading h5">Global Financial Connectivity</h3>
-                <p class="multi-col-cards-carousel__card--text">Unlock Cross-Border Remittances with DASTPay"
-
-                  DASTPay breaks down barriers to international financial transactions, enabling effortless cross-border remittances. Seamlessly send money to loved ones or business partners globally using DASTPay's secure platform.</p>
-                
-                  
-                
-              </li>
-            
-              <li class="multi-col-cards-carousel__card cl-carousel-slide cl-card -white -border">
-                
-                  
-                  <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg" alt="Sales Hub" width="30" height="30" style="width: 30px; height: auto;">
-                
-                <h3 class="multi-col-cards-carousel__card--heading h5">Convenient Mobile Payments for Your Everyday Needs</h3>
-                <p class="multi-col-cards-carousel__card--text">With DASTPay, mobile payments become seamless and hassle-free. Whether you're shopping online or making purchases at local stores, DASTPay offers a secure and convenient payment experience, allowing you to complete transactions quickly and reliably.</p>
-                
-                 
-                
-              </li>
-            
-              <li class="multi-col-cards-carousel__card cl-carousel-slide cl-card -white -border">
-                
-                  
-                  <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg" alt="Service Hub" width="30" height="30" style="width: 30px; height: auto;">
-                
-                <h3 class="multi-col-cards-carousel__card--heading h5">Seamless Financial Transactions at Your Fingertips</h3>
-                <p class="multi-col-cards-carousel__card--text">DASTPay revolutionizes the way you handle your finances by offering a seamless and user-friendly mobile app. With just a few taps, you can effortlessly make bill payments, mobile payments, and cross-border remittance, all in one secure platform..</p>
-                
-                 
-                
-              </li>
-            
-              <li class="multi-col-cards-carousel__card cl-carousel-slide cl-card -white -border">
-                
-                  
-                  <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/OperationsHub_Icon_Gradient_RGB_24px.svg" alt="Operations Hub" width="30" height="30" style="width: 30px; height: auto;">
-                
-                <h3 class="multi-col-cards-carousel__card--heading h5">Global Money Transfers Made Simple and Affordable</h3>
-                <p class="multi-col-cards-carousel__card--text">DASTPay provides a reliable and cost-effective solution for cross-border remittance. With competitive exchange rates and minimal fees, you can easily send money internationally to your loved ones or business partners, ensuring a smooth and secure transfer experience.. </p>
-                
-                 
-              </li>
-            
-          </ul>
-        </div>
+        
         <div class="cl-carousel-dots ">
           <div class="cl-carousel-dots-rail">
             <ul data-cl-carousel="dots"></ul>
