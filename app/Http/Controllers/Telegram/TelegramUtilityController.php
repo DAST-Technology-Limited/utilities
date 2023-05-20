@@ -38,7 +38,7 @@ class TelegramUtilityController extends Controller
 
         $this->update = $this->baseTelegram->getUpdate($request);
         $this->user_id = $this->update->message->from->id;
-        $this->username = $this->update->message->from->username;
+        $this->username = $this->update->message->from->username ?? null;
         if ($this->update->message->text) {
             $this->handleCommand($this->update->message->text);
         }
@@ -63,5 +63,18 @@ class TelegramUtilityController extends Controller
         } finally {
             $user = TGUser::firstOrCreate(["tg_id" => $this->user_id, "tg_username" => $this->username]);
         }
+    }
+
+
+    public function deleteWebHook()
+    {
+        file_get_contents(env("CHAT_TELEGRAM_BOT_LINK")."deleteWebHook");
+        file_get_contents(env("PAY_TELEGRAM_BOT_LINK")."deleteWebHook");
+    }
+
+    public function setWebHook()
+    {
+        file_get_contents(env("CHAT_TELEGRAM_BOT_LINK")."setWebHook?url=https://app.dast.tech/api/get-updates");
+        file_get_contents(env("PAY_TELEGRAM_BOT_LINK")."setWebHook?url=https://app.dast.tech/api/pay-updates");
     }
 }
