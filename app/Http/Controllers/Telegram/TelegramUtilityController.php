@@ -38,7 +38,7 @@ class TelegramUtilityController extends Controller
 
         $this->update = $this->baseTelegram->getUpdate($request);
         $this->user_id = $this->update->message->from->id;
-        $this->username = $this->update->message->from->username ?? null;
+        $this->username = $this->update->message->from->username ?? "";
         if ($this->update->message->text) {
             $this->handleCommand($this->update->message->text);
         }
@@ -55,7 +55,6 @@ class TelegramUtilityController extends Controller
                 } else if ($command_array[0] == "/dastgpt") {
                     $this->baseTelegram->sendBotLink($this->user_id, $this->bot_url, "chat");
                 }else {
-                    
                     $this->baseTelegram->sendWelcome($this->user_id);
                 }
             }
