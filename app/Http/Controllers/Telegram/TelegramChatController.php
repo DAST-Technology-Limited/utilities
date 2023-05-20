@@ -19,6 +19,7 @@ class TelegramChatController extends Controller
     public $baseTelegram;
     public $userController;
     public $bot_link;
+    public $bot_url;
     public $update;
     public $commands;
     public $user_id;
@@ -26,6 +27,7 @@ class TelegramChatController extends Controller
     public function __construct()
     {
         $this->bot_link = env("CHAT_TELEGRAM_BOT_LINK");
+        $this->bot_url = "https://t.me/dast_pay_bot";
         $this->client = new OpenAi(env("OPENAI_API_KEY"));
         $this->baseTelegram = new BaseTelegramController($this->bot_link, "chat");
         $this->commands = ["/start"];
@@ -45,7 +47,8 @@ class TelegramChatController extends Controller
 
     public function handleChat($text, $max_token = 1000)
     {
-        $this->baseTelegram->sendMessage($this->user_id, "Processing...");
+         $response = json_decode($this->baseTelegram->sendMessage($this->user_id, "Processing..."));
+         
         $chat = $this->client->chat([
             'model' => 'gpt-3.5-turbo',
             'messages' => [
@@ -59,7 +62,7 @@ class TelegramChatController extends Controller
             'frequency_penalty' => 0,
             'presence_penalty' => 0,
         ]);
-
+        $this->baseTelegram->deleteMessage($response->result->chat->id, $response->result->message_id);
         return  json_decode($chat)->choices[0]->message->content;
     }
 
@@ -73,14 +76,15 @@ class TelegramChatController extends Controller
             if (count($command_array)) {
                 if ($command_array[0] == "/start") {
                     $this->baseTelegram->sendWelcome($this->user_id);
+                } else if ($command_array[0] == "/dastpay") {
+                    $this->baseTelegram->sendBotLink($this->user_id, $this->bot_url, "pay");
                 } else {
                     $sub_details = $this->userController->verifySub($this->user_id);
                     if ($sub_details["active_sub"] || $sub_details["totalrequests"] < 10) {
                         $createQuestion = true;
                         $response = $this->handleChat($command);
                         $this->baseTelegram->sendMessage($this->user_id, $response);
-                    }
-                    else {
+                    } else {
                         $this->baseTelegram->sendMessage($this->user_id, "Sorry your have exhausted your free text for today. To enjoy unlimited usage please subscribe");
                     }
                 }

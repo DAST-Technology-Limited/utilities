@@ -19,6 +19,7 @@ class TelegramUtilityController extends Controller
     public $baseTelegram;
     public $userController;
     public $bot_link;
+    public $bot_url;
     public $update;
     public $commands;
     public $user_id;
@@ -26,6 +27,7 @@ class TelegramUtilityController extends Controller
     public function __construct()
     {
         $this->bot_link = env("PAY_TELEGRAM_BOT_LINK");
+        $this->bot_url = "https://t.me/chatgpt_dast_bot";
         $this->baseTelegram = new BaseTelegramController($this->bot_link, "pay");
         $this->commands = ["/start"];
         $this->userController = new UserController();
@@ -50,7 +52,9 @@ class TelegramUtilityController extends Controller
             if (count($command_array)) {
                 if ($command_array[0] == "/start") {
                     $this->baseTelegram->sendWelcome($this->user_id);
-                } else {
+                } else if ($command_array[0] == "/dastgpt") {
+                    $this->baseTelegram->sendBotLink($this->user_id, $this->bot_url, "chat");
+                }else {
                     
                     $this->baseTelegram->sendWelcome($this->user_id);
                 }

@@ -32,6 +32,52 @@ class BaseTelegramController extends Controller
         return $update;
     }
 
+    public function sendBotLink($user_id, $bot_url, $bot_type)
+    {
+        $bot_types = new BotTypes();
+        $msg = $bot_types->getBotPay() == $bot_type ? "DASTPAY" : "DASTGPT";
+        $desc = $bot_types->getBotPay() == $bot_type ? 
+             "DASTPAY - Global payment and utility bills" : 
+             "DASTGPT - Eductional bot powered by CHAPTGPT and DAST Technology";
+        $keyboard = array(
+            array(
+                array(
+                    "text" => $msg,
+                    "url" => $bot_url
+                )
+            )
+        );
+        $InlineKeyboardMarkup = array(
+            "inline_keyboard" => $keyboard
+        );
+
+
+        $msg1 = array(
+            "chat_id" => $user_id,
+            "text" => $desc,
+            "reply_markup" => json_encode($InlineKeyboardMarkup),
+            "parse_mode" => "html"
+        );
+
+        $this->sendRequest("sendMessage", $msg1);
+    }
+
+    public function sendRequest($method, $msg)
+    {
+        $ch = curl_init();
+        $options = array(
+            CURLOPT_URL => $this->bot_link . $method,
+            CURLOPT_POST => 1,
+            CURLOPT_POSTFIELDS => $msg,
+            CURLOPT_RETURNTRANSFER => 1
+        );
+
+        curl_setopt_array($ch, $options);
+        $update = curl_exec($ch);
+        curl_close($ch);
+        return $update;
+    }
+
     public function sendMessage($sender_id, $text)
     {
         $msg1 = array(
@@ -39,18 +85,7 @@ class BaseTelegramController extends Controller
             "text" => $text,
             "parse_mode" => "html"
         );
-        $ch = curl_init();
-        $options = array(
-            CURLOPT_URL => $this->bot_link . "sendMessage",
-            CURLOPT_POST => 1,
-            CURLOPT_POSTFIELDS => $msg1,
-            CURLOPT_RETURNTRANSFER => 1
-        );
-
-        curl_setopt_array($ch, $options);
-        $update = curl_exec($ch);
-
-        curl_close($ch);
+        return $this->sendRequest("sendMessage", $msg1);
     }
 
     public function deleteMessage($chat_id, $message_id)
@@ -60,18 +95,8 @@ class BaseTelegramController extends Controller
             "message_id" => $message_id,
             "parse_mode" => "html"
         );
-        $ch = curl_init();
-        $options = array(
-            CURLOPT_URL => $this->bot_link . "deleteMessage",
-            CURLOPT_POST => 1,
-            CURLOPT_POSTFIELDS => $msg1,
-            CURLOPT_RETURNTRANSFER => 1
-        );
 
-        curl_setopt_array($ch, $options);
-        $update = curl_exec($ch);
-
-        curl_close($ch);
+        return $this->sendRequest("deleteMessage", $msg1);
     }
 
     public function sendWelcome($user_id)
@@ -84,19 +109,8 @@ class BaseTelegramController extends Controller
                 "parse_mode" => "html"
             );
 
-            $ch = curl_init();
-            $options = array(
-                CURLOPT_URL => $this->bot_link . "sendMessage",
-                CURLOPT_POST => 1,
-                CURLOPT_POSTFIELDS => $msg1,
-                CURLOPT_RETURNTRANSFER => 1
-            );
-
-            curl_setopt_array($ch, $options);
-            $update = curl_exec($ch);
-            curl_close($ch);
-        }
-        else if ($this->bot_type == $bot_types->getBotPay()) {
+            $this->sendRequest("sendMessage", $msg1);
+        } else if ($this->bot_type == $bot_types->getBotPay()) {
 
             $keyboard = array(
                 array("Airtime"),
@@ -105,9 +119,10 @@ class BaseTelegramController extends Controller
                 array("WAEC"),
             );
             $ReplyKeyboardMarkup = array(
-                "keyboard" => $keyboard, 
-                "is_persistent" => true, 
-                "one_time_keyboard" => true);
+                "keyboard" => $keyboard,
+                "is_persistent" => true,
+                "one_time_keyboard" => true
+            );
 
             $msg1 = array(
                 "chat_id" => $user_id,
@@ -116,17 +131,7 @@ class BaseTelegramController extends Controller
                 "parse_mode" => "html"
             );
 
-            $ch = curl_init();
-            $options = array(
-                CURLOPT_URL => $this->bot_link . "sendMessage",
-                CURLOPT_POST => 1,
-                CURLOPT_POSTFIELDS => $msg1,
-                CURLOPT_RETURNTRANSFER => 1
-            );
-
-            curl_setopt_array($ch, $options);
-            $update = curl_exec($ch);
-            curl_close($ch);
+            $this->sendRequest("sendMessage", $msg1);
         }
     }
 }
