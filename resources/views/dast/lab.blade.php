@@ -1110,16 +1110,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
             
             
-            
-            <li class="hsg-nav__group-item">
-              <div class="hsg-nav__link-wrapper">
-                <a href="" class="ga_nav_link hsg-nav__link  homepage-nav-contact-sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Contact Sales">
-                      <span class="hsg-nav__link-label hsg-nav__link-label--contact-us">
-                        <svg aria-hidden="true" width="14" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="currentColor" transform="translate(-317 -81)" fill-rule="evenodd" d="M323.963 81c2.124 0 3.852 1.778 3.852 3.964 0 1.905-.56 3.606-1.435 4.719-.661.843-1.502 1.35-2.417 1.35-.908 0-1.742-.5-2.4-1.33-.884-1.114-1.452-2.823-1.452-4.739 0-2.186 1.728-3.964 3.852-3.964zm3.487 9.089a8.438 8.438 0 012.898 2.2c.432.508.422 1.26-.012 1.766-1.545 1.805-3.812 2.945-6.33 2.945-2.547 0-4.836-1.165-6.382-3.004-.41-.488-.376-1.22.037-1.705a8.437 8.437 0 012.836-2.174c.895 1.272 2.118 2.06 3.466 2.06 1.358 0 2.59-.799 3.487-2.088z" /></svg>
-                        Contact Sales</span>
-                    </a>
-                  </div>
-                </li>
+           
             
             </ul>
                           
@@ -1303,7 +1294,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
                 <section class="section-header product-tabs-cms__tab-section">
                   
-                    <h3 class="section-header__header">
+                    <h3 style="font-size: small;" class="section-header__header">
                         At DAST Lab, we offer cutting-edge courses designed to equip you with the skills needed to thrive in the digital age.
                         Empower Your Future with Web3 Skills at DAST Lab!
                         
@@ -1367,7 +1358,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   
                     <div class="section-header product-tabs-cms__tab-section">
                       
-                        <h4 class="section-header__header">
+                        <h4 style="font-size: large;" class="section-header__header">
                             Why choose DAST Lab?
                         </h4>
                       
@@ -1381,13 +1372,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
                           <div class="hsg-multi-col-item__text-content">
                             
-                              <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/drag-and-drop-website-builder?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Lifelong Learning</a>
+                              <h5 style="font-size: large;"  class="hsg-multi-col__name">
+                                Lifelong Learning
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Our commitment to your success doesn't end with course completion. Access ongoing resources, workshops, webinars, networking events and partnerships to fuel your continuous professional development and growth.
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >Our commitment to your success doesn't end with course completion. Access ongoing resources, workshops, webinars, networking events and partnerships to fuel your continuous professional development and growth.
 
                                 .</p></div>
                             
@@ -1404,12 +1395,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           <div class="hsg-multi-col-item__text-content">
                             
                               <h5 class="hsg-multi-col__name">
-                                <a href="">Enhanced Career Prospects</a>
+                               Enhanced Career Prospects
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>  Acquired in-demand skills that make you stand out in the job market, opening doors to exciting career opportunities..</p></div>
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >  Acquired in-demand skills that make you stand out in the job market, opening doors to exciting career opportunities..</p></div>
                             
 
                             
@@ -1423,13 +1414,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
                           <div class="hsg-multi-col-item__text-content">
                             
-                              <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/crm?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Active in the Tech Revolution</a>
+                              <h5 style="font-size: large;"  class="hsg-multi-col__name">
+                               Active in the Tech Revolution
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>You would become part of a rapidly evolving industry that drives innovation and shapes the future of Africa's digital landscape in the global market. 
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >You would become part of a rapidly evolving industry that drives innovation and shapes the future of Africa's digital landscape in the global market. 
                                 .</p></div>
                             
 
@@ -1444,13 +1435,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
                           <div class="hsg-multi-col-item__text-content">
                             
-                              <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/web-hosting?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Contributing to Economic Growth</a>
+                              <h5 style="font-size: large;"  class="hsg-multi-col__name">
+                               Contributing to Economic Growth
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>By developing your tech skills, you'll play a crucial role in driving economic growth and technological advancement in Africa.
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >By developing your tech skills, you'll play a crucial role in driving economic growth and technological advancement in Africa.
 
                                 .</p></div>
                             
@@ -1466,13 +1457,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
                           <div class="hsg-multi-col-item__text-content">
                             
-                              <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/custom-domain-connection?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Fuel Your Continuous Professional Development with Lifelong Learning</a>
+                              <h5 style="font-size: large;"  class="hsg-multi-col__name">
+                                Fuel Your Continuous Professional Development with Lifelong Learning
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Our commitment to your success doesn't end with course completion. We offer ongoing resources, workshops, webinars, networking events, and partnerships to support your continuous professional development and growth.</p></div>
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >Our commitment to your success doesn't end with course completion. We offer ongoing resources, workshops, webinars, networking events, and partnerships to support your continuous professional development and growth.</p></div>
                             
 
                             
@@ -1486,13 +1477,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
                           <div class="hsg-multi-col-item__text-content">
                             
-                              <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/free-blog-maker?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Expert-Led Courses for Web2 and Web3 Technologies</a>
+                              <h5 style="font-size: large;"  class="hsg-multi-col__name">
+                              Expert-Led Courses for Web2 and Web3 Technologies
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Our comprehensive training offers expert-led courses that cover a wide range of web2 and web3 technologies. You'll gain a solid foundation and valuable hands-on experience in these cutting-edge areas, equipping you with the skills needed to thrive in the tech industry.
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >Our comprehensive training offers expert-led courses that cover a wide range of web2 and web3 technologies. You'll gain a solid foundation and valuable hands-on experience in these cutting-edge areas, equipping you with the skills needed to thrive in the tech industry.
 
                                 .</p></div>
                             
@@ -1512,16 +1503,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-            <button class="h4 hsg-tabs__heading hsg-visible-lte-mobile sales-jtbd2 developers-tab" data-tab="1">Unlock Exciting Job Opportunities with Job Placement Assistance</button>
+            <button style="font-size: large;"  class="h4 hsg-tabs__heading hsg-visible-lte-mobile sales-jtbd2 developers-tab" data-tab="1">Unlock Exciting Job Opportunities with Job Placement Assistance</button>
             <div data-tab="1" class="hsg-tabs__content">
 
               <!-- Section Header -->
               
                 <section class="section-header product-tabs-cms__tab-section">
                   
-                    <h2 class="section-header__header">
+                    <h3 style="font-size: large;"  class="section-header__header">
                         "Industry-Relevant Curriculum Tailored to Current Trends
-                    </h2>
+                    </h3>
                   
                   
                   
@@ -1722,15 +1713,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
                           <div class="hsg-multi-col-item__text-content">
                             
-                              <h5 class="hsg-multi-col__name">
-                                Code alerts
-                              </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Easily identify infrastructure or design bugs that could cause a page to fail, slow site speed, or a bad customer experience via errors in syntax, HubL, missing tags, etc.</p>
-<p><strong>Available in Enterprise.</strong></p></div>
-                            
+                              
 
                             
                           </div>
@@ -1747,57 +1733,18 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-            <button class="h4 hsg-tabs__heading hsg-visible-lte-mobile sales-jtbd3 it-teams-tab" data-tab="2">IT Teams</button>
             <div data-tab="2" class="hsg-tabs__content">
 
               <!-- Section Header -->
               
                 <section class="section-header product-tabs-cms__tab-section">
                   
-                    <h2 class="section-header__header">
-                      Security without the sleepless nights.
-                    </h2>
                   
-                  
-                    <p>No plugins for you to maintain means HubSpot takes the late night calls.</p>
                   
                 </section>
               
 
-              <!-- CTA Content Block with Vidyard-->
-              
-              
-                <section class="hsg-cta-block product-tabs-cms__hsg-cta-block product-tabs-cms__tab-section" data-background="white">
-                  <div class="hsg-cta-block__inner">
-                    <div class="hsg-flex hsg-cta-block__content-wrapper">
-                      <div class="hsg-cta-block__content hsg-cta-block__content--half">
-                        <h3 class="hsg-cta-block__header">IT Teams</h3>
-                        <p class="hsg-cta-block__subheader">Your commitment to safety and reliability is backed by our dedicated 24/7 security team and premium hosting, infrastructure, and security features like enterprise-class web application firewall, SSL, custom CDN, SSO memberships, and more.</p>
-
-                        
-                        <div class="hsg-cta-block__cta-wrapper ">
-                          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-it-1" href="https://www.hubspot.com/products/cms/website-monitoring?hubs_content=www.hubspot.com/products/cms&amp;hubs_content-cta=cms-it-1">
-      See premium features
-    </a>
-    
-                        </div>
-
-                        
-                      </div>
-                      
-                        
-                        
-                        
-                        <div class="hsg-cta-block__image hsg-cta-block__image--half">
-                          <img class="hsg-deferred" data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/web-team/WBZ/Product%20Hubs/CMS%20Hub/CMS%20Tabs%20Module/IT%20Featured%20Image%20-%20Domains%20-%20EN@2x.png" alt="CMS Hub for IT Teams">
-                        </div>
-                      
-                    </div>
-                  </div>
-                </section>
-              
-
-              <!-- Multi-Column Content with Video Popup -->
+            
               
               
                 
@@ -1962,7 +1909,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="hsg-flex hsg-cta-block__content-wrapper">
       <div class="hsg-cta-block__content hsg-cta-block__content--half">
         
-          <h2 class="hsg-cta-block__header">Unlock the Power of Success with DAST Lab</h2>
+          <h3 style="font-size: large;"  class="hsg-cta-block__header">Unlock the Power of Success with DAST Lab</h3>
         
         <p class="hsg-cta-block__subheader">Don't miss out on this opportunity to upgrade your skills and unlock exciting career prospects. Join DAST Lab today and become part of a thriving community shaping the future of technology in Africa.</p>
 
@@ -1991,7 +1938,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <section class="accordion-2-col" data-background="dark">
   <div class="hsg-page-width-normal">
     
-      <h2 class="accordion-2-col__header">Dast Lab FAQ ...</h2>
+      <h3 style="font-size: large;"  class="accordion-2-col__header">Dast Lab FAQ ...</h3>
     
     
       
@@ -2002,7 +1949,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">How does DAST Lab ensure the security of its training platform and participants' data?</h3>
+              <h3 style="font-size: large;" class="hsg-accordion__label-text">How does DAST Lab ensure the security of its training platform and participants' data?</h3>
               
               
             </button>
@@ -2016,7 +1963,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">Is my personal information safe with DAST Lab?</h3>
+              <h3 style="font-size: large;"  class="hsg-accordion__label-text">Is my personal information safe with DAST Lab?</h3>
               
               
             </button>
@@ -2033,7 +1980,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">What measures are taken to prevent unauthorized access to DAST Lab's learning platform?</h3>
+              <h3 style="font-size: large;"  class="hsg-accordion__label-text">What measures are taken to prevent unauthorized access to DAST Lab's learning platform?</h3>
               
               
             </button>
@@ -2047,7 +1994,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text"> How does DAST Lab handle potential security incidents or data breaches?</h3>
+              <h3 style="font-size: large;"  class="hsg-accordion__label-text"> How does DAST Lab handle potential security incidents or data breaches?</h3>
               
               
             </button>
@@ -2066,7 +2013,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text"> Can I report a security vulnerability or concern I find in DAST Lab's systems?</h3>
+              <h3 style="font-size: large;"  class="hsg-accordion__label-text"> Can I report a security vulnerability or concern I find in DAST Lab's systems?</h3>
               
               
             </button>
@@ -2080,7 +2027,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">Does DAST Lab conduct regular security audits or assessments?</h3>
+              <h3 style="font-size: large;"  class="hsg-accordion__label-text">Does DAST Lab conduct regular security audits or assessments?</h3>
               
               
             </button>
@@ -2094,7 +2041,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 class="hsg-accordion__label-text">What should I do if I suspect fraudulent activity related to DAST Lab?</h3>
+              <h3 style="font-size: large;"  class="hsg-accordion__label-text">What should I do if I suspect fraudulent activity related to DAST Lab?</h3>
               
               
             </button>

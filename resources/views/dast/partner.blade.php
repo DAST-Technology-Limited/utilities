@@ -1124,11 +1124,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <li class="hsg-nav__group-item">
 <div class="hsg-nav__link-wrapper">
-  <a href="" class="ga_nav_link hsg-nav__link  homepage-nav-contact-sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Contact Sales">
-        <span class="hsg-nav__link-label hsg-nav__link-label--contact-us">
-          <svg aria-hidden="true" width="14" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="currentColor" transform="translate(-317 -81)" fill-rule="evenodd" d="M323.963 81c2.124 0 3.852 1.778 3.852 3.964 0 1.905-.56 3.606-1.435 4.719-.661.843-1.502 1.35-2.417 1.35-.908 0-1.742-.5-2.4-1.33-.884-1.114-1.452-2.823-1.452-4.739 0-2.186 1.728-3.964 3.852-3.964zm3.487 9.089a8.438 8.438 0 012.898 2.2c.432.508.422 1.26-.012 1.766-1.545 1.805-3.812 2.945-6.33 2.945-2.547 0-4.836-1.165-6.382-3.004-.41-.488-.376-1.22.037-1.705a8.437 8.437 0 012.836-2.174c.895 1.272 2.118 2.06 3.466 2.06 1.358 0 2.59-.799 3.487-2.088z" /></svg>
-          Contact Sales</span>
-      </a>
+  
     </div>
   </li>
 
@@ -1186,14 +1182,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="homepage-hero-branding-rollout__content">
       <div class="homepage-hero-branding-rollout__text">
         
-        <h3 class="homepage-hero-branding-rollout__text-title -secondary">Accelerate Your Growth with DAST Technology Limited </h3>
+        <h3 style="font-size: large;"  class="homepage-hero-branding-rollout__text-title -secondary">Accelerate Your Growth with DAST Technology Limited </h3>
         <p class="homepage-hero-branding-rollout__text-description">DAST Lab offers a unique partnership opportunity that allows you <br> to leverage our educational platform  powered by ChatGPT and DAST<br> Lab to achieve your goals.</p>
         <div class="homepage-hero-branding-rollout__cta">
           <a class="homepage-hero-branding-rollout__cta-link cl-button -primary -small homepage-hero-cta" href="">
-            Get a demo <span class="visually-hidden">Together, let's shape the future of the web3 ecosystem and foster a strong talent pipeline for the industry.
+            Get a demo <span class="visually-hidden">We are dedicated to leveraging the latest technologies in blockchain technology and artificial intelligence to solve real-world problems and drive innovation across various sectors
             </span></a><a class="homepage-hero-branding-rollout__cta-link cl-button -primary -small homepage-hero2-cta" href="">
-            Get started free<span class="visually-hidden"> Get started with HubSpot's free tools</span></a></div>
-        <p class="homepage-hero-branding-rollout__text-microcopy">Together, let's shape the future of the web3 ecosystem and foster a strong talent pipeline for the industry.
+            Get started <span class="visually-hidden"> Get started</span></a></div>
+        <p class="homepage-hero-branding-rollout__text-microcopy">We are dedicated to leveraging the latest technologies in blockchain technology and artificial intelligence to solve real-world problems and drive innovation across various sectors
         </p>
       </div>
       <div class="homepage-hero-branding-rollout__media">
@@ -1211,7 +1207,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
   <div id="hs_cos_wrapper_product" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><section class="home-growth-stack home-products-feature-v2" data-background="off-white">
   <div class="home-growth-stack__logo-wrapper">
-    <h2 class="home-growth-stack__logo-header">Partner with DAST Lab today!</h2>
+    <h3 style="font-size: large;"  class="home-growth-stack__logo-header">Partner with DAST Lab today!</h3>
     <p class="home-growth-stack__logo-description">Together, let's shape the future of the web3 ecosystem and foster a strong talent pipeline for the industry.
       To explore the exciting possibilities of partnering with DAST Lab, contact our team today.
       Let's discuss how we can tailor a collaboration that aligns with your specific goals and contributes to the growth of the web3 ecosystem globally.
@@ -1220,7 +1216,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <a class="cl-button -primary -regular homepage-platform-demo cta--primary" href="">Contact Us </a>
       
     </div>
-    <h2 style="margin-top:1rem;" class="home-growth-stack__logo-header">Why Partner with DAST Lab?</h2>
+    <h3 style="font-size: large;"  style="margin-top:1rem;" class="home-growth-stack__logo-header">Why Partner with DAST Lab?</h3>
 
   </div>
   <div class="home-products-feature__container hsg-page-width-normal">
@@ -1229,10 +1225,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  trademark ">Access to a Global Talent Pool</h3>
+          <h3 style="font-size: large;"  class="home-products-feature__card--headline  trademark ">Access to a Global Talent Pool</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description"> DAST Lab attracts aspiring tech enthusiasts from around the world who are eager to learn and contribute. By partnering with us, you gain access to a diverse pool of interns and potential team members who are passionate about web3 technologies</p>
+          <p class="home-products-feature__card--content-description" style="font-size: large;" > DAST Lab attracts aspiring tech enthusiasts from around the world who are eager to learn and contribute. By partnering with us, you gain access to a diverse pool of interns and potential team members who are passionate about web3 technologies</p>
           
         </div>
       </div>
@@ -1242,10 +1238,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  registered-trademark ">Expand Your Community</h3>
+          <h3 style="font-size: large;"  class="home-products-feature__card--headline  registered-trademark ">Expand Your Community</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description">Collaborating with DAST Lab allows you to tap into our thriving educational community. We will showcase your company as a valuable resource and provide opportunities for engagement, fostering a sense of belonging and loyalty among our learners</p>
+          <p class="home-products-feature__card--content-description" style="font-size: large;" >Collaborating with DAST Lab allows you to tap into our thriving educational community. We will showcase your company as a valuable resource and provide opportunities for engagement, fostering a sense of belonging and loyalty among our learners</p>
           
         </div>
       </div>
@@ -1255,10 +1251,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  trademark ">Amplify Your Signups</h3>
+          <h3 style="font-size: large;"  class="home-products-feature__card--headline  trademark ">Amplify Your Signups</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description">As we promote our partnership, your company will gain exposure to a wider audience. Our targeted marketing campaigns and strategic collaborations will help drive more signups and conversions for your platform, boosting your user base and fueling growth.</p>
+          <p style="font-size: large;"  class="home-products-feature__card--content-description">As we promote our partnership, your company will gain exposure to a wider audience. Our targeted marketing campaigns and strategic collaborations will help drive more signups and conversions for your platform, boosting your user base and fueling growth.</p>
           
         </div>
       </div>
@@ -1268,10 +1264,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/CMSHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 class="home-products-feature__card--headline  registered-trademark ">Co-Creation of Educational Content</h3>
+          <h3 style="font-size: large;"  class="home-products-feature__card--headline  registered-trademark ">Co-Creation of Educational Content</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description">Share your expertise and educational materials with us to be featured within our courses. By collaborating on content creation, you position your company as an industry thought leader, gaining recognition and building credibility within the web3 communities.</p>
+          <p style="font-size: large;"  class="home-products-feature__card--content-description">Share your expertise and educational materials with us to be featured within our courses. By collaborating on content creation, you position your company as an industry thought leader, gaining recognition and building credibility within the web3 communities.</p>
           
         </div>
       </div>
@@ -1283,10 +1279,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/OperationsHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="max-width: 100%; height: auto; width: 30px">
-          <h3 class="home-products-feature__card--headline  registered-trademark ">Mutual Marketing Opportunities</h3>
+          <h3 style="font-size: large;"  class="home-products-feature__card--headline  registered-trademark ">Mutual Marketing Opportunities</h3>
         </div>
         <div class="home-products-feature__card--content">
-          <p class="home-products-feature__card--content-description"> As partners, we will actively promote your brand through our marketing channels, including social media, email newsletters, and blog posts. This mutually beneficial arrangement ensures that both our organisations gain visibility and attract new opportunities.
+          <p style="font-size: large;"  class="home-products-feature__card--content-description"> As partners, we will actively promote your brand through our marketing channels, including social media, email newsletters, and blog posts. This mutually beneficial arrangement ensures that both our organisations gain visibility and attract new opportunities.
           </p>
           
         </div>
@@ -1324,8 +1320,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   
 
         
-          <p class="csol-full-width-cta-card-description -large">Together, let's shape the future of the web3 ecosystem and foster a strong talent pipeline for the industry.
-            To explore the exciting possibilities of partnering with DAST Lab, contact our team today.
+          <p class="csol-full-width-cta-card-description -large">Our commitment to your success doesn't end with course completion. Access ongoing resources, workshops, webinars, networking events and partnerships to fuel your continuous professional development and growth.
+
             </p>
         
           <div class="csol-full-width-cta-card-cta">
@@ -1372,8 +1368,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
   
     
-      <h2 class="csol-cta-content-block-header"> Unlocking the Potential of Web3 Education By Leveraging Artificial Intelligence 
-      </h2>
+      <h3 style="font-size: large;"  class="csol-cta-content-block-header"> Unlocking the Potential of Web3 Education By Leveraging Artificial Intelligence 
+      </h3>
     
   
 
@@ -1400,7 +1396,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   
     <a class="
   cl-button -primary -small -white homepage-bottom
-" href="" rel="noreferrer ">
+" href="" rel="noreferrer " style="font-size: large;" >
       Contact Us Now
       
         <span class="visually-hidden">DAST Lab offers a unique partnership opportunity that allows you to leverage our educational platform powered by ChatGPT and DAST Lab to achieve your goals.</span>

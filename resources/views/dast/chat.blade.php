@@ -10,7 +10,8 @@
     
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>DAST CHAT - Homepage</title>
+  <title> Welcome to DASTGPT Bot: Your Gateway to Web3 and AI Technologies 
+  </title>
   <meta name="description" content="DAST CHAT is the worldwide leader in inbound marketing, sales, and customer service/support training.">
   
 
@@ -1345,16 +1346,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<li class="hsg-nav__group-item">
-  <div class="hsg-nav__link-wrapper">
-    <a href="" class="ga_nav_link hsg-nav__link  homepage-nav-contact-sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Contact Sales">
-          <span class="hsg-nav__link-label hsg-nav__link-label--contact-us">
-            <svg aria-hidden="true" width="14" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="currentColor" transform="translate(-317 -81)" fill-rule="evenodd" d="M323.963 81c2.124 0 3.852 1.778 3.852 3.964 0 1.905-.56 3.606-1.435 4.719-.661.843-1.502 1.35-2.417 1.35-.908 0-1.742-.5-2.4-1.33-.884-1.114-1.452-2.823-1.452-4.739 0-2.186 1.728-3.964 3.852-3.964zm3.487 9.089a8.438 8.438 0 012.898 2.2c.432.508.422 1.26-.012 1.766-1.545 1.805-3.812 2.945-6.33 2.945-2.547 0-4.836-1.165-6.382-3.004-.41-.488-.376-1.22.037-1.705a8.437 8.437 0 012.836-2.174c.895 1.272 2.118 2.06 3.466 2.06 1.358 0 2.59-.799 3.487-2.088z" /></svg>
-            Contact Sales</span>
-        </a>
-      </div>
-    </li>
-
 </ul>
               
             </li>
@@ -1368,7 +1359,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             </li>
             <li class="hsg-nav__group-item">
               
-              <a class="ga_nav_link hsg-nav__group-item--utility" href="https://help.hubspot.com/?_ga=2.23678194.978470726.1592315215-1192486389.1556035228" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
+              <a class="ga_nav_link hsg-nav__group-item--utility" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
               
             </li>
           </ul>
@@ -1401,18 +1392,18 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       
     </div>
     
-      <h3 style="font-size:large;color: rgb(239, 239, 247)" class="academy-typing-hero__content--title" aria-label="">
+      <h4 style="font-size:large;color: rgb(239, 239, 247)" class="academy-typing-hero__content--title" aria-label="">
         Welcome to DASTGPT Bot <span class="academy-typing-hero__content--title-text" data-firstloop="Your Gateway to Web3" data-secondloop=" and AI Technologies 
         " data-thirdloop=" Interactive Chatbot powered by ChatGPT AI">CHAT PLATFORM</span>
-      </h3>
+      </h4>
     
   </div>
-  <p class="academy-typing-hero__content--description">This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
+  <p class="academy-typing-hero__content--description">
     Discover the limitless possibilities of web3 and AI with DASTGPT Bot.
     </p>
-  <div class="academy-typing-hero__ctas">
-    <a style="font-size:small;" tabindex="0" class="academy-typing-hero__ctas--cta cta--primary cta-- small academy-home-hero" href="https://t.me/chatgpt_dast_bot">
-     Let's Talk NOW!!!
+  <div style="font-size:small; padding:3px;" class="academy-typing-hero__ctas">
+    <a style="font-size:small; padding:3px;" tabindex="0" class="academy-typing-hero__ctas--cta cta--primary cta-- small academy-home-hero" href="https://t.me/chatgpt_dast_bot">
+     Get Started 
     </a>
   </div>
   <ul class="academy-typing-hero__content--features">
@@ -1433,7 +1424,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <div class="hsg-page-width-normal">
 <div class="section-header certs__header">
-  <h3>Your Gateway to Web3 and AI Technologies 
+  <h3 style="font-size: large;">Your Gateway to Web3 and AI Technologies 
   </h3>
   <p>
     DAST is proud to offer a range of innovative GPT (Generative Pre-trained Transformer) services that leverage the power of AI to enhance user experiences, provide personalized information, and explore the exciting realms of Web3 technologies. Here are some of the key GPT services provided by DAST:
@@ -1443,53 +1434,53 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="certs__list-wrap" style="background: rgb(1, 1, 33);color:white;">
   <ul class="certs__list">
     <li class="certs__list-item">
-      <a href="" class="academy-home-certifications-position1">
+      
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/inbound.svg" alt="">
         </div>
         <h3>Interactive Chatbot powered by ChatGPT AI</h3>
-      </a>
-      <p>DAST's Interactive Chatbot, powered by ChatGPT AI, offers users a conversational and intuitive interface to interact with. This AI-powered chatbot is designed to understand natural language queries and provide relevant and accurate responses. </p>         
+    
+      <p>DAST's Interactive Chatbot, powered by ChatGPT AI, offers users a conversational and intuitive interface to interact with. </p>         
     </li>
   
     <li class="certs__list-item">
-      <a href="" class="academy-home-certifications-position2">
+      
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/social-media.svg" alt="">
         </div>
         <h3>Educational Database of major Web3 companies</h3>
-      </a>
-      <p>DAST has curated an extensive educational database that focuses on major Web3 companies. This database serves as a valuable resource for individuals and organizations looking to explore and understand the Web3 landscape.  </p>         
+      
+      <p>DAST has curated an extensive educational database that focuses on major Web3 companies.  </p>         
     </li>
   
     <li class="certs__list-item">
-      <a href="" class="academy-home-certifications-position3">
+  
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/email-marketing.svg" alt="">
         </div>
         <h3>Ask questions and get personalised answers</h3>
-      </a>
-      <p>DAST's GPT services enable users to ask specific questions and receive personalized answers tailored to their needs. Whether it's seeking guidance on blockchain technology, AI concepts, or specific applications within Web3, users can pose their questions and receive detailed and relevant responses.</p>         
+   
+      <p>DAST's GPT services enable users to ask specific questions and receive personalized answers tailored to their needs.</p>         
     </li>
   
     <li class="certs__list-item">
-      <a href="" class="academy-home-certifications-position4">
+     
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/content-marketing.svg" alt="">
         </div>
         <h3>Discover decentralised finance (DeFi) and artificial intelligence (AI) </h3>
-      </a>
-      <p>DAST's GPT services facilitate the exploration of two exciting domains: decentralized finance (DeFi) and artificial intelligence (AI). Users can gain insights into the disruptive potential of DeFi, which offers transparent, secure, and inclusive financial systems built on blockchain technology. </p>         
+      
+      <p>DAST's GPT services facilitate the exploration of two exciting domains: decentralized finance (DeFi) and artificial intelligence (AI).  </p>         
     </li>
   
     <li class="certs__list-item">
-      <a href="" class="academy-home-certifications-position5">
+      
         <div class="certs__icon-wrap">
           <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/seo.svg" alt="">
         </div>
         <h3>Staying updated with blockchain protocols</h3>
-      </a>
-      <p>Staying updated with blockchain protocols is crucial for individuals and organizations looking to navigate the rapidly evolving landscape of decentralized technologies. As blockchain protocols continue to advance and new ones emerge, understanding their features, functionalities, and potential use cases becomes essential.</p>         
+     
+      <p>Staying updated with blockchain protocols is crucial for individuals and organizations looking to navigate the rapidly evolving landscape of decentralized technologies..</p>         
     </li>
   </ul>
 </div>
@@ -1504,7 +1495,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="hsg-page-width-normal">
 <div class="section-header">
   <img class="academy-learn-image hsg-deferred" data-src="https://cdn2.hubspot.net/hubfs/53/HubSpot_Logos/HSLogo_sprocket_color_png.png" alt="hubspot sprocket icon" style="max-width: 2rem;">
-  <h2>Why partner with DAST CHAT?</h2>
+  <h3>Why partner with DAST CHAT?</h3>
 </div>
 </div>
 </section>
