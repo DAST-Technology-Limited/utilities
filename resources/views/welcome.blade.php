@@ -1054,7 +1054,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
   <div class="header-nav__ctas ">
     
-    <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
+    <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
       DAST Armies <span class="visually-hidden"></span>
     </a>
     
@@ -1122,15 +1122,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<li class="hsg-nav__group-item">
-  <div class="hsg-nav__link-wrapper">
-    <a href="" class="ga_nav_link hsg-nav__link  homepage-nav-contact-sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Contact Sales">
-          <span class="hsg-nav__link-label hsg-nav__link-label--contact-us">
-            <svg aria-hidden="true" width="14" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="currentColor" transform="translate(-317 -81)" fill-rule="evenodd" d="M323.963 81c2.124 0 3.852 1.778 3.852 3.964 0 1.905-.56 3.606-1.435 4.719-.661.843-1.502 1.35-2.417 1.35-.908 0-1.742-.5-2.4-1.33-.884-1.114-1.452-2.823-1.452-4.739 0-2.186 1.728-3.964 3.852-3.964zm3.487 9.089a8.438 8.438 0 012.898 2.2c.432.508.422 1.26-.012 1.766-1.545 1.805-3.812 2.945-6.33 2.945-2.547 0-4.836-1.165-6.382-3.004-.41-.488-.376-1.22.037-1.705a8.437 8.437 0 012.836-2.174c.895 1.272 2.118 2.06 3.466 2.06 1.358 0 2.59-.799 3.487-2.088z" /></svg>
-            Contact Sales</span>
-        </a>
-      </div>
-    </li>
 
 </ul>
               

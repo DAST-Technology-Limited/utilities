@@ -36,4 +36,8 @@ class DastPagesController extends Controller
       return view('dast.lab');
      }
      
+     
+     public function army(){
+      return view('dast.army');
+     }
 }
