@@ -995,7 +995,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             
               <div class="header-nav__ctas ">
                 
-                <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
+                <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
                   DAST Armies <span class="visually-hidden"></span>
                 </a>
                 

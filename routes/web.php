@@ -47,6 +47,8 @@ Route::get('email-test', function(){
     Route::get('/dast-contact',[DastPagesController::class,'contact']);
     Route::get('/dast-partners',[DastPagesController::class,'partners']);
     Route::get('/dast-lab',[DastPagesController::class,'lab']);
+    Route::get('/dast-armies',[DastPagesController::class,'army']);
+
 
 
 
