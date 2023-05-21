@@ -1433,7 +1433,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <img class="about-community-board__icon" src="https://www.hubspot.com/hubfs/assets/hubspot.com/about_2019/icons/Community%20Icons/HUG-icon.svg" alt="HUG icon">
               <p>
                 <span class="about-community-board__bold-text">150+</span>
-                HubSpot User Groups in
+                DAST User Groups in
                 <span class="about-community-board__bold-text">21</span>
                 countries
               </p>
