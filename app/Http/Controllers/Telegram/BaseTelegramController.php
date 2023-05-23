@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Telegram;
 use App\Classes\BotTypes;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\URL;
 
 class BaseTelegramController extends Controller
 {
@@ -60,6 +61,37 @@ class BaseTelegramController extends Controller
         );
 
         $this->sendRequest("sendMessage", $msg1);
+    }
+
+    public function sendRequestAuth($user_id, $token)
+    {
+        $bot_types = new BotTypes();
+        $msg = "Verify Email";
+        $desc = "Dear valued user, Please verify your email to continue using our products and services seamlessly";
+        $keyboard = array(
+            array(
+                array(
+                    "text" => $msg,
+                    "url" => env("MODE") == "local" ?
+                    "https://app.dast.tech/verify-user/".$user_id."/".$token : 
+                    URL("/verify-user/".$user_id."/".$token)
+                    
+                )
+            )
+        );
+        $InlineKeyboardMarkup = array(
+            "inline_keyboard" => $keyboard
+        );
+
+
+        $msg1 = array(
+            "chat_id" => $user_id,
+            "text" => $desc,
+            "reply_markup" => json_encode($InlineKeyboardMarkup),
+            "parse_mode" => "html"
+        );
+
+       return $this->sendRequest("sendMessage", $msg1);
     }
 
     public function sendRequest($method, $msg)

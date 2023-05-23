@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DastPagesController;
 use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\User\UserAuthController;
 use App\Http\Middleware\DomainCheck;
 use App\Http\Middleware\TokenAuth;
 use Illuminate\Support\Facades\Route;
@@ -50,7 +51,16 @@ Route::get('email-test', function(){
     Route::get('/dast-armies',[DastPagesController::class,'army']);
 
 
+    //// User Verification page
+    Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
 
 
 
 
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

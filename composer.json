@@ -11,6 +11,8 @@
         "laravel/framework": "^9.11",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
+        "laravel/ui": "^4.2",
+        "livewire/livewire": "^2.12",
         "orhanerday/open-ai": "^4.7",
         "twilio/sdk": "^6.40"
     },

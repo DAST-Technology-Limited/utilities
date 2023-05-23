@@ -12,6 +12,7 @@ use Orhanerday\OpenAi\OpenAi;
 use App\Http\Controllers\Telegram\BaseTelegramController;
 use App\Http\Controllers\User\UserController;
 use App\Models\TGUser;
+use Illuminate\Support\Str;
 
 class TelegramChatController extends Controller
 {
@@ -24,6 +25,8 @@ class TelegramChatController extends Controller
     public $commands;
     public $user_id;
     public $username;
+    public $sub_details;
+    public $user;
     public function __construct()
     {
         $this->bot_link = env("CHAT_TELEGRAM_BOT_LINK");
@@ -39,15 +42,22 @@ class TelegramChatController extends Controller
 
         $this->update = $this->baseTelegram->getUpdate($request);    
         $this->user_id = $this->update->message->from->id;
-    
+        $this->sub_details = $this->userController->verifySub($this->user_id);
         $this->username = $this->update->message->from->username ?? "";
-        if ($this->update->message->text) {
+        $this->user = TGUser::updateOrCreate(["tg_id" => $this->user_id],["link_code" => Str::uuid(), "tg_username" => $this->username ?? ""]);
+        if (($this->update->message->text && $this->user->user_id) || $this->sub_details < 10) {
             $this->handleCommand($this->update->message->text);
+        }
+        else 
+        {
+            $this->baseTelegram->sendRequestAuth($this->user->tg_id, $this->user->link_code);
         }
     }
 
     public function handleChat($text, $max_token = 1000)
     {
+
+
          $response = json_decode($this->baseTelegram->sendMessage($this->user_id, "Processing..."));
          
         $chat = $this->client->chat([
@@ -80,8 +90,7 @@ class TelegramChatController extends Controller
                 } else if ($command_array[0] == "/dastpay") {
                     $this->baseTelegram->sendBotLink($this->user_id, $this->bot_url, "pay");
                 } else {
-                    $sub_details = $this->userController->verifySub($this->user_id);
-                    if ($sub_details["active_sub"] || $sub_details["totalrequests"] < 10) {
+                    if ($this->sub_details["active_sub"] || $this->sub_details["totalrequests"] < 10) {
                         $createQuestion = true;
                         $response = $this->handleChat($command);
                         $this->baseTelegram->sendMessage($this->user_id, $response);
@@ -92,9 +101,8 @@ class TelegramChatController extends Controller
             }
         } catch (\Throwable $th) {
         } finally {
-            $user = TGUser::firstOrCreate(["tg_id" => $this->user_id, "tg_username" => $this->username ?? ""]);
             if ($createQuestion) {
-                $user->chats()->create(["t_g_user_id" => $this->user_id, "questions" => $command, "response" => $response]);
+                $this->user->chats()->create(["t_g_user_id" => $this->user_id, "questions" => $command, "response" => $response]);
             }
         }
     }

@@ -12,6 +12,7 @@ use Orhanerday\OpenAi\OpenAi;
 use App\Http\Controllers\Telegram\BaseTelegramController;
 use App\Http\Controllers\User\UserController;
 use App\Models\TGUser;
+use Illuminate\Support\Str;
 
 class TelegramUtilityController extends Controller
 {
@@ -24,6 +25,8 @@ class TelegramUtilityController extends Controller
     public $commands;
     public $user_id;
     public $username;
+    public $user;
+    
     public function __construct()
     {
         $this->bot_link = env("PAY_TELEGRAM_BOT_LINK");
@@ -39,8 +42,13 @@ class TelegramUtilityController extends Controller
         $this->update = $this->baseTelegram->getUpdate($request);
         $this->user_id = $this->update->message->from->id;
         $this->username = $this->update->message->from->username ?? "";
-        if ($this->update->message->text) {
+        $this->user = TGUser::updateOrCreate(["tg_id" => $this->user_id],["link_code" => Str::uuid(), "tg_username" => $this->username ?? ""]);
+        if ($this->update->message->text && $this->user->user_id) {
             $this->handleCommand($this->update->message->text);
+        }
+        else 
+        {
+            dd($this->baseTelegram->sendRequestAuth($this->user->tg_id, $this->user->link_code));
         }
     }
 

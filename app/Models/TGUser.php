@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class TGUser extends Model
 {
     use HasFactory;
-    protected $fillable = ["tg_id", "tg_username"];
+    protected $guarded = [];
 
     public function chats()
     {
