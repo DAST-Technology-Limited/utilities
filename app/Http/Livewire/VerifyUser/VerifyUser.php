@@ -76,6 +76,7 @@ class VerifyUser extends Component
             $this->message_type = "error";
             $this->message = "User not found!";
         }
+        else
         {
             $this->user_id2 = $user[0]->id;
         }
