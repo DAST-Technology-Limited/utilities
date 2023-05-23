@@ -33,8 +33,9 @@ class VerifyUser extends Component
         if(count($user) == 0)
         {
             $this->message_type = "error";
-            $this->link = URL("/register");
-            $this->message = "Sorry account with this email address doesn't exist. Register with us continue using our services";
+            $this->link = URL("/register?");
+            $this->message = "Sorry account with this email address doesn't exist. 
+            Register with us continue using our services. Note*: After the registration come back here to complete your verification";
         }
         else
         {
