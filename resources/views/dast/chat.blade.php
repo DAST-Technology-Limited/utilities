@@ -306,7 +306,21 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <meta http-equiv="content-language" content="en">
 
 
+<style>
+  .animate-text {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+</style>
 
 
 <!-- ss_approved -->
@@ -515,861 +529,644 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   
 
 
-<header id="hsg-nav-global" class="hsg-nav__wrapper  ">
-  <div class="hsg-nav__product-nav-bar">
-    <div id="hs-nav-v4" class="nav-width-flex placeholder-nav">
-      <div class="hs-nav-section main-nav"></div>
-    </div>
-  </div>
-
-  <a class="ga_nav_link hsg-nav-menu__skip-link" href="#hsg-main-content" ga_nav_type="header_nav" ga_nav_tree_text="Skip to content">
-    Skip to content
-  </a>
-  <nav class="hsg-nav-bar hsg-nav-top-bar" aria-label="Utility Navigation">
-  <div class="hsg-page-width-normal">
-    <div class="hsg-nav__inner">
-      
-        <ul class="hsg-nav__group">
-  
-  <li class="hsg-nav__group-item hsg-nav__group-item--has-dropdown">
-    <div class="hsg-nav__link-wrapper">
-      <button aria-expanded="false" aria-controls="Language-submenu" class="hsg-nav__link">
-        <span class="hsg-nav__link-label hsg-nav__link-label--globe">
-          <svg class="hsg-nav__globe-icon" aria-hidden="true"><use xlink:href="#hs-icon-globe" fill="currentColor" /></svg>
-          English<span class="visually-hidden">: Select a language</span>
-          
-        </span>
-      </button>
-    </div>
-    <ul id="Language-submenu" class="hsg-nav__dropdown-list"><li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="ja" data-ga_nav_type="header_nav" data-ga_nav_tree_text="日本語">日本語</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="de" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Deutsch">Deutsch</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link active " href="" aria-current="page" lang="en" data-ga_nav_type="header_nav" data-ga_nav_tree_text="English">English</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="es" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Español">Español</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="pt" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Português">Português</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="fr" lang="fr" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Français">Français</a>
-        </li>
-      </ul>
-  </li>
-
-  
-
-<li class="hsg-nav__group-item hsg-nav__group-item--has-contrast-toggle">
-  <button class="a11y-contrast-toggle -small -icon-left">
-    High Contrast
-  </button>
-</li>
-
-  
-
-
-
-
-
-</ul>
-      
-      <ul class="hsg-nav__group">
-        <li class="hsg-nav__group-item hsg-nav__group-item--search">
-
-          
-          
-        </li>
-        <li class="hsg-nav__group-item hsg-nav__group-item--login">
-          
+            <header id="hsg-nav-global" class="hsg-nav__wrapper  ">
+              <div class="hsg-nav__product-nav-bar">
+                <div id="hs-nav-v4" class="nav-width-flex placeholder-nav">
+                  <div class="hs-nav-section main-nav"></div>
+                </div>
+              </div>
             
-            
-            
-            <a class="ga_nav_link homepage-nav-login" data-logged-in-text="Go to my account" data-logged-in-href="" href="/dast-contact" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Log in">Contact Us</a>
-          
-        </li>
-
-        
-
-        <li class="hsg-nav__group-item">
-          
-            <a class="hsg-nav__group-item--utility ga_nav_link" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
-          
-        </li>
-        
-        
-          <li class="hsg-nav__group-item hsg-nav__group-item--about hsg-nav__group-item--has-dropdown">
-            <div class="hsg-nav__link-wrapper">
-              <button aria-expanded="false" aria-controls="hsg-nav-about-submenu" class="hsg-nav__link">
-                <span class="hsg-nav__link-label">
-                  About
+              <a class="ga_nav_link hsg-nav-menu__skip-link" href="#hsg-main-content" ga_nav_type="header_nav" ga_nav_tree_text="Skip to content">
+                Skip to content
+              </a>
+              <nav class="hsg-nav-bar hsg-nav-top-bar" aria-label="Utility Navigation">
+              <div class="hsg-page-width-normal">
+                <div class="hsg-nav__inner">
                   
-                </span>
+                    <ul class="hsg-nav__group">
+              
+              <li class="hsg-nav__group-item hsg-nav__group-item--has-dropdown">
+                <div class="hsg-nav__link-wrapper">
+                  <button aria-expanded="false" aria-controls="Language-submenu" class="hsg-nav__link">
+                    <span class="hsg-nav__link-label hsg-nav__link-label--globe">
+                      <svg class="hsg-nav__globe-icon" aria-hidden="true"><use xlink:href="#hs-icon-globe" fill="currentColor" /></svg>
+                      English<span class="visually-hidden">: Select a language</span>
+                      
+                    </span>
+                  </button>
+                </div>
+                <ul id="Language-submenu" class="hsg-nav__dropdown-list"><li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="ja" data-ga_nav_type="header_nav" data-ga_nav_tree_text="日本語">日本語</a>
+                    </li>
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="de" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Deutsch">Deutsch</a>
+                    </li>
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link active " href="" aria-current="page" lang="en" data-ga_nav_type="header_nav" data-ga_nav_tree_text="English">English</a>
+                    </li>
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="es" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Español">Español</a>
+                    </li>
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="pt" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Português">Português</a>
+                    </li>
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="fr" lang="fr" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Français">Français</a>
+                    </li>
+                  </ul>
+              </li>
+            
+              
+            
+            <li class="hsg-nav__group-item hsg-nav__group-item--has-contrast-toggle">
+              <button class="a11y-contrast-toggle -small -icon-left">
+                High Contrast
               </button>
-            </div>
-            <ul id="hsg-nav-about-submenu" class="hsg-nav__dropdown-list">
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  <li class="hsg-nav__dropdown-item">
-                    <a class="ga_nav_link homepage-nav-about-desktop" href="/dast-about" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > About Us">About Us</a>
-                  </li>
-                
-              
-                
-              
-                
-                  <li class="hsg-nav__dropdown-item">
-                    <a class="ga_nav_link homepage-nav-contact-us" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">Contact Us</a>
-                  </li>
-                
-              
-                
-                
-              
-                
-                
-              </ul>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
-
-  <div data-fixed-element="placeholder">
-  <nav class="hsg-nav-menu" data-fixed-element="target" aria-label="Primary Navigation">
-    <div class="hsg-page-width-normal">
-      <div class="hsg-nav__inner">
-        <a style="color: rgb(1, 1, 49)"  href="/" id="hsg-nav__logo" aria-label="DAST" class="ga_nav_link logo-utility-nav" data-ga_nav_type="header_nav" data-ga_nav_tree_text="dast ">
-        DAST TECH
-         
-
-          
-        </a>
-
-        <button id="hsg-nav__logo-caret">
-          
-          <svg id="hsg-nav__logo-caret-img" aria-hidden="true">
-            <use xlink:href="#CaretRight" />
-          </svg>
-          
-          <span id="hsg-nav__logo-caret-home">Home</span>
-          
-        </button>
-
-       
-
-        <div class="hsg-nav__burger-wrapper" style="background: rgb(46, 46, 87);color:white;">
-          <button class="hsg-nav__burger" aria-expanded="false" aria-controls="burger-submenu">
-            <span class="visually-hidden">Menu</span>
-            <span class="hsg-nav__burger-label" aria-hidden="true"></span>
-          </button>
-        </div>
-
-        <div id="burger-submenu" class="hsg-nav__groups-wrapper" >
-          <ul class="hsg-nav__group hsg-nav__group--primary" >
+            </li>
             
-            <li class="hsg-nav__group-item hsg-nav__group-item--order-1  hsg-nav__group-item--has-dropdown ">
-              <div class="hsg-nav__link-wrapper">
-                
-                <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-1">
-                  <span class="hsg-nav__link-label">
-                <a style="color: rgb(1, 1, 49)"  href="https://dast.tech/">  DASTdAPP</a>
-                    
-                  </span>
-                </button>
-                
-              </div>
               
-                
-                  <!-- Software -->
-                  <ul id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
-                    <li class="hsg-nav__dropdown-list-title">
-                      <h2 style="color: rgb(1, 1, 49)"  class="hsg-nav__dropdown-list-title-text">Dast Dapp</h2>
+            
+            
+            
+            
+            
+            </ul>
+                  
+                  <ul class="hsg-nav__group">
+                    <li class="hsg-nav__group-item hsg-nav__group-item--search">
+            
+                      
+                      
+                        <!-- pageLang: en -->
+              {{-- <input type="search" class="" data-id="hsg-nav__search-input" placeholder="search..." data-config="{&quot;contexts&quot;:[{&quot;selected&quot;:true,&quot;id&quot;:&quot;website&quot;,&quot;cx&quot;:&quot;009219321729865762236:z9gsnksfc30&quot;,&quot;label&quot;:&quot;Search HubSpot.com&quot;},{&quot;selected&quot;:null,&quot;id&quot;:&quot;blog&quot;,&quot;cx&quot;:&quot;009219321729865762236:fzizmixjdmi&quot;,&quot;label&quot;:&quot;Search the blog&quot;}],&quot;loadMoreButton&quot;:&quot;Load More Results&quot;,&quot;noResults&quot;:[&quot;That's odd...&quot;,&quot;couldn't find quite the right match.&quot;,&quot;Don't worry, try searching again up top.&quot;]}" aria-label="Search"> --}}
+              
+                      
                     </li>
-                    <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
-                      <div class="hsg-nav__dropdown-column">
-                         
-                          
-                            <div class="hsg-nav__box-link-none" >
+                    
+            
+                    
+            
+                    <li class="hsg-nav__group-item">
+                      
+                        <a class="hsg-nav__group-item--utility ga_nav_link" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
+                      
+                    </li>
+                    
+                    
+                      <li class="hsg-nav__group-item hsg-nav__group-item--about hsg-nav__group-item--has-dropdown">
+                        <div class="hsg-nav__link-wrapper">
+                          <button aria-expanded="false" aria-controls="hsg-nav-about-submenu" class="hsg-nav__link">
+                            <span class="hsg-nav__link-label">
                               
-                              <div class="hsg-nav__header-container">
-                                <h3 class="hsg-nav__header">The DASTdAPP</h3>
-                                <p class="hsg-nav__subheader" gtm="">Digital Access Security Token Chain is to become the infrastructure of provable trust for all. Furthermore, Digital Access Security Token intends building up a security technology layer that helps users to secure and recover their digital assets for their family members or next of kin in case of unforeseen circumstances like loss of life. It will serve as a secured recovery technology for assets of loved ones.</p>
-                              </div>
-                            </div>
+                              
+                            </span>
+                          </button>
+                        </div>
+                        <ul id="hsg-nav-about-submenu" class="hsg-nav__dropdown-list">
+                            
                           
-                         
+                            
                           
-                    </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="hsg-nav__dropdown-item">
+                                <a class="ga_nav_link homepage-nav-about-desktop" href="/dast-about" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > About Us">About Us</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                            
+                          
+                            
+                            
+                          
+                            
+                            
+                          </ul>
+                      </li>
                     
                   </ul>
-                
-              
-            </li>
+                </div>
+              </div>
+            </nav>
             
-            <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
-              <div class="hsg-nav__link-wrapper">
-                
-                <a style="color: rgb(1, 1, 49)"  href="/dast-pay" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
-                  <span class="hsg-nav__link-label">
-                   DASTPay
-                    
-                  </span>
-                </a>
-                
-              </div>
-              
-            </li>
+              <div data-fixed-element="placeholder">
+              <nav class="hsg-nav-menu" data-fixed-element="target" aria-label="Primary Navigation">
+                <div class="hsg-page-width-normal">
+                  <div class="hsg-nav__inner">
+                    <a style="color: rgb(1, 1, 49)"  href="/" id="hsg-nav__logo" aria-label="DAST" class="ga_nav_link logo-utility-nav" data-ga_nav_type="header_nav" data-ga_nav_tree_text="dast ">
+                    DAST TECH
+                     
             
-
-
-
-            <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
-              <div class="hsg-nav__link-wrapper">
-                
-                <a style="color: rgb(1, 1, 49)"  href="/dast-lab" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
-                  <span class="hsg-nav__link-label">
-                   DAST Lab
-                    
-                  </span>
-                </a>
-                
-              </div>
-              
-            </li>
-
-
-
-
-
-            <li class="hsg-nav__group-item hsg-nav__group-item--order-3  hsg-nav__group-item--has-dropdown ">
-              <a href="/dast-chat">
-              <div class="hsg-nav__link-wrapper" >
-                
-                <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-3">
-                  <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
-                  DASTGPT
-                    
-                  </span>
-                </button>
-                
-              </div>
-              
-                
-                  <ul id="hsg-nav-submenu-3" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards" >
-                    <li class="hsg-nav__dropdown-list-title">
-                      <h2 class="hsg-nav__dropdown-list-title-text">DAST BOT</h2>
+                      
                     </a>
-                    </li>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <li class="hsg-nav__link-section" gtm="">
-                      <div class="hsg-nav__link-section-icon-wrapper">
-                       
-                      </div>
-                      <div class="hsg-nav__header-container">
-                        <h3 class="h4 hsg-nav__header" gtm="">
-                          Interactive Chatbot powered by ChatGPT AI 
-                        </h3>
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Blog">
-                          <p class="hsg-nav__subheader" gtm="">
-                            Educational Database of major Web3 companies
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Ebooks, Guides &amp; More">
-                          <p class="hsg-nav__subheader" gtm="">
-                            Ask questions and get personalised answers  
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                       
-                        
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Inbound Methodology">
-                          <p class="hsg-nav__subheader" gtm="">
-                            Explore AI/Web3 technologies and concepts 
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link HS_nav_bar" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > INBOUND 2023">
-                          <p class="hsg-nav__subheader" gtm="">
-                            Available for free, 24/7 
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                      </div>
-                    </li>
-                    
-                    <li class="hsg-nav__link-section" gtm="">
-                      <div class="hsg-nav__link-section-icon-wrapper">
-                       
-                      </div>
-                      <div class="hsg-nav__header-container">
-                        <h3 class="h4 hsg-nav__header" gtm="">
-                          Why DASTGPT ?
-                        </h3>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Case Studies">
-                          <p class="hsg-nav__subheader" gtm="">
-                            This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Why Choose DAST?">
-                          <p class="hsg-nav__subheader" gtm="">
-                            Discover the limitless possibilities of web3 and AI with DASTGPT Bot.
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                      </div>
-                    </li>
-                    
-                    <li class="hsg-nav__link-section" gtm="">
-                      <div class="hsg-nav__link-section-icon-wrapper">
-                        
-                      </div>
-                      <div class="hsg-nav__header-container">
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+            
+                    <button id="hsg-nav__logo-caret">
                       
-                        
-                        
+                      <svg id="hsg-nav__logo-caret-img" aria-hidden="true">
+                        <use xlink:href="#CaretRight" />
+                      </svg>
                       
+                      <span id="hsg-nav__logo-caret-home">Home</span>
+                      
+                    </button>
+            
+                   
+            
+                    <div class="hsg-nav__burger-wrapper" style="background: rgb(46, 46, 87);color:white;">
+                      <button class="hsg-nav__burger" aria-expanded="false" aria-controls="burger-submenu">
+                        <span class="visually-hidden">Menu</span>
+                        <span class="hsg-nav__burger-label" aria-hidden="true"></span>
+                      </button>
+                    </div>
+            
+                    <div id="burger-submenu" class="hsg-nav__groups-wrapper" >
+                      <ul class="hsg-nav__group hsg-nav__group--primary" >
+                        
+                        <li class="hsg-nav__group-item hsg-nav__group-item--order-1  hsg-nav__group-item--has-dropdown ">
+                          <div class="hsg-nav__link-wrapper">
+                            
+                            <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-1">
+                              <span class="hsg-nav__link-label">
+                            <a style="color: rgb(1, 1, 49)" id="product"  href="#">PRODUCTS</a>
+                                
+                              </span>
+                            </button>
+                            
+                          </div>
+                          
+                             <!-- Software -->
+                             <ul id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
+                              <li class="hsg-nav__dropdown-list-title">
+                                <h2 class="hsg-nav__dropdown-list-title-text">DAST</h2>
+                              </li>
+                              <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
+                                <div class="hsg-nav__dropdown-column">
+                                   
+                                    
+                                      <div class="hsg-nav__box-link-none">
+                                        
+                                        <div class="hsg-nav__header-container">
+                                          <h3 class="hsg-nav__header">Empowering Web3 Adoption</h3>
+                                          <p class="hsg-nav__subheader" gtm="">
+                                            DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations.See Products 
+                                            </p>
+                                        </div>
+                                      </div>
+                                    
+                                   
+                                    
+                                        
+                                    
+                                    
+                                   
+                                    
+                                   
+                                    
+                                  
+                                </div>
+                              </li>
+                              <li class="hsg-nav__dropdown-row">
+                                <p class="hsg-nav__dropdown-row-description"></p>
+                                
+                                  <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="marketing-linear0" gradientunits="userSpaceOnUse" x1="280" y1="640" x2="1200" y2="640" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="marketing-linear1" gradientunits="userSpaceOnUse" x1="481.9" y1="607.34" x2="1438.1" y2="1312.66" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> </defs> <g id="marketing-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 12 9 C 10.34375 9 9 10.34375 9 12 L 9 20 C 9 21.3125 9.855469 22.476562 11.109375 22.867188 C 12.363281 23.253906 13.726562 22.78125 14.472656 21.699219 L 19.972656 13.699219 C 20.601562 12.785156 20.675781 11.59375 20.15625 10.609375 C 19.640625 9.621094 18.621094 9.003906 17.507812 9 Z M 12 9 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear0);" d="M 12 15 C 13.65625 15 15 13.65625 15 12 L 15 4 C 15 2.6875 14.144531 1.523438 12.890625 1.132812 C 11.636719 0.746094 10.273438 1.21875 9.527344 2.300781 L 4.027344 10.300781 C 3.394531 11.21875 3.324219 12.410156 3.84375 13.398438 C 4.363281 14.382812 5.386719 15 6.5 15 Z M 12 15 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 15 4 C 15 5.65625 13.65625 7 12 7 C 10.34375 7 9 5.65625 9 4 C 9 2.34375 10.34375 1 12 1 C 13.65625 1 15 2.34375 15 4 Z M 15 4 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear1);" d="M 17.5 15 L 6.5 15 C 4.84375 15 3.5 13.65625 3.5 12 C 3.5 10.34375 4.84375 9 6.5 9 L 17.5 9 C 19.15625 9 20.5 10.34375 20.5 12 C 20.5 13.65625 19.15625 15 17.5 15 Z M 17.5 15 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="marketing">
+                                        DASTdAPP
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="marketing">Trusted recovery technology for digital assets. <span class="hsg-nav__subheader-highlight"> Your family/next of
+                                        kin will have access to your assets in case of unforseen
+                                        circumstances.</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                  <a href="/dast-pay" class="ga_nav_link hsg-nav__box-link nav-software-sales" gtm="sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Sales Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="sales-linear0" gradientunits="userSpaceOnUse" x1="344.47" y1="825.51" x2="1334.74" y2="1555.96" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> <lineargradient id="sales-linear1" gradientunits="userSpaceOnUse" x1="104.27" y1="817.7" x2="1860.91" y2="817.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="sales-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 19.75 18.609375 L 14.871094 3.59375 C 14.5 2.363281 13.355469 1.464844 12 1.464844 C 10.644531 1.464844 9.5 2.363281 9.128906 3.59375 L 4.25 18.609375 C 3.847656 19.84375 4.289062 21.199219 5.339844 21.960938 C 6.390625 22.726562 7.816406 22.726562 8.867188 21.960938 L 12 19.6875 L 15.132812 21.960938 L 15.136719 21.964844 C 16.1875 22.726562 17.609375 22.726562 18.660156 21.960938 C 19.710938 21.199219 20.152344 19.84375 19.75 18.609375 Z M 19.75 18.609375 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear0);" d="M 16.898438 22.535156 C 16.261719 22.535156 15.644531 22.335938 15.132812 21.960938 L 2.3125 12.648438 C 0.972656 11.675781 0.675781 9.796875 1.648438 8.457031 C 2.625 7.117188 4.5 6.820312 5.839844 7.792969 L 18.660156 17.109375 C 19.710938 17.871094 20.152344 19.226562 19.75 20.460938 C 19.347656 21.699219 18.195312 22.535156 16.898438 22.535156 Z M 16.898438 22.535156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear1);" d="M 20.5 13.222656 L 4.078125 13.222656 C 2.421875 13.222656 1.078125 11.878906 1.078125 10.222656 C 1.078125 8.5625 2.421875 7.222656 4.078125 7.222656 L 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 Z M 20.5 13.222656 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 C 18.84375 13.222656 17.5 11.878906 17.5 10.222656 C 17.5 8.5625 18.84375 7.222656 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 Z M 23.5 10.222656 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="sales">
+                                        DASTPay
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="sales">Simplify Your Finances, Anytime,  <span class="hsg-nav__subheader-highlight">Anywhere with Speed</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                  <a href="/dast-lab" class="ga_nav_link hsg-nav__box-link nav-software-service" gtm="service" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Service Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="service-linear0" gradientunits="userSpaceOnUse" x1="684.58" y1="1448.12" x2="1469" y2="663.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.28" style="stop-color:rgb(100%,39.607843%,23.137255%);stop-opacity:1;" /> <stop offset="0.44" style="stop-color:rgb(100%,49.019608%,29.411765%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,64.705882%,39.215686%);stop-opacity:1;" /> <stop offset="0.65" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="service-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 2.25 11.75 C 1.023438 10.527344 0.546875 8.746094 0.992188 7.074219 C 1.4375 5.402344 2.746094 4.097656 4.414062 3.652344 C 6.085938 3.203125 7.871094 3.683594 9.089844 4.910156 L 18.839844 14.660156 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 2.25 11.75 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#service-linear0);" d="M 5.160156 14.660156 L 14.910156 4.910156 C 16.128906 3.683594 17.914062 3.203125 19.585938 3.652344 C 21.253906 4.097656 22.5625 5.402344 23.007812 7.074219 C 23.453125 8.746094 22.976562 10.527344 21.75 11.75 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 5.160156 14.660156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.167969 8.328125 C 23.167969 11 21 13.167969 18.328125 13.167969 C 15.65625 13.167969 13.492188 11 13.492188 8.328125 C 13.492188 5.65625 15.65625 3.492188 18.328125 3.492188 C 21 3.492188 23.167969 5.65625 23.167969 8.328125 Z M 23.167969 8.328125 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="service">
+                                        DAST Lab
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="service">Empowering Global Talents in Web3 and  <span class="hsg-nav__subheader-highlight">AI Training & Technologies!</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                  <a href="/dast-chat" class="ga_nav_link hsg-nav__box-link nav-software-cms" gtm="cms" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > CMS Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="cms-linear0" gradientunits="userSpaceOnUse" x1="80" y1="1360" x2="1840" y2="1360" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.01" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="cms-linear1" gradientunits="userSpaceOnUse" x1="80" y1="560" x2="1840" y2="560" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="1" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="cms-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear0);" d="M 19 21 L 5 21 C 2.789062 21 1 19.210938 1 17 C 1 14.789062 2.789062 13 5 13 L 19 13 C 21.210938 13 23 14.789062 23 17 C 23 19.210938 21.210938 21 19 21 Z M 19 21 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23 17 C 23 19.210938 21.210938 21 19 21 C 16.789062 21 15 19.210938 15 17 C 15 14.789062 16.789062 13 19 13 C 21.210938 13 23 14.789062 23 17 Z M 23 17 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear1);" d="M 19 11 L 15 11 C 12.789062 11 11 9.210938 11 7 C 11 4.789062 12.789062 3 15 3 L 19 3 C 21.210938 3 23 4.789062 23 7 C 23 9.210938 21.210938 11 19 11 Z M 5 3 C 2.789062 3 1 4.789062 1 7 C 1 9.210938 2.789062 11 5 11 C 7.210938 11 9 9.210938 9 7 C 9 4.789062 7.210938 3 5 3 Z M 5 3 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="cms">
+                                        DASTGPT
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="cms">Your Gateway to Web3 and AI Technologies <span class="hsg-nav__subheader-highlight">Discover the limitless possibilities of web3 and AI with DASTGPT Bot.</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                
+                              </li>
+                             
+                            </ul>
+                          
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                            
+                          
+                        </li>
+                        
+                        <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
+                          <div class="hsg-nav__link-wrapper">
+                            
+                            <a style="color: rgb(1, 1, 49)"  href="/dast-blog" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                              <span class="hsg-nav__link-label">
+                               DAST BLOG
+                                
+                              </span>
+                            </a>
+                            
+                          </div>
+                          
+                        </li>
+            
+            
+            
+            
+            
+             
+                        <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
+                          <div class="hsg-nav__link-wrapper">
+                            
+                            <a style="color: rgb(1, 1, 49)"  href="/dast-about" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                              <span class="hsg-nav__link-label">
+                               ABOUT
+                                
+                              </span>
+                            </a>
+                            
+                          </div>
+                          
+                        </li>
+            
+            
+            
+            
+            
+            
+            
+                        
+                        <li class="hsg-nav__group-item hsg-nav__group-item--order-3  hsg-nav__group-item--has-dropdown ">
+                          <a href="/dast-contact">
+                          <div class="hsg-nav__link-wrapper" >
+                            
+                            <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-3">
+                              <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
+                              CONTACT
+                                
+                              </span>
+                            </button>
+                            
+                          </div>
+                          
+                            
+                             
+                            
+                          
+                        </li>
                         
                         
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                      </div>
+                        <li class="hsg-nav__group-item  hsg-nav__group-item--has-dropdown  hsg-nav__group-item--about-mobile">
+                          
+                          <ul id="hsg-nav-about-submenu-mobile" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                           
+                            
+                            
+                            
+                           
+                            
+                            
+                            
+                            <li class="">
+                              <a href="" class="ga_nav_link hsg-nav__box-link  homepage-nav-contact-us " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">
+                                <div class="hsg-nav__header">Contact Us</div>
+                                
+                              </a>
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            </ul>
+                          
+                      </li></ul>
+                      
+                      <ul class="hsg-nav__group hsg-nav__group--cta" role="none">
+                        <li class="hsg-nav__group-item hsg-nav__group-item--cta" role="none">
+                          
+            
+            
+            
+            
+            
+            
+            
+              
+            
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+            
+            
+            
+            
+            
+              
+            
+              <div class="header-nav__ctas ">
+                
+                <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
+                  DAST Armies <span class="visually-hidden"></span>
+                </a>
+                
+                
+                  <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/dast-partners">
+                    DAST Partners <span class="visually-hidden">DAST Partners</span>
+                  </a>
+            
+                  
+                
+              </div> 
+            
+            
+            
+            
+                        </li>
+                      </ul>
+            
+                      <ul class="hsg-nav__group hsg-nav__group--utility hsg-nav__group--has-contrast-toggle">
+                        <li class="hsg-nav__group-item hsg-nav__group--lang">
+                          
+                          
+                          <ul class="hsg-nav__group">
+              
+              <li class="hsg-nav__group-item hsg-nav__group-item--has-dropdown">
+                <div class="hsg-nav__link-wrapper">
+                  <button aria-expanded="false" aria-controls="Language-submenu-mobile" class="hsg-nav__link">
+                    <span class="hsg-nav__link-label hsg-nav__link-label--globe">
+                      <svg class="hsg-nav__globe-icon" aria-hidden="true"><use xlink:href="#hs-icon-globe" fill="currentColor" /></svg>
+                      English<span class="visually-hidden">: Select a language</span>
+                      
+                    </span>
+                  </button>
+                </div>
+                <ul id="Language-submenu-mobile" class="hsg-nav__dropdown-list"><li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="ja" data-ga_nav_type="header_nav" data-ga_nav_tree_text="日本語">日本語</a>
                     </li>
-                    
-                    <li class="hsg-nav__link-section" gtm="">
-                      <div class="hsg-nav__link-section-icon-wrapper">
-                        
-                      </div>
-                      <div class="hsg-nav__header-container">
-                        <h3 class="h4 hsg-nav__header" gtm="">
-                          Premium Features: 
-                        </h3>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Partner Programs">
-                          <p class="hsg-nav__subheader" gtm="">
-                            Exclusive access to advanced Web3 resources
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Developer Tools">
-                          <p class="hsg-nav__subheader" gtm="">
-                            Priority support and faster response times 
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Community">
-                          <p class="hsg-nav__subheader" gtm="">
-                            Access to premium Web3 company profiles 
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                        <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > DAST Ecosystem">
-                          <p class="hsg-nav__subheader" gtm="">
-                            Early access to web3 job opportunities
-                          </p>
-                          
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                      </div>
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="de" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Deutsch">Deutsch</a>
                     </li>
-                    
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link active " href="" aria-current="page" lang="en" data-ga_nav_type="header_nav" data-ga_nav_tree_text="English">English</a>
+                    </li>
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="es" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Español">Español</a>
+                    </li>
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="pt" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Português">Português</a>
+                    </li>
+                  <li class="hsg-nav__dropdown-item">
+                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="fr" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Français">Français</a>
+                    </li>
                   </ul>
-                
+              </li>
+            
               
+            
+            <li class="hsg-nav__group-item hsg-nav__group-item--has-contrast-toggle">
+              <button class="a11y-contrast-toggle -small -icon-left">
+                High Contrast
+              </button>
             </li>
             
+              
             
-            <li class="hsg-nav__group-item  hsg-nav__group-item--has-dropdown  hsg-nav__group-item--about-mobile">
-              <div class="hsg-nav__link-wrapper">
-                <button class="hsg-nav__link homepage-nav-about-mobile" aria-expanded="false" aria-controls="hsg-nav-about-submenu-mobile">
-                  <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
-                    About
-                    
-                  </span>
-                </button>
-              </div>
-              <ul id="hsg-nav-about-submenu-mobile" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards">
-                <li class="hsg-nav__dropdown-list-title">
-                  <h2 class="hsg-nav__dropdown-list-title-text">About</h2>
-                </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-               
-                
-                
-                
-                <li class="">
-                  <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Careers">
-                    <div class="hsg-nav__header">Careers</div>
-                    
-                  </a>
-                </li>
-                
-                
-                
-                <li class="">
-                  <a href="" class="ga_nav_link hsg-nav__box-link  homepage-nav-contact-us " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">
-                    <div class="hsg-nav__header">Contact Us</div>
-                    
-                  </a>
-                </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                </ul>
-              
-          </li></ul>
-          
-          <ul class="hsg-nav__group hsg-nav__group--cta" role="none">
-            <li class="hsg-nav__group-item hsg-nav__group-item--cta" role="none">
-              
-
-
-
-
-
-
-
-  
-
-
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-
-
-
-  
-
-  <div class="header-nav__ctas ">
-    
-    <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
-      DAST Armies <span class="visually-hidden"></span>
-    </a>
-    
-    
-      <a style="background:rgb(244, 244, 246);border:rgb(1, 1, 51); color:rgb(2, 1, 31);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/dast-partners">
-        DAST Partners <span class="visually-hidden">Get started with DAST</span>
-      </a>
-    
-  </div> 
-
-
-
-
-            </li>
-          </ul>
-
-          <ul class="hsg-nav__group hsg-nav__group--utility hsg-nav__group--has-contrast-toggle">
-            <li class="hsg-nav__group-item hsg-nav__group--lang">
-              
-              
-              <ul class="hsg-nav__group">
-  
-  <li class="hsg-nav__group-item hsg-nav__group-item--has-dropdown">
-    <div class="hsg-nav__link-wrapper">
-      <button aria-expanded="false" aria-controls="Language-submenu-mobile" class="hsg-nav__link">
-        <span class="hsg-nav__link-label hsg-nav__link-label--globe">
-          <svg class="hsg-nav__globe-icon" aria-hidden="true"><use xlink:href="#hs-icon-globe" fill="currentColor" /></svg>
-          English<span class="visually-hidden">: Select a language</span>
-          
-        </span>
-      </button>
-    </div>
-    <ul id="Language-submenu-mobile" class="hsg-nav__dropdown-list"><li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="ja" data-ga_nav_type="header_nav" data-ga_nav_tree_text="日本語">日本語</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="de" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Deutsch">Deutsch</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link active " href="" aria-current="page" lang="en" data-ga_nav_type="header_nav" data-ga_nav_tree_text="English">English</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="es" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Español">Español</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="pt" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Português">Português</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="fr" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Français">Français</a>
-        </li>
-      </ul>
-  </li>
-
-  
-
-<li class="hsg-nav__group-item hsg-nav__group-item--has-contrast-toggle">
-  <button class="a11y-contrast-toggle -small -icon-left">
-    High Contrast
-  </button>
-</li>
-
-  
-
-
-
-</ul>
-              
-            </li>
-            <li class="hsg-nav__group-item hsg-nav__group-item--login">
-              
-              
-              
-              
-              <a href="" data-logged-in-text="Go to my account" data-logged-in-href="" class="ga_nav_link" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Log in">Contact Us</a>
-              
-            </li>
-            <li class="hsg-nav__group-item">
-              
-              <a class="ga_nav_link hsg-nav__group-item--utility" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
-              
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-</div>
-  <div id="hsg-main-content" tabindex="-1"></div>
-</header>
+            
+            
+            
+            </ul>
+                          
+                        </li>
+                        <li class="hsg-nav__group-item hsg-nav__group-item--login">
+                          
+                          
+                          
+                          
+                          <a href="" data-logged-in-text="Go to my account" data-logged-in-href="" class="ga_nav_link" data-ga_nav_type="header_nav" >Contact Us</a>
+                          
+                        </li>
+                        <li class="hsg-nav__group-item">
+                          
+                          <a class="ga_nav_link hsg-nav__group-item--utility" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
+                          
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+              <div id="hsg-main-content" tabindex="-1"></div>
+            </header>
+            
 
  
 
@@ -1391,16 +1188,56 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </button>
       
     </div>
+
+
+    
     
       <h4 style="font-size:large;color: rgb(239, 239, 247)" class="academy-typing-hero__content--title" aria-label="">
         Welcome to DASTGPT Bot <span class="academy-typing-hero__content--title-text" data-firstloop="Your Gateway to Web3" data-secondloop=" and AI Technologies 
-        " data-thirdloop=" Interactive Chatbot powered by ChatGPT AI">CHAT PLATFORM</span>
+        " data-thirdloop=" Interactive Chatbot powered by ChatGPT AI"> PLATFORM</span>
       </h4>
+
+
+
+
+
+
+
+
+
     
   </div>
-  <p class="academy-typing-hero__content--description">
-    Discover the limitless possibilities of web3 and AI with DASTGPT Bot.
-    </p>
+
+  <p id="animated-text" class="academy-typing-hero__content--description">    Discover the limitless possibilities of web3 and AI with DASTGPT Bot.</p>
+
+  <script>
+    function animateText() {
+      const text = document.getElementById('animated-text');
+      const sentences = text.textContent.split('. ');
+
+      text.textContent = '';
+
+      sentences.forEach((sentence, index) => {
+        const span = document.createElement('span');
+        span.textContent = sentence + '. ';
+        span.style.animationDelay = `${index * 0.5}s`;
+        span.classList.add('animate-text');
+        text.appendChild(span);
+      });
+    }
+
+    animateText(); // Initial animation
+
+    setInterval(animateText, 3000); // Repeat animation every 3 seconds
+  </script>
+
+
+
+
+
+
+
+
   <div style="font-size:small; padding:3px;" class="academy-typing-hero__ctas">
     <a style="font-size:small; padding:3px;" tabindex="0" class="academy-typing-hero__ctas--cta cta--primary cta-- small academy-home-hero" href="https://t.me/chatgpt_dast_bot">
      Get Started 
@@ -1480,7 +1317,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </div>
         <h3>Staying updated with blockchain protocols</h3>
      
-      <p>Staying updated with blockchain protocols is crucial for individuals and organizations looking to navigate the rapidly evolving landscape of decentralized technologies..</p>         
+      <p>Staying updated with blockchain protocols is crucial for individuals and organizations looking to navigate the rapidly evolving landscape of decentralized technologies.</p>         
     </li>
   </ul>
 </div>
@@ -1495,7 +1332,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="hsg-page-width-normal">
 <div class="section-header">
   <img class="academy-learn-image hsg-deferred" data-src="https://cdn2.hubspot.net/hubfs/53/HubSpot_Logos/HSLogo_sprocket_color_png.png" alt="hubspot sprocket icon" style="max-width: 2rem;">
-  <h3>Why partner with DAST CHAT?</h3>
+  <h3>Why Use  DASTGPT?</h3>
 </div>
 </div>
 </section>
@@ -1511,8 +1348,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="hsg-multi-col__wrapper hs-page-width-module">
 <div class="hsg-multi-col__item">
   <div class="hsg-multi-col-item__text-content">
-    <h3 class="hsg-multi-col__name">Expertise in Emerging Technologiesr</h3>
-    <div class="hsg-multi-col__description"><p><span>DAST specializes in cutting-edge technologies such as blockchain and AI. By partnering with DAST, individuals and organizations gain access to a team of experts with in-depth knowledge and experience in these technologies..</span></p></div>
+    <h3 class="hsg-multi-col__name">Expertise in Emerging Technologies</h3>
+    <div class="hsg-multi-col__description"><p><span>DAST specializes in cutting-edge technologies such as blockchain and AI. By partnering with DAST, individuals and organizations gain access to a team of experts with in-depth knowledge and experience in these technologies.</span></p></div>
     <!-- generateModuleCtas Called -->
   </div>
 </div>
@@ -1526,7 +1363,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="hsg-multi-col__item">
   <div class="hsg-multi-col-item__text-content">
     <h3 class="hsg-multi-col__name">Driving Innovation and Competitiveness</h3>
-    <div class="hsg-multi-col__description"><p><span>In today's rapidly evolving digital landscape, staying competitive requires embracing innovation. Partnering with DAST allows individuals, businesses, and organizations to stay at the forefront of technological advancements..</span></p></div>
+    <div class="hsg-multi-col__description"><p><span>In today's rapidly evolving digital landscape, staying competitive requires embracing innovation. Partnering with DAST allows individuals, businesses, and organizations to stay at the forefront of technological advancements.</span></p></div>
     <!-- generateModuleCtas Called -->
   </div>
 </div>
@@ -1571,246 +1408,217 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
+<footer class="hsg-footer" style="background: rgb(1, 1, 33);">
+  <div class="hsg-footer__layout">
+    <button id="back-link" class="hsg-footer__logo-caret">
+      
+      <span class="hsg-footer__logo-caret-home">BACK</span>
+      <span class="hsg-footer__close" role="presentation"></span>
+      
+    </button>
+    <nav class="hsg-footer__nav">
+      <div class="hsg-footer__nav-left">
+        <section class="hsg-footer__nav-column hsg-footer__nav-column-left">
+  <h2 class="hsg-footer__nav-heading">
+    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Popular Features</button>
+  </h2>
+  <ul><li class="hsg-footer__nav-item" data-order="0">
+      <a class="ga_nav_link " href="#products" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
+        All Products and Features</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="0">
+      <a class="ga_nav_link " href="" data-order="0" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Meeting Scheduler App">
+        Free Meeting Scheduler </a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="1">
+      <a class="ga_nav_link " href="/dast-contact" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
+        Social Media Tools</a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="hsg-footer__nav-item" data-order="12">
+      <a class="ga_nav_link " href="" data-order="12" data-linkorder="13" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Chatbot Builder">
+        Privacy and Policy </a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="13">
+      <a class="ga_nav_link " href="" data-order="13" data-linkorder="14" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Live Chat Software">
+       Legal Stuff </a>
+    </li>
+   
+    
+    
+    </ul>
+</section>
 
-<footer class="academy-footer hsg-footer" style="background: rgb(1, 1, 33);">
-<div class="hsg-footer__layout">
-<nav class="hsg-footer__nav">
+      </div>
+      <div class="hsg-footer__nav-right">
+        <div class="hsg-footer__nav-full">
+          <section class="hsg-footer__nav-column ">
   
-  <ul>
-
+   
     
    
     
-    <li class="hsg-footer__nav-column">
-      <h2 class="hsg-footer__nav-heading">
-        <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">
-          Resources<i class="hsg-footer__nav-toggle-icon" aria-hidden="true"></i>
-        </button>
-      </h2>
+    
+</section>
 
-      
-      <ul class="hsg-footer__nav-list">
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">Frequent Questions</a>
-        </li>
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">Certifications</a>
-        </li>
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">Designer Docs</a>
-        </li>
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">Developer Docs</a>
-        </li>
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">Industry Benchmark Data</a>
-        </li>
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">About Us</a>
-        </li>
-        
-      </ul>
-      
+        </div>
+        <div class="hsg-footer__nav-full">
+          <section class="hsg-footer__nav-column ">
+  <h2 class="hsg-footer__nav-heading">
+    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Company</button>
+  </h2>
+  <ul><li class="hsg-footer__nav-item" data-order="0">
+      <a class="ga_nav_link " href="/dast-about" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
+        About Us</a>
     </li>
     
-    <li class="hsg-footer__nav-column">
-      <h2 class="hsg-footer__nav-heading">
-        <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">
-          Management Team<i class="hsg-footer__nav-toggle-icon" aria-hidden="true"></i>
-        </button>
-      </h2>
-
-      
-      <ul class="hsg-footer__nav-list">
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">Dast Tech Partners</a>
-        </li>
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">Join our Telegram Group</a>
-        </li>
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">Investor Relations</a>
-        </li>
-        
-        <li class="hsg-footer__nav-item">
-          <a href="">Dast Tech Templates</a>
-        </li>
-        
-        <li class="hsg-footer__nav-item">
-          <a href="/dast-contact">Contact Us</a>
-        </li>
-        
-      </ul>
-      
+    <li class="hsg-footer__nav-item" data-order="2">
+      <a class="ga_nav_link " href="" data-order="2" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Management Team">
+        Management Team</a>
     </li>
-    
+    <li class="hsg-footer__nav-item" data-order="3">
+      <a class="ga_nav_link " href="" data-order="3" data-linkorder="3" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Board of Directors">
+        Board of Directors</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="4">
+      <a class="ga_nav_link " href="" data-order="4" data-linkorder="4" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Investor Relations">
+        Investor Relations</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="5">
+      <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
+        Blog</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="6">
+      <a class="ga_nav_link " href="/dast-contact" data-order="6" data-linkorder="6" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Contact Us">
+        Contact Us</a>
+    </li>
+    </ul>
+</section>
 
-    <li class="hsg-footer__nav-item--contact-links">
-      
-      <div class="hsg-footer__cta">
-        <a href="" target="_blank" class="cta cta--primary cta--small">Dast Tech Support</a>
+        </div>
+        <div class="hsg-footer__nav-split">
+          <section class="hsg-footer__nav-column ">
+  <h2 class="hsg-footer__nav-heading">
+    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Customers</button>
+  </h2>
+  <ul><li class="hsg-footer__nav-item" data-order="0">
+      <a class="ga_nav_link " href="#" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Customer Support">
+        Customer Support</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="1">
+      <a class="ga_nav_link " href="https://lnkd.in/deZZhAMM" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
+        Join our Telegram Group</a>
+    </li>
+    </ul>
+</section>
+
+          <section class="hsg-footer__nav-column ">
+  
+  <ul>
+   
+   
+    </li>
+    </ul>
+</section>
+
+        </div>
       </div>
+    </nav>
+  </div>
+  
+  <section class="hsg-footer__contact-links social-cl">
+    <ul class="hsg-footer__social">
       
-
-      
-      <ul class="hsg-footer__social">
-        
-        <li>
-          <a href="" target="_blank">
-            <i class="hsg-icon hsg-icon-facebook" aria-hidden="true"></i>
+      <li>
+          <a href="https://lnkd.in/dRtGxc6y" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
+            <svg class="cl-icon">
+              <use href="#facebook" />
+            </svg>
             <span class="hidden-social">Facebook</span>
           </a>
         </li>
-        
-        <li>
-          <a href="" target="_blank">
-            <i class="hsg-icon hsg-icon-instagram" aria-hidden="true"></i>
+      <li>
+          <a href="" target="_blank" class="ga_nav_link hstc_instagram" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Instagram">
+            <svg class="cl-icon">
+              <use href="#instagram" />
+            </svg>
             <span class="hidden-social">Instagram</span>
           </a>
         </li>
-        
-        <li>
-          <a href="" target="_blank">
-            <i class="hsg-icon hsg-icon-youtube" aria-hidden="true"></i>
+      <li>
+          <a href="" target="_blank" class="ga_nav_link hstc_youtube" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Youtube">
+            <svg class="cl-icon">
+              <use href="#youtube" />
+            </svg>
             <span class="hidden-social">Youtube</span>
           </a>
         </li>
-        
-        <li>
-          <a href="" target="_blank">
-            <i class="hsg-icon hsg-icon-twitter" aria-hidden="true"></i>
+      <li>
+          <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
+            <svg class="cl-icon">
+              <use href="#twitter" />
+            </svg>
             <span class="hidden-social">Twitter</span>
           </a>
         </li>
-        
-        <li>
-          <a href="" target="_blank">
-            <i class="hsg-icon hsg-icon-linkedin" aria-hidden="true"></i>
+      <li>
+          <a href="https://lnkd.in/dbCgsr4d" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
+            <svg class="cl-icon">
+              <use href="#linkedin" />
+            </svg>
             <span class="hidden-social">Linkedin</span>
           </a>
         </li>
-        
-      </ul>
+     
+     
       
-    </li>
-  </ul>
-  
-</nav>
-
-
-<section class="hsg-footer__contact-links">
-  
-  <div class="hsg-footer__cta">
-    <a href="" target="_blank" class="cta cta--primary-light cta--small">Dast Tech Support</a>
-  </div>
-  
-
-  
-  <ul class="hsg-footer__social">
-    
-    <li>
-      <a href="" target="_blank">
-        <i class="hsg-icon hsg-icon-facebook" aria-hidden="true"></i>
-        <span class="hidden-social">Facebook</span>
-      </a>
-    </li>
-    
-    <li>
-      <a href="" target="_blank">
-        <i class="hsg-icon hsg-icon-instagram" aria-hidden="true"></i>
-        <span class="hidden-social">Instagram</span>
-      </a>
-    </li>
-    
-    <li>
-      <a href="" target="_blank">
-        <i class="hsg-icon hsg-icon-youtube" aria-hidden="true"></i>
-        <span class="hidden-social">Youtube</span>
-      </a>
-    </li>
-    
-    <li>
-      <a href="" target="_blank">
-        <i class="hsg-icon hsg-icon-twitter" aria-hidden="true"></i>
-        <span class="hidden-social">Twitter</span>
-      </a>
-    </li>
-    
-    <li>
-      <a href="" target="_blank">
-        <i class="hsg-icon hsg-icon-linkedin" aria-hidden="true"></i>
-        <span class="hidden-social">Linkedin</span>
-      </a>
-    </li>
-    
-  </ul>
-  
-</section> 
-
-
-
-<section class="hsg-footer__languages">
-  <ul>
-    
-    <li>
-      <a lang="en" href="">English</a>
-    </li>
-    
-    <li>
-      <a lang="de" href="">Deutsch</a>
-    </li>
-    
-    <li>
-      <a lang="ja" href="">日本語</a>
-    </li>
-    
-    <li>
-      <a lang="es" href="">Español</a>
-    </li>
-    
-    <li>
-      <a lang="pt" href="">Português</a>
-    </li>
-    
-    <li>
-      <a lang="fr" href="">Français</a>
-    </li>
-    
-  </ul>
-</section>
- 
-
-
-<section class="hsg-footer__bottom">
-  <div class="hsg-footer__logo">
-    <a href=""><h2>DAST</h2></a>
-    <p>Copyright © 2023 DAST, Inc.</p>
-  </div>
-  <div class="hsg-footer__copyright">
-    <ul>
       
-        <li><a href="">Legal Stuff</a></li>
-      
-        <li><a href="">Privacy Policy</a></li>
-      
-      <li class="hs-footer-cookie-settings" hidden>
-        <a href="javascript:void(0)"></a>
-      </li>
     </ul>
-  </div>
-</section>
- 
+  </section>
+  
+  <section class="hsg-footer__bottom">
+    <div class="hsg-footer__apps">
+      
+      
+     
+      
+    </div>
+    <div class="hsg-footer__logo">
+      <a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="DAST Logo">
+      
+      <p>Copyright © 2023 DAST, Inc.</p>
+      </div>
+    <div class="hsg-footer__copyright">
+      <ul>
+        <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
+          Dast Tech</a></li>
+        <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+          DASTdAPP</a></li>
+        <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
+          DASTGPT</a></li>
 
-</div>
+
+
+
+
+
+          
+        <li><a href="/dast-about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
+          ABOUT US</a></li>
+        <li class="hs-footer-cookie-settings" hidden>
+          <a href="javascript:void(0)"></a>
+        </li>
+      </ul>
+    </div>
+  </section>
 </footer>
 <script src="https://academy.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/40719914369/1666086730188/_Web_Team_Assets/Academy/chunks/vendors.min.js" nonce="iBMh0aTZcFEtM9In4qQSvg=="></script>
 <script src="https://academy.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/40719914360/1666086723354/_Web_Team_Assets/Academy/app/global.min.js" nonce="iBMh0aTZcFEtM9In4qQSvg=="></script>

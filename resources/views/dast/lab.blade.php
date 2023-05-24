@@ -266,9 +266,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
   
   
-
-
-
             <header id="hsg-nav-global" class="hsg-nav__wrapper  ">
               <div class="hsg-nav__product-nav-bar">
                 <div id="hs-nav-v4" class="nav-width-flex placeholder-nav">
@@ -342,14 +339,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
                       
                     </li>
-                    <li class="hsg-nav__group-item hsg-nav__group-item--login">
-                      
-                        
-                        
-                        
-                        <a class="ga_nav_link homepage-nav-login" data-logged-in-text="Go to my account" data-logged-in-href="" href="/dast-contact" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Log in">Contact Us</a>
-                      
-                    </li>
+                    
             
                     
             
@@ -364,7 +354,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <div class="hsg-nav__link-wrapper">
                           <button aria-expanded="false" aria-controls="hsg-nav-about-submenu" class="hsg-nav__link">
                             <span class="hsg-nav__link-label">
-                              About
+                              
                               
                             </span>
                           </button>
@@ -409,9 +399,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
                           
                             
-                              <li class="hsg-nav__dropdown-item">
-                                <a class="ga_nav_link homepage-nav-contact-us" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">Contact Us</a>
-                              </li>
                             
                           
                             
@@ -444,7 +431,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <use xlink:href="#CaretRight" />
                       </svg>
                       
-                      <span id="hsg-nav__logo-caret-home">DASTPay</span>
+                      <span id="hsg-nav__logo-caret-home">Home</span>
                       
                     </button>
             
@@ -465,36 +452,143 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
                             <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-1">
                               <span class="hsg-nav__link-label">
-                            <a style="color: rgb(1, 1, 49)"  href="https://dast.tech/">  DASTdAPP</a>
+                            <a style="color: rgb(1, 1, 49)" id="product"  href="#">PRODUCTS</a>
                                 
                               </span>
                             </button>
                             
                           </div>
                           
-                            
-                              <!-- Software -->
-                              <ul id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
-                                <li class="hsg-nav__dropdown-list-title">
-                                  <h2 style="color: rgb(1, 1, 49)"  class="hsg-nav__dropdown-list-title-text">Dast Dapp</h2>
-                                </li>
-                                <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
-                                  <div class="hsg-nav__dropdown-column">
-                                     
-                                      
-                                        <div class="hsg-nav__box-link-none" >
-                                          
-                                          <div class="hsg-nav__header-container">
-                                            <h3 class="hsg-nav__header">The DASTdAPP</h3>
-                                            <p class="hsg-nav__subheader" gtm="">Digital Access Security Token Chain is to become the infrastructure of provable trust for all. Furthermore, Digital Access Security Token intends building up a security technology layer that helps users to secure and recover their digital assets for their family members or next of kin in case of unforeseen circumstances like loss of life. It will serve as a secured recovery technology for assets of loved ones.</p>
-                                          </div>
+                             <!-- Software -->
+                             <ul id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
+                              <li class="hsg-nav__dropdown-list-title">
+                                <h2 class="hsg-nav__dropdown-list-title-text">DAST</h2>
+                              </li>
+                              <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
+                                <div class="hsg-nav__dropdown-column">
+                                   
+                                    
+                                      <div class="hsg-nav__box-link-none">
+                                        
+                                        <div class="hsg-nav__header-container">
+                                          <h3 class="hsg-nav__header">Empowering Web3 Adoption</h3>
+                                          <p class="hsg-nav__subheader" gtm="">
+                                            DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations.See Products 
+                                            </p>
                                         </div>
-                                      
-                                     
-                                      
-                                </li>
+                                      </div>
+                                    
+                                   
+                                    
+                                        
+                                    
+                                    
+                                   
+                                    
+                                   
+                                    
+                                  
+                                </div>
+                              </li>
+                              <li class="hsg-nav__dropdown-row">
+                                <p class="hsg-nav__dropdown-row-description"></p>
                                 
-                              </ul>
+                                  <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="marketing-linear0" gradientunits="userSpaceOnUse" x1="280" y1="640" x2="1200" y2="640" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="marketing-linear1" gradientunits="userSpaceOnUse" x1="481.9" y1="607.34" x2="1438.1" y2="1312.66" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> </defs> <g id="marketing-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 12 9 C 10.34375 9 9 10.34375 9 12 L 9 20 C 9 21.3125 9.855469 22.476562 11.109375 22.867188 C 12.363281 23.253906 13.726562 22.78125 14.472656 21.699219 L 19.972656 13.699219 C 20.601562 12.785156 20.675781 11.59375 20.15625 10.609375 C 19.640625 9.621094 18.621094 9.003906 17.507812 9 Z M 12 9 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear0);" d="M 12 15 C 13.65625 15 15 13.65625 15 12 L 15 4 C 15 2.6875 14.144531 1.523438 12.890625 1.132812 C 11.636719 0.746094 10.273438 1.21875 9.527344 2.300781 L 4.027344 10.300781 C 3.394531 11.21875 3.324219 12.410156 3.84375 13.398438 C 4.363281 14.382812 5.386719 15 6.5 15 Z M 12 15 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 15 4 C 15 5.65625 13.65625 7 12 7 C 10.34375 7 9 5.65625 9 4 C 9 2.34375 10.34375 1 12 1 C 13.65625 1 15 2.34375 15 4 Z M 15 4 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear1);" d="M 17.5 15 L 6.5 15 C 4.84375 15 3.5 13.65625 3.5 12 C 3.5 10.34375 4.84375 9 6.5 9 L 17.5 9 C 19.15625 9 20.5 10.34375 20.5 12 C 20.5 13.65625 19.15625 15 17.5 15 Z M 17.5 15 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="marketing">
+                                        DASTdAPP
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="marketing">Trusted recovery technology for digital assets. <span class="hsg-nav__subheader-highlight"> Your family/next of
+                                        kin will have access to your assets in case of unforseen
+                                        circumstances.</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                  <a href="/dast-pay" class="ga_nav_link hsg-nav__box-link nav-software-sales" gtm="sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Sales Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="sales-linear0" gradientunits="userSpaceOnUse" x1="344.47" y1="825.51" x2="1334.74" y2="1555.96" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> <lineargradient id="sales-linear1" gradientunits="userSpaceOnUse" x1="104.27" y1="817.7" x2="1860.91" y2="817.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="sales-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 19.75 18.609375 L 14.871094 3.59375 C 14.5 2.363281 13.355469 1.464844 12 1.464844 C 10.644531 1.464844 9.5 2.363281 9.128906 3.59375 L 4.25 18.609375 C 3.847656 19.84375 4.289062 21.199219 5.339844 21.960938 C 6.390625 22.726562 7.816406 22.726562 8.867188 21.960938 L 12 19.6875 L 15.132812 21.960938 L 15.136719 21.964844 C 16.1875 22.726562 17.609375 22.726562 18.660156 21.960938 C 19.710938 21.199219 20.152344 19.84375 19.75 18.609375 Z M 19.75 18.609375 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear0);" d="M 16.898438 22.535156 C 16.261719 22.535156 15.644531 22.335938 15.132812 21.960938 L 2.3125 12.648438 C 0.972656 11.675781 0.675781 9.796875 1.648438 8.457031 C 2.625 7.117188 4.5 6.820312 5.839844 7.792969 L 18.660156 17.109375 C 19.710938 17.871094 20.152344 19.226562 19.75 20.460938 C 19.347656 21.699219 18.195312 22.535156 16.898438 22.535156 Z M 16.898438 22.535156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear1);" d="M 20.5 13.222656 L 4.078125 13.222656 C 2.421875 13.222656 1.078125 11.878906 1.078125 10.222656 C 1.078125 8.5625 2.421875 7.222656 4.078125 7.222656 L 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 Z M 20.5 13.222656 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 C 18.84375 13.222656 17.5 11.878906 17.5 10.222656 C 17.5 8.5625 18.84375 7.222656 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 Z M 23.5 10.222656 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="sales">
+                                        DASTPay
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="sales">Simplify Your Finances, Anytime,  <span class="hsg-nav__subheader-highlight">Anywhere with Speed</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                  <a href="/dast-lab" class="ga_nav_link hsg-nav__box-link nav-software-service" gtm="service" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Service Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="service-linear0" gradientunits="userSpaceOnUse" x1="684.58" y1="1448.12" x2="1469" y2="663.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.28" style="stop-color:rgb(100%,39.607843%,23.137255%);stop-opacity:1;" /> <stop offset="0.44" style="stop-color:rgb(100%,49.019608%,29.411765%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,64.705882%,39.215686%);stop-opacity:1;" /> <stop offset="0.65" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="service-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 2.25 11.75 C 1.023438 10.527344 0.546875 8.746094 0.992188 7.074219 C 1.4375 5.402344 2.746094 4.097656 4.414062 3.652344 C 6.085938 3.203125 7.871094 3.683594 9.089844 4.910156 L 18.839844 14.660156 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 2.25 11.75 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#service-linear0);" d="M 5.160156 14.660156 L 14.910156 4.910156 C 16.128906 3.683594 17.914062 3.203125 19.585938 3.652344 C 21.253906 4.097656 22.5625 5.402344 23.007812 7.074219 C 23.453125 8.746094 22.976562 10.527344 21.75 11.75 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 5.160156 14.660156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.167969 8.328125 C 23.167969 11 21 13.167969 18.328125 13.167969 C 15.65625 13.167969 13.492188 11 13.492188 8.328125 C 13.492188 5.65625 15.65625 3.492188 18.328125 3.492188 C 21 3.492188 23.167969 5.65625 23.167969 8.328125 Z M 23.167969 8.328125 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="service">
+                                        DAST Lab
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="service">Empowering Global Talents in Web3 and  <span class="hsg-nav__subheader-highlight">AI Training & Technologies!</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                  <a href="/dast-chat" class="ga_nav_link hsg-nav__box-link nav-software-cms" gtm="cms" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > CMS Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="cms-linear0" gradientunits="userSpaceOnUse" x1="80" y1="1360" x2="1840" y2="1360" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.01" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="cms-linear1" gradientunits="userSpaceOnUse" x1="80" y1="560" x2="1840" y2="560" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="1" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="cms-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear0);" d="M 19 21 L 5 21 C 2.789062 21 1 19.210938 1 17 C 1 14.789062 2.789062 13 5 13 L 19 13 C 21.210938 13 23 14.789062 23 17 C 23 19.210938 21.210938 21 19 21 Z M 19 21 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23 17 C 23 19.210938 21.210938 21 19 21 C 16.789062 21 15 19.210938 15 17 C 15 14.789062 16.789062 13 19 13 C 21.210938 13 23 14.789062 23 17 Z M 23 17 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear1);" d="M 19 11 L 15 11 C 12.789062 11 11 9.210938 11 7 C 11 4.789062 12.789062 3 15 3 L 19 3 C 21.210938 3 23 4.789062 23 7 C 23 9.210938 21.210938 11 19 11 Z M 5 3 C 2.789062 3 1 4.789062 1 7 C 1 9.210938 2.789062 11 5 11 C 7.210938 11 9 9.210938 9 7 C 9 4.789062 7.210938 3 5 3 Z M 5 3 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="cms">
+                                        DASTGPT
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="cms">Your Gateway to Web3 and AI Technologies <span class="hsg-nav__subheader-highlight">Discover the limitless possibilities of web3 and AI with DASTGPT Bot.</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                
+                              </li>
+                             
+                            </ul>
+                          
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
                             
                           
                         </li>
@@ -502,9 +596,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
                           <div class="hsg-nav__link-wrapper">
                             
-                            <a style="color: rgb(1, 1, 49)"  href="/dast-pay" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                            <a style="color: rgb(1, 1, 49)"  href="/dast-blog" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
                               <span class="hsg-nav__link-label">
-                               DASTPay
+                               DAST BLOG
                                 
                               </span>
                             </a>
@@ -521,9 +615,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
                           <div class="hsg-nav__link-wrapper">
                             
-                            <a style="color: rgb(1, 1, 49)"  href="/dast-lab" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                            <a style="color: rgb(1, 1, 49)"  href="/dast-about" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
                               <span class="hsg-nav__link-label">
-                               DAST Lab
+                               ABOUT
                                 
                               </span>
                             </a>
@@ -540,12 +634,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             
                         
                         <li class="hsg-nav__group-item hsg-nav__group-item--order-3  hsg-nav__group-item--has-dropdown ">
-                          <a href="/dast-chat">
+                          <a href="/dast-contact">
                           <div class="hsg-nav__link-wrapper" >
                             
                             <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-3">
                               <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
-                              DASTGPT
+                              CONTACT
                                 
                               </span>
                             </button>
@@ -553,338 +647,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           </div>
                           
                             
-                              <ul id="hsg-nav-submenu-3" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards" >
-                                <li class="hsg-nav__dropdown-list-title">
-                                  <h2 class="hsg-nav__dropdown-list-title-text">DAST BOT</h2>
-                                </a>
-                                </li>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                <li class="hsg-nav__link-section" gtm="">
-                                  <div class="hsg-nav__link-section-icon-wrapper">
-                                   
-                                  </div>
-                                  <div class="hsg-nav__header-container">
-                                    <h3 class="h4 hsg-nav__header" gtm="">
-                                      Interactive Chatbot powered by ChatGPT AI 
-                                    </h3>
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Blog">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Educational Database of major Web3 companies
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Ebooks, Guides &amp; More">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Ask questions and get personalised answers  
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                   
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Inbound Methodology">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Explore AI/Web3 technologies and concepts 
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link HS_nav_bar" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > INBOUND 2023">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Available for free, 24/7 
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  </div>
-                                </li>
-                                
-                                <li class="hsg-nav__link-section" gtm="">
-                                  <div class="hsg-nav__link-section-icon-wrapper">
-                                   
-                                  </div>
-                                  <div class="hsg-nav__header-container">
-                                    <h3 class="h4 hsg-nav__header" gtm="">
-                                      Why DASTGPT ?
-                                    </h3>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Case Studies">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Why Choose DAST?">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Discover the limitless possibilities of web3 and AI with DASTGPT Bot.
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  </div>
-                                </li>
-                                
-                                <li class="hsg-nav__link-section" gtm="">
-                                  <div class="hsg-nav__link-section-icon-wrapper">
-                                    
-                                  </div>
-                                  <div class="hsg-nav__header-container">
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  
-                                    
-                                    
-                                  
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  </div>
-                                </li>
-                                
-                                <li class="hsg-nav__link-section" gtm="">
-                                  <div class="hsg-nav__link-section-icon-wrapper">
-                                    
-                                  </div>
-                                  <div class="hsg-nav__header-container">
-                                    <h3 class="h4 hsg-nav__header" gtm="">
-                                      Premium Features: 
-                                    </h3>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Partner Programs">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Exclusive access to advanced Web3 resources
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Developer Tools">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Priority support and faster response times 
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Community">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Access to premium Web3 company profiles 
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > DAST Ecosystem">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Early access to web3 job opportunities
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  </div>
-                                </li>
-                                
-                              </ul>
+                             
                             
                           
                         </li>
                         
                         
                         <li class="hsg-nav__group-item  hsg-nav__group-item--has-dropdown  hsg-nav__group-item--about-mobile">
-                          <div class="hsg-nav__link-wrapper">
-                            <button class="hsg-nav__link homepage-nav-about-mobile" aria-expanded="false" aria-controls="hsg-nav-about-submenu-mobile">
-                              <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
-                                About
-                                
-                              </span>
-                            </button>
-                          </div>
+                          
                           <ul id="hsg-nav-about-submenu-mobile" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards">
-                            <li class="hsg-nav__dropdown-list-title">
-                              <h2 class="hsg-nav__dropdown-list-title-text">About</h2>
-                            </li>
+                            
                             
                             
                             
@@ -920,12 +692,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
                             
                             
-                            <li class="">
-                              <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Careers">
-                                <div class="hsg-nav__header">Careers</div>
-                                
-                              </a>
-                            </li>
+                           
                             
                             
                             
@@ -1110,7 +877,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
             
             
-           
+            
             
             </ul>
                           
@@ -1179,7 +946,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     </a>
                   
                 </li><li class="hsg-breadcrumbs__item"><a style="color:white;"class="hsg-breadcrumbs__link current-link" href="">
-                      DAST Lab
+                      DAST LAB
                     </a>
                   
                 </li>
@@ -1193,9 +960,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <section style="background: rgb(1, 1, 33); color:white;"  class="product-core-header" data-background="white">
   <div class="product-core-header__container left">
-    <div class="product-core-header__image">
-      <img class="product-core-header__image-inner hsg-deferred" data-src="https://dast.tech/assets/images/ideology%20image.png" alt="dast">
-    </div>
+    
     <div class="product-core-header__text">
       
         
@@ -1203,7 +968,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
             <span class="sales-hub-icon" style="background-image: url(https://www.hubspot.com/hubfs/product_icons_2022/CMSHub_Icon_Gradient_RGB_24px.svg); "></span>
           
-          dast Lab
+          DAST LAB
         </strong>
       
       <h4 style="font-size: large;" class="product-core-header__text-title">Empowering Global Talents in Web3 and AI Training & Technologies!
@@ -1211,7 +976,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       </h4>
       
       <div class="product-core-header__ctas ">
-        <a href="" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Get a demo</a>
+        <a href="" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Apply Now</a>
         
         
       </div>
@@ -1247,6 +1012,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               </li>
               </ul>
         </div>
+    </div>
+
+
+    <div class="product-core-header__image">
+      <img class="product-core-header__image-inner hsg-deferred" data-src="https://media.istockphoto.com/id/939501682/photo/young-students-of-robotics-working-on-project.webp?b=1&s=170667a&w=0&k=20&c=_jbJvIsYcUig1tg5SeKqZmultrCmfsq1FF5qP3vhpoQ=" alt="dast">
     </div>
   </div>
 </section></div>
@@ -1324,7 +1094,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <div class="hsg-cta-block__cta-wrapper ">
                           <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-marketers-1" href="">
-      Get a demo
+      Join our Community
     </a>
     <a class="cta--secondary cta--small cms-marketers-2" href="">
       Enroll Now
@@ -1340,7 +1110,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             <div class="hsg-video-gallery__playbar">
                                 
                             </div>
-                            <img style="width: 100%; margin: auto; display: block;"  data-tracking="" class="vidyard-player-embed hsg-deferred " src="https://dast.tech/assets/images/sp.png" >
+                            <img style="width: 100%; margin: auto; display: block;"  data-tracking="" class="vidyard-player-embed hsg-deferred " src="https://images.unsplash.com/photo-1683813479742-4730f91fa3ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZGUlMjBsZWFybmluZyUyMGxhYnxlbnwwfHwyfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" >
                           </div>
                           
                         
@@ -1358,9 +1128,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   
                     <div class="section-header product-tabs-cms__tab-section">
                       
-                        <h4 style="font-size: large;" class="section-header__header">
+                        <h3  class="section-header__header">
                             Why choose DAST Lab?
-                        </h4>
+                        </h3>
                       
                     </div>
                   
@@ -1373,14 +1143,15 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           <div class="hsg-multi-col-item__text-content">
                             
                               <h5 style="font-size: large;"  class="hsg-multi-col__name">
-                                Lifelong Learning
+                                Supportive Community
                               </h5>
                             
 
                             
-                              <div class="hsg-multi-col__description"><p style="font-size: large;" >Our commitment to your success doesn't end with course completion. Access ongoing resources, workshops, webinars, networking events and partnerships to fuel your continuous professional development and growth.
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >Join a vibrant community of learners, mentors, and industry experts who are passionate about sharing knowledge and fostering growth.
 
-                                .</p></div>
+
+                                </p></div>
                             
 
                             
@@ -1400,7 +1171,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p style="font-size: large;" >  Acquired in-demand skills that make you stand out in the job market, opening doors to exciting career opportunities..</p></div>
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >  Acquired in-demand skills that make you stand out in the job market, opening doors to exciting career opportunities.</p></div>
                             
 
                             
@@ -1421,7 +1192,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
                             
                               <div class="hsg-multi-col__description"><p style="font-size: large;" >You would become part of a rapidly evolving industry that drives innovation and shapes the future of Africa's digital landscape in the global market. 
-                                .</p></div>
+                                </p></div>
                             
 
                             
@@ -1503,7 +1274,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-            <button style="font-size: large;"  class="h4 hsg-tabs__heading hsg-visible-lte-mobile sales-jtbd2 developers-tab" data-tab="1">Unlock Exciting Job Opportunities with Job Placement Assistance</button>
+           
             <div data-tab="1" class="hsg-tabs__content">
 
               <!-- Section Header -->
@@ -1527,13 +1298,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     <div class="hsg-flex hsg-cta-block__content-wrapper">
                       <div class="hsg-cta-block__content hsg-cta-block__content--half">
                         <h3 class="hsg-cta-block__header">Industry-Relevant Curriculum Tailored to Current Trends</h3>
-                        <p class="hsg-cta-block__subheader">Our curriculum is designed to stay up-to-date with the latest industry trends and demands. You'll learn in-demand skills and technologies that are highly relevant to the current tech landscape, ensuring that you're equipped with the knowledge and expertise that employers are looking for..</p>
+                        <p class="hsg-cta-block__subheader">Our curriculum is designed to stay up-to-date with the latest industry trends and demands. You'll learn in-demand skills and technologies that are highly relevant to the current tech landscape, ensuring that you're equipped with the knowledge and expertise that employers are looking for.</p>
 
                         
                         <div class="hsg-cta-block__cta-wrapper ">
-                          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-developers-1" href="https://developers.hubspot.com/docs/cms/guides/getting-started?utm_source=Main%20Site&amp;utm_medium=Product%20Page&amp;utm_campaign=Getting%20Started%20Button">
-      Get started on the CMS
-    </a>
+                         
+   
     
     
                         </div>
@@ -1557,333 +1327,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
               
                 
-                <section class="hsg-multi-col product-tabs-cms__hsg-multi-col product-tabs-cms__tab-section" data-background="white">
-                  
-                    <div class="section-header product-tabs-cms__tab-section">
-                      
-                        <h4 class="section-header__header">
-                          Features that make this possible:
-                        </h4>
-                      
-                    </div>
-                  
-                  <div class="hsg-multi-col__wrapper">
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                Local website development
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Leverage tools like GitHub to handle version control, and make changes to web assets as you're ready.</p></div>
-                            
-
-                            
-
-        <a class="hsg-multi-col__learn-more cms-developers-featvid-1 cta--link" href="#" data-target-modal="module_16425156364421-1--me8reREvjFVLdupTUcNYFg-modal">
-          
-          
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/experiments/cms-hub-page/play-icon-circle.svg" class="cta--link-play-icon" alt="">
-          
-          Watch product video <span class="visually-hidden">: Local website development</span>
-        </a><div class="hsg-modal-container" data-modal="module_16425156364421-1--me8reREvjFVLdupTUcNYFg-modal" data-exit="0" data-play-video-on-exit="0" role="dialog" aria-labelledby="module_16425156364421-1--me8reREvjFVLdupTUcNYFg-modal-caption">
-    <div class="hsg-modal-contents hsg-modal-contents--video">
-      
-      <button class="hsg-modal-header" data-background="secondary4">
-        <span class="visually-hidden">Close Dialog</span>
-        <span class="hsg-icon hsg-icon-close"></span>
-      </button>
-    <div class="hsg-video-container hsg-deferred" id="module_16425156364421-1--me8reREvjFVLdupTUcNYFg" aria-label="video" data-autoplay="true" data-tracking="" data-uuid="me8reREvjFVLdupTUcNYFg" data-v="4" data-type="hsvideo" data-defer="true" data-video-src="me8reREvjFVLdupTUcNYFg" title="Video"></div>
-    
-  </div>
-  </div>
-  
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                Serverless functions
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Add interactive elements like event registrations, guest books, and calculators, without configuring an external server, SSL certificate, or data transfer processes.</p></div>
-                            
-
-                            
-
-        <a class="hsg-multi-col__learn-more cms-developers-featvid-2 cta--link" href="#" data-target-modal="module_16425156364421-1--cTGrp5cXoNrQBrZupnsr2S-modal">
-          
-          
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/experiments/cms-hub-page/play-icon-circle.svg" class="cta--link-play-icon" alt="">
-          
-          Watch product video<span class="visually-hidden">: Serverless functions</span>
-        </a><div class="hsg-modal-container" data-modal="module_16425156364421-1--cTGrp5cXoNrQBrZupnsr2S-modal" data-exit="0" data-play-video-on-exit="0" role="dialog" aria-labelledby="module_16425156364421-1--cTGrp5cXoNrQBrZupnsr2S-modal-caption">
-    <div class="hsg-modal-contents hsg-modal-contents--video">
-      
-      <button class="hsg-modal-header" data-background="secondary4">
-        <span class="visually-hidden">Close Dialog</span>
-        <span class="hsg-icon hsg-icon-close"></span>
-      </button>
-    <div class="hsg-video-container hsg-deferred" id="module_16425156364421-1--cTGrp5cXoNrQBrZupnsr2S" aria-label="video" data-autoplay="true" data-tracking="" data-uuid="cTGrp5cXoNrQBrZupnsr2S" data-v="4" data-type="hsvideo" data-defer="true" data-video-src="cTGrp5cXoNrQBrZupnsr2S" title="Video"></div>
-    
-  </div>
-  </div>
-  
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                <a href="https://www.hubspot.com/products/cms/website-themes-templates?hubs_content-cta=marketers-tab&amp;hubs_content=https://www.hubspot.com/products/cms/">Website Themes and Templates</a>
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Create a site-wide content editing experience that empowers your marketing team to manage and update the front-end. Start from scratch or leverage a pre-built theme as a starting point.</p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                Developer docs &amp; community
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Extensive documentation and an active developer community allows you to jump in right away, plus get answers and ideas when you need them.</p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                Dynamic content
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Build data tables or leverage CRM objects to create dynamic, SEO-friendly pages that can be updated easily by marketers. Great for calendars, product catalogs, pricing data, and more.</p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                            
-
-                            
-                              
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                  </div>
-                </section>
-              
-
-            </div>
-          
-        
-          
-          
-          
-            <div data-tab="2" class="hsg-tabs__content">
-
-              <!-- Section Header -->
-              
-                <section class="section-header product-tabs-cms__tab-section">
-                  
-                  
-                  
-                </section>
-              
-
-            
-              
-              
                 
-                <section class="hsg-multi-col product-tabs-cms__hsg-multi-col product-tabs-cms__tab-section" data-background="white">
-                  
-                    <div class="section-header product-tabs-cms__tab-section">
-                      
-                        <h4 class="section-header__header">
-                          Features that make this possible:
-                        </h4>
-                      
-                    </div>
-                  
-                  <div class="hsg-multi-col__wrapper">
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                24/7 security monitoring &amp; threat detection
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Our security team is dedicated to ensuring the safety of your site with automated and manual checks for attacks, potential abuse, or other anomalies.</p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                Content delivery network &amp; custom CDN configuration 
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p><span>Our CDN network is built to handle high levels of traffic, and ensures that your website loads quickly, reliably, and securely for visitors around the world. A custom CDN configuration is also available in Enterprise edition.</span></p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                Standard SSL certificate
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Your site will be automatically provisioned with a <a href="/products/marketing/ssl" rel="noopener" target="_blank">standard SSL certificate</a> to create greater trust between your brand and website visitors, and increase your Google ranking.</p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                Activity logging &amp; partitioning
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Grant your team appropriate permissions and <a href="/products/cms/activity-logs" rel="noopener" target="_blank">keep track of what changes were made</a> and by whom, to monitor usage and make security adjustment accordingly.</p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                Site performance monitoring
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Track down reported errors or outages, as well as areas of your websites experiencing high traffic, slow speeds, and overall performance over time.</p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                      
-                        <div class="hsg-multi-col__item">
-                          
-
-                          <div class="hsg-multi-col-item__text-content">
-                            
-                              <h5 class="hsg-multi-col__name">
-                                Reverse proxy configuration
-                              </h5>
-                            
-
-                            
-                              <div class="hsg-multi-col__description"><p>Give your marketing teams the power to create and manage content, while continuing to load all content from a single, trusted domain hosted externally.</p></div>
-                            
-
-                            
-                          </div>
-                        </div>
-                      
-                    
-                  </div>
-                </section>
-              
-
             </div>
           
         
@@ -1916,7 +1360,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
         <div class="hsg-cta-block__cta-wrapper ">
           <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-migrations-1" href="" target="_blank" data-mce-target="_blank">
-      Enroll Now
+      Join Our Community
     </a>
     
     
@@ -1938,7 +1382,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <section class="accordion-2-col" data-background="dark">
   <div class="hsg-page-width-normal">
     
-      <h3 style="font-size: large;"  class="accordion-2-col__header">Dast Lab FAQ ...</h3>
+      <h3 style="font-size: large;"  class="accordion-2-col__header">Dast Lab FAQ </h3>
     
     
       
@@ -1954,7 +1398,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p> At DAST Lab, we prioritize the security of our training platform and the protection of participants' data. We implement robust security measures, including encryption protocols, access controls, and regular security audits, to safeguard the confidentiality and integrity of the platform and the data shared by our participants..</p></div>
+              <div><p> At DAST Lab, we prioritize the security of our training platform and the protection of participants' data. We implement robust security measures, including encryption protocols, access controls, and regular security audits, to safeguard the confidentiality and integrity of the platform and the data shared by our participants.</p></div>
             </div>
           </li>
         
@@ -1971,7 +1415,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <div><p>Yes, your personal information is safe with DAST Lab. We adhere to strict privacy policies and comply with relevant data protection regulations. We take necessary precautions to secure your personal information and ensure it is only used for the intended purposes within the scope of our training programs.
 
                 Q: How is the confidentiality of the training materials maintained at DAST Lab?
-                A: DAST Lab treats the training materials provided to participants as highly confidential. We have measures in place to prevent unauthorized access or sharing of the training materials. Participants are expected to adhere to the terms and conditions regarding the use and confidentiality of the materials to maintain their integrity..</p></div>
+                A: DAST Lab treats the training materials provided to participants as highly confidential. We have measures in place to prevent unauthorized access or sharing of the training materials. Participants are expected to adhere to the terms and conditions regarding the use and confidentiality of the materials to maintain their integrity.</p></div>
             </div>
           </li>
         
@@ -1985,7 +1429,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p>DAST Lab employs various security measures to prevent unauthorized access to our learning platform. These measures include secure user authentication mechanisms, strong password policies, and regular monitoring of system logs to detect and respond to any suspicious activity promptly...</p></div>
+              <div><p>DAST Lab employs various security measures to prevent unauthorized access to our learning platform. These measures include secure user authentication mechanisms, strong password policies, and regular monitoring of system logs to detect and respond to any suspicious activity promptly.</p></div>
             </div>
           </li>
         
@@ -1999,7 +1443,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p> In the event of a security incident or data breach, DAST Lab has incident response protocols in place. We will take immediate action to mitigate the impact, investigate the incident thoroughly, and notify affected individuals as required by applicable laws and regulations. <a href=""><span>Learn more</span></a>.</p></div>
+              <div><p> In the event of a security incident or data breach, DAST Lab has incident response protocols in place. We will take immediate action to mitigate the impact, investigate the incident thoroughly, and notify affected individuals as required by applicable laws and regulations.</p></div>
             </div>
           </li>
         </ul>
@@ -2071,7 +1515,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             <div class="hsg-multi-row__employee">
               <div class="hsg-multi-row__employee-info">
                 
-                  <div class="hsg-multi-row__employee-name">Epert</div>
+               
                 
                 
                 
@@ -2190,7 +1634,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Popular Features</button>
   </h2>
   <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
+      <a class="ga_nav_link " href="#products" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
         All Products and Features</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="0">
@@ -2198,7 +1642,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         Free Meeting Scheduler </a>
     </li>
     <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
+      <a class="ga_nav_link " href="/dast-contact" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
         Social Media Tools</a>
     </li>
     
@@ -2212,11 +1656,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
     <li class="hsg-footer__nav-item" data-order="12">
       <a class="ga_nav_link " href="" data-order="12" data-linkorder="13" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Chatbot Builder">
-        DAST Chatbot </a>
+        Privacy and Policy </a>
     </li>
     <li class="hsg-footer__nav-item" data-order="13">
       <a class="ga_nav_link " href="" data-order="13" data-linkorder="14" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Live Chat Software">
-        Free Live Chat </a>
+       Legal Stuff </a>
     </li>
    
     
@@ -2228,30 +1672,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="hsg-footer__nav-right">
         <div class="hsg-footer__nav-full">
           <section class="hsg-footer__nav-column ">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Free Tools</button>
-  </h2>
-  <ul>
+  
    
     
    
     
     
-    <li class="hsg-footer__nav-item" data-order="6">
-      <a class="ga_nav_link " href="" data-order="6" data-linkorder="6" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Free Tools > Marketing Plan Generator">
-        Marketing Plan Generator</a>
-    </li>
-    
-    <li class="hsg-footer__nav-item" data-order="8">
-      <a class="ga_nav_link " href="" data-order="8" data-linkorder="8" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Free Tools > Industry Benchmark Data">
-        Industry Benchmark Data</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="9">
-      <a class="ga_nav_link " href="" data-order="9" data-linkorder="9" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Free Tools > Software Comparisons Library">
-        Software Comparisons Library</a>
-    </li>
-    
-    </ul>
 </section>
 
         </div>
@@ -2261,7 +1687,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Company</button>
   </h2>
   <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
+      <a class="ga_nav_link " href="/dast-about" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
         About Us</a>
     </li>
     
@@ -2278,7 +1704,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         Investor Relations</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="5">
-      <a class="ga_nav_link " href="" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
+      <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
         Blog</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="6">
@@ -2299,7 +1725,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         Customer Support</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
+      <a class="ga_nav_link " href="https://lnkd.in/deZZhAMM" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
         Join our Telegram Group</a>
     </li>
     </ul>
@@ -2323,7 +1749,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <ul class="hsg-footer__social">
       
       <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
+          <a href="https://lnkd.in/dRtGxc6y" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
             <svg class="cl-icon">
               <use href="#facebook" />
             </svg>
@@ -2347,7 +1773,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           </a>
         </li>
       <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
+          <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
             <svg class="cl-icon">
               <use href="#twitter" />
             </svg>
@@ -2355,7 +1781,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           </a>
         </li>
       <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
+          <a href="https://lnkd.in/dbCgsr4d" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
             <svg class="cl-icon">
               <use href="#linkedin" />
             </svg>
@@ -2363,14 +1789,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           </a>
         </li>
      
-      <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_medium" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Tiktok">
-            <svg class="cl-icon">
-              <use href="#tiktok" />
-            </svg>
-            <span class="hidden-social">Tiktok</span>
-          </a>
-        </li>
+     
       
       
     </ul>
@@ -2392,9 +1811,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <ul>
         <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
           Dast Tech</a></li>
-        <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+        <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
           DASTdAPP</a></li>
-        <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
+        <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
           DASTGPT</a></li>
 
 
@@ -2403,7 +1822,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
           
-        <li><a href="/about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
+        <li><a href="/dast-about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
           ABOUT US</a></li>
         <li class="hs-footer-cookie-settings" hidden>
           <a href="javascript:void(0)"></a>
@@ -2412,7 +1831,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     </div>
   </section>
 </footer>
-
 <script src="https://www.hubspot.com/wt-assets/static-files/2.2.3/core-nav/scripts.js" nonce="66W8vRVSya9p8Hh+F2QkwA=="></script></div>
 
     

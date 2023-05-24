@@ -1,7 +1,7 @@
 
 <!doctype html><html lang="en"><head>
     <meta charset="utf-8">
-    <title>DASTPay: Simplify Your Finances, Anytime, Anywhere with Speed</title>
+    <title>DASTPAY: Simplify Your Finances, Anytime, Anywhere with Speed</title>
     
 
 <style>
@@ -340,14 +340,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
                       
                     </li>
-                    <li class="hsg-nav__group-item hsg-nav__group-item--login">
-                      
-                        
-                        
-                        
-                        <a class="ga_nav_link homepage-nav-login" data-logged-in-text="Go to my account" data-logged-in-href="" href="/dast-contact" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Log in">Contact Us</a>
-                      
-                    </li>
+                    
             
                     
             
@@ -362,7 +355,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <div class="hsg-nav__link-wrapper">
                           <button aria-expanded="false" aria-controls="hsg-nav-about-submenu" class="hsg-nav__link">
                             <span class="hsg-nav__link-label">
-                              About
+                              
                               
                             </span>
                           </button>
@@ -407,9 +400,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
                           
                             
-                              <li class="hsg-nav__dropdown-item">
-                                <a class="ga_nav_link homepage-nav-contact-us" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">Contact Us</a>
-                              </li>
                             
                           
                             
@@ -442,7 +432,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <use xlink:href="#CaretRight" />
                       </svg>
                       
-                      <span id="hsg-nav__logo-caret-home">DASTPay</span>
+                      <span id="hsg-nav__logo-caret-home">Home</span>
                       
                     </button>
             
@@ -463,36 +453,143 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
                             <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-1">
                               <span class="hsg-nav__link-label">
-                            <a style="color: rgb(1, 1, 49)"  href="https://dast.tech/">  DASTdAPP</a>
+                            <a style="color: rgb(1, 1, 49)" id="product"  href="#">PRODUCTS</a>
                                 
                               </span>
                             </button>
                             
                           </div>
                           
-                            
-                              <!-- Software -->
-                              <ul id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
-                                <li class="hsg-nav__dropdown-list-title">
-                                  <h2 style="color: rgb(1, 1, 49)"  class="hsg-nav__dropdown-list-title-text">Dast Dapp</h2>
-                                </li>
-                                <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
-                                  <div class="hsg-nav__dropdown-column">
-                                     
-                                      
-                                        <div class="hsg-nav__box-link-none" >
-                                          
-                                          <div class="hsg-nav__header-container">
-                                            <h3 class="hsg-nav__header">The DASTdAPP</h3>
-                                            <p class="hsg-nav__subheader" gtm="">Digital Access Security Token Chain is to become the infrastructure of provable trust for all. Furthermore, Digital Access Security Token intends building up a security technology layer that helps users to secure and recover their digital assets for their family members or next of kin in case of unforeseen circumstances like loss of life. It will serve as a secured recovery technology for assets of loved ones.</p>
-                                          </div>
+                             <!-- Software -->
+                             <ul id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
+                              <li class="hsg-nav__dropdown-list-title">
+                                <h2 class="hsg-nav__dropdown-list-title-text">DAST</h2>
+                              </li>
+                              <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
+                                <div class="hsg-nav__dropdown-column">
+                                   
+                                    
+                                      <div class="hsg-nav__box-link-none">
+                                        
+                                        <div class="hsg-nav__header-container">
+                                          <h3 class="hsg-nav__header">Empowering Web3 Adoption</h3>
+                                          <p class="hsg-nav__subheader" gtm="">
+                                            DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations.See Products 
+                                            </p>
                                         </div>
-                                      
-                                     
-                                      
-                                </li>
+                                      </div>
+                                    
+                                   
+                                    
+                                        
+                                    
+                                    
+                                   
+                                    
+                                   
+                                    
+                                  
+                                </div>
+                              </li>
+                              <li class="hsg-nav__dropdown-row">
+                                <p class="hsg-nav__dropdown-row-description"></p>
                                 
-                              </ul>
+                                  <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="marketing-linear0" gradientunits="userSpaceOnUse" x1="280" y1="640" x2="1200" y2="640" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="marketing-linear1" gradientunits="userSpaceOnUse" x1="481.9" y1="607.34" x2="1438.1" y2="1312.66" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> </defs> <g id="marketing-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 12 9 C 10.34375 9 9 10.34375 9 12 L 9 20 C 9 21.3125 9.855469 22.476562 11.109375 22.867188 C 12.363281 23.253906 13.726562 22.78125 14.472656 21.699219 L 19.972656 13.699219 C 20.601562 12.785156 20.675781 11.59375 20.15625 10.609375 C 19.640625 9.621094 18.621094 9.003906 17.507812 9 Z M 12 9 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear0);" d="M 12 15 C 13.65625 15 15 13.65625 15 12 L 15 4 C 15 2.6875 14.144531 1.523438 12.890625 1.132812 C 11.636719 0.746094 10.273438 1.21875 9.527344 2.300781 L 4.027344 10.300781 C 3.394531 11.21875 3.324219 12.410156 3.84375 13.398438 C 4.363281 14.382812 5.386719 15 6.5 15 Z M 12 15 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 15 4 C 15 5.65625 13.65625 7 12 7 C 10.34375 7 9 5.65625 9 4 C 9 2.34375 10.34375 1 12 1 C 13.65625 1 15 2.34375 15 4 Z M 15 4 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear1);" d="M 17.5 15 L 6.5 15 C 4.84375 15 3.5 13.65625 3.5 12 C 3.5 10.34375 4.84375 9 6.5 9 L 17.5 9 C 19.15625 9 20.5 10.34375 20.5 12 C 20.5 13.65625 19.15625 15 17.5 15 Z M 17.5 15 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="marketing">
+                                        DASTdAPP
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="marketing">Trusted recovery technology for digital assets. <span class="hsg-nav__subheader-highlight"> Your family/next of
+                                        kin will have access to your assets in case of unforseen
+                                        circumstances.</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                  <a href="/dast-pay" class="ga_nav_link hsg-nav__box-link nav-software-sales" gtm="sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Sales Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="sales-linear0" gradientunits="userSpaceOnUse" x1="344.47" y1="825.51" x2="1334.74" y2="1555.96" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> <lineargradient id="sales-linear1" gradientunits="userSpaceOnUse" x1="104.27" y1="817.7" x2="1860.91" y2="817.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="sales-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 19.75 18.609375 L 14.871094 3.59375 C 14.5 2.363281 13.355469 1.464844 12 1.464844 C 10.644531 1.464844 9.5 2.363281 9.128906 3.59375 L 4.25 18.609375 C 3.847656 19.84375 4.289062 21.199219 5.339844 21.960938 C 6.390625 22.726562 7.816406 22.726562 8.867188 21.960938 L 12 19.6875 L 15.132812 21.960938 L 15.136719 21.964844 C 16.1875 22.726562 17.609375 22.726562 18.660156 21.960938 C 19.710938 21.199219 20.152344 19.84375 19.75 18.609375 Z M 19.75 18.609375 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear0);" d="M 16.898438 22.535156 C 16.261719 22.535156 15.644531 22.335938 15.132812 21.960938 L 2.3125 12.648438 C 0.972656 11.675781 0.675781 9.796875 1.648438 8.457031 C 2.625 7.117188 4.5 6.820312 5.839844 7.792969 L 18.660156 17.109375 C 19.710938 17.871094 20.152344 19.226562 19.75 20.460938 C 19.347656 21.699219 18.195312 22.535156 16.898438 22.535156 Z M 16.898438 22.535156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear1);" d="M 20.5 13.222656 L 4.078125 13.222656 C 2.421875 13.222656 1.078125 11.878906 1.078125 10.222656 C 1.078125 8.5625 2.421875 7.222656 4.078125 7.222656 L 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 Z M 20.5 13.222656 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 C 18.84375 13.222656 17.5 11.878906 17.5 10.222656 C 17.5 8.5625 18.84375 7.222656 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 Z M 23.5 10.222656 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="sales">
+                                       DAST PAY
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="sales">Simplify Your Finances, Anytime,  <span class="hsg-nav__subheader-highlight">Anywhere with Speed</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                  <a href="/dast-lab" class="ga_nav_link hsg-nav__box-link nav-software-service" gtm="service" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Service Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="service-linear0" gradientunits="userSpaceOnUse" x1="684.58" y1="1448.12" x2="1469" y2="663.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.28" style="stop-color:rgb(100%,39.607843%,23.137255%);stop-opacity:1;" /> <stop offset="0.44" style="stop-color:rgb(100%,49.019608%,29.411765%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,64.705882%,39.215686%);stop-opacity:1;" /> <stop offset="0.65" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="service-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 2.25 11.75 C 1.023438 10.527344 0.546875 8.746094 0.992188 7.074219 C 1.4375 5.402344 2.746094 4.097656 4.414062 3.652344 C 6.085938 3.203125 7.871094 3.683594 9.089844 4.910156 L 18.839844 14.660156 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 2.25 11.75 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#service-linear0);" d="M 5.160156 14.660156 L 14.910156 4.910156 C 16.128906 3.683594 17.914062 3.203125 19.585938 3.652344 C 21.253906 4.097656 22.5625 5.402344 23.007812 7.074219 C 23.453125 8.746094 22.976562 10.527344 21.75 11.75 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 5.160156 14.660156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.167969 8.328125 C 23.167969 11 21 13.167969 18.328125 13.167969 C 15.65625 13.167969 13.492188 11 13.492188 8.328125 C 13.492188 5.65625 15.65625 3.492188 18.328125 3.492188 C 21 3.492188 23.167969 5.65625 23.167969 8.328125 Z M 23.167969 8.328125 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="service">
+                                        DAST Lab
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="service">Empowering Global Talents in Web3 and  <span class="hsg-nav__subheader-highlight">AI Training & Technologies!</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                  <a href="/dast-chat" class="ga_nav_link hsg-nav__box-link nav-software-cms" gtm="cms" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > CMS Hub">
+                                    
+                                    <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="cms-linear0" gradientunits="userSpaceOnUse" x1="80" y1="1360" x2="1840" y2="1360" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.01" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="cms-linear1" gradientunits="userSpaceOnUse" x1="80" y1="560" x2="1840" y2="560" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="1" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="cms-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear0);" d="M 19 21 L 5 21 C 2.789062 21 1 19.210938 1 17 C 1 14.789062 2.789062 13 5 13 L 19 13 C 21.210938 13 23 14.789062 23 17 C 23 19.210938 21.210938 21 19 21 Z M 19 21 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23 17 C 23 19.210938 21.210938 21 19 21 C 16.789062 21 15 19.210938 15 17 C 15 14.789062 16.789062 13 19 13 C 21.210938 13 23 14.789062 23 17 Z M 23 17 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear1);" d="M 19 11 L 15 11 C 12.789062 11 11 9.210938 11 7 C 11 4.789062 12.789062 3 15 3 L 19 3 C 21.210938 3 23 4.789062 23 7 C 23 9.210938 21.210938 11 19 11 Z M 5 3 C 2.789062 3 1 4.789062 1 7 C 1 9.210938 2.789062 11 5 11 C 7.210938 11 9 9.210938 9 7 C 9 4.789062 7.210938 3 5 3 Z M 5 3 " /> </g> </svg>
+                                      
+                                    </div>
+                                    
+                                    <div class="hsg-nav__header-container">
+                                      <h4 class="hsg-nav__header" gtm="cms">
+                                        DASTGPT
+                                      </h4>
+                                      <p class="hsg-nav__subheader" gtm="cms">Your Gateway to Web3 and AI Technologies <span class="hsg-nav__subheader-highlight">Discover the limitless possibilities of web3 and AI with DASTGPT Bot.</span></p>
+                                    </div>
+                                    
+                                  </a>
+                                
+                                
+                              </li>
+                             
+                            </ul>
+                          
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
                             
                           
                         </li>
@@ -500,9 +597,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
                           <div class="hsg-nav__link-wrapper">
                             
-                            <a style="color: rgb(1, 1, 49)"  href="/dast-pay" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                            <a style="color: rgb(1, 1, 49)"  href="/dast-blog" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
                               <span class="hsg-nav__link-label">
-                               DASTPay
+                               DAST BLOG
                                 
                               </span>
                             </a>
@@ -519,9 +616,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
                           <div class="hsg-nav__link-wrapper">
                             
-                            <a style="color: rgb(1, 1, 49)"  href="/dast-lab" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                            <a style="color: rgb(1, 1, 49)"  href="/dast-about" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
                               <span class="hsg-nav__link-label">
-                               DAST Lab
+                               ABOUT
                                 
                               </span>
                             </a>
@@ -538,12 +635,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             
                         
                         <li class="hsg-nav__group-item hsg-nav__group-item--order-3  hsg-nav__group-item--has-dropdown ">
-                          <a href="/dast-chat">
+                          <a href="/dast-contact">
                           <div class="hsg-nav__link-wrapper" >
                             
                             <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-3">
                               <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
-                              DASTGPT
+                              CONTACT
                                 
                               </span>
                             </button>
@@ -551,338 +648,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           </div>
                           
                             
-                              <ul id="hsg-nav-submenu-3" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards" >
-                                <li class="hsg-nav__dropdown-list-title">
-                                  <h2 class="hsg-nav__dropdown-list-title-text">DAST BOT</h2>
-                                </a>
-                                </li>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                <li class="hsg-nav__link-section" gtm="">
-                                  <div class="hsg-nav__link-section-icon-wrapper">
-                                   
-                                  </div>
-                                  <div class="hsg-nav__header-container">
-                                    <h3 class="h4 hsg-nav__header" gtm="">
-                                      Interactive Chatbot powered by ChatGPT AI 
-                                    </h3>
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Blog">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Educational Database of major Web3 companies
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Ebooks, Guides &amp; More">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Ask questions and get personalised answers  
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                   
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Inbound Methodology">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Explore AI/Web3 technologies and concepts 
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link HS_nav_bar" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > INBOUND 2023">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Available for free, 24/7 
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  </div>
-                                </li>
-                                
-                                <li class="hsg-nav__link-section" gtm="">
-                                  <div class="hsg-nav__link-section-icon-wrapper">
-                                   
-                                  </div>
-                                  <div class="hsg-nav__header-container">
-                                    <h3 class="h4 hsg-nav__header" gtm="">
-                                      Why DASTGPT ?
-                                    </h3>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Case Studies">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Why Choose DAST?">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Discover the limitless possibilities of web3 and AI with DASTGPT Bot.
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  </div>
-                                </li>
-                                
-                                <li class="hsg-nav__link-section" gtm="">
-                                  <div class="hsg-nav__link-section-icon-wrapper">
-                                    
-                                  </div>
-                                  <div class="hsg-nav__header-container">
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  
-                                    
-                                    
-                                  
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  </div>
-                                </li>
-                                
-                                <li class="hsg-nav__link-section" gtm="">
-                                  <div class="hsg-nav__link-section-icon-wrapper">
-                                    
-                                  </div>
-                                  <div class="hsg-nav__header-container">
-                                    <h3 class="h4 hsg-nav__header" gtm="">
-                                      Premium Features: 
-                                    </h3>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Partner Programs">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Exclusive access to advanced Web3 resources
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Developer Tools">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Priority support and faster response times 
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > Community">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Access to premium Web3 company profiles 
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Resources > DAST Ecosystem">
-                                      <p class="hsg-nav__subheader" gtm="">
-                                        Early access to web3 job opportunities
-                                      </p>
-                                      
-                                    </a>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                  </div>
-                                </li>
-                                
-                              </ul>
+                             
                             
                           
                         </li>
                         
                         
                         <li class="hsg-nav__group-item  hsg-nav__group-item--has-dropdown  hsg-nav__group-item--about-mobile">
-                          <div class="hsg-nav__link-wrapper">
-                            <button class="hsg-nav__link homepage-nav-about-mobile" aria-expanded="false" aria-controls="hsg-nav-about-submenu-mobile">
-                              <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
-                                About
-                                
-                              </span>
-                            </button>
-                          </div>
+                          
                           <ul id="hsg-nav-about-submenu-mobile" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards">
-                            <li class="hsg-nav__dropdown-list-title">
-                              <h2 class="hsg-nav__dropdown-list-title-text">About</h2>
-                            </li>
+                            
                             
                             
                             
@@ -918,12 +693,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
                             
                             
-                            <li class="">
-                              <a href="" class="ga_nav_link hsg-nav__box-link " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Careers">
-                                <div class="hsg-nav__header">Careers</div>
-                                
-                              </a>
-                            </li>
+                           
                             
                             
                             
@@ -1046,7 +816,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 </a>
                 
                 
-                  <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started " href="/dast-partners">
+                  <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/dast-partners">
                     DAST Partners <span class="visually-hidden">DAST Partners</span>
                   </a>
             
@@ -1135,7 +905,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <div id="hsg-main-content" tabindex="-1"></div>
             </header>
             
-
  
 
 
@@ -1177,7 +946,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     </a>
                   
                 </li><li class="hsg-breadcrumbs__item"><a style="color:white;"class="hsg-breadcrumbs__link current-link" href="">
-                      DASTPay
+                      DASTPAY
                     </a>
                   
                 </li>
@@ -1191,9 +960,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <section style="background: rgb(1, 1, 33); color:white;"  class="product-core-header" data-background="white">
   <div class="product-core-header__container left">
-    <div class="product-core-header__image">
-      <img class="product-core-header__image-inner hsg-deferred" data-src="https://www.hubspot.com/hubfs/CMS-Hub-Featured-Image@2x.png" alt="dast">
-    </div>
+    
     <div class="product-core-header__text">
       
         
@@ -1201,27 +968,29 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
             <span class="sales-hub-icon" style="background-image: url(https://www.hubspot.com/hubfs/product_icons_2022/CMSHub_Icon_Gradient_RGB_24px.svg); "></span>
           
-          dastpay
+          DASTPAY
         </strong>
       
       <h4 style="font-size: large;" class="product-core-header__text-title">Simplify Your Finances, Anytime, Anywhere with Speed
       </h4>
       
       <div class="product-core-header__ctas ">
-        <a href="" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Get a demo</a>
+        <a href="" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Join Our Community</a>
         
           <a href="" class="product-core-header__text--cta-secondary cta--secondary product-core-header__text-multi-cta cms-hero-2">
             Get started 
           </a>
         
       </div>
+
+
       <div class="product-core-header__accordion-container"><ul class="hsg-accordion" data-size="small" data-display-option="card">
             <li class="hsg-accordion__item">
                 <button class="hsg-accordion__label">
                   <h4 class="hsg-accordion__label-text cms-hero-product">Convenient Bill Payments</h4>
                 </button>
                 <div class="hsg-accordion__content">
-                  <div><p> Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. With DASTPay, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone.
+                  <div><p> Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. WithDAST PAY, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone.
                   </p></div>
                 </div>
               </li>
@@ -1230,7 +999,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <h4 class="hsg-accordion__label-text cms-hero-pricing">Seamless Mobile Payments</h4>
                 </button>
                 <div class="hsg-accordion__content">
-                  <div><p> Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores, DASTPay provides a seamless payment experience that's fast, reliable, and convenient.
+                  <div><p> Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores,DAST PAY provides a seamless payment experience that's fast, reliable and convenient.
                   </p></div>
                 </div>
               </li>
@@ -1239,12 +1008,18 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <h4 class="hsg-accordion__label-text cms-hero-features">Cross-border Remittance Made Simple</h4>
                 </button>
                 <div class="hsg-accordion__content">
-                  <div><p>Sending money across borders has never been easier. DASTPay offers a reliable and cost-effective solution for cross-border remittance, allowing you to transfer funds to your loved ones or business partners globally, with competitive exchange rates and minimal fees.
+                  <div><p>Sending money across borders has never been easier.DAST PAY offers a reliable and cost-effective solution for cross-border remittance, allowing you to transfer funds to your loved ones or business partners globally, with competitive exchange rates and minimal fees.
                   </p></div>
                 </div>
               </li>
               </ul>
         </div>
+    </div>
+
+
+
+    <div class="product-core-header__image">
+      <img class="product-core-header__image-inner hsg-deferred" data-src="https://media.istockphoto.com/id/1401536626/photo/black-woman-shopping-online.webp?b=1&s=170667a&w=0&k=20&c=bVzWPVsv317_enReOtr4uzFEVUcWkQnFJDV3eWHYFEA=" alt="dast">
     </div>
   </div>
 </section></div>
@@ -1293,11 +1068,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 <section class="section-header product-tabs-cms__tab-section">
                   
                     <h4 style="font-size: large;" class="section-header__header">
-                      DASTPay is your passport to a more streamlined and efficient financial lifestyle. Embrace the future of fintech and unlock the power of seamless bill payments, mobile payments, and cross-border remittance with DASTPay.
+                     DAST PAY is your passport to a more streamlined and efficient financial lifestyle. Embrace the future of fintech and unlock the power of seamless bill payments, mobile payments, and cross-border remittance withDAST PAY.
                     </h4>
                   
                   
-                    <p>Access DASTPay with whatsapp or telegram today and take control of your financial world, wherever you are.
+                    <p>AccessDAST PAY with  telegram today and take control of your financial world, wherever you are.
                     </p>
                   
                 </section>
@@ -1310,15 +1085,15 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <div class="hsg-cta-block__inner">
                     <div class="hsg-flex hsg-cta-block__content-wrapper">
                       <div class="hsg-cta-block__content hsg-cta-block__content--half">
-                        <h3 class="hsg-cta-block__header">DASTPay</h3>
-                        <p class="hsg-cta-block__subheader">DASTPay is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions. Seamlessly integrated into major messaging apps, DASTPay empowers you to effortlessly carry out bill payments, mobile payments, and cross-border remittance, all in one secure and convenient platform.
+                        <h3 class="hsg-cta-block__header">DASTPAY</h3>
+                        <p class="hsg-cta-block__subheader">DASTPAY is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions. Seamlessly integrated into major messaging apps,DAST PAY empowers you to effortlessly carry out bill payments, mobile payments, and cross-border remittance, all in one secure and convenient platform.
 
                           </p>
 
                         
                         <div class="hsg-cta-block__cta-wrapper ">
                           <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-marketers-1" href="">
-      Get a demo
+     Join Our Community
     </a>
     <a class="cta--secondary cta--small cms-marketers-2" href="">
       Get started 
@@ -1352,9 +1127,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   
                     <div class="section-header product-tabs-cms__tab-section">
                       
-                        <h4 style="font-size: large;" class="section-header__header">
-                          Key Features:That
-                          make this possible:
+                        <h4 id="more" style="font-size: large;" class="section-header__header">
+                         DASTPAY OFFERS AMONG OTHERS,
                         </h4>
                       
                     </div>
@@ -1373,7 +1147,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Access DASTPay directly within your favourite messaging apps (Telegram or whatsapp), eliminating the need to switch between multiple applications. Send money, pay bills, and manage your finances seamlessly, all while staying connected with friends and family.
+                              <div class="hsg-multi-col__description"><p>AccessDAST PAY directly within your favourite messaging apps (Telegram), eliminating the need to switch between multiple applications. Send money, pay bills, and manage your finances seamlessly, all while staying connected with friends and family
                                 .</p></div>
                             
 
@@ -1394,7 +1168,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p> Your financial security is our top priority. DASTPay employs state-of-the-art encryption technology and strict security measures to ensure that your transactions and personal information are protected at all times..</p></div>
+                              <div class="hsg-multi-col__description"><p> Your financial security is our top priority.DAST PAY employs state-of-the-art encryption technology and strict security measures to ensure that your transactions and personal information are protected at all times.</p></div>
                             
 
                             
@@ -1414,7 +1188,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>TExperience a sleek and intuitive interface that makes navigating DASTPay a breeze. Whether you're a tech-savvy individual or new to digital payments, our user-friendly design ensures a smooth and enjoyable user experience.</p></div>
+                              <div class="hsg-multi-col__description"><p>Experience a sleek and intuitive interface that makes navigatingDAST PAY a breeze. Whether you're a tech-savvy individual or new to digital payments, our user-friendly design ensures a smooth and enjoyable user experience.</p></div>
                             
 
                             
@@ -1434,7 +1208,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. With DASTPay, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone.
+                              <div class="hsg-multi-col__description"><p>Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. WithDAST PAY, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone
                                 .</p></div>
                             
 
@@ -1455,7 +1229,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores, DASTPay provides a seamless payment experience that's fast, reliable, and convenient.</p></div>
+                              <div class="hsg-multi-col__description"><p>Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores,DAST PAY provides a seamless payment experience that's fast, reliable and convenient.</p></div>
                             
 
                             
@@ -1475,7 +1249,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Sending money across borders has never been easier. DASTPay offers a reliable and cost-effective solution for cross-border remittance, allowing you to transfer funds to your loved ones or business partners globally, with competitive exchange rates and minimal fees.
+                              <div class="hsg-multi-col__description"><p>Sending money across borders has never been easier. DASTPAY offers a reliable and cost-effective solution for cross-border remittance, allowing you to transfer funds to your loved ones or business partners globally, with competitive exchange rates and minimal fees
 
                                 .</p></div>
                             
@@ -1937,13 +1711,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="hsg-flex hsg-cta-block__content-wrapper">
       <div class="hsg-cta-block__content hsg-cta-block__content--half">
         
-          <h2 style="font-size: large;" class="hsg-cta-block__header">Unlock the Power of Seamless Finance with DASTPay</h2>
+          <h2 style="font-size: large;" class="hsg-cta-block__header">Unlock the Power of Seamless Finance withDAST PAY</h2>
         
-        <p class="hsg-cta-block__subheader">You can access DASTPay conveniently through popular messaging apps like WhatsApp or Telegram, allowing you to manage your finances wherever you are. With DASTPay, you can enjoy the benefits of a seamless and efficient financial platform that simplifies your payment processes and provides a more convenient and accessible experience.</p>
+        <p class="hsg-cta-block__subheader">You can accessDAST PAY conveniently through popular messaging apps like WhatsApp or Telegram, allowing you to manage your finances wherever you are. WithDAST PAY, you can enjoy the benefits of a seamless and efficient financial platform that simplifies your payment processes and provides a more convenient and accessible experience.</p>
 
         
         <div class="hsg-cta-block__cta-wrapper ">
-          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-migrations-1" href="" target="_blank" data-mce-target="_blank">
+          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-migrations-1" href="#more" target="_blank" data-mce-target="_blank">
       Explore More
     </a>
     
@@ -1966,7 +1740,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <section class="accordion-2-col" data-background="dark">
   <div class="hsg-page-width-normal">
     
-      <h3 style="font-size: large;" class="accordion-2-col__header">DastPay FAQ ...</h3>
+      <h3 style="font-size: large;" class="accordion-2-col__header">DastPay FAQ </h3>
     
     
       
@@ -1977,12 +1751,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li style="font-size: large;" class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" style="font-size: large;" class="hsg-accordion__label-text">What is DASTPay?</h3>
+              <h3 style="font-size: small;" style="font-size: large;" class="hsg-accordion__label-text">What isDAST PAY?</h3>
               
               
             </button>
             <div style="font-size: small;" class="hsg-accordion__content">
-              <div><p>DASTPay is a fintech mobile app that simplifies financial transactions such as bill payments, mobile payments, and cross-border remittance. It is designed to provide a seamless and convenient platform for managing your finances..</p></div>
+              <div><p>DASTPay is a fintech mobile app that simplifies financial transactions such as bill payments, mobile payments, and cross-border remittance. It is designed to provide a seamless and convenient platform for managing your finances.</p></div>
             </div>
           </li>
         
@@ -1991,12 +1765,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" style="font-size: large;" class="hsg-accordion__label-text">How can I access DASTPay?</h3>
+              <h3 style="font-size: small;" style="font-size: large;" class="hsg-accordion__label-text">How can I accessDAST PAY?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">You can access DASTPay through major messaging apps like WhatsApp or Telegram. Simply download the DASTPay app and link it to your preferred messaging app to start using its features..</p></div>
+              <div><p style="font-size: small;">You can accessDAST PAY through major messaging apps like  Telegram. Simply download theDAST PAY app and link it to your preferred messaging app to start using its features.</p></div>
             </div>
           </li>
         
@@ -2005,12 +1779,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;"class="hsg-accordion__label-text">What types of bills can I pay with DASTPay?</h3>
+              <h3 style="font-size: small;"class="hsg-accordion__label-text">What types of bills can I pay withDAST PAY?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">DASTPay allows you to conveniently settle various bills, including utilities (such as electricity), subscriptions (Airtime, Data, Cable TV), and educational examination pins (WAEC and NECO)..</p></div>
+              <div><p style="font-size: small;">DASTPay allows you to conveniently settle various bills, including utilities (such as electricity), subscriptions (Airtime, Data, Cable TV), and educational examination pins (WAEC and NECO).</p></div>
             </div>
           </li>
         
@@ -2019,12 +1793,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" class="hsg-accordion__label-text">Is DASTPay secure?</h3>
+              <h3 style="font-size: small;" class="hsg-accordion__label-text">IsDAST PAY secure?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">Yes, DASTPay prioritizes the security of your financial transactions. It implements robust security measures to protect your personal and payment information, ensuring a safe and reliable experience.. <a href=""><span>Learn more</span></a>.</p></div>
+              <div><p style="font-size: small;">Yes,DAST PAY prioritizes the security of your financial transactions. It implements robust security measures to protect your personal and payment information, ensuring a safe and reliable experience.
             </div>
           </li>
         </ul>
@@ -2038,12 +1812,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;"class="hsg-accordion__label-text">Can I use DASTPay for online and offline purchases?</h3>
+              <h3 style="font-size: small;"class="hsg-accordion__label-text">Can I useDAST PAY for online and offline purchases?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">Absolutely. DASTPay enables seamless mobile payments, allowing you to make secure transactions for both online and offline purchases. Whether you're shopping online or at local stores, DASTPay offers a convenient payment solution..</p></div>
+              <div><p style="font-size: small;">Absolutely.DAST PAY enables seamless mobile payments, allowing you to make secure transactions for both online and offline purchases. Whether you're shopping online or at local stores,DAST PAY offers a convenient payment solution.</p></div>
             </div>
           </li>
         
@@ -2052,12 +1826,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" class="hsg-accordion__label-text">How does DASTPay handle cross-border remittance?</h3>
+              <h3 style="font-size: small;" class="hsg-accordion__label-text">How doesDAST PAY handle cross-border remittance?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;"> DASTPay simplifies cross-border remittance by providing a reliable and cost-effective solution. It allows you to transfer funds internationally, with competitive exchange rates and minimal fees, making it easier to send money to your loved ones or business partners abroad..</p></div>
+              <div><p style="font-size: small;">DAST PAY simplifies cross-border remittance by providing a reliable and cost-effective solution. It allows you to transfer funds internationally, with competitive exchange rates and minimal fees, making it easier to send money to your loved ones or business partners abroad.</p></div>
             </div>
           </li>
         
@@ -2066,12 +1840,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" class="hsg-accordion__label-text">Can I track my transaction history with DASTPay?</h3>
+              <h3 style="font-size: small;" class="hsg-accordion__label-text">Can I track my transaction history withDAST PAY?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">Yes, DASTPay provides a transaction history feature that allows you to track and review your past transactions. You can easily access this information within the app to keep track of your financial activities.</p></div>
+              <div><p style="font-size: small;">Yes,DAST PAY provides a transaction history feature that allows you to track and review your past transactions. You can easily access this information within the app to keep track of your financial activities.</p></div>
             </div>
           </li>
         
@@ -2092,11 +1866,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <ol class="hsg-page-width-normal">
       <li class="hsg-multi-row__item">
           <div class="hsg-multi-row__text-content">
-            <div class="hsg-multi-row__description"><p>"DASTPay is a powerful fintech mobile app that simplifies bill payments, mobile payments, and cross-border remittance. It offers a user-friendly interface, enabling you to handle your finances conveniently and securely. With its seamless integration into messaging apps and its focus on providing a smooth user experience, DASTPay empowers you to take control of your financial world and enjoy a more streamlined and efficient financial lifestyle."</p></div>
+            <div class="hsg-multi-row__description"><p>DASTPAY is a powerful fintech mobile app that simplifies bill payments, mobile payments, and cross-border remittance. It offers a user-friendly interface, enabling you to handle your finances conveniently and securely. With its seamless integration into messaging apps and its focus on providing a smooth user experience,DAST PAY empowers you to take control of your financial world and enjoy a more streamlined and efficient financial lifestyle.</p></div>
             <div class="hsg-multi-row__employee">
               <div class="hsg-multi-row__employee-info">
                 
-                  <div class="hsg-multi-row__employee-name">Epert</div>
+                 
                 
                 
                 
@@ -2193,9 +1967,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="Marketing Hub" width="30" height="30" style="width: 30px; height: auto;">
                 
                 <h3 style="font-size: small;" class="multi-col-cards-carousel__card--heading h5">Global Financial Connectivity</h3>
-                <p class="multi-col-cards-carousel__card--text" style="font-size: small;" >Unlock Cross-Border Remittances with DASTPay
+                <p class="multi-col-cards-carousel__card--text" style="font-size: small;" >Unlock Cross-Border Remittances withDAST PAY
 
-                  DASTPay breaks down barriers to international financial transactions, enabling effortless cross-border remittances. Seamlessly send money to loved ones or business partners globally using DASTPay's secure platform.</p>
+                 DAST PAY breaks down barriers to international financial transactions, enabling effortless cross-border remittances. Seamlessly send money to loved ones or business partners globally using DAST PAY's secure platform.</p>
                 
                   
                 
@@ -2207,7 +1981,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg" alt="Sales Hub" width="30" height="30" style="width: 30px; height: auto;">
                 
                 <h3 style="font-size: small;"  style="font-size: large;" class="multi-col-cards-carousel__card--heading h5" style="font-size: small;" >Convenient Mobile Payments for Your Everyday Needs</h3>
-                <p class="multi-col-cards-carousel__card--text">With DASTPay, mobile payments become seamless and hassle-free. Whether you're shopping online or making purchases at local stores, DASTPay offers a secure and convenient payment experience, allowing you to complete transactions quickly and reliably.</p>
+                <p class="multi-col-cards-carousel__card--text">WithDAST PAY, mobile payments become seamless and hassle-free. Whether you're shopping online or making purchases at local stores,DAST PAY offers a secure and convenient payment experience, allowing you to complete transactions quickly and reliably.</p>
                 
                  
                 
@@ -2219,7 +1993,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg" alt="Service Hub" width="30" height="30" style="width: 30px; height: auto;">
                 
                 <h3 style="font-size: small;"  class="multi-col-cards-carousel__card--heading h5">Seamless Financial Transactions at Your Fingertips</h3>
-                <p style="font-size: small;"  class="multi-col-cards-carousel__card--text">DASTPay revolutionizes the way you handle your finances by offering a seamless and user-friendly mobile app. With just a few taps, you can effortlessly make bill payments, mobile payments, and cross-border remittance, all in one secure platform..</p>
+                <p style="font-size: small;"  class="multi-col-cards-carousel__card--text">DASTPay revolutionizes the way you handle your finances by offering a seamless and user-friendly mobile app. With just a few taps, you can effortlessly make bill payments, mobile payments, and cross-border remittance, all in one secure platform.</p>
                 
                  
                 
@@ -2231,7 +2005,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/OperationsHub_Icon_Gradient_RGB_24px.svg" alt="Operations Hub" width="30" height="30" style="width: 30px; height: auto;">
                 
                 <h3 style="font-size: small;" class="multi-col-cards-carousel__card--heading h5" style="font-size: small;" >Global Money Transfers Made Simple and Affordable</h3>
-                <p class="multi-col-cards-carousel__card--text">DASTPay provides a reliable and cost-effective solution for cross-border remittance. With competitive exchange rates and minimal fees, you can easily send money internationally to your loved ones or business partners, ensuring a smooth and secure transfer experience.. </p>
+                <p class="multi-col-cards-carousel__card--text">DASTPay provides a reliable and cost-effective solution for cross-border remittance. With competitive exchange rates and minimal fees, you can easily send money internationally to your loved ones or business partners, ensuring a smooth and secure transfer experience. </p>
                 
                  
               </li>
@@ -2263,7 +2037,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Popular Features</button>
   </h2>
   <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
+      <a class="ga_nav_link " href="#products" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
         All Products and Features</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="0">
@@ -2271,7 +2045,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         Free Meeting Scheduler </a>
     </li>
     <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
+      <a class="ga_nav_link " href="/dast-contact" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
         Social Media Tools</a>
     </li>
     
@@ -2285,11 +2059,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
     <li class="hsg-footer__nav-item" data-order="12">
       <a class="ga_nav_link " href="" data-order="12" data-linkorder="13" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Chatbot Builder">
-        DAST Chatbot </a>
+        Privacy and Policy </a>
     </li>
     <li class="hsg-footer__nav-item" data-order="13">
       <a class="ga_nav_link " href="" data-order="13" data-linkorder="14" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Live Chat Software">
-        Free Live Chat </a>
+       Legal Stuff </a>
     </li>
    
     
@@ -2301,30 +2075,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="hsg-footer__nav-right">
         <div class="hsg-footer__nav-full">
           <section class="hsg-footer__nav-column ">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Free Tools</button>
-  </h2>
-  <ul>
+  
    
     
    
     
     
-    <li class="hsg-footer__nav-item" data-order="6">
-      <a class="ga_nav_link " href="" data-order="6" data-linkorder="6" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Free Tools > Marketing Plan Generator">
-        Marketing Plan Generator</a>
-    </li>
-    
-    <li class="hsg-footer__nav-item" data-order="8">
-      <a class="ga_nav_link " href="" data-order="8" data-linkorder="8" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Free Tools > Industry Benchmark Data">
-        Industry Benchmark Data</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="9">
-      <a class="ga_nav_link " href="" data-order="9" data-linkorder="9" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Free Tools > Software Comparisons Library">
-        Software Comparisons Library</a>
-    </li>
-    
-    </ul>
 </section>
 
         </div>
@@ -2334,7 +2090,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Company</button>
   </h2>
   <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
+      <a class="ga_nav_link " href="/dast-about" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
         About Us</a>
     </li>
     
@@ -2351,7 +2107,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         Investor Relations</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="5">
-      <a class="ga_nav_link " href="" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
+      <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
         Blog</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="6">
@@ -2372,7 +2128,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         Customer Support</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
+      <a class="ga_nav_link " href="https://lnkd.in/deZZhAMM" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
         Join our Telegram Group</a>
     </li>
     </ul>
@@ -2396,7 +2152,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <ul class="hsg-footer__social">
       
       <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
+          <a href="https://lnkd.in/dRtGxc6y" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
             <svg class="cl-icon">
               <use href="#facebook" />
             </svg>
@@ -2420,7 +2176,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           </a>
         </li>
       <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
+          <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
             <svg class="cl-icon">
               <use href="#twitter" />
             </svg>
@@ -2428,7 +2184,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           </a>
         </li>
       <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
+          <a href="https://lnkd.in/dbCgsr4d" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
             <svg class="cl-icon">
               <use href="#linkedin" />
             </svg>
@@ -2436,14 +2192,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           </a>
         </li>
      
-      <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_medium" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Tiktok">
-            <svg class="cl-icon">
-              <use href="#tiktok" />
-            </svg>
-            <span class="hidden-social">Tiktok</span>
-          </a>
-        </li>
+     
       
       
     </ul>
@@ -2465,9 +2214,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <ul>
         <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
           Dast Tech</a></li>
-        <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+        <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
           DASTdAPP</a></li>
-        <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
+        <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
           DASTGPT</a></li>
 
 
@@ -2476,7 +2225,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
           
-        <li><a href="/about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
+        <li><a href="/dast-about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
           ABOUT US</a></li>
         <li class="hs-footer-cookie-settings" hidden>
           <a href="javascript:void(0)"></a>
@@ -2485,7 +2234,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     </div>
   </section>
 </footer>
-
 <script src="https://www.hubspot.com/wt-assets/static-files/2.2.3/core-nav/scripts.js" nonce="66W8vRVSya9p8Hh+F2QkwA=="></script></div>
 
     

@@ -2330,7 +2330,71 @@
 
 
 
+<<<<<<< HEAD
   <!-- HREFLANG MACRO -->
+=======
+<!-- HREFLANG MACRO -->
+
+
+      
+      
+      
+
+      
+    
+
+      
+      
+        
+          
+          <link rel="alternate" href="https://www.hubspot.com" hreflang="x-default">
+          
+        
+        
+          <link rel="alternate" href="https://www.hubspot.com" hreflang="en">
+        
+      
+          <style>
+            .animate-text {
+              opacity: 0;
+              animation: fadeIn 1s forwards;
+            }
+        
+            @keyframes fadeIn {
+              from {
+                opacity: 0;
+              }
+              to {
+                opacity: 1;
+              }
+            }
+          </style>
+        
+          <link rel="alternate" href="https://www.hubspot.es" hreflang="es">
+        
+      
+        
+        
+          <link rel="alternate" href="https://www.hubspot.fr" hreflang="fr-FR">
+        
+      
+        
+        
+          <link rel="alternate" href="https://www.hubspot.de" hreflang="de-DE">
+        
+      
+        
+        
+          <link rel="alternate" href="https://www.hubspot.jp" hreflang="ja-JP">
+        
+      
+        
+        
+          <link rel="alternate" href="https://br.hubspot.com" hreflang="pt-BR">
+        
+      
+    
+>>>>>>> versatile
 
 
 
@@ -5061,8 +5125,20 @@
 
 
 
+<<<<<<< HEAD
+=======
+          
+          
+            <!-- pageLang: en -->
+  {{-- <input type="search" class="" data-id="hsg-nav__search-input" placeholder="search..." data-config="{&quot;contexts&quot;:[{&quot;selected&quot;:true,&quot;id&quot;:&quot;website&quot;,&quot;cx&quot;:&quot;009219321729865762236:z9gsnksfc30&quot;,&quot;label&quot;:&quot;Search HubSpot.com&quot;},{&quot;selected&quot;:null,&quot;id&quot;:&quot;blog&quot;,&quot;cx&quot;:&quot;009219321729865762236:fzizmixjdmi&quot;,&quot;label&quot;:&quot;Search the blog&quot;}],&quot;loadMoreButton&quot;:&quot;Load More Results&quot;,&quot;noResults&quot;:[&quot;That's odd...&quot;,&quot;couldn't find quite the right match.&quot;,&quot;Don't worry, try searching again up top.&quot;]}" aria-label="Search"> --}}
+  
+          
+        </li>
+        
+>>>>>>> versatile
 
 
+<<<<<<< HEAD
                   <li class="hsg-nav__dropdown-item">
                     <a class="ga_nav_link homepage-nav-about-desktop" href="/dast-about" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > About Us">About Us</a>
                   </li>
@@ -5074,6 +5150,245 @@
                   <li class="hsg-nav__dropdown-item">
                     <a class="ga_nav_link homepage-nav-contact-us" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">Contact Us</a>
                   </li>
+=======
+        <li class="hsg-nav__group-item">
+          
+            <a class="hsg-nav__group-item--utility ga_nav_link" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
+          
+        </li>
+        
+        
+          <li class="hsg-nav__group-item hsg-nav__group-item--about hsg-nav__group-item--has-dropdown">
+            <div class="hsg-nav__link-wrapper">
+              <button aria-expanded="false" aria-controls="hsg-nav-about-submenu" class="hsg-nav__link">
+                <span class="hsg-nav__link-label">
+                  
+                  
+                </span>
+              </button>
+            </div>
+            <ul id="hsg-nav-about-submenu" class="hsg-nav__dropdown-list">
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <li class="hsg-nav__dropdown-item">
+                    <a class="ga_nav_link homepage-nav-about-desktop" href="/dast-about" data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > About Us">About Us</a>
+                  </li>
+                
+              
+                
+              
+                
+                
+              
+                
+                
+              
+                
+                
+              </ul>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div data-fixed-element="placeholder">
+  <nav class="hsg-nav-menu" data-fixed-element="target" aria-label="Primary Navigation">
+    <div class="hsg-page-width-normal">
+      <div class="hsg-nav__inner">
+        <a style="color: rgb(1, 1, 49)"  href="/" id="hsg-nav__logo" aria-label="DAST" class="ga_nav_link logo-utility-nav" data-ga_nav_type="header_nav" data-ga_nav_tree_text="dast ">
+        DAST TECH
+         
+
+          
+        </a>
+
+        <button id="hsg-nav__logo-caret">
+          
+          <svg id="hsg-nav__logo-caret-img" aria-hidden="true">
+            <use xlink:href="#CaretRight" />
+          </svg>
+          
+          <span id="hsg-nav__logo-caret-home">Home</span>
+          
+        </button>
+
+       
+
+        <div class="hsg-nav__burger-wrapper" style="background: rgb(46, 46, 87);color:white;">
+          <button class="hsg-nav__burger" aria-expanded="false" aria-controls="burger-submenu">
+            <span class="visually-hidden">Menu</span>
+            <span class="hsg-nav__burger-label" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div id="burger-submenu" class="hsg-nav__groups-wrapper" >
+          <ul class="hsg-nav__group hsg-nav__group--primary" >
+            
+            <li class="hsg-nav__group-item hsg-nav__group-item--order-1  hsg-nav__group-item--has-dropdown ">
+              <div class="hsg-nav__link-wrapper">
+                
+                <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-1">
+                  <span class="hsg-nav__link-label">
+                <a style="color: rgb(1, 1, 49)" id="product"  href="#">PRODUCTS</a>
+                    
+                  </span>
+                </button>
+                
+              </div>
+              
+                 <!-- Software -->
+                 <ul id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
+                  <li class="hsg-nav__dropdown-list-title">
+                    <h2 class="hsg-nav__dropdown-list-title-text">DAST</h2>
+                  </li>
+                  <li class="hsg-nav__dropdown-row hsg-nav__dropdown-row--links">
+                    <div class="hsg-nav__dropdown-column">
+                       
+                        
+                          <div class="hsg-nav__box-link-none">
+                            
+                            <div class="hsg-nav__header-container">
+
+
+
+
+
+                              <h3 class="hsg-nav__header">Empowering Web3 Adoption</h3>
+
+
+
+
+
+
+                              
+                              <p class="hsg-nav__subheader" gtm="">
+                                DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations.See Products 
+                                </p>
+                            </div>
+                          </div>
+                        
+                       
+                        
+                            
+                        
+                        
+                       
+                        
+                       
+                        
+                      
+                    </div>
+                  </li>
+                  <li class="hsg-nav__dropdown-row">
+                    <p class="hsg-nav__dropdown-row-description"></p>
+                    
+                      <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                        
+                        <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                          
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="marketing-linear0" gradientunits="userSpaceOnUse" x1="280" y1="640" x2="1200" y2="640" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="marketing-linear1" gradientunits="userSpaceOnUse" x1="481.9" y1="607.34" x2="1438.1" y2="1312.66" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> </defs> <g id="marketing-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 12 9 C 10.34375 9 9 10.34375 9 12 L 9 20 C 9 21.3125 9.855469 22.476562 11.109375 22.867188 C 12.363281 23.253906 13.726562 22.78125 14.472656 21.699219 L 19.972656 13.699219 C 20.601562 12.785156 20.675781 11.59375 20.15625 10.609375 C 19.640625 9.621094 18.621094 9.003906 17.507812 9 Z M 12 9 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear0);" d="M 12 15 C 13.65625 15 15 13.65625 15 12 L 15 4 C 15 2.6875 14.144531 1.523438 12.890625 1.132812 C 11.636719 0.746094 10.273438 1.21875 9.527344 2.300781 L 4.027344 10.300781 C 3.394531 11.21875 3.324219 12.410156 3.84375 13.398438 C 4.363281 14.382812 5.386719 15 6.5 15 Z M 12 15 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 15 4 C 15 5.65625 13.65625 7 12 7 C 10.34375 7 9 5.65625 9 4 C 9 2.34375 10.34375 1 12 1 C 13.65625 1 15 2.34375 15 4 Z M 15 4 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#marketing-linear1);" d="M 17.5 15 L 6.5 15 C 4.84375 15 3.5 13.65625 3.5 12 C 3.5 10.34375 4.84375 9 6.5 9 L 17.5 9 C 19.15625 9 20.5 10.34375 20.5 12 C 20.5 13.65625 19.15625 15 17.5 15 Z M 17.5 15 " /> </g> </svg>
+                          
+                        </div>
+                        
+                        <div class="hsg-nav__header-container">
+                          <h4 class="hsg-nav__header" gtm="marketing">
+                            DASTdAPP
+                          </h4>
+                          <p class="hsg-nav__subheader" gtm="marketing">Trusted recovery technology for digital assets. <span class="hsg-nav__subheader-highlight"> Your family/next of
+                            kin will have access to your assets in case of unforseen
+                            circumstances.</span></p>
+                        </div>
+                        
+                      </a>
+                    
+                      <a href="/dast-pay" class="ga_nav_link hsg-nav__box-link nav-software-sales" gtm="sales" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Sales Hub">
+                        
+                        <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                          
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="sales-linear0" gradientunits="userSpaceOnUse" x1="344.47" y1="825.51" x2="1334.74" y2="1555.96" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.82" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> </lineargradient> <lineargradient id="sales-linear1" gradientunits="userSpaceOnUse" x1="104.27" y1="817.7" x2="1860.91" y2="817.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.27" style="stop-color:rgb(100%,50.980392%,30.588235%);stop-opacity:1;" /> <stop offset="0.74" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="sales-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 19.75 18.609375 L 14.871094 3.59375 C 14.5 2.363281 13.355469 1.464844 12 1.464844 C 10.644531 1.464844 9.5 2.363281 9.128906 3.59375 L 4.25 18.609375 C 3.847656 19.84375 4.289062 21.199219 5.339844 21.960938 C 6.390625 22.726562 7.816406 22.726562 8.867188 21.960938 L 12 19.6875 L 15.132812 21.960938 L 15.136719 21.964844 C 16.1875 22.726562 17.609375 22.726562 18.660156 21.960938 C 19.710938 21.199219 20.152344 19.84375 19.75 18.609375 Z M 19.75 18.609375 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear0);" d="M 16.898438 22.535156 C 16.261719 22.535156 15.644531 22.335938 15.132812 21.960938 L 2.3125 12.648438 C 0.972656 11.675781 0.675781 9.796875 1.648438 8.457031 C 2.625 7.117188 4.5 6.820312 5.839844 7.792969 L 18.660156 17.109375 C 19.710938 17.871094 20.152344 19.226562 19.75 20.460938 C 19.347656 21.699219 18.195312 22.535156 16.898438 22.535156 Z M 16.898438 22.535156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#sales-linear1);" d="M 20.5 13.222656 L 4.078125 13.222656 C 2.421875 13.222656 1.078125 11.878906 1.078125 10.222656 C 1.078125 8.5625 2.421875 7.222656 4.078125 7.222656 L 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 Z M 20.5 13.222656 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.5 10.222656 C 23.5 11.878906 22.15625 13.222656 20.5 13.222656 C 18.84375 13.222656 17.5 11.878906 17.5 10.222656 C 17.5 8.5625 18.84375 7.222656 20.5 7.222656 C 22.15625 7.222656 23.5 8.5625 23.5 10.222656 Z M 23.5 10.222656 " /> </g> </svg>
+                          
+                        </div>
+                        
+                        <div class="hsg-nav__header-container">
+                          <h4 class="hsg-nav__header" gtm="sales">
+                            DASTPay
+                          </h4>
+                          <p class="hsg-nav__subheader" gtm="sales">Simplify Your Finances, Anytime,  <span class="hsg-nav__subheader-highlight">Anywhere with Speed</span></p>
+                        </div>
+                        
+                      </a>
+                    
+                      <a href="/dast-lab" class="ga_nav_link hsg-nav__box-link nav-software-service" gtm="service" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Service Hub">
+                        
+                        <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                          
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="service-linear0" gradientunits="userSpaceOnUse" x1="684.58" y1="1448.12" x2="1469" y2="663.7" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.18" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.28" style="stop-color:rgb(100%,39.607843%,23.137255%);stop-opacity:1;" /> <stop offset="0.44" style="stop-color:rgb(100%,49.019608%,29.411765%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,64.705882%,39.215686%);stop-opacity:1;" /> <stop offset="0.65" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="service-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 2.25 11.75 C 1.023438 10.527344 0.546875 8.746094 0.992188 7.074219 C 1.4375 5.402344 2.746094 4.097656 4.414062 3.652344 C 6.085938 3.203125 7.871094 3.683594 9.089844 4.910156 L 18.839844 14.660156 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 2.25 11.75 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#service-linear0);" d="M 5.160156 14.660156 L 14.910156 4.910156 C 16.128906 3.683594 17.914062 3.203125 19.585938 3.652344 C 21.253906 4.097656 22.5625 5.402344 23.007812 7.074219 C 23.453125 8.746094 22.976562 10.527344 21.75 11.75 L 13.71875 19.78125 C 12.769531 20.730469 11.230469 20.730469 10.28125 19.78125 Z M 5.160156 14.660156 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23.167969 8.328125 C 23.167969 11 21 13.167969 18.328125 13.167969 C 15.65625 13.167969 13.492188 11 13.492188 8.328125 C 13.492188 5.65625 15.65625 3.492188 18.328125 3.492188 C 21 3.492188 23.167969 5.65625 23.167969 8.328125 Z M 23.167969 8.328125 " /> </g> </svg>
+                          
+                        </div>
+                        
+                        <div class="hsg-nav__header-container">
+                          <h4 class="hsg-nav__header" gtm="service">
+                            DAST Lab
+                          </h4>
+                          <p class="hsg-nav__subheader" gtm="service">Empowering Global Talents in Web3 and  <span class="hsg-nav__subheader-highlight">AI Training & Technologies!</span></p>
+                        </div>
+                        
+                      </a>
+                    
+                      <a href="/dast-chat" class="ga_nav_link hsg-nav__box-link nav-software-cms" gtm="cms" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > CMS Hub">
+                        
+                        <div class="hsg-nav__box-link-icon" aria-hidden="true">
+                          
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"> <defs> <lineargradient id="cms-linear0" gradientunits="userSpaceOnUse" x1="80" y1="1360" x2="1840" y2="1360" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0.01" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="0.64" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> <lineargradient id="cms-linear1" gradientunits="userSpaceOnUse" x1="80" y1="560" x2="1840" y2="560" gradienttransform="matrix(0.0125,0,0,0.0125,0,0)"> <stop offset="0" style="stop-color:rgb(100%,36.078431%,20.784314%);stop-opacity:1;" /> <stop offset="1" style="stop-color:rgb(100%,65.490196%,40%);stop-opacity:1;" /> </lineargradient> </defs> <g id="cms-surface1"> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear0);" d="M 19 21 L 5 21 C 2.789062 21 1 19.210938 1 17 C 1 14.789062 2.789062 13 5 13 L 19 13 C 21.210938 13 23 14.789062 23 17 C 23 19.210938 21.210938 21 19 21 Z M 19 21 " /> <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,36.078431%,20.784314%);fill-opacity:1;" d="M 23 17 C 23 19.210938 21.210938 21 19 21 C 16.789062 21 15 19.210938 15 17 C 15 14.789062 16.789062 13 19 13 C 21.210938 13 23 14.789062 23 17 Z M 23 17 " /> <path style=" stroke:none;fill-rule:nonzero;fill:url(#cms-linear1);" d="M 19 11 L 15 11 C 12.789062 11 11 9.210938 11 7 C 11 4.789062 12.789062 3 15 3 L 19 3 C 21.210938 3 23 4.789062 23 7 C 23 9.210938 21.210938 11 19 11 Z M 5 3 C 2.789062 3 1 4.789062 1 7 C 1 9.210938 2.789062 11 5 11 C 7.210938 11 9 9.210938 9 7 C 9 4.789062 7.210938 3 5 3 Z M 5 3 " /> </g> </svg>
+                          
+                        </div>
+                        
+                        <div class="hsg-nav__header-container">
+                          <h4 class="hsg-nav__header" gtm="cms">
+                            DASTGPT
+                          </h4>
+                          <p class="hsg-nav__subheader" gtm="cms">Your Gateway to Web3 and AI Technologies <span class="hsg-nav__subheader-highlight">Discover the limitless possibilities of web3 and AI with DASTGPT Bot.</span></p>
+                        </div>
+                        
+                      </a>
+                    
+                    
+                  </li>
+                 
+                </ul>
+              
+            
 
 
 
@@ -5081,6 +5396,145 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              
+            </li>
+            
+            <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
+              <div class="hsg-nav__link-wrapper">
+                
+                <a style="color: rgb(1, 1, 49)"  href="/dast-blog" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                  <span class="hsg-nav__link-label">
+                   DAST BLOG
+                    
+                  </span>
+                </a>
+                
+              </div>
+              
+            </li>
+
+
+
+
+
+ 
+            <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
+              <div class="hsg-nav__link-wrapper">
+                
+                <a style="color: rgb(1, 1, 49)"  href="/dast-about" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
+                  <span class="hsg-nav__link-label">
+                   ABOUT
+                    
+                  </span>
+                </a>
+                
+              </div>
+              
+            </li>
+>>>>>>> versatile
+
+
+
+
+
+
+
+<<<<<<< HEAD
+=======
+            
+            <li class="hsg-nav__group-item hsg-nav__group-item--order-3  hsg-nav__group-item--has-dropdown ">
+              <a href="/dast-contact">
+              <div class="hsg-nav__link-wrapper" >
+                
+                <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-3">
+                  <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
+                  CONTACT
+                    
+                  </span>
+                </button>
+                
+              </div>
+              
+                
+                 
+                
+              
+            </li>
+            
+            
+            <li class="hsg-nav__group-item  hsg-nav__group-item--has-dropdown  hsg-nav__group-item--about-mobile">
+              
+              <ul id="hsg-nav-about-submenu-mobile" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+               
+                
+                
+                
+               
+                
+                
+                
+                <li class="">
+                  <a href="" class="ga_nav_link hsg-nav__box-link  homepage-nav-contact-us " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">
+                    <div class="hsg-nav__header">Contact Us</div>
+                    
+                  </a>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+>>>>>>> versatile
                 </ul>
               </li>
 
@@ -5828,6 +6282,7 @@
 
 
 
+<<<<<<< HEAD
 
 
       <section class="homepage-hero-branding-rollout right-aligned-image" data-background="white" style="background-color: rgb(1, 1, 37);;color:white;">
@@ -5852,11 +6307,133 @@
                 <img class="homepage-hero-branding-rollout__media-image--mobile" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST platform" src="https://dast.tech/assets/images/sp.png">
               </div>
 
+=======
+<section class="homepage-hero-branding-rollout right-aligned-image" data-background="white"style="background-color: rgb(1, 1, 37);;color:white;">
+  <div class="homepage-hero-branding-rollout__container hsg-page-width-normal">
+    <div class="homepage-hero-branding-rollout__content">
+      <div class="homepage-hero-branding-rollout__text">
+        
+
+
+        <h3 id="animated-text" style="font-size: large;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</h3>
+
+        <script>
+          function animateText() {
+            const text = document.getElementById('animated-text').textContent;
+            const words = text.split(' ');
+      
+            document.getElementById('animated-text').textContent = '';
+      
+            words.forEach((word, index) => {
+              const span = document.createElement('span');
+              span.textContent = word + ' ';
+              span.style.animationDelay = `${index * 0.5}s`;
+              span.classList.add('animate-text');
+              document.getElementById('animated-text').appendChild(span);
+            });
+          }
+      
+          animateText(); // Initial animation
+      
+          setInterval(animateText, 5000); // Repeat animation every 3 seconds
+        </script>
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <p class="homepage-hero-branding-rollout__text-description">DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations. 
+      </p>
+        <div class="homepage-hero-branding-rollout__cta">
+          <a  class="homepage-hero-branding-rollout__cta-link cl-button -primary -small homepage-hero-cta" href="#products">
+            Explore DAST<span class="visually-hidden">Explore DAST</span></a><a class="homepage-hero-branding-rollout__cta-link cl-button -secondary -small homepage-hero2-cta" href="">
+ Get started <span class="visually-hidden">Sign Up</span></a></div>
+        <p class="homepage-hero-branding-rollout__text-microcopy"> We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.
+        </p>
+      </div>
+      <div class="homepage-hero-branding-rollout__media">
+        
+          <div class="homepage-hero-branding-rollout__media-wrapper">
+            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://dast.tech/assets/images/key.png">
+            <img class="homepage-hero-branding-rollout__media-image--mobile" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST platform" src="https://dast.tech/assets/images/key.png">
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</section></div>
+  
+
+  <div id="hs_cos_wrapper_product" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><section class="home-growth-stack home-products-feature-v2" data-background="off-white">
+  <div class="home-growth-stack__logo-wrapper">
+    <h2 class="home-growth-stack__logo-header" style="color: rgb(1, 1, 49)" >What is DAST?</h2>
+    <p class="home-growth-stack__logo-description" style="color: rgb(1, 1, 49)" >DAST stands for Digital Assess Security Token. At DAST Technology, we are committed to providing world-class web3 and AI technology solutions to our clients through innovation, research, and development. We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.</p>
+    <div class="home-growth-stack__ctas">
+     <h3 id="products">DAST PRODUCTS</h3>
+    </div>
+  </div>
+  <div  class="home-products-feature__container hsg-page-width-normal">
+    <div class="home-products-feature__card"><div class="home-products-feature__card--text-wrapper">
+        <div class="home-products-feature__card--image-wrapper">
+          
+          
+          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  ">DAST</h3>
+        </div>
+        <div class="home-products-feature__card--content">
+          <p style="color: rgb(1, 1, 1)"  class="home-products-feature__card--content-description"> You can secure your digital assets by saving it on the DAST security technology layer. It is encrypted and backed up on the blockchain. Only your wallet will be able to view or edit it. DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation.</p>
+          <div class="home-products-feature__features">
+            <h4 class="home-products-feature__card--heading">Popular Features</h4>
+            <div class="home-products-feature__card--list">
+              <ul>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  User can recover his asset
+
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Next of kin can recover asset
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Up to 5 trusted contacts to validate next
+                  <span style="margin-left:2rem;">of kin recovery</span> 
+                </li>
+                
+              </ul>
+              
+            </div>
+            
+            <div class="home-products-feature__cta">
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-marketing" href="#product" aria-label=" Get started with Marketing Hub">Get started</a>
+>>>>>>> versatile
             </div>
           </div>
         </div>
       </section>
     </div>
+<<<<<<< HEAD
 
 
     <div id="hs_cos_wrapper_product" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
@@ -6131,12 +6708,252 @@
     </div>
 
 
+=======
+    <div class="home-products-feature__card"><div class="home-products-feature__card--text-wrapper">
+        <div class="home-products-feature__card--image-wrapper">
+          
+          
+          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline   ">DASTPay</h3>
+        </div>
+        <div class="home-products-feature__card--content">
+          <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description">  DASTPay is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions. Seamlessly integrated into major messaging apps, DASTPay empowers you to effortlessly carry out bill payments, mobile payments, and cross-border remittance, all in one secure and convenient platform.
+
+</p>
+          <div class="home-products-feature__features">
+            <h4 class="home-products-feature__card--heading">Popular Features</h4>
+            <div class="home-products-feature__card--list">
+              <ul>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Airtime, Data, Cable Tv, Electricity, <span style="margin-left:2rem;">WAEC and NECO Pins</span> 
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Integration with payment platforms
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Robust Security and Privacy
+                </li>
+                
+              </ul>
+              
+            </div>
+            
+            <div class="home-products-feature__cta">
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-sales" href="/dast-pay" aria-label=" Get started with Sales Hub">Get started</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-products-feature__card"><div class="home-products-feature__card--text-wrapper">
+        <div class="home-products-feature__card--image-wrapper">
+          
+          
+          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline   ">DAST GPT</h3>
+        </div>
+        <div class="home-products-feature__card--content">
+          <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description"> 
+            This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
+            Join DASTGPT Bot on telegram today and unlock a world of endless possibilities!
+
+            .</p>
+          <div class="home-products-feature__features">
+            <h4 class="home-products-feature__card--heading">Popular Features</h4>
+            <div class="home-products-feature__card--list">
+              <ul>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Interactive Chatbot powered by  <span style="margin-left:2rem;"> ChatGPT AI</span>
+                 
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Educational Database of major Web3  <span style="margin-left:2rem;">   companies </span> 
+                
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Early access to web3 job  <span style="margin-left:2rem;">   opportunities  </span> 
+                </li>
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Engaging and informative conversations
+                </li>
+                
+              </ul>
+              
+            </div>
+            
+            <div class="home-products-feature__cta">
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-service" href="/dast-chat" aria-label=" Get started with Service Hub">Get started</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-products-feature__card"><div class="home-products-feature__card--text-wrapper">
+        <div class="home-products-feature__card--image-wrapper">
+          
+          
+          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/CMSHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  ">DAST LAB</h3>
+        </div>
+        <div class="home-products-feature__card--content">
+          <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description">Are you ready to unlock your potential in the dynamic world of technology?
+            At DAST Lab, we offer cutting-edge courses designed to equip you with the skills needed to thrive in the digital age.
+            Empower Your Future with Web3 Skills at DAST Lab!
+            </p>
+          <div class="home-products-feature__features">
+            <h4 class="home-products-feature__card--heading">Popular Features</h4>
+            <div class="home-products-feature__card--list">
+              <ul>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Comprehensive Training
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Job Placement Assistance
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Supportive Community
+                </li>
+                
+              </ul>
+              
+            </div>
+            
+            <div class="home-products-feature__cta">
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-cms" href="/dast-lab" aria-label=" Get started with CMS Hub">Get started</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-products-feature__card"><div class="home-products-feature__card--text-wrapper">
+        <div class="home-products-feature__card--image-wrapper">
+          
+          
+            
+          
+          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/OperationsHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="max-width: 100%; height: auto; width: 30px">
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline   ">DAST ARMIES</h3>
+        </div>
+        <div class="home-products-feature__card--content">
+          <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description"> Be Part of the Elite DAST Army and Ignite Change!
+            Are you a passionate Web3 enthusiast eager to make a real difference in the ecosystem? 
+            We invite you to join the prestigious DAST Army, a dedicated group of volunteers who will revolutionise the industry. 
+            As a member of the DAST Army, you'll enjoy a range of exclusive benefits while driving innovation and shaping the future of Web3.
+             </p>
+          <div class="home-products-feature__features">
+            <h4 class="home-products-feature__card--heading">Popular Features</h4>
+            <div class="home-products-feature__card--list">
+              <ul>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Genuine enthusiasm for Web3 <span style="margin-left:2rem;">technologies</span> 
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Strong communication and <span style="margin-left:2rem;">collaboration skills</span> 
+                   
+                </li>
+                
+                <li>
+                  <svg class="cl-icon" aria-hidden="true">
+                    <use href="#check-circle" />
+                  </svg>
+                  Proactive and resourceful mindset
+
+                </li>
+                
+              </ul>
+              
+            </div>
+            
+            <div class="home-products-feature__cta">
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-operations" href="/dast-armies" aria-label=" Get started with Operations Hub">Get started</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section></div>
+>>>>>>> versatile
 
     <div id="hs_cos_wrapper_module_16733782661672" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 
 
 
 
+<<<<<<< HEAD
+=======
+  
+  <section id="module_16733782661672" class="csol-section csol-full-width-cta-card -light -padding-top-md -padding-bottom-md">
+    <div class="csol-section-wrapper">
+      
+    <div class="csol-full-width-cta-card-container cl-card -left ">
+      <div class=" csol-full-width-cta-card-image">
+        <div class="csol-full-width-cta-card-graphic-container "></div>
+        <div class="csol-full-width-cta-card-background">
+          <img class="csol-full-width-cta-card-background-image" src="https://media.istockphoto.com/id/1061357610/photo/internet-security-and-data-protection-concept-blockchain.webp?b=1&s=170667a&w=0&k=20&c=cRC6BbUc7yfBFDFY50Q6JviT3EmfCLior0aF4jSjm24=" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
+        </div>
+      
+      </div>
+      <div class="csol-full-width-cta-card-content">
+          
+  
+    
+      <h3 class="csol-full-width-cta-card-header">In today's fast-paced world, where technology is rapidly evolving, businesses and organizations are constantly seeking innovative solutions to address real-world challenges. That's where DAST, a leading technology company, comes into play.</h3>
+    
+  
+>>>>>>> versatile
 
       <section id="module_16733782661672" class="csol-section csol-full-width-cta-card -light -padding-top-md -padding-bottom-md">
         <div class="csol-section-wrapper">
@@ -6178,12 +6995,22 @@
 
                 <a class="
   cl-button -primary -regular -white homepage-campaign-ai
+<<<<<<< HEAD
 " href="#" rel="noreferrer " target="_blank" style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
                   Read the article
 
                   <span class="visually-hidden">about how DST will revolutionize the Blockchain</span>
 
                 </a>
+=======
+" href="dast-blog" rel="noreferrer " target="_blank" style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
+      Read the article
+      
+        <span class="visually-hidden">about how DST will revolutionize the Blockchain</span>
+      
+    </a>
+  
+>>>>>>> versatile
 
 
 
@@ -6248,7 +7075,60 @@
       </section>
     </div>
 
+<<<<<<< HEAD
     <div id="hs_cos_wrapper_module_16643924240403" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+=======
+
+  <div id="hs_cos_wrapper_customers" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+<section class="home-customers">
+  <div class="hsg-page-width-normal">
+  <div class="home-customers__content-wrapper">
+    <div class="home-customers__text-wrapper">
+      <h3 class="home-customers__stat"> Over 500 Million+</h3>
+      <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure their Assets with DAST.</p>
+    </div>
+    <div class="home-customers__logos-grid">
+      
+      <div class="home-customers__logo-wrapper">
+        <img data-src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="World Wildlife Fund logo" class="home-customers__logo hsg-deferred">
+      </div>
+      
+      <div class="home-customers__logo-wrapper">
+        <img data-src="https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="DoorDash Logo" class="home-customers__logo hsg-deferred">
+      </div>
+      
+      <div class="home-customers__logo-wrapper">
+        <img data-src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8ZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="reddit logo" class="home-customers__logo hsg-deferred">
+      </div>
+      
+      <div class="home-customers__logo-wrapper">
+        <img data-src="https://media.istockphoto.com/id/1389083254/photo/cyber-security-technology-concept-securing-cloud-online-web-systems-hand-levitating-smart.webp?b=1&s=170667a&w=0&k=20&c=LtDwD-V5oJfl_RG3Eym3zstkWQ1eGnYKQoWvWf34Z_s=" alt="WeightWatchers logo" class="home-customers__logo hsg-deferred">
+      </div>
+      
+      <div class="home-customers__logo-wrapper">
+        <img data-src="https://media.istockphoto.com/id/1391668469/photo/web3-next-generation-world-wide-web-blockchain-technology-with-decentralized-information.webp?b=1&s=170667a&w=0&k=20&c=NNUoL9BDhtoK9Zwf-Wk3Gy1Q8vcTqXAsMKCaG8AuXKU=" alt="tumblr logo" class="home-customers__logo hsg-deferred">
+      </div>
+      
+      <div class="home-customers__logo-wrapper">
+        <img data-src="https://media.istockphoto.com/id/1389950296/photo/web3-next-generation-world-wide-web-blockchain-technology-with-decentralized-information.webp?b=1&s=170667a&w=0&k=20&c=6TeWE8yepN7Womy-llBSPOiYCXnDCyzbenUOoETfmWc=" alt="Howard University logo" class="home-customers__logo hsg-deferred">
+      </div>
+      
+      <div class="home-customers__logo-wrapper">
+        <img data-src="https://dast.tech/assets/images/key.png" alt="The Motley Fool logo" class="home-customers__logo hsg-deferred">
+      </div>
+      
+      <div class="home-customers__logo-wrapper">
+        <img data-src="https://dast.tech/assets/images/whyus.png" alt="eventbrite logo" class="home-customers__logo hsg-deferred">
+      </div>
+      
+    </div>
+  </div>
+</div>
+</section></div>
+
+  <div id="hs_cos_wrapper_module_16643924240403" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+>>>>>>> versatile
 
 
 
@@ -6256,7 +7136,25 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+  
+  
+  <section id="module_16643924240403" class="csol-section csol-cta-content-block - -white -padding-top-md -padding-bottom-md">
+    <div class="csol-section-wrapper">
+      
+    <div class="csol-cta-content-block-container">
+      <div class="csol-cta-content-block-content">
+        
+  
+    
+      <h4 class="csol-cta-content-block-header" style="font-size: large;font-weight:bolder;">  DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation.</h4>
+    
+  
+
+        <h5 style="color: rgb(1, 1, 49)" class="csol-cta-content-block-description">Our team of experts is passionate about creating a more equitable and inclusive world through the power of web2, web3 and AI technologies; we work tirelessly to ensure that our solutions are secure, scalable and user-friendly.</h5>
+>>>>>>> versatile
 
 
 
@@ -6294,12 +7192,22 @@
 
                   <a class="
   cl-button -primary -small -white homepage-bottom
+<<<<<<< HEAD
 " href="" rel="noreferrer ">
                     Get a demo
 
                     <span class="visually-hidden"> we work tirelessly to ensure that our solutions are secure, scalable, and user-friendly.</span>
 
                   </a>
+=======
+" href="#products" rel="noreferrer ">
+     Explore DAST
+      
+        <span class="visually-hidden"> we work tirelessly to ensure that our solutions are secure, scalable and user-friendly.</span>
+      
+    </a>
+  
+>>>>>>> versatile
 
 
 
@@ -6326,11 +7234,20 @@
                   <a class="
   cl-button -secondary -small -white homepage-bottom2
 " href="" rel="noreferrer " style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
+<<<<<<< HEAD
                     Get started
 
                     <span class="visually-hidden"> We aim to foster a culture of transparency</span>
 
                   </a>
+=======
+      Get started 
+      
+        <span class="visually-hidden"> We aim to foster a culture of transparency.</span>
+      
+    </a>
+  
+>>>>>>> versatile
 
 
 
@@ -6437,6 +7354,7 @@
               </section>
 
             </div>
+<<<<<<< HEAD
             <div class="hsg-footer__nav-full">
               <section class="hsg-footer__nav-column ">
                 <h2 class="hsg-footer__nav-heading">
@@ -6470,6 +7388,21 @@
                   </li>
                 </ul>
               </section>
+=======
+          
+        </div><span class="csol-cta-content-block-disclaimer">DAST,providing world-class web3 and AI technology solutions to our clients through innovation, research and development.</span>
+        </div>
+
+      
+        <div class="csol-cta-content-block-image">
+          <img src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15" alt="" loading="lazy">
+        </div>
+      
+    </div>
+  
+    </div>
+  </section>
+>>>>>>> versatile
 
             </div>
             <div class="hsg-footer__nav-split">
@@ -6491,7 +7424,59 @@
 
               <section class="hsg-footer__nav-column ">
 
+<<<<<<< HEAD
                 <ul>
+=======
+</div>
+<footer class="hsg-footer" style="background: rgb(1, 1, 33);">
+  <div class="hsg-footer__layout">
+    <button id="back-link" class="hsg-footer__logo-caret">
+      
+      <span class="hsg-footer__logo-caret-home">BACK</span>
+      <span class="hsg-footer__close" role="presentation"></span>
+      
+    </button>
+    <nav class="hsg-footer__nav">
+      <div class="hsg-footer__nav-left">
+        <section class="hsg-footer__nav-column hsg-footer__nav-column-left">
+  <h2 class="hsg-footer__nav-heading">
+    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Popular Features</button>
+  </h2>
+  <ul><li class="hsg-footer__nav-item" data-order="0">
+      <a class="ga_nav_link " href="#products" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
+        All Products and Features</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="0">
+      <a class="ga_nav_link " href="" data-order="0" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Meeting Scheduler App">
+        Free Meeting Scheduler </a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="1">
+      <a class="ga_nav_link " href="/dast-contact" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
+        Social Media Tools</a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="hsg-footer__nav-item" data-order="12">
+      <a class="ga_nav_link " href="" data-order="12" data-linkorder="13" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Chatbot Builder">
+        Privacy and Policy </a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="13">
+      <a class="ga_nav_link " href="" data-order="13" data-linkorder="14" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Live Chat Software">
+       Legal Stuff </a>
+    </li>
+   
+    
+    
+    </ul>
+</section>
+>>>>>>> versatile
 
 
                   </li>
@@ -6502,6 +7487,7 @@
           </div>
         </nav>
       </div>
+<<<<<<< HEAD
 
       <section class="hsg-footer__contact-links social-cl">
         <ul class="hsg-footer__social">
@@ -6569,9 +7555,56 @@
         </div>
         <div class="hsg-footer__logo">
           <a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="DAST Logo">
+=======
+      <div class="hsg-footer__nav-right">
+        <div class="hsg-footer__nav-full">
+          <section class="hsg-footer__nav-column ">
+  
+   
+    
+   
+    
+    
+</section>
+
+        </div>
+        <div class="hsg-footer__nav-full">
+          <section class="hsg-footer__nav-column ">
+  <h2 class="hsg-footer__nav-heading">
+    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Company</button>
+  </h2>
+  <ul><li class="hsg-footer__nav-item" data-order="0">
+      <a class="ga_nav_link " href="/dast-about" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
+        About Us</a>
+    </li>
+    
+    <li class="hsg-footer__nav-item" data-order="2">
+      <a class="ga_nav_link " href="" data-order="2" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Management Team">
+        Management Team</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="3">
+      <a class="ga_nav_link " href="" data-order="3" data-linkorder="3" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Board of Directors">
+        Board of Directors</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="4">
+      <a class="ga_nav_link " href="" data-order="4" data-linkorder="4" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Investor Relations">
+        Investor Relations</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="5">
+      <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
+        Blog</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="6">
+      <a class="ga_nav_link " href="/dast-contact" data-order="6" data-linkorder="6" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Contact Us">
+        Contact Us</a>
+    </li>
+    </ul>
+</section>
+>>>>>>> versatile
 
             <p>Copyright © 2023 DAST, Inc.</p>
         </div>
+<<<<<<< HEAD
         <div class="hsg-footer__copyright">
           <ul>
             <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
@@ -6580,6 +7613,23 @@
                 DASTdAPP</a></li>
             <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
                 DASTGPT</a></li>
+=======
+        <div class="hsg-footer__nav-split">
+          <section class="hsg-footer__nav-column ">
+  <h2 class="hsg-footer__nav-heading">
+    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Customers</button>
+  </h2>
+  <ul><li class="hsg-footer__nav-item" data-order="0">
+      <a class="ga_nav_link " href="#" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Customer Support">
+        Customer Support</a>
+    </li>
+    <li class="hsg-footer__nav-item" data-order="1">
+      <a class="ga_nav_link " href="https://lnkd.in/deZZhAMM" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
+        Join our Telegram Group</a>
+    </li>
+    </ul>
+</section>
+>>>>>>> versatile
 
 
 
@@ -6599,6 +7649,7 @@
 
     <script src="https://www.hubspot.com/wt-assets/static-files/2.2.1/core-nav/scripts.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
   </div>
+<<<<<<< HEAD
 
 
   <!-- htmlmin:ignore -->
@@ -6661,6 +7712,79 @@
   <script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.191/js/index.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
 
   <!-- Begin Domain Settings Code -->
+=======
+  
+  <section class="hsg-footer__contact-links social-cl">
+    <ul class="hsg-footer__social">
+      
+      <li>
+          <a href="https://lnkd.in/dRtGxc6y" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
+            <svg class="cl-icon">
+              <use href="#facebook" />
+            </svg>
+            <span class="hidden-social">Facebook</span>
+          </a>
+        </li>
+      <li>
+          <a href="" target="_blank" class="ga_nav_link hstc_instagram" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Instagram">
+            <svg class="cl-icon">
+              <use href="#instagram" />
+            </svg>
+            <span class="hidden-social">Instagram</span>
+          </a>
+        </li>
+      <li>
+          <a href="" target="_blank" class="ga_nav_link hstc_youtube" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Youtube">
+            <svg class="cl-icon">
+              <use href="#youtube" />
+            </svg>
+            <span class="hidden-social">Youtube</span>
+          </a>
+        </li>
+      <li>
+          <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
+            <svg class="cl-icon">
+              <use href="#twitter" />
+            </svg>
+            <span class="hidden-social">Twitter</span>
+          </a>
+        </li>
+      <li>
+          <a href="https://lnkd.in/dbCgsr4d" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
+            <svg class="cl-icon">
+              <use href="#linkedin" />
+            </svg>
+            <span class="hidden-social">Linkedin</span>
+          </a>
+        </li>
+     
+     
+      
+      
+    </ul>
+  </section>
+  
+  <section class="hsg-footer__bottom">
+    <div class="hsg-footer__apps">
+      
+      
+     
+      
+    </div>
+    <div class="hsg-footer__logo">
+      <a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="DAST Logo">
+      
+      <p>Copyright © 2023 DAST, Inc.</p>
+      </div>
+    <div class="hsg-footer__copyright">
+      <ul>
+        <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
+          Dast Tech</a></li>
+        <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+          DASTdAPP</a></li>
+        <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
+          DASTGPT</a></li>
+>>>>>>> versatile
 
 
 
@@ -6668,10 +7792,70 @@
   <script type="text/javascript" src="https://static.hsappstatic.net/affiliates-landing-embed/ex/referral.js" async nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
 
 
+<<<<<<< HEAD
   <!-- HREFLANG MACRO -->
 
 
   <!-- TODO compress / optimize GDPR script -->
+=======
+
+          
+        <li><a href="/dast-about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
+          ABOUT US</a></li>
+        <li class="hs-footer-cookie-settings" hidden>
+          <a href="javascript:void(0)"></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</footer>
+
+<script src="https://www.hubspot.com/wt-assets/static-files/2.2.1/core-nav/scripts.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script></div>
+
+    
+<!-- htmlmin:ignore -->
+
+<!-- HubSpot performance collection script -->
+<script defer src="https://static.hsappstatic.net/content-cwv-embed/static-1.194/embed.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
+<script nonce="7urWKdsavOuOY1tEDAtGXQ==">
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
+<script src="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/66945685888/1683744497507/module_66945685888_WTM_-_Homepage_-_Branding_Rollout_Hero.min.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
+<script src="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/32625700689/1683744498442/module_32625700689_WTM_-_Homepage_-_Products.min.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
+<script defer src="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/80992206946/1680686004240/module_80992206946_ctaContentBlock.min.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
+
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript" nonce="7urWKdsavOuOY1tEDAtGXQ==">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "landing-page"]);
+
+
+
+
+
+
+
+
+
+
+
+_hsq.push(["setCanonicalUrl", "https:\/\/www.hubspot.com"]);
+_hsq.push(["setPageId", "5787921598"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 5787921598,
+    "legacyPageId": "5787921598",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": 5787921594,
+    "languageVariantId": 5787921598,
+    "languageCode": "en",
+    
+}]);
+</script>
+>>>>>>> versatile
 
 
   <!-- hubs_ params script -->
