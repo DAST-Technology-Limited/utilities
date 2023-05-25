@@ -7,7 +7,6 @@
     <meta name="generator" content="HubSpot">
     <title>Be Part of the Elite DAST Army and Ignite Change!
     </title>
-    <link rel="shortcut icon" href="https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png">
     
 
     <script src="/hs/hsstatic/jquery-libs/static-1.1/jquery/jquery-1.7.1.js" nonce="olRh5+Ycl74/6x3R0PcbuA=="></script>
@@ -124,6 +123,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
       
+
+  <link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
+
       
       
 
@@ -133,50 +135,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       
       
         
-          
-          <link rel="alternate" href="https://www.hubspot.com/services" hreflang="x-default">
-          
-        
-        
-          <link rel="alternate" href="https://www.hubspot.com/services" hreflang="en">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.es/services" hreflang="es">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.fr/services" hreflang="fr-FR">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.de/services" hreflang="de-DE">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.jp/services" hreflang="ja-JP">
-        
-      
-        
-        
-          <link rel="alternate" href="https://br.hubspot.com/services" hreflang="pt-BR">
-        
-      
-    
-<!-- End of hsg-head.html -->
-<meta property="og:url" content="https://www.hubspot.com/services">
-<meta name="twitter:card" content="summary">
-<meta http-equiv="content-language" content="en">
-<link rel="stylesheet" href="//cdn2.hubspot.net/hub/7052064/hub_generated/template_assets/1684522923265/hubspot/hubspot_default/shared/responsive/layout.min.css">
-
-<link rel="stylesheet" href="//cdn2.hubspot.net/hub/53/hub_generated/template_assets/424656211/1593536432415/Custom/page/custom-stylemanager/Hubspot_Style_Guide.min.css">
-
-
-
     <!-- exclude_globals --> 
 <link href="//www.hubspot.com/wt-assets/static-files/2.2.3/sg-flexible/styles.css?1684657282174&amp;v=2" rel="stylesheet">
 <!-- ss_approved -->
@@ -497,7 +455,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                               <li class="hsg-nav__dropdown-row">
                                 <p class="hsg-nav__dropdown-row-description"></p>
                                 
-                                  <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                                  <a href="https://app.dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
                                     
                                     <div class="hsg-nav__box-link-icon" aria-hidden="true">
                                       
@@ -1133,14 +1091,29 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div class="hsg-full-width-cta-card__container">
     <div class="hsg-full-width-cta-card__card" data-alignment="left">
       <div class="hsg-full-width-cta-card__product">
-        <div class="hsg-full-width-cta-card__product-text">
-          <img src="https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdlYiUyMGxhYnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="DAST ARMY">
+        <div style="background: rgb(0, 0, 50);" class="hsg-full-width-cta-card__product-text">
+          <img style="border-radius: 100%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDu7B9q-jswr6gmLzjzGei5Dk3jq2B2jJqxnzLh0u7dpQ&oe=64742455" alt="DAST ARMY">
+<style>
+  @keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#rotating-image {
+  animation: rotation 10s infinite linear;
+}
+
+</style>
             <h3 class="hsg-full-width-cta-card__product-heading" style="font-size: small;" >Apply now and be a catalyst for change!
             </h3>
         </div>
       </div>
       <div class="hsg-full-width-cta-card__content">
-				<h4 style="font-size: small;" class="hsg-full-width-cta-card__heading">Not a member?</h4><p class="hsg-full-width-cta-card__description" >Don't miss this incredible opportunity to be part of the select few who will shape the future of Web3. Join the DAST Army today as a dedicated volunteer and unleash your potential in the Web3 revolution.</p><!-- generateModuleCtas Called --><a class="hsg-full-width-cta-card__cta onboarding-learnmore" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit" target="_blank" data-mce-target="_blank">
+				<h4 style="font-size: small;" class="hsg-full-width-cta-card__heading">Not a member?</h4><p class="hsg-full-width-cta-card__description" >Don't miss this incredible opportunity to be part of the selected few who will shape the future of Web3. Join the DAST Army today as a dedicated volunteer and unleash your potential in the Web3 revolution.</p><!-- generateModuleCtas Called --><a class="hsg-full-width-cta-card__cta onboarding-learnmore" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit" target="_blank" data-mce-target="_blank">
           Apply Now
     </a>
     
@@ -1158,12 +1131,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<section class="hsg-full-width-cta-card" data-background="off-white">
-  <div class="hsg-full-width-cta-card__container">
+<section class="hsg-full-width-cta-card" data-background="off-white" >
+  <div class="hsg-full-width-cta-card__container" >
     <div class="hsg-full-width-cta-card__card" data-alignment="left">
       <div class="hsg-full-width-cta-card__product">
-        <div class="hsg-full-width-cta-card__product-text">
-          <img src="https://media.istockphoto.com/id/1351490689/photo/female-soldier-and-her-husband-reviewing-home-finances.jpg?b=1&s=170667a&w=0&k=20&c=_wFABZhZ8wKlt0clmGuLp-ieONup1IYsXiXPgLfM3VA=" alt="dast">
+        <div style="background: rgb(0, 0, 50);" class="hsg-full-width-cta-card__product-text">
+          <img style="border-radius: 100%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280778474_110450694997233_4292663737736913326_n.png?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=lqJQLiiKAQAAX_qqLxg&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfBb9IcXBEbGxhY-IqQbv0mYZt0OiMJ3qO9i1GwNcI_H6Q&oe=64737DC0" alt="DAST ARMY">
             <h3 style="font-size: small;" class="hsg-full-width-cta-card__product-heading">Are you a passionate Web3 enthusiast eager to make a real difference in the ecosystem? 
             </h3>
         </div>
@@ -1205,7 +1178,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   </g>
 </svg>
   <div class="hsg-page-width-normal">
-    <h2 style="font-size: small;" class="section-header__header">
+    <h2 style="font-size: larger;" class="section-header__header">
       Why DAST ARMY?
     </h2>
     </div>
@@ -1218,7 +1191,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <section id="" class="hsg-rich-text" data-background="white">
   <div class="hsg-rich-text__wrapper">
-    <p>As a member of the DAST Army, you'll enjoy a range of exclusive benefits while driving innovation and shaping the future of Web3.
+    <p style="color:rgb(3, 3, 114);">As a member of the DAST Army, you'll enjoy a range of exclusive benefits while driving innovation and shaping the future of Web3.
     </p>
   </div>
 </section>
@@ -1268,8 +1241,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<section class="hsg-full-width-cta" data-background="dark">
-  <div class="hsg-full-width-cta__wrapper">
+<section class="hsg-full-width-cta" data-background="dark"  style="background: rgb(0, 0, 43);">
+  <div class="hsg-full-width-cta__wrapper" style="background: rgb(1, 1, 23);">
     <p></p><p class="hsg-full-width-cta__header csol-full-width-cta-header">Don't miss this incredible opportunity to be part of the select few who will shape the future of Web3. Join the DAST Army today as a dedicated volunteer and unleash your potential in the Web3 revolution.
       Apply now and be a catalyst for change!.</p><p></p>
     <div class="hsg-full-width-cta__buttons">
@@ -1295,7 +1268,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<section class="testimonial" data-display-option="plain" data-background="off-white">
+<section style="background: rgb(0, 0, 43);" class="testimonial" data-display-option="plain" data-background="off-white">
     <div class="testimonial__layout hsg-slider" data-slides-to-scroll="1" data-slides-to-scroll-mobile="1" data-slide-speed="600" data-enable-mouse-events="true" data-show-progress-dots="true" data-rewind="false" data-rewind-speed="1000" data-autoplay="0"><div class="hsg-slider__container">
         <ul class="hsg-slider__slides">
       
@@ -1312,8 +1285,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<section class="hsg-cta-block wtctablock" data-background="dark">
-  <div class="hsg-page-width-normal hsg-cta-block__inner">
+<section class="hsg-cta-block wtctablock" data-background="dark"  style="background: rgb(1, 1, 23);">
+  <div class="hsg-page-width-normal hsg-cta-block__inner"  style="background: rgb(1, 1, 23);">
     <div class="hsg-flex hsg-cta-block__content-wrapper">
       <div class="hsg-cta-block__content">
         <h2 style="font-size:small;" class="hsg-cta-block__header">Get More Information DAST ARMY</h2>
@@ -1601,7 +1574,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <ul>
           <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
             Dast Tech</a></li>
-          <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+          <li><a href="https://app.dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
             DASTdAPP</a></li>
           <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
             DASTGPT</a></li>

@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Route;
 use App\Mail\SendEmail;
 use App\Models\MailSender;
 use Illuminate\Routing\RouteRegistrar;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,7 +58,7 @@ Route::get('email-test', function(){
 
 
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

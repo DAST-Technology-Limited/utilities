@@ -1,7 +1,7 @@
 
 <!doctype html><html lang="en"><head>
     <meta charset="utf-8">
-    <title>DASTPAY: Simplify Your Finances, Anytime, Anywhere with Speed</title>
+    <title>DASTPAY: Simplify Your Finances, Anytime, Anywhere with Speed.</title>
     
 
 <style>
@@ -37,41 +37,6 @@
 
       
       
-        
-          
-          <link rel="alternate" href="https://www.hubspot.com/products/cms" hreflang="x-default">
-          
-        
-        
-          <link rel="alternate" href="https://www.hubspot.com/products/cms" hreflang="en">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.es/products/cms" hreflang="es">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.fr/products/cms" hreflang="fr-FR">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.de/products/cms" hreflang="de-DE">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.jp/products/cms" hreflang="ja-JP">
-        
-      
-        
-        
-          <link rel="alternate" href="https://br.hubspot.com/products/cms" hreflang="pt-BR">
-        
-      
-    
 
 
 
@@ -79,23 +44,9 @@
 
 <meta name="theme-color" content="#FF7A59">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="description" content="HubSpot’s free CMS tools offer the features you need to launch a custom website with ease — including built-in security, a visual web editor, and more.">
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<link rel="shortcut icon" href="https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png">
-<link rel="dns-prefetch" href="https://js.hs-analytics.net">
-<link rel="dns-prefetch" href="https://wtcfns.hubspot.com">
-<link rel="dns-prefetch" href="https://api.hubapi.com">
-<link rel="dns-prefetch" href="https://static.hsappstatic.net">
-<link rel="dns-prefetch" href="https://cdn2.hubspot.net">
-<link rel="dns-prefetch" href="https://api.hubspot.net">
-<link rel="dns-prefetch" href="https://app.hubspot.net">
-<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-<link rel="dns-prefetch" href="https://www.google-analytics.com">
-
-<!-- htmlmin:ignore -->
-
-    
 
     <meta property="og:description" content="HubSpot’s free CMS tools offer the features you need to launch a custom website with ease — including built-in security, a visual web editor, and more.">
     <meta property="og:title" content="Build and Manage Your Website on CMS Hub | HubSpot">
@@ -110,15 +61,8 @@
 a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
 </style>
 
-<link rel="stylesheet" href="https://www.hubspot.com/wt-assets/static-files/2.2.3/core-nav/styles.css">
-<link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/34850258483/1684413061867/module_34850258483_WTM_-_Products_-_Page_Header_with_Accordion.min.css">
-<link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/32621451628/1684413054704/module_32621451628_WTM_-_CRM_-_Logo_Row.min.css">
-<link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/64791194733/1684413061079/module_64791194733_WTM_-_Products_-_CMS_Tabs.min.css">
-<link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/34844839578/1684413061835/module_34844839578_WTM_-_Products_-_Sales_Phone_Overlap.min.css">
-<link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/32621451640/1684413058854/module_32621451640_WTM_-_Image_Slider.min.css">
-<link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/32625700678/1684413055596/module_32625700678_WTM_-_CTA_Content_Block_with_Vidyard.min.css">
-<link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/32625700674/1676394362131/module_32625700674_WTM_-_2_Col_Accordion_-_Title_Flag_and_Tooltip.min.css">
 
+<link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
   <style type="text/css">
     .hsg-notice {
 
@@ -494,7 +438,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                               <li class="hsg-nav__dropdown-row">
                                 <p class="hsg-nav__dropdown-row-description"></p>
                                 
-                                  <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                                  <a href="https://app.dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
                                     
                                     <div class="hsg-nav__box-link-icon" aria-hidden="true">
                                       
@@ -523,7 +467,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                                     
                                     <div class="hsg-nav__header-container">
                                       <h4 class="hsg-nav__header" gtm="sales">
-                                       DAST PAY
+                                       DASTPAY
                                       </h4>
                                       <p class="hsg-nav__subheader" gtm="sales">Simplify Your Finances, Anytime,  <span class="hsg-nav__subheader-highlight">Anywhere with Speed</span></p>
                                     </div>
@@ -971,8 +915,47 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           DASTPAY
         </strong>
       
-      <h4 style="font-size: large;" class="product-core-header__text-title">Simplify Your Finances, Anytime, Anywhere with Speed
-      </h4>
+     
+
+
+
+
+
+
+
+
+      <h3 id="animated-text" style="font-size: large;" class="homepage-hero-branding-rollout__text-title -secondary">Simplify Your Finances, Anytime, Anywhere with Speed.</h3>
+
+      <script>
+        function animateText() {
+          const text = document.getElementById('animated-text').textContent;
+          const words = text.split(' ');
+    
+          document.getElementById('animated-text').textContent = '';
+    
+          words.forEach((word, index) => {
+            const span = document.createElement('span');
+            span.textContent = word + ' ';
+            span.style.animationDelay = `${index * 0.5}s`;
+            span.classList.add('animate-text');
+            document.getElementById('animated-text').appendChild(span);
+          });
+        }
+    
+        animateText(); // Initial animation
+    
+        setInterval(animateText, 5000); // Repeat animation every 3 seconds
+      </script>
+    
+    
+    
+
+
+
+
+
+
+
       
       <div class="product-core-header__ctas ">
         <a href="" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Join Our Community</a>
@@ -990,7 +973,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <h4 class="hsg-accordion__label-text cms-hero-product">Convenient Bill Payments</h4>
                 </button>
                 <div class="hsg-accordion__content">
-                  <div><p> Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. WithDAST PAY, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone.
+                  <div><p> Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. With DASTPAY, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone.
                   </p></div>
                 </div>
               </li>
@@ -999,7 +982,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <h4 class="hsg-accordion__label-text cms-hero-pricing">Seamless Mobile Payments</h4>
                 </button>
                 <div class="hsg-accordion__content">
-                  <div><p> Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores,DAST PAY provides a seamless payment experience that's fast, reliable and convenient.
+                  <div><p> Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores,DASTPAY provides a seamless payment experience that's fast, reliable and convenient.
                   </p></div>
                 </div>
               </li>
@@ -1008,7 +991,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <h4 class="hsg-accordion__label-text cms-hero-features">Cross-border Remittance Made Simple</h4>
                 </button>
                 <div class="hsg-accordion__content">
-                  <div><p>Sending money across borders has never been easier.DAST PAY offers a reliable and cost-effective solution for cross-border remittance, allowing you to transfer funds to your loved ones or business partners globally, with competitive exchange rates and minimal fees.
+                  <div><p>Sending money across borders has never been easier.DASTPAY offers a reliable and cost-effective solution for cross-border remittance, allowing you to transfer funds to your loved ones or business partners globally, with competitive exchange rates and minimal fees.
                   </p></div>
                 </div>
               </li>
@@ -1068,11 +1051,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                 <section class="section-header product-tabs-cms__tab-section">
                   
                     <h4 style="font-size: large;" class="section-header__header">
-                     DAST PAY is your passport to a more streamlined and efficient financial lifestyle. Embrace the future of fintech and unlock the power of seamless bill payments, mobile payments, and cross-border remittance withDAST PAY.
+                     DASTPAY is your passport to a more streamlined and efficient financial lifestyle. Embrace the future of fintech and unlock the power of seamless bill payments, mobile payments and cross-border remittance with DASTPAY.
                     </h4>
                   
                   
-                    <p>AccessDAST PAY with  telegram today and take control of your financial world, wherever you are.
+                    <p>Access DASTPAY with  telegram today and take control of your financial world, wherever you are.
                     </p>
                   
                 </section>
@@ -1086,7 +1069,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                     <div class="hsg-flex hsg-cta-block__content-wrapper">
                       <div class="hsg-cta-block__content hsg-cta-block__content--half">
                         <h3 class="hsg-cta-block__header">DASTPAY</h3>
-                        <p class="hsg-cta-block__subheader">DASTPAY is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions. Seamlessly integrated into major messaging apps,DAST PAY empowers you to effortlessly carry out bill payments, mobile payments, and cross-border remittance, all in one secure and convenient platform.
+                        <p class="hsg-cta-block__subheader">DASTPAY is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions. Seamlessly integrated into major messaging apps,DASTPAY empowers you to effortlessly carry out bill payments, mobile payments, and cross-border remittance, all in one secure and convenient platform.
 
                           </p>
 
@@ -1147,7 +1130,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>AccessDAST PAY directly within your favourite messaging apps (Telegram), eliminating the need to switch between multiple applications. Send money, pay bills, and manage your finances seamlessly, all while staying connected with friends and family
+                              <div class="hsg-multi-col__description"><p>Access DASTPAY directly within your favourite messaging apps (Telegram), eliminating the need to switch between multiple applications. Send money, pay bills, and manage your finances seamlessly, all while staying connected with friends and family
                                 .</p></div>
                             
 
@@ -1168,7 +1151,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p> Your financial security is our top priority.DAST PAY employs state-of-the-art encryption technology and strict security measures to ensure that your transactions and personal information are protected at all times.</p></div>
+                              <div class="hsg-multi-col__description"><p> Your financial security is our top priority.DASTPAY employs state-of-the-art encryption technology and strict security measures to ensure that your transactions and personal information are protected at all times.</p></div>
                             
 
                             
@@ -1188,7 +1171,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Experience a sleek and intuitive interface that makes navigatingDAST PAY a breeze. Whether you're a tech-savvy individual or new to digital payments, our user-friendly design ensures a smooth and enjoyable user experience.</p></div>
+                              <div class="hsg-multi-col__description"><p>Experience a sleek and intuitive interface that makes navigatingDASTPAY a breeze. Whether you're a tech-savvy individual or new to digital payments, our user-friendly design ensures a smooth and enjoyable user experience.</p></div>
                             
 
                             
@@ -1208,7 +1191,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. WithDAST PAY, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone
+                              <div class="hsg-multi-col__description"><p>Say goodbye to the hassle of standing in long queues or dealing with complex payment processes. WithDASTPAY, you can easily settle your bills, from utilities to subscriptions (Airtime, Data, Cable Tv, Electricity, WAEC and NECO Pins) with just a few taps on your smartphone
                                 .</p></div>
                             
 
@@ -1229,7 +1212,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores,DAST PAY provides a seamless payment experience that's fast, reliable and convenient.</p></div>
+                              <div class="hsg-multi-col__description"><p>Make quick and secure mobile payments for your everyday purchases. Whether you're shopping online or at your favourite local stores,DASTPAY provides a seamless payment experience that's fast, reliable and convenient.</p></div>
                             
 
                             
@@ -1614,7 +1597,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Your site will be automatically provisioned with a <a href="/products/marketing/ssl" rel="noopener" target="_blank">standard SSL certificate</a> to create greater trust between your brand and website visitors, and increase your Google ranking.</p></div>
+                              <div class="hsg-multi-col__description"><p>Your site will be automatically provisioned with a rel="noopener" target="_blank">standard SSL certificate to create greater trust between your brand and website visitors, and increase your Google ranking.</p></div>
                             
 
                             
@@ -1634,7 +1617,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p>Grant your team appropriate permissions and <a href="/products/cms/activity-logs" rel="noopener" target="_blank">keep track of what changes were made</a> and by whom, to monitor usage and make security adjustment accordingly.</p></div>
+                              <div class="hsg-multi-col__description"><p>Grant your team appropriate permissions and <a rel="noopener" target="_blank">keep track of what changes were made</a> and by whom, to monitor usage and make security adjustment accordingly.</p></div>
                             
 
                             
@@ -1711,9 +1694,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="hsg-flex hsg-cta-block__content-wrapper">
       <div class="hsg-cta-block__content hsg-cta-block__content--half">
         
-          <h2 style="font-size: large;" class="hsg-cta-block__header">Unlock the Power of Seamless Finance withDAST PAY</h2>
+          <h2 style="font-size: large;" class="hsg-cta-block__header">Unlock the Power of Seamless Finance with DASTPAY</h2>
         
-        <p class="hsg-cta-block__subheader">You can accessDAST PAY conveniently through popular messaging apps like WhatsApp or Telegram, allowing you to manage your finances wherever you are. WithDAST PAY, you can enjoy the benefits of a seamless and efficient financial platform that simplifies your payment processes and provides a more convenient and accessible experience.</p>
+        <p class="hsg-cta-block__subheader">You can access DASTPAY conveniently through popular messaging apps like WhatsApp or Telegram, allowing you to manage your finances wherever you are. With DASTPAY, you can enjoy the benefits of a seamless and efficient financial platform that simplifies your payment processes and provides a more convenient and accessible experience.</p>
 
         
         <div class="hsg-cta-block__cta-wrapper ">
@@ -1751,7 +1734,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li style="font-size: large;" class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" style="font-size: large;" class="hsg-accordion__label-text">What isDAST PAY?</h3>
+              <h3 style="font-size: small;" style="font-size: large;" class="hsg-accordion__label-text">What is DASTPAY?</h3>
               
               
             </button>
@@ -1765,12 +1748,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" style="font-size: large;" class="hsg-accordion__label-text">How can I accessDAST PAY?</h3>
+              <h3 style="font-size: small;" style="font-size: large;" class="hsg-accordion__label-text">How can I access DASTPAY?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">You can accessDAST PAY through major messaging apps like  Telegram. Simply download theDAST PAY app and link it to your preferred messaging app to start using its features.</p></div>
+              <div><p style="font-size: small;">You can access DASTPAY through major messaging apps like  Telegram. Simply download the DASTPAY app and link it to your preferred messaging app to start using its features.</p></div>
             </div>
           </li>
         
@@ -1779,7 +1762,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;"class="hsg-accordion__label-text">What types of bills can I pay withDAST PAY?</h3>
+              <h3 style="font-size: small;"class="hsg-accordion__label-text">What types of bills can I pay with DASTPAY?</h3>
               
               
             </button>
@@ -1793,12 +1776,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" class="hsg-accordion__label-text">IsDAST PAY secure?</h3>
+              <h3 style="font-size: small;" class="hsg-accordion__label-text">Is DASTPAY secure?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">Yes,DAST PAY prioritizes the security of your financial transactions. It implements robust security measures to protect your personal and payment information, ensuring a safe and reliable experience.
+              <div><p style="font-size: small;">Yes,DASTPAY prioritizes the security of your financial transactions. It implements robust security measures to protect your personal and payment information, ensuring a safe and reliable experience.
             </div>
           </li>
         </ul>
@@ -1812,12 +1795,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;"class="hsg-accordion__label-text">Can I useDAST PAY for online and offline purchases?</h3>
+              <h3 style="font-size: small;"class="hsg-accordion__label-text">Can I use DASTPAY for online and offline purchases?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">Absolutely.DAST PAY enables seamless mobile payments, allowing you to make secure transactions for both online and offline purchases. Whether you're shopping online or at local stores,DAST PAY offers a convenient payment solution.</p></div>
+              <div><p style="font-size: small;">Absolutely.DASTPAY enables seamless mobile payments, allowing you to make secure transactions for both online and offline purchases. Whether you're shopping online or at local stores,DASTPAY offers a convenient payment solution.</p></div>
             </div>
           </li>
         
@@ -1826,12 +1809,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" class="hsg-accordion__label-text">How doesDAST PAY handle cross-border remittance?</h3>
+              <h3 style="font-size: small;" class="hsg-accordion__label-text">How does DASTPAY handle cross-border remittance?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">DAST PAY simplifies cross-border remittance by providing a reliable and cost-effective solution. It allows you to transfer funds internationally, with competitive exchange rates and minimal fees, making it easier to send money to your loved ones or business partners abroad.</p></div>
+              <div><p style="font-size: small;">DASTPAY simplifies cross-border remittance by providing a reliable and cost-effective solution. It allows you to transfer funds internationally, with competitive exchange rates and minimal fees, making it easier to send money to your loved ones or business partners abroad.</p></div>
             </div>
           </li>
         
@@ -1840,12 +1823,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
           <li class="hsg-accordion__item">
             <button class="hsg-accordion__label">
-              <h3 style="font-size: small;" class="hsg-accordion__label-text">Can I track my transaction history withDAST PAY?</h3>
+              <h3 style="font-size: small;" class="hsg-accordion__label-text">Can I track my transaction history with DASTPAY?</h3>
               
               
             </button>
             <div class="hsg-accordion__content">
-              <div><p style="font-size: small;">Yes,DAST PAY provides a transaction history feature that allows you to track and review your past transactions. You can easily access this information within the app to keep track of your financial activities.</p></div>
+              <div><p style="font-size: small;">Yes,DASTPAY provides a transaction history feature that allows you to track and review your past transactions. You can easily access this information within the app to keep track of your financial activities.</p></div>
             </div>
           </li>
         
@@ -1866,7 +1849,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <ol class="hsg-page-width-normal">
       <li class="hsg-multi-row__item">
           <div class="hsg-multi-row__text-content">
-            <div class="hsg-multi-row__description"><p>DASTPAY is a powerful fintech mobile app that simplifies bill payments, mobile payments, and cross-border remittance. It offers a user-friendly interface, enabling you to handle your finances conveniently and securely. With its seamless integration into messaging apps and its focus on providing a smooth user experience,DAST PAY empowers you to take control of your financial world and enjoy a more streamlined and efficient financial lifestyle.</p></div>
+            <div class="hsg-multi-row__description"><p>DASTPAY is a powerful fintech mobile app that simplifies bill payments, mobile payments and cross-border remittance. It offers a user-friendly interface, enabling you to handle your finances conveniently and securely. With its seamless integration into messaging apps and its focus on providing a smooth user experience,DASTPAY empowers you to take control of your financial world and enjoy a more streamlined and efficient financial lifestyle.</p></div>
             <div class="hsg-multi-row__employee">
               <div class="hsg-multi-row__employee-info">
                 
@@ -1967,9 +1950,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="Marketing Hub" width="30" height="30" style="width: 30px; height: auto;">
                 
                 <h3 style="font-size: small;" class="multi-col-cards-carousel__card--heading h5">Global Financial Connectivity</h3>
-                <p class="multi-col-cards-carousel__card--text" style="font-size: small;" >Unlock Cross-Border Remittances withDAST PAY
+                <p class="multi-col-cards-carousel__card--text" style="font-size: small;" >Unlock Cross-Border Remittances with DASTPAY.
 
-                 DAST PAY breaks down barriers to international financial transactions, enabling effortless cross-border remittances. Seamlessly send money to loved ones or business partners globally using DAST PAY's secure platform.</p>
+                 DASTPAY breaks down barriers to international financial transactions, enabling effortless cross-border remittances. Seamlessly send money to loved ones or business partners globally using DASTPAY's secure platform.</p>
                 
                   
                 
@@ -1981,7 +1964,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg" alt="Sales Hub" width="30" height="30" style="width: 30px; height: auto;">
                 
                 <h3 style="font-size: small;"  style="font-size: large;" class="multi-col-cards-carousel__card--heading h5" style="font-size: small;" >Convenient Mobile Payments for Your Everyday Needs</h3>
-                <p class="multi-col-cards-carousel__card--text">WithDAST PAY, mobile payments become seamless and hassle-free. Whether you're shopping online or making purchases at local stores,DAST PAY offers a secure and convenient payment experience, allowing you to complete transactions quickly and reliably.</p>
+                <p class="multi-col-cards-carousel__card--text">With DASTPAY, mobile payments become seamless and hassle-free. Whether you're shopping online or making purchases at local stores,DASTPAY offers a secure and convenient payment experience, allowing you to complete transactions quickly and reliably.</p>
                 
                  
                 
@@ -1993,7 +1976,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   <img class="multi-col-cards-carousel__card--icon hsg-deferred" data-src="https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg" alt="Service Hub" width="30" height="30" style="width: 30px; height: auto;">
                 
                 <h3 style="font-size: small;"  class="multi-col-cards-carousel__card--heading h5">Seamless Financial Transactions at Your Fingertips</h3>
-                <p style="font-size: small;"  class="multi-col-cards-carousel__card--text">DASTPay revolutionizes the way you handle your finances by offering a seamless and user-friendly mobile app. With just a few taps, you can effortlessly make bill payments, mobile payments, and cross-border remittance, all in one secure platform.</p>
+                <p style="font-size: small;"  class="multi-col-cards-carousel__card--text">DASTPay revolutionizes the way you handle your finances by offering a seamless and user-friendly mobile app. With just a few taps, you can effortlessly make bill payments, mobile payments and cross-border remittance, all in one secure platform.</p>
                 
                  
                 
@@ -2214,7 +2197,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <ul>
         <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
           Dast Tech</a></li>
-        <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+        <li><a href="https://app.dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
           DASTdAPP</a></li>
         <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
           DASTGPT</a></li>

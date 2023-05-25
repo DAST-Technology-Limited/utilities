@@ -37,60 +37,10 @@
   }
 </style>
 
-<!-- isQA:   -->
-
-<!-- Build Number: 2.2.1 -->
 
 
+<link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
 
-
-
-<!-- HREFLANG MACRO -->
-
-
-    
-    
-    
-
-    
-  
-
-    
-    
-      
-        
-        <link rel="alternate" href="https://www.hubspot.com" hreflang="x-default">
-        
-      
-      
-        <link rel="alternate" href="https://www.hubspot.com" hreflang="en">
-      
-    
-      
-      
-        <link rel="alternate" href="https://www.hubspot.es" hreflang="es">
-      
-    
-      
-      
-        <link rel="alternate" href="https://www.hubspot.fr" hreflang="fr-FR">
-      
-    
-      
-      
-        <link rel="alternate" href="https://www.hubspot.de" hreflang="de-DE">
-      
-    
-      
-      
-        <link rel="alternate" href="https://www.hubspot.jp" hreflang="ja-JP">
-      
-    
-      
-      
-        <link rel="alternate" href="https://br.hubspot.com" hreflang="pt-BR">
-      
-    
   
 
 
@@ -102,17 +52,6 @@
 <meta name="description" content="DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses, and organisations. 
 ">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<link rel="shortcut icon" href="https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png">
-<link rel="dns-prefetch" href="https://js.hs-analytics.net">
-<link rel="dns-prefetch" href="https://wtcfns.hubspot.com">
-<link rel="dns-prefetch" href="https://api.hubapi.com">
-<link rel="dns-prefetch" href="https://static.hsappstatic.net">
-<link rel="dns-prefetch" href="https://cdn2.hubspot.net">
-<link rel="dns-prefetch" href="https://api.hubspot.net">
-<link rel="dns-prefetch" href="https://app.hubspot.net">
-<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-<link rel="dns-prefetch" href="https://www.google-analytics.com">
 
 <!-- htmlmin:ignore -->
 
@@ -520,7 +459,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             <li class="hsg-nav__dropdown-row">
                               <p class="hsg-nav__dropdown-row-description"></p>
                               
-                                <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                                <a href="https://app.dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
                                   
                                   <div class="hsg-nav__box-link-icon" aria-hidden="true">
                                     
@@ -991,10 +930,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <p class="homepage-hero-branding-rollout__text-description">DAST Lab offers a unique partnership opportunity that allows you <br> to leverage our educational platform  powered by ChatGPT and DAST<br> Lab to achieve your goals.</p>
         <div class="homepage-hero-branding-rollout__cta">
           
-            <span class="visually-hidden">We are dedicated to leveraging the latest technologies in blockchain technology and artificial intelligence to solve real-world problems and drive innovation across various sectors
+            <span class="visually-hidden">We are dedicated to leveraging the latest technologies in blockchain technology and artificial intelligence to solve real-world problems and drive innovation across various sectors.
             </span><a class="homepage-hero-branding-rollout__cta-link cl-button -primary -small homepage-hero2-cta" href="https://docs.google.com/forms/d/1DKVVGJWNJmtb_rWOK-yeFA_x3c4X5kO-FGQj7OUQlVc/edit">
               Apply For Partnership <span class="visually-hidden"> Apply For Partnership </span></a></div>
-        <p class="homepage-hero-branding-rollout__text-microcopy">We are dedicated to leveraging the latest technologies in blockchain technology and artificial intelligence to solve real-world problems and drive innovation across various sectors
+        <p class="homepage-hero-branding-rollout__text-microcopy">We are dedicated to leveraging the latest technologies in blockchain technology and artificial intelligence to solve real-world problems and drive innovation across various sectors.
         </p>
       </div>
       <div class="homepage-hero-branding-rollout__media">
@@ -1021,7 +960,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <a class="cl-button -primary -regular homepage-platform-demo cta--primary" href="https://docs.google.com/forms/d/1DKVVGJWNJmtb_rWOK-yeFA_x3c4X5kO-FGQj7OUQlVc/edit">Schedule a Call </a>
       
     </div>
-    <h3 style="font-size: large; margin-top:2rem;"  style="margin-top:1rem;" class="home-growth-stack__logo-header">Why Partner with DAST Lab?</h3>
+    <h3 style="font-size: large; margin-top:2rem; border-bottom:3px solid blue;"  style="margin-top:1rem;" class="home-growth-stack__logo-header">Why Partner with DAST Lab?</h3>
 
   </div>
   <div class="home-products-feature__container hsg-page-width-normal">
@@ -1029,8 +968,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <div class="home-products-feature__card--image-wrapper">
           
           
-          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 style="font-size: large;"  class="home-products-feature__card--headline  trademark ">Access to a Global Talent Pool</h3>
+         
+          <h3 style="font-size: large;"  class="home-products-feature__card--headline   ">Access to a Global Talent Pool</h3>
         </div>
         <div class="home-products-feature__card--content">
           <p class="home-products-feature__card--content-description" style="font-size: large;" > DAST Lab attracts aspiring tech enthusiasts from around the world who are eager to learn and contribute. By partnering with us, you gain access to a diverse pool of interns and potential team members who are passionate about web3 technologies.</p>
@@ -1042,8 +981,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <div class="home-products-feature__card--image-wrapper">
           
           
-          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 style="font-size: large;"  class="home-products-feature__card--headline  registered-trademark ">Expand Your Community</h3>
+         
+          <h3 style="font-size: large;"  class="home-products-feature__card--headline   ">Expand Your Community</h3>
         </div>
         <div class="home-products-feature__card--content">
           <p class="home-products-feature__card--content-description" style="font-size: large;" >Collaborating with DAST Lab allows you to tap into our thriving educational community. We will showcase your company as a valuable resource and provide opportunities for engagement, fostering a sense of belonging and loyalty among our learners.</p>
@@ -1055,8 +994,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <div class="home-products-feature__card--image-wrapper">
           
           
-          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 style="font-size: large;"  class="home-products-feature__card--headline  trademark ">Amplify Your Signups</h3>
+         
+          <h3 style="font-size: large;"  class="home-products-feature__card--headline  ">Amplify Your Signups</h3>
         </div>
         <div class="home-products-feature__card--content">
           <p style="font-size: large;"  class="home-products-feature__card--content-description">As we promote our partnership, your company will gain exposure to a wider audience. Our targeted marketing campaigns and strategic collaborations will help drive more signups and conversions for your platform, boosting your user base and fueling growth.</p>
@@ -1068,8 +1007,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <div class="home-products-feature__card--image-wrapper">
           
           
-          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/CMSHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 style="font-size: large;"  class="home-products-feature__card--headline  registered-trademark ">Co-Creation of Educational Content</h3>
+          
+          <h3 style="font-size: large;"  class="home-products-feature__card--headline  ">Co-Creation of Educational Content</h3>
         </div>
         <div class="home-products-feature__card--content">
           <p style="font-size: large;"  class="home-products-feature__card--content-description">Share your expertise and educational materials with us to be featured within our courses. By collaborating on content creation, you position your company as an industry thought leader, gaining recognition and building credibility within the web3 communities.</p>
@@ -1082,9 +1021,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
             
-          
-          <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/OperationsHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="max-width: 100%; height: auto; width: 30px">
-          <h3 style="font-size: large;"  class="home-products-feature__card--headline  registered-trademark ">Mutual Marketing Opportunities</h3>
+          <h3
+         class="home-products-feature__card--headline   ">Mutual Marketing Opportunities</h3>
         </div>
         <div class="home-products-feature__card--content">
           <p style="font-size: large;"  class="home-products-feature__card--content-description"> As partners, we will actively promote your brand through our marketing channels, including social media, email newsletters, and blog posts. This mutually beneficial arrangement ensures that both our organisations gain visibility and attract new opportunities.
@@ -1400,7 +1338,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <ul>
         <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
           Dast Tech</a></li>
-        <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+        <li><a href="https://app.dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
           DASTdAPP</a></li>
         <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
           DASTGPT</a></li>

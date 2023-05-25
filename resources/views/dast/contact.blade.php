@@ -136,8 +136,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
 
 
+<link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
+
+
     
-    <link rel="canonical" href="https://www.hubspot.com">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Domain Settings Code --> 
@@ -156,7 +158,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <meta name="twitter:image" content="https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/buzz/HubSpotOpenGraph.png#keepProtocol">
 
 
-<meta property="og:url" content="https://www.hubspot.com">
 <meta name="twitter:card" content="summary_large_image">
 <meta http-equiv="content-language" content="en">
 
@@ -530,7 +531,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                       <li class="hsg-nav__dropdown-row">
                         <p class="hsg-nav__dropdown-row-description"></p>
                         
-                          <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                          <a href="https://app.dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
                             
                             <div class="hsg-nav__box-link-icon" aria-hidden="true">
                               

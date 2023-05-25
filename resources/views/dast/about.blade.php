@@ -73,7 +73,10 @@
 <meta name="description" content="HubSpot is a marketing, sales, and customer service platform that helps companies grow better.">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<link rel="shortcut icon" href="https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png">
+
+
+<link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
+
 <link rel="dns-prefetch" href="https://js.hs-analytics.net">
 <link rel="dns-prefetch" href="https://wtcfns.hubspot.com">
 <link rel="dns-prefetch" href="https://api.hubapi.com">
@@ -88,8 +91,6 @@
 
     
 
-    <meta property="og:description" content="HubSpot is a marketing, sales, and customer service platform that helps companies grow better.">
-    <meta property="og:title" content="Our Story | HubSpot - Internet Marketing Company">
     <meta name="twitter:description" content="HubSpot is a marketing, sales, and customer service platform that helps companies grow better.">
     <meta name="twitter:title" content="Our Story | HubSpot - Internet Marketing Company">
 
@@ -137,7 +138,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <meta property="fb:pages" content="6039999393">
 
 
-<meta property="og:url" content="https://www.hubspot.com/our-story">
 <meta name="twitter:card" content="summary">
 <meta http-equiv="content-language" content="en">
 
@@ -447,7 +447,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                               <li class="hsg-nav__dropdown-row">
                                 <p class="hsg-nav__dropdown-row-description"></p>
                                 
-                                  <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                                  <a href="https://app.dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
                                     
                                     <div class="hsg-nav__box-link-icon" aria-hidden="true">
                                       
@@ -1357,7 +1357,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <ul>
           <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
             Dast Tech</a></li>
-          <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+          <li><a href="https://app.dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
             DASTdAPP</a></li>
           <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
             DASTGPT</a></li>

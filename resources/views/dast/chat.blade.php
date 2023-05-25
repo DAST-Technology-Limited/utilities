@@ -4,8 +4,7 @@
   
   <!-- exclude_globals -->
     
-  <link rel="shortcut icon" href="https://academy.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png">
-    
+  
 
     
   <meta charset="utf-8">
@@ -14,6 +13,7 @@
   </title>
   <meta name="description" content="DAST CHAT is the worldwide leader in inbound marketing, sales, and customer service/support training.">
   
+
 
 
 <meta property="og:description" content="DAST CHAT is the worldwide leader in inbound marketing, sales, and customer service/support training.">
@@ -61,7 +61,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<meta property="og:url" content="https://academy.hubspot.com">
 <meta name="twitter:card" content="summary">
 <meta http-equiv="content-language" content="en">
 <link rel="alternate" hreflang="de" href="https://academy.hubspot.de">
@@ -224,16 +223,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 ">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<link rel="shortcut icon" href="https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png">
-<link rel="dns-prefetch" href="https://js.hs-analytics.net">
-<link rel="dns-prefetch" href="https://wtcfns.hubspot.com">
-<link rel="dns-prefetch" href="https://api.hubapi.com">
-<link rel="dns-prefetch" href="https://static.hsappstatic.net">
-<link rel="dns-prefetch" href="https://cdn2.hubspot.net">
-<link rel="dns-prefetch" href="https://api.hubspot.net">
-<link rel="dns-prefetch" href="https://app.hubspot.net">
-<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-<link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+
+<link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
+
 
 <!-- htmlmin:ignore -->
 
@@ -756,7 +749,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                               <li class="hsg-nav__dropdown-row">
                                 <p class="hsg-nav__dropdown-row-description"></p>
                                 
-                                  <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                                  <a href="https://app.dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
                                     
                                     <div class="hsg-nav__box-link-icon" aria-hidden="true">
                                       
@@ -1273,7 +1266,23 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <li class="certs__list-item">
       
         <div class="certs__icon-wrap">
-          <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/inbound.svg" alt="">
+          <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAib_OLTbZNk_5jo84gKlynwJhC12p8Sqet9mm05LCdaA&oe=64742455" alt="">
+          <style>
+            @keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#rotating-image {
+  animation: rotation 10s infinite linear;
+}
+
+          </style>
+
         </div>
         <h3>Interactive Chatbot powered by ChatGPT AI</h3>
     
@@ -1283,7 +1292,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <li class="certs__list-item">
       
         <div class="certs__icon-wrap">
-          <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/social-media.svg" alt="">
+          <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?stp=dst-jpg_s206x206&_nc_cat=100&ccb=1-7&_nc_sid=da31f3&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAA6MQV_Il2Rl4dEn57-wp0s4OmTqN_2Tqb2u5qewdNQQ&oe=64744BA6" alt="">
         </div>
         <h3>Educational Database of major Web3 companies</h3>
       
@@ -1303,7 +1312,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <li class="certs__list-item">
      
         <div class="certs__icon-wrap">
-          <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/content-marketing.svg" alt="">
+          <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAib_OLTbZNk_5jo84gKlynwJhC12p8Sqet9mm05LCdaA&oe=64742455" alt="">
         </div>
         <h3>Discover decentralised finance (DeFi) and artificial intelligence (AI) </h3>
       
@@ -1313,7 +1322,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <li class="certs__list-item">
       
         <div class="certs__icon-wrap">
-          <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/seo.svg" alt="">
+          <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAib_OLTbZNk_5jo84gKlynwJhC12p8Sqet9mm05LCdaA&oe=64742455" alt="">
         </div>
         <h3>Staying updated with blockchain protocols</h3>
      
@@ -1331,7 +1340,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <section class="academy-learn" data-background="off-white">
 <div class="hsg-page-width-normal">
 <div class="section-header">
-  <img class="academy-learn-image hsg-deferred" data-src="https://cdn2.hubspot.net/hubfs/53/HubSpot_Logos/HSLogo_sprocket_color_png.png" alt="hubspot sprocket icon" style="max-width: 2rem;">
+  <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAib_OLTbZNk_5jo84gKlynwJhC12p8Sqet9mm05LCdaA&oe=64742455" alt="">
   <h3>Why Use  DASTGPT?</h3>
 </div>
 </div>
@@ -1356,14 +1365,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <div class="hsg-multi-col__item">
   <div class="hsg-multi-col-item__text-content">
     <h3 class="hsg-multi-col__name">Solving Real-World Problems</h3>
-    <div class="hsg-multi-col__description"><p><span>A DAST is dedicated to using technology to address real-world challenges across various sectors. By partnering with DAST, individuals and organizations can collaborate on innovative projects that have a meaningful impact. </span></p></div>
+    <div class="hsg-multi-col__description"><p><span> DAST is dedicated to using technology to address real-world challenges across various sectors. By partnering with DAST, individuals and organizations can collaborate on innovative projects that have a meaningful impact. </span></p></div>
     <!-- generateModuleCtas Called -->
   </div>
 </div>
 <div class="hsg-multi-col__item">
   <div class="hsg-multi-col-item__text-content">
     <h3 class="hsg-multi-col__name">Driving Innovation and Competitiveness</h3>
-    <div class="hsg-multi-col__description"><p><span>In today's rapidly evolving digital landscape, staying competitive requires embracing innovation. Partnering with DAST allows individuals, businesses, and organizations to stay at the forefront of technological advancements.</span></p></div>
+    <div class="hsg-multi-col__description"><p><span>In today's rapidly evolving digital landscape, staying competitive requires embracing innovation. Partnering with DAST allows individuals, businesses and organizations to stay at the forefront of technological advancements.</span></p></div>
     <!-- generateModuleCtas Called -->
   </div>
 </div>
@@ -1380,10 +1389,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<section style="background: rgb(1, 1, 33);" class="hsg-promo-bar" data-background="dark">
-<div class="hsg-page-width-normal"><div class="hsg-promo-bar__contents is-link" style="background: rgb(1, 1, 33);">
+<section  class="hsg-promo-bar" data-background="dark">
+<div class="hsg-page-width-normal"><div class="hsg-promo-bar__contents is-link" >
     <div class="hsg-promo-bar__container" >
-      <a href="" target="_blank" class="hsg-promo-bar__text-link">We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.</a>
+      <a  target="_blank" class="hsg-promo-bar__text-link">We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.</a>
 </div>
 
    
@@ -1600,7 +1609,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <ul>
         <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
           Dast Tech</a></li>
-        <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+        <li><a href="https://app.dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
           DASTdAPP</a></li>
         <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
           DASTGPT</a></li>

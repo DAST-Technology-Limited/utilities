@@ -40,51 +40,12 @@
       
       
         
-          
-          <link rel="alternate" href="https://www.hubspot.com/products/cms" hreflang="x-default">
-          
-        
-        
-          <link rel="alternate" href="https://www.hubspot.com/products/cms" hreflang="en">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.es/products/cms" hreflang="es">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.fr/products/cms" hreflang="fr-FR">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.de/products/cms" hreflang="de-DE">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.jp/products/cms" hreflang="ja-JP">
-        
-      
-        
-        
-          <link rel="alternate" href="https://br.hubspot.com/products/cms" hreflang="pt-BR">
-        
-      
-    
-
-
-
-
-
 <meta name="theme-color" content="#FF7A59">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="description" content="HubSpot’s free CMS tools offer the features you need to launch a custom website with ease — including built-in security, a visual web editor, and more.">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<link rel="shortcut icon" href="https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png">
+
 <link rel="dns-prefetch" href="https://js.hs-analytics.net">
 <link rel="dns-prefetch" href="https://wtcfns.hubspot.com">
 <link rel="dns-prefetch" href="https://api.hubapi.com">
@@ -99,12 +60,10 @@
 
     
 
-    <meta property="og:description" content="HubSpot’s free CMS tools offer the features you need to launch a custom website with ease — including built-in security, a visual web editor, and more.">
-    <meta property="og:title" content="Build and Manage Your Website on CMS Hub | HubSpot">
-    <meta name="twitter:description" content="HubSpot’s free CMS tools offer the features you need to launch a custom website with ease — including built-in security, a visual web editor, and more.">
-    <meta name="twitter:title" content="Build and Manage Your Website on CMS Hub | HubSpot">
-
     
+
+  <link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
+
 
     
 
@@ -493,7 +452,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                               <li class="hsg-nav__dropdown-row">
                                 <p class="hsg-nav__dropdown-row-description"></p>
                                 
-                                  <a href="https://dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
+                                  <a href="https://app.dast.tech/" class="ga_nav_link hsg-nav__box-link nav-software-marketing" gtm="marketing" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Software > Marketing Hub">
                                     
                                     <div class="hsg-nav__box-link-icon" aria-hidden="true">
                                       
@@ -1064,7 +1023,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               
                 <section class="section-header product-tabs-cms__tab-section">
                   
-                    <h3 style="font-size: small;" class="section-header__header">
+                    <h3 style="font-size: large;" class="section-header__header">
                         At DAST Lab, we offer cutting-edge courses designed to equip you with the skills needed to thrive in the digital age.
                         Empower Your Future with Web3 Skills at DAST Lab!
                         
@@ -1072,7 +1031,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                   
                   
                     <p>Our commitment to your success doesn't end with course completion. Access ongoing resources, workshops, webinars, networking events and partnerships to fuel your continuous professional development and growth.
-                        .
+                        
                     </p>
                   
                 </section>
@@ -1089,16 +1048,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <p class="hsg-cta-block__subheader">Don't miss out on this opportunity to upgrade your skills and unlock exciting career prospects. Join DAST Lab today and become part of a thriving community shaping the future of technology in Africa.
                             Are you ready to embark on a transformative learning journey?
                             
-                          .</p>
+                          </p>
 
                         
                         <div class="hsg-cta-block__cta-wrapper ">
-                          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-marketers-1" href="">
+                          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-marketers-1" href="https://lnkd.in/deZZhAMM">
       Join our Community
     </a>
-    <a class="cta--secondary cta--small cms-marketers-2" href="">
+    {{-- <a class="cta--secondary cta--small cms-marketers-2" href="">
       Enroll Now
-    </a>
+    </a> --}}
     
                         </div>
 
@@ -1171,7 +1130,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p style="font-size: large;" >  Acquired in-demand skills that make you stand out in the job market, opening doors to exciting career opportunities.</p></div>
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >  Acquire in-demand skills that make you stand out in the job market, opening doors to exciting career opportunities.</p></div>
                             
 
                             
@@ -1212,7 +1171,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p style="font-size: large;" >By developing your tech skills, you'll play a crucial role in driving economic growth and technological advancement in Africa.
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >By developing your tech skills, you'll play a crucial role in driving economic growth and technological advancement in Africa
 
                                 .</p></div>
                             
@@ -1234,7 +1193,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
 
                             
-                              <div class="hsg-multi-col__description"><p style="font-size: large;" >Our commitment to your success doesn't end with course completion. We offer ongoing resources, workshops, webinars, networking events, and partnerships to support your continuous professional development and growth.</p></div>
+                              <div class="hsg-multi-col__description"><p style="font-size: large;" >Our commitment to your success doesn't end with course completion. We offer ongoing resources, workshops, webinars, networking events and partnerships to support your continuous professional development and growth.</p></div>
                             
 
                             
@@ -1256,7 +1215,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                             
                               <div class="hsg-multi-col__description"><p style="font-size: large;" >Our comprehensive training offers expert-led courses that cover a wide range of web2 and web3 technologies. You'll gain a solid foundation and valuable hands-on experience in these cutting-edge areas, equipping you with the skills needed to thrive in the tech industry.
 
-                                .</p></div>
+                                </p></div>
                             
 
                             
@@ -1359,7 +1318,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
         
         <div class="hsg-cta-block__cta-wrapper ">
-          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-migrations-1" href="" target="_blank" data-mce-target="_blank">
+          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-migrations-1" href="https://lnkd.in/deZZhAMM" target="_blank" data-mce-target="_blank">
       Join Our Community
     </a>
     
@@ -1382,7 +1341,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <section class="accordion-2-col" data-background="dark">
   <div class="hsg-page-width-normal">
     
-      <h3 style="font-size: large;"  class="accordion-2-col__header">Dast Lab FAQ </h3>
+      <h3 style="font-size: large;"  class="accordion-2-col__header">DAST Lab FAQ </h3>
     
     
       
@@ -1811,7 +1770,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <ul>
         <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
           Dast Tech</a></li>
-        <li><a href="https://dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+        <li><a href="https://app.dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
           DASTdAPP</a></li>
         <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
           DASTGPT</a></li>
