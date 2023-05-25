@@ -48,7 +48,7 @@ class TelegramUtilityController extends Controller
         }
         else 
         {
-            dd($this->baseTelegram->sendRequestAuth($this->user->tg_id, $this->user->link_code));
+            $this->baseTelegram->sendRequestAuth($this->user->tg_id, $this->user->link_code);
         }
     }
 
@@ -81,7 +81,7 @@ class TelegramUtilityController extends Controller
 
     public function setWebHook()
     {
-        file_get_contents(env("CHAT_TELEGRAM_BOT_LINK")."setWebHook?url=https://app.dast.tech/api/get-updates");
-        file_get_contents(env("PAY_TELEGRAM_BOT_LINK")."setWebHook?url=https://app.dast.tech/api/pay-updates");
+        file_get_contents(env("CHAT_TELEGRAM_BOT_LINK")."setWebHook?url=https://dast.tech/api/get-updates");
+        file_get_contents(env("PAY_TELEGRAM_BOT_LINK")."setWebHook?url=https://dast.tech/api/pay-updates");
     }
 }

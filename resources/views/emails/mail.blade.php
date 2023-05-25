@@ -17,7 +17,7 @@
             background-size:cover;
             background-repeat:no-repeat">
 
-    <img src="https://app.dast.tech/images/logo.png" alt="Logo"> <img src="https://app.dast.tech/images/dast.png" style="width: 61px;height: 32px;" alt="Logo">
+    <img src="https://dast.tech/images/logo.png" alt="Logo"> <img src="https://dast.tech/images/dast.png" style="width: 61px;height: 32px;" alt="Logo">
     <br>
     
 

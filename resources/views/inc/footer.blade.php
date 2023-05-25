@@ -1,13 +1,13 @@
 <br><br>
-    <img src="https://app.dast.tech/images/logo.png" alt="Logo"> <img src="https://app.dast.tech/images/dast.png" style="width: 61px;height: 32px;" alt="Logo">
+    <img src="https://dast.tech/images/logo.png" alt="Logo"> <img src="https://dast.tech/images/dast.png" style="width: 61px;height: 32px;" alt="Logo">
 
     <hr style="color:white">
     {{-- Socials --}}
-    <a href="https://mobile.twitter.com/DastCommunity?t=9hyFOcQGgx1gKi3c1blSNA&s=09"><img src="https://app.dast.tech/images/twitter.png" style="width:30px" alt="Logo"> </a>
-    <a href="https://m.facebook.com/dastofficial1/"><img src="https://app.dast.tech/images/fb.png" style="width:30px"  alt="Logo"></a>
-    <a href="https://www.linkedin.com/company/digital-access-security-token/"><img src="https://app.dast.tech/images/in.png" style="width:30px" alt="Logo"> </a>
-    <a href=""><img src="https://app.dast.tech/images/ytb.png" style="width:30px"  alt="Logo"></a>
-    <a href="https://t.me/dastofficial1"><img src="https://app.dast.tech/images/tg.jfif" style="width:30px"  alt="Logo"></a><br>
+    <a href="https://mobile.twitter.com/DastCommunity?t=9hyFOcQGgx1gKi3c1blSNA&s=09"><img src="https://dast.tech/images/twitter.png" style="width:30px" alt="Logo"> </a>
+    <a href="https://m.facebook.com/dastofficial1/"><img src="https://dast.tech/images/fb.png" style="width:30px"  alt="Logo"></a>
+    <a href="https://www.linkedin.com/company/digital-access-security-token/"><img src="https://dast.tech/images/in.png" style="width:30px" alt="Logo"> </a>
+    <a href=""><img src="https://dast.tech/images/ytb.png" style="width:30px"  alt="Logo"></a>
+    <a href="https://t.me/dastofficial1"><img src="https://dast.tech/images/tg.jfif" style="width:30px"  alt="Logo"></a><br>
     <br>
     </p>
 
