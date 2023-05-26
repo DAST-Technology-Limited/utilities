@@ -1005,7 +1005,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-    <div class="body-container-wrapper" style="background: rgb(1, 1, 33);">
+    <div class="body-container-wrapper" style="background: rgb(14, 14, 72);">
       
       <!--Publish Embargo Module --->
       
@@ -1014,12 +1014,15 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
   
-<section style="background: rgb(1, 1, 33); color:white;" class="hsg-page-header standard-hero-image" data-background="white"><div class="hsg-page-header__container">
+<section style="background: rgb(234, 234, 240); color:white;" class="hsg-page-header standard-hero-image" data-background="white"><div class="hsg-page-header__container">
     <div class="hsg-page-header__content">
 
       <div class="hsg-page-header__text">
-        <h3 style="font-size: large;" >Contact Us About DAST Products</h3>
-        <p>You can secure your digital assets by saving it on the DAST security technology layer. It is encrypted and backed up on the blockchain. Only your wallet will be able to view or edit it.</p>
+        <h3 id="word-by-word" style="font-size: large; color: rgb(1, 1, 45);">Thank you for your interest in DAST Technology.</h3>
+
+        <p style="font-size: large;color:rgb(1, 1, 45);"> 
+          We would love to hear from you and assist you with any inquiries or collaboration opportunities. 
+          </p>
 
        
         </div><!-- /.hsg-page-header__text -->
@@ -1028,19 +1031,37 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <ul class="hsg-numbers__wrapper hsg-slider__slides">
       <li class="hsg-slider__slide">
           <div class="hsg-numbers__block">
-            <img class="hsg-numbers__block-icon" src="https://offers.hubspot.com/hubfs/Calling@2x.png" alt="Calling">
-            <!--  -->
-            <h5 class="hsg-numbers__block-header">Call us directly</h5>
+            <style>
+              .rotate {
+                animation: rotateAnimation 3s infinite linear;
+              }
+            
+              @keyframes rotateAnimation {
+                from {
+                  transform: rotate(0deg);
+                }
+                to {
+                  transform: rotate(360deg);
+                }
+              }
+            </style>
+            
+            <img class="hsg-numbers__block-icon rotate" src="https://offers.hubspot.com/hubfs/Calling@2x.png" alt="Calling">
+            
+            <h5 style="font-weight:bolder;">Please feel free to reach out to us using the contact information below or by filling out the contact form. 
+            </h5>
+            <h5 class="hsg-numbers__block-header">Whatsapp: +250 791 375 036</h5>
             <div class="hsg-numbers__cta-container">
                   
                   
                 
                 <p class="hsg-numbers__block-description contact-sales-hero-desktop-number">
                   
-  <a href="tel:000"  data-sales-number="local" aria-hidden="false" data-loaded="false">
+  <a href="mailto:support@dast.tech"  data-sales-number="local" aria-hidden="false" data-loaded="false">
     
     
-    <span class="hsg-sales-number__number" style="color: rgb(5, 5, 128);">00000</span>
+    <span class="hsg-sales-number__number" style="color: rgb(5, 5, 128);">Email: support@dast.tech
+    </span>
     </a>
  
 
@@ -1052,23 +1073,27 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </li>
         <li class="hsg-slider__slide">
           <div class="hsg-numbers__block">
-            <img class="hsg-numbers__block-icon" src="https://offers.hubspot.com/hubfs/Messages@2x.png" alt="Messages">
-            <!--  -->
-            <h5 class="hsg-numbers__block-header">Chat with our  team</h5>
+           
+            <h5 class="hsg-numbers__block-header">Address: Office: Suit D3019 Tejosho Shoping Complex, Yaba, Lagos</h5>
             <div class="hsg-numbers__cta-container">
-                <a class="mobile-contact-sales-cta chat-with-sales contactsales-chat" href="">Chat with our sales team</a>
-                <a class="cta--primary cta--small desktop-contact-sales-cta chat-with-sales contactsales-chat" href="#chat-with-sales">Chat with Our Team</a>
+                <a class="mobile-contact-sales-cta chat-with-sales contactsales-chat" href="mailto:support@dast.tech">Email: support@dast.tech</a>
+                <a class="cta--primary cta--small desktop-contact-sales-cta chat-with-sales contactsales-chat" href="#chat-with-sales">Address: Office: Suit D3019 Tejosho Shoping Complex, Yaba, Lagos</a>
               </div>
           </div>
         </li>
         <li class="hsg-slider__slide">
           <div class="hsg-numbers__block">
-            <img class="hsg-numbers__block-icon" src="https://offers.hubspot.com/hubfs/Date@2x.png" alt="Date">
-            <!--  -->
-            <h5 class="hsg-numbers__block-header">Get a product demo</h5>
+           
+            <h5 class="hsg-numbers__block-header" >We value your feedback and appreciate your interest in our services. Let's connect and explore how we can help you achieve your technology goals.
+            </h5>
             <div class="hsg-numbers__cta-container">
-                <a class="mobile-contact-sales-cta book-a-meeting contactsales-meeting" href="">Get a product demo</a>
-                <a class="cta--primary cta--small desktop-contact-sales-cta book-a-meeting contactsales-meeting" href="">Get a demo</a>
+                <a class="mobile-contact-sales-cta book-a-meeting contactsales-meeting" class="hsg-numbers__block-header " style="color:black;">Whatsapp: +250 791 375 036</a>
+                            
+  <a href="mailto:support@dast.tech"  data-sales-number="local" aria-hidden="false" data-loaded="false">
+    
+    
+ 
+
               </div>
           </div>
         </li>

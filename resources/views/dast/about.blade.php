@@ -234,65 +234,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <div class="hsg-page-width-normal">
                 <div class="hsg-nav__inner">
                   
-                    <ul class="hsg-nav__group">
-              
-              <li class="hsg-nav__group-item hsg-nav__group-item--has-dropdown">
-                <div class="hsg-nav__link-wrapper">
-                  <button aria-expanded="false" aria-controls="Language-submenu" class="hsg-nav__link">
-                    <span class="hsg-nav__link-label hsg-nav__link-label--globe">
-                      <svg class="hsg-nav__globe-icon" aria-hidden="true"><use xlink:href="#hs-icon-globe" fill="currentColor" /></svg>
-                      English<span class="visually-hidden">: Select a language</span>
-                      
-                    </span>
-                  </button>
-                </div>
-                <ul id="Language-submenu" class="hsg-nav__dropdown-list"><li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="ja" data-ga_nav_type="header_nav" data-ga_nav_tree_text="日本語">日本語</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="de" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Deutsch">Deutsch</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link active " href="" aria-current="page" lang="en" data-ga_nav_type="header_nav" data-ga_nav_tree_text="English">English</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="es" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Español">Español</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="pt" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Português">Português</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="fr" lang="fr" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Français">Français</a>
-                    </li>
-                  </ul>
-              </li>
-            
-              
-            
-            <li class="hsg-nav__group-item hsg-nav__group-item--has-contrast-toggle">
-              <button class="a11y-contrast-toggle -small -icon-left">
-                High Contrast
-              </button>
-            </li>
-            
-              
-            
-            
-            
-            
-            
-            </ul>
                   
                   <ul class="hsg-nav__group">
-                    <li class="hsg-nav__group-item hsg-nav__group-item--search">
-            
-                      
-                      
-                        <!-- pageLang: en -->
-              {{-- <input type="search" class="" data-id="hsg-nav__search-input" placeholder="search..." data-config="{&quot;contexts&quot;:[{&quot;selected&quot;:true,&quot;id&quot;:&quot;website&quot;,&quot;cx&quot;:&quot;009219321729865762236:z9gsnksfc30&quot;,&quot;label&quot;:&quot;Search HubSpot.com&quot;},{&quot;selected&quot;:null,&quot;id&quot;:&quot;blog&quot;,&quot;cx&quot;:&quot;009219321729865762236:fzizmixjdmi&quot;,&quot;label&quot;:&quot;Search the blog&quot;}],&quot;loadMoreButton&quot;:&quot;Load More Results&quot;,&quot;noResults&quot;:[&quot;That's odd...&quot;,&quot;couldn't find quite the right match.&quot;,&quot;Don't worry, try searching again up top.&quot;]}" aria-label="Search"> --}}
-              
-                      
-                    </li>
+                    
                     
             
                     
@@ -789,45 +733,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                           
                           <ul class="hsg-nav__group">
               
-              <li class="hsg-nav__group-item hsg-nav__group-item--has-dropdown">
-                <div class="hsg-nav__link-wrapper">
-                  <button aria-expanded="false" aria-controls="Language-submenu-mobile" class="hsg-nav__link">
-                    <span class="hsg-nav__link-label hsg-nav__link-label--globe">
-                      <svg class="hsg-nav__globe-icon" aria-hidden="true"><use xlink:href="#hs-icon-globe" fill="currentColor" /></svg>
-                      English<span class="visually-hidden">: Select a language</span>
-                      
-                    </span>
-                  </button>
-                </div>
-                <ul id="Language-submenu-mobile" class="hsg-nav__dropdown-list"><li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="ja" data-ga_nav_type="header_nav" data-ga_nav_tree_text="日本語">日本語</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="de" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Deutsch">Deutsch</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link active " href="" aria-current="page" lang="en" data-ga_nav_type="header_nav" data-ga_nav_tree_text="English">English</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="es" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Español">Español</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="pt" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Português">Português</a>
-                    </li>
-                  <li class="hsg-nav__dropdown-item">
-                      <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="fr" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Français">Français</a>
-                    </li>
-                  </ul>
-              </li>
-            
-              
-            
-            <li class="hsg-nav__group-item hsg-nav__group-item--has-contrast-toggle">
-              <button class="a11y-contrast-toggle -small -icon-left">
-                High Contrast
-              </button>
-            </li>
-            
+             
               
             
             
@@ -864,21 +770,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-
-<!--[if lte IE 10]>
-<a href="http://outdatedbrowser.com" class="browser-upgrade-notification" style="width: 100%; text-align: center; color: #FFF; background-color: #11434c; display: block;">
-  <p style="font-size: .875em; color: #FFF; padding: 15px 0px; margin: 0px;">
-    <img class="browser-upgrade-notification__emoji"
-          src="https://www.hubspot.com/hubfs/assets/hubspot.com/icons/Sad_Face_Emoji_large.png?t=1494954070529" alt=""
-          style="max-height: 1.3em; position: relative; top: 4px; right: 3px;">
-      Looks like your browser is stuck in the past. Update to the latest version for a better, faster, stronger (and safer) browsing experience.
-    <img class="browser-upgrade-notification__arrow"
-          src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/icons/Arrow.png" style="position: relative; left: 0%;">
-  </p>
-</a>
-<![endif]-->
-  
-    
     
     
 
@@ -960,14 +851,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           <div class="about-our-mission__split">
             <h2 class="about-our-mission__heading">Our Mission</h2>
             <p>
-              At DAST Technology, we are committed to providing world-class web3 and AI technology solutions to our clients through innovation, research, and development. We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.
-              Our mission is to revolutionize digital asset management and trading, by providing a secure, reliable, and user-friendly platform for investors and traders. We believe in the power of digital assets to transform the financial landscape, and we are committed to making them accessible and safe for everyone. 
-
+              At DAST Technology, we are committed to providing world-class web3 and AI technology solutions to our clients through innovation, research and development. We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.
             </p>
           </div>
           <div class="about-our-mission__split">
             <div class="about-our-mission__image-wrapper">
-              <img class="about-our-mission__iz3mage" src="https://dast.tech/assets/images/key.png">
+              <img class="about-our-mission__iz3mage" src="https://media.istockphoto.com/id/685797134/photo/golden-compass-concept.webp?b=1&s=170667a&w=0&k=20&c=DeldNoCck_a1foz474FGmHPd0GWTX-_Y4tj-U6XnJJ4=">
              
             </div>
           </div>
@@ -997,12 +886,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           <!-- The script tag should live in the head of your page if at all possible -->
           <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js" nonce="nT5cusZ1Z0l4iE9fvbnMQA=="></script>
           <!-- Put this wherever you would like your player to appear -->
-          <img style="width: 100%; margin: 0 auto; display: block;" class="vidyard-player-embed" src="https://media.istockphoto.com/id/913017874/photo/blue-circuit-digital-key-on-binary-code.webp?b=1&s=170667a&w=0&k=20&c=5ksGNz8i4BNNMf8vmexd5tSLf0DkRvdLl8p_ztIH8Rc="  data-v="4" data-type="lightbox" data-width="1920" data-height="1080" alt="video placeholder image">
+          <img style="width: 100%; margin: 0 auto; display: block;" class="vidyard-player-embed" src="https://media.istockphoto.com/id/1399205160/photo/one-happy-young-caucasian-businessman-working-on-a-laptop-in-an-office-confident-male.webp?b=1&s=170667a&w=0&k=20&c=yLDJGI3hDHebXwmW2sA_pox75H6Tnauwr7VVULqjtiQ="  data-v="4" data-type="lightbox" data-width="1920" data-height="1080" alt="video placeholder image">
           
         </div>
         <div class="about-our-story__text">
           <p>
-            At DAST, our vision is to become the leading global platform for digital asset management and trading. We envision a future where digital assets are accessible and safe for everyone, and where investors and traders can manage their assets with ease and confidence. We strive to create a community of informed and empowered digital asset investors and traders, who use our platform to stay ahead of the curve and make informed investment decisions. Our platform is designed to be at the forefront of technological innovation, with advanced security measures, customizable tools, and a decentralized infrastructure that ensures the safety and privacy of our users' assets. We believe in a world where digital assets are the future of finance, and we are committed to making that future a reality 
+            Our vision at DAST Technology is to empower individuals and businesses in Africa and beyond with cutting-edge web3 and AI technology and digital solutions that drive innovation and growth.
+ 
           </p>
         
         </div>
@@ -1028,8 +918,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div id="hs_cos_wrapper_module_158395989427196" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><section class="about-products">
   <div class="about-products__container hsg-page-width-normal">
       <div class="about-products__wrapper">
-        <h2 class="about-products__header">DAST</h2>
-        <p class="about-products__description">DAST is a leading platform for digital asset management and trading. We were founded in 2021 with the goal of making digital assets accessible and secure for everyone. Our mission is to revolutionize the way people manage and trade digital assets, and our vision is to become the leading global platform for digital asset management and trading.</p>
+        <h2 class="about-products__header">DAST Tech</h2>
+        <p class="about-products__description">DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations. 
+          We are dedicated to leveraging the latest technologies in blockchain technology and artificial intelligence to solve real-world problems and drive innovation across various sectors, including education, finance, healthcare, transportation, agriculture and supply chain management. 
+          </p>
 				<div class="about-products__ctas">
 				<a class="" href="https://dast.tech/" download="">Read More</a> 
 				</div>
@@ -1061,7 +953,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
          <h3 class="about-products__card--headline h4">COMMUNITY</h3>
         </div>
         <div class="about-products__card--content">
-            <p>We believe that a strong community is essential to the success of DAST. That's why we are committed to user education, transparency, and regulatory compliance. We believe that by empowering our users with knowledge and resources, we can create a community of informed and empowered digital asset investors and traders.</p>
+            <p>We believe that a strong community is essential to the success of DAST. That's why we are committed to user education, transparency, and regulatory compliance. We believe that by empowering our users with knowledge and resources, we can create a community of informed and empowered digital asset investors and traders.(digital asset owners and skilled professionals)
+            </p>
             <a class="" href="https://lnkd.in/deZZhAMM">Join our Telegram</a>
         </div>
       </div>
@@ -1077,7 +970,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
          <h3 class="about-products__card--headline h4">Service Hub</h3>
         </div>
         <div class="about-products__card--content">
-            <p>By using DAST's platform, investors and traders can benefit from advanced security measures, ease of use, and access to multiple digital assets. Our platform is designed to be user-friendly, with intuitive navigation and customizable tools that allow users to manage and trade their assets with ease. We also provide access to educational resources and market insights to help our users make informed investment decisions</p>
+            <p>By using DAST's platform, users and businesses can benefit from advanced digital asset security measures, ease of use, and access to other DAST products in our ecosystem. Our platform is designed to be user-friendly, with intuitive navigation and customizable tools that allow users to personalise and learn with ease. We also provide access to educational resources and market insights to help our users make informed market decisions to increase their earning potential.</p>
            
         </div>
       </div>
@@ -1093,7 +986,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
          <h3 class="about-products__card--headline h4">Core Values</h3>
         </div>
         <div class="about-products__card--content">
-            <p>At DAST, we are guided by a set of core values that shape everything we do. These values include innovation, security, transparency, user education, and regulatory compliance. We believe that these values are essential to creating a safe, reliable, and user-friendly platform for digital asset investors and traders.</p>
+            <p>At DAST, we are guided by a set of core values that shape everything we do. These values include innovation, security, collaboration, empowerment,  transparency, user education, social impact, customer-centric approach and regulatory compliance. We believe that these values are essential to creating a safe, reliable and user-friendly platform for personalised learning and seamless payments. 
+            </p>
            
         </div>
       </div>
@@ -1109,7 +1003,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
          <h3 class="about-products__card--headline h4">Products And Services</h3>
         </div>
         <div class="about-products__card--content">
-            <p>DAST offers a comprehensive platform for managing and trading digital assets. Our platform uses advanced security measures and a proprietary security tokenization process to ensure the safety and privacy of our users' assets. We also offer automated portfolio management, a decentralized infrastructure, an OTC trading desk, staking rewards, and customizable trading strategies.</p>
+            <p>At DAST Technology, we provide software development solutions, blockchain solutions, and digital services to address real-world challenges. We work tirelessly to ensure that our solutions are secure, scalable and user-friendly.
+              Whether you're an aspiring developer, a technology enthusiast, or a curious learner, our range of products and services has something to offer 
+              .</p>
+              <a href="">Explore More</a>
          
         </div>
       </div>
@@ -1117,11 +1014,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
      <div class="about-products__card full-width"><div class="about-products__card--text-wrapper">
         <div class="about-products__card--image-wrapper">
-          
-         <h3 class="about-products__card--headline h4">DAST OFFICIAL</h3>
+          <img src="https://app.dast.tech/assets/images/dominion.png" alt="DAST CEO">
+         <h3 style="margin-left:1rem;" class="about-products__card--headline h4">DAST OFFICIAL</h3>
         </div>
         <div class="about-products__card--content">
-            <p>Welcome to DAST, where we empower you to take control of your digital assets with security and ease. Join us on our mission to revolutionize the world of digital asset management and trading. With DAST, you have the power to unlock the full potential of your assets. Together, let's shape the future of digital finance..</p>
+            <p>DAST Technology offers secure, scalable software development, blockchain solutions, and digital services. Our ambition is to be a global leader, providing innovative technology solutions. We specialise in web/mobile app development, custom software, decentralized applications, and digital marketing. With exceptional quality and value, we empower businesses to thrive in the digital age, forging lasting partnerships worldwide.</p>
             <a class="" >DOMINION,CEO DAST</a>
         </div>
       </div>
