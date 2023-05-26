@@ -974,7 +974,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="homepage-hero-branding-rollout__media">
         
           <div class="homepage-hero-branding-rollout__media-wrapper">
-            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://dast.tech/assets/images/key.png">
+            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://app.dast.tech/assets/images/key.png">
             <img class="homepage-hero-branding-rollout__media-image--mobile" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST platform" src="https://dast.tech/assets/images/key.png">
           </div>
         
@@ -1409,11 +1409,11 @@ let typingInterval = setInterval(typeNextLetter, 100);
       </div>
       
       <div class="home-customers__logo-wrapper">
-        <img data-src="https://dast.tech/assets/images/key.png" alt="The Motley Fool logo" class="home-customers__logo hsg-deferred">
+        <img data-src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p206x206&_nc_cat=109&ccb=1-7&_nc_sid=e33968&_nc_ohc=aUPTe_aLAIEAX-Q51JI&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAVd_RDcqSHxmjfCgXZk7DF8BQHd43p-MezEU4hiG2bEA&oe=64742455" alt="DAST" class="home-customers__logo hsg-deferred">
       </div>
       
       <div class="home-customers__logo-wrapper">
-        <img data-src="https://dast.tech/assets/images/whyus.png" alt="eventbrite logo" class="home-customers__logo hsg-deferred">
+        <img data-src="https://app.dast.tech/assets/images/key.png" alt="DAST" class="home-customers__logo hsg-deferred">
       </div>
       
     </div>
