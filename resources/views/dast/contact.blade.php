@@ -2,15 +2,15 @@
 <!doctype html><html class="embed-chat-html" lang="en"><head>
     <meta charset="utf-8">
     <title>Contact  | DAST's Products</title>
-    <meta name="description" content="Call us, chat with us, or book a meeting with our  team to learn how you can use DAST's Product to make life better. ">
+    <meta name="description" content="Please feel free to reach out to us using the contact information below or by filling out the contact form.  ">
    
     
     <script src="/hs/hsstatic/jquery-libs/static-1.1/jquery/jquery-1.7.1.js" nonce="ThkRTThfezslgq47GgHHnQ=="></script>
 <script nonce="ThkRTThfezslgq47GgHHnQ==">hsjQuery = window['jQuery'];</script>
     
     <meta property="og:title" content="Contact  | DAST's Products">
-    <meta name="twitter:description" content="Call us, chat with us, or book a meeting with our sales team to learn how you can use DAST's Products to grow better. ">
-    <meta name="twitter:title" content="Contact Sales | DAST's products">
+    <meta name="twitter:description" content="Please feel free to reach out to us using the contact information below or by filling out the contact form. ">
+    <meta name="twitter:title" content="Thank you for your interest in DAST Technology.">
 
     
 
@@ -19,7 +19,6 @@
 a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
 </style>
 
-<link rel="stylesheet" href="https://offers.hubspot.com/wt-assets/static-files/2.2.3/lp-nav/styles.css?1684594903032">
 
   <style type="text/css">
     .hsg-notice {
@@ -41,8 +40,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
 
     
-    <link rel="canonical" href="https://offers.hubspot.com/contact-sales">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="”content-language”" content="”en-US”">
 <meta name="google-site-verification" content="2IEWx1p87YR79mLbeeSi-osUja8cJtEvdo_CvCgzMtc">
@@ -179,9 +176,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
     
-
-    <link rel="preload" href="https://static2cdn.hubspot.com/hubspot.com/static-1.4200/_hsg-ss/build/icons/hsg-icons.woff2" as="font" crossorigin>
-
     
   
   
@@ -214,53 +208,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <!-- Social Sharing -->
   
+<link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
+
   
-  
-      <meta property="og:image" content="https://wtcfns.hubspot.com/wt-api/social-sharing">
+      
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="335">
-    <meta name="twitter:image" content="https://wtcfns.hubspot.com/wt-api/social-sharing">
-  
+    
   <!-- End -->
 
 
-      
-      
-      
-
-      
-     
-
-      
-      
-        
-          
-          <link rel="alternate" href="https://offers.hubspot.com/contact-sales" hreflang="x-default">
-          
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.com/contact-sales" hreflang="en">
-        
-      
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.es/contact-sales" hreflang="es">
-        
-      
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.fr/contact-sales" hreflang="fr-FR">
-        
-      
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.de/contact-sales" hreflang="de-DE">
-        
-      
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.jp/contact-sales" hreflang="ja-JP">
-        
       
         
         
@@ -278,7 +235,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <!-- Meta tags for Partner search indexing-->
 
-<meta property="og:url" content="https://offers.hubspot.com/contact-sales">
 <meta name="twitter:card" content="summary">
 <meta http-equiv="content-language" content="en">
 

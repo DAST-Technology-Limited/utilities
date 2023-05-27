@@ -85,7 +85,8 @@
     <meta property="og:description" content="At DAST Technology, we are committed to providing world-class web3 and AI technology solutions to our clients through innovation, research, and development.">
     <meta property="og:title" content="DAST |  We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.">
     <meta name="twitter:description" content="DAST|Discover the limitless possibilities of web3 and AI with DASTGPT Bot">
-   
+    <link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
+
 
     
 

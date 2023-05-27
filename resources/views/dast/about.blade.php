@@ -30,69 +30,23 @@
       
         
           
-          <link rel="alternate" href="https://www.hubspot.com/our-story" hreflang="x-default">
-          
-        
-        
-          <link rel="alternate" href="https://www.hubspot.com/our-story" hreflang="en">
         
       
         
-        
-          <link rel="alternate" href="https://www.hubspot.es/our-story" hreflang="es">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.fr/our-story" hreflang="fr-FR">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.de/our-story" hreflang="de-DE">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.jp/our-story" hreflang="ja-JP">
-        
-      
-        
-        
-          <link rel="alternate" href="https://br.hubspot.com/our-story" hreflang="pt-BR">
-        
-      
-    
-
-
-
-
-
 <meta name="theme-color" content="#FF7A59">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="description" content="HubSpot is a marketing, sales, and customer service platform that helps companies grow better.">
+<meta name="description" content="Our team of experts is passionate about creating a more equitable and inclusive world through the power of web2, web3, and AI technologies">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
 
-<link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
-
-<link rel="dns-prefetch" href="https://js.hs-analytics.net">
-<link rel="dns-prefetch" href="https://wtcfns.hubspot.com">
-<link rel="dns-prefetch" href="https://api.hubapi.com">
-<link rel="dns-prefetch" href="https://static.hsappstatic.net">
-<link rel="dns-prefetch" href="https://cdn2.hubspot.net">
-<link rel="dns-prefetch" href="https://api.hubspot.net">
-<link rel="dns-prefetch" href="https://app.hubspot.net">
-<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-<link rel="dns-prefetch" href="https://www.google-analytics.com">
 
 <!-- htmlmin:ignore -->
 
     
 
-    <meta name="twitter:description" content="HubSpot is a marketing, sales, and customer service platform that helps companies grow better.">
-    <meta name="twitter:title" content="Our Story | HubSpot - Internet Marketing Company">
+    <meta name="twitter:title" content="Our Story | We embrace a culture of continuous innovation, pushing the boundaries of Africa to create novel solutions that drive progress and transformation.
+    ">
 
     
 
@@ -131,11 +85,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Domain Settings Code --> 
 <!-- Meta -->
-<meta property="twitter:account_id" content="14458280">
-<meta name="msvalidate.01" content="C5553ABFC995043D86E2C15CA3DADD34">
-<meta name="p:domain_verify" content="7f4fa0f1fccc171fd4d5af64f062521c">
-<meta http-equiv="content-language" content="en-US">
-<meta property="fb:pages" content="6039999393">
 
 
 <meta name="twitter:card" content="summary">
@@ -157,12 +106,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
     
 
-    <link rel="preload" href="https://static2cdn.hubspot.com/hubspot.com/static-1.4200/_hsg-ss/build/icons/hsg-icons.woff2" as="font" crossorigin>
-
     
   <link href="https://www.hubspot.com/wt-assets/static-files/2.2.1/about/styles.css" rel="stylesheet" type="text/css">
 
-<meta name="generator" content="HubSpot"></head>
+<meta name="generator" content="DAST">
+<link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
+
+</head>
 <body>
 
     

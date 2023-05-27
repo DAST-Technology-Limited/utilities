@@ -51,8 +51,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<link rel="canonical" href="https://academy.hubspot.com">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -63,38 +61,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <meta name="twitter:card" content="summary">
 <meta http-equiv="content-language" content="en">
-<link rel="alternate" hreflang="de" href="https://academy.hubspot.de">
-<link rel="alternate" hreflang="en" href="https://academy.hubspot.com">
-<link rel="alternate" hreflang="es" href="https://academy.hubspot.com/es/">
-<link rel="alternate" hreflang="fr" href="https://academy.hubspot.fr">
-<link rel="alternate" hreflang="ja" href="https://academy.hubspot.jp">
-<link rel="alternate" hreflang="pt" href="https://academy.hubspot.com/pt/">
-
-
-
-
-
-<!--SEO Entity Test -->
-<script type="application/ld+json" nonce="iBMh0aTZcFEtM9In4qQSvg==">
-{
-"@context": "https://schema.org",
-"@type": "EducationalOrganization",
-"name": "DAST CHAT",
-"sameAs": ["https://www.wikidata.org/wiki/Q113404596"],
-"url":"https://academy.hubspot.com",
-"isAccessibleForFree": true,
-"parentOrganization":
-{
-"@type": "Organization",
-"name": "HubSpot",
-"url": "https://www.hubspot.com/",
-"logo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/HubSpot_Logo.svg",
- "sameAs": [
-        "https://www.wikidata.org/wiki/Q5926631",
-        "https://en.wikipedia.org/wiki/HubSpot"]
-}
-}
-</script>
 
 
 
@@ -102,12 +68,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-
-  
-
-
-
-<meta class="swiftype" name="doc-type" data-type="string" content="Academy">
+<meta class="swiftype" name="doc-type" data-type="string" content="CHAT">
 
 
 <!-- GDPR SETTING:  academy.hubspot.com | GTM-WFZ7LR3 | build #(SizeLimitingPyMap: {hsg=2.2.1, legacy=4948}) / tld:com / subdomain: academy / domainName: hubspot-->
@@ -157,60 +118,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<!-- isQA:   -->
-
-<!-- Build Number: 2.2.1 -->
-
-
-
-
-
-<!-- HREFLANG MACRO -->
-
-
-  
-  
-  
-
-  
-
-
-  
-  
-    
-      
-      <link rel="alternate" href="https://www.hubspot.com" hreflang="x-default">
-      
-    
-    
-      <link rel="alternate" href="https://www.hubspot.com" hreflang="en">
-    
-  
-    
-    
-      <link rel="alternate" href="https://www.hubspot.es" hreflang="es">
-    
-  
-    
-    
-      <link rel="alternate" href="https://www.hubspot.fr" hreflang="fr-FR">
-    
-  
-    
-    
-      <link rel="alternate" href="https://www.hubspot.de" hreflang="de-DE">
-    
-  
-    
-    
-      <link rel="alternate" href="https://www.hubspot.jp" hreflang="ja-JP">
-    
-  
-    
-    
-      <link rel="alternate" href="https://br.hubspot.com" hreflang="pt-BR">
-    
-  
 
 
 
@@ -224,8 +131,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-
-<link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
+<link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
 
 
 <!-- htmlmin:ignore -->
@@ -275,8 +181,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<link rel="canonical" href="https://www.hubspot.com">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Domain Settings Code --> 
 <!-- Meta -->
@@ -291,10 +195,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <meta property="og:image:width" content="1206">
 <meta property="og:image:height" content="633">
 
-<meta name="twitter:image" content="https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/buzz/HubSpotOpenGraph.png#keepProtocol">
 
-
-<meta property="og:url" content="https://www.hubspot.com">
 <meta name="twitter:card" content="summary_large_image">
 <meta http-equiv="content-language" content="en">
 
@@ -337,7 +238,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <link rel="stylesheet" href="https://academy.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/34195777259/1666086726291/_Web_Team_Assets/Academy/app/home.min.css" type="text/css">
 
-<meta name="generator" content="HubSpot"></head>
+<meta name="generator" content="DAST"></head>
 <body>
 <script src="https://academy.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/88484447392/1666086723726/_Web_Team_Assets/Academy/app/set-high-contrast-on-load.min.js" nonce="iBMh0aTZcFEtM9In4qQSvg=="></script>
 
@@ -386,10 +287,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/80992206946/1680686005259/module_80992206946_ctaContentBlock.min.css">
 
     
-
-
-    
-    <link rel="canonical" href="https://www.hubspot.com">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Domain Settings Code --> 

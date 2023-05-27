@@ -2,16 +2,17 @@
 <!doctype html><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" > <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en" >        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en" >               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="author" content="HubSpot">
-    <meta name="description" content="We offer a full suite of onboarding, training, and consulting options to help you maximize your results with HubSpot.">
-    <meta name="generator" content="HubSpot">
+    <meta name="author" content="DAST">
+    <meta name="description" content="We invite you to join the prestigious DAST Army, a dedicated group of volunteers who will revolutionise the industry. ">
+    <meta name="generator" content="DAST">
     <title>Be Part of the Elite DAST Army and Ignite Change!
     </title>
     
 
     <script src="/hs/hsstatic/jquery-libs/static-1.1/jquery/jquery-1.7.1.js" nonce="olRh5+Ycl74/6x3R0PcbuA=="></script>
 <script nonce="olRh5+Ycl74/6x3R0PcbuA==">hsjQuery = window['jQuery'];</script>
-    <meta property="og:description" content="We offer a full suite of onboarding, training, and consulting options to help you maximize your results with HubSpot.">
+    <meta property="og:description" content="As a member of the DAST Army, you'll enjoy a range of exclusive benefits while driving innovation and shaping the future of Web3.
+    ">
     <meta property="og:title" content="Attention Web3 Enthusiasts |Be Part of the Elite DAST Army and Ignite Change!">
     
 
@@ -40,10 +41,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   </style>
 
     
-
-
-    
-    <link rel="canonical" href="https://www.hubspot.com/services">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Domain Settings Code --> 
@@ -114,18 +111,17 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   
   
   
-      <meta property="og:image" content="https://wtcfns.hubspot.com/wt-api/social-sharing">
+     
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="335">
-    <meta name="twitter:image" content="https://wtcfns.hubspot.com/wt-api/social-sharing">
-  
+    
   <!-- End -->
 
 
       
 
-  <link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
 
+  <link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
       
       
 
@@ -769,7 +765,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             
             
               
-            
+          
               <div class="header-nav__ctas ">
                 
                 <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
@@ -1620,51 +1616,8 @@ var hsVars = hsVars || {}; hsVars['language'] = 'en';
     <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
     <![endif]-->
 
-<script data-hs-allowed="true" src="/_hcms/forms/v2.js" nonce="olRh5+Ycl74/6x3R0PcbuA=="></script>
-
-    <script data-hs-allowed="true" nonce="olRh5+Ycl74/6x3R0PcbuA==">
-        var options = {
-            portalId: '53',
-            formId: '4a194322-1d4d-4d3b-a87a-44fbc443eaec',
-            formInstanceId: '347',
-            pageId: '4282618632',
-            region: 'na1',
             
             
-            
-            
-            pageName: "HubSpot Services | Custom Services to Help Your Business Grow",
-            
-            
-            
-            inlineMessage: "<p>Thank you for getting in touch. We're so glad you're interested in HubSpot Services. Someone will be in touch soon to help.</p>",
-            
-            
-            rawInlineMessage: "<p>Thank you for getting in touch. We're so glad you're interested in HubSpot Services. Someone will be in touch soon to help.</p>",
-            
-            
-            hsFormKey: "211c56b967304a0bf7d6b27d32011fce",
-            
-            
-            css: '',
-            target: '#hs_form_target_form_84938190',
-            
-            
-            
-            
-            
-            contentType: "standard-page",
-            
-            
-            
-            formsBaseUrl: '/_hcms/forms/',
-            
-            
-            
-            formData: {
-                cssClass: 'hs-form stacked hs-custom-form'
-            }
-        };
 
         options.getExtraMetaDataBeforeSubmit = function() {
             var metadata = {};

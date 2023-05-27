@@ -48,11 +48,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-    <meta property="og:description" content="HubSpot’s free CMS tools offer the features you need to launch a custom website with ease — including built-in security, a visual web editor, and more.">
-    <meta property="og:title" content="Build and Manage Your Website on CMS Hub | HubSpot">
-    <meta name="twitter:description" content="HubSpot’s free CMS tools offer the features you need to launch a custom website with ease — including built-in security, a visual web editor, and more.">
-    <meta name="twitter:title" content="Build and Manage Your Website on CMS Hub | HubSpot">
-
+    <meta property="og:description" content=" Seamlessly integrated into major messaging apps, DASTPay empowers you to effortlessly carry out bill">
+    <meta property="og:title" content="DASTPay is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions.">
+    
     
 
     
@@ -82,11 +80,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/34849897001/1684330978881/module_34849897001_WTM_-_Multi-Col_Cards_Mobile_Slider.min.css">
 
     
+<link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
 
 
     
-    <link rel="canonical" href="https://www.hubspot.com/products/cms">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Domain Settings Code --> 
 <!-- Meta -->
@@ -97,14 +94,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <meta property="fb:pages" content="6039999393">
 
 
-<meta property="og:image" content="https://www.hubspot.com/hubfs/Featured%20Image-21.png#keepProtocol">
 <meta property="og:image:width" content="888">
 <meta property="og:image:height" content="644">
-<meta property="og:image:alt" content="Abstract user interface image showing HubSpot CMS on-page experience">
-<meta name="twitter:image" content="https://www.hubspot.com/hubfs/Featured%20Image-21.png#keepProtocol">
-<meta name="twitter:image:alt" content="Abstract user interface image showing HubSpot CMS on-page experience">
 
-<meta property="og:url" content="https://www.hubspot.com/products/cms">
 <meta name="twitter:card" content="summary_large_image">
 <meta http-equiv="content-language" content="en">
 
@@ -112,25 +104,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-<!-- Entity-SEO-Test -->
-<script type="application/ld+json" nonce="66W8vRVSya9p8Hh+F2QkwA==">
-{
-  "@context": "https://schema.org/", 
-  "@type": "Product", 
-  "name": "CMS Hub",
-  "sameAs":["https://www.wikidata.org/wiki/Q113404527"],
-  "brand": {
-    "@type": "Organization",
-  	"name": "HubSpot",
-    "url": "https://www.hubspot.com",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/HubSpot_Logo.svg",
- 	 "sameAs": [
-  		  "https://www.wikidata.org/wiki/Q5926631",
-  		  "https://en.wikipedia.org/wiki/HubSpot"
-  ]
-}
-}
-</script>
 <!-- htmlmin:ignore -->
     
   
@@ -143,13 +116,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
     
-
-    <link rel="preload" href="https://static2cdn.hubspot.com/hubspot.com/static-1.4200/_hsg-ss/build/icons/hsg-icons.woff2" as="font" crossorigin>
-
     
   <link href="https://www.hubspot.com/wt-assets/static-files/2.2.3/core-2020/styles.css" rel="stylesheet" type="text/css">
 
-<meta name="generator" content="HubSpot"></head>
+<meta name="generator" content="DAST"></head>
 <body>
 
     
