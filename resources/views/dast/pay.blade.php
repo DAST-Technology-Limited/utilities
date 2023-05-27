@@ -756,7 +756,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <div class="header-nav__ctas ">
                 
                 <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
-                  DAST Armies <span class="visually-hidden"></span>
+                  DAST ARMIES <span class="visually-hidden"></span>
                 </a>
                 
                 
@@ -2085,10 +2085,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <a class="ga_nav_link " href="" data-order="3" data-linkorder="3" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Board of Directors">
         Board of Directors</a>
     </li>
-    <li class="hsg-footer__nav-item" data-order="4">
-      <a class="ga_nav_link " href="" data-order="4" data-linkorder="4" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Investor Relations">
-        Investor Relations</a>
-    </li>
+    
     <li class="hsg-footer__nav-item" data-order="5">
       <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
         Blog</a>
@@ -2150,14 +2147,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             <span class="hidden-social">Instagram</span>
           </a>
         </li>
-      <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_youtube" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Youtube">
-            <svg class="cl-icon">
-              <use href="#youtube" />
-            </svg>
-            <span class="hidden-social">Youtube</span>
-          </a>
-        </li>
+     
       <li>
           <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
             <svg class="cl-icon">
