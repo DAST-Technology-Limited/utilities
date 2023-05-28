@@ -1163,25 +1163,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <li class="certs__list-item">
       
         <div class="certs__icon-wrap">
-          <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAib_OLTbZNk_5jo84gKlynwJhC12p8Sqet9mm05LCdaA&oe=64742455" alt="">
-          <style>
-            @keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-#rotating-image {
-  animation: rotation 10s infinite linear;
-}
-
-          </style>
+        
 
         </div>
-        <h3>Interactive Chatbot powered by ChatGPT AI</h3>
+        <h3 style="color:blue;">Interactive Chatbot powered by ChatGPT AI</h3>
     
       <p>DAST's Interactive Chatbot, powered by ChatGPT AI, offers users a conversational and intuitive interface to interact with. </p>         
     </li>
@@ -1189,9 +1174,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <li class="certs__list-item">
       
         <div class="certs__icon-wrap">
-          <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?stp=dst-jpg_s206x206&_nc_cat=100&ccb=1-7&_nc_sid=da31f3&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAA6MQV_Il2Rl4dEn57-wp0s4OmTqN_2Tqb2u5qewdNQQ&oe=64744BA6" alt="">
+          
         </div>
-        <h3>Educational Database of major Web3 companies</h3>
+        <h3 style="color:blue;">Educational Database of major Web3 companies</h3>
       
       <p>DAST has curated an extensive educational database that focuses on major Web3 companies.  </p>         
     </li>
@@ -1199,9 +1184,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <li class="certs__list-item">
   
         <div class="certs__icon-wrap">
-          <img src="https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/icons/certs/email-marketing.svg" alt="">
+         
         </div>
-        <h3>Ask questions and get personalised answers</h3>
+        <h3 style="color:blue;">Ask questions and get personalised answers</h3>
    
       <p>DAST's GPT services enable users to ask specific questions and receive personalized answers tailored to their needs.</p>         
     </li>
@@ -1209,9 +1194,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <li class="certs__list-item">
      
         <div class="certs__icon-wrap">
-          <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAib_OLTbZNk_5jo84gKlynwJhC12p8Sqet9mm05LCdaA&oe=64742455" alt="">
+         
         </div>
-        <h3>Discover decentralised finance (DeFi) and artificial intelligence (AI) </h3>
+        <h3 style="color:blue;">Discover decentralised finance (DeFi) and artificial intelligence (AI) </h3>
       
       <p>DAST's GPT services facilitate the exploration of two exciting domains: decentralized finance (DeFi) and artificial intelligence (AI).  </p>         
     </li>
@@ -1219,9 +1204,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <li class="certs__list-item">
       
         <div class="certs__icon-wrap">
-          <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAib_OLTbZNk_5jo84gKlynwJhC12p8Sqet9mm05LCdaA&oe=64742455" alt="">
+          
         </div>
-        <h3>Staying updated with blockchain protocols</h3>
+        <h3 style="color:blue;">Staying updated with blockchain protocols</h3>
      
       <p>Staying updated with blockchain protocols is crucial for individuals and organizations looking to navigate the rapidly evolving landscape of decentralized technologies.</p>         
     </li>
@@ -1237,7 +1222,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <section class="academy-learn" data-background="off-white">
 <div class="hsg-page-width-normal">
 <div class="section-header">
-  <img width="100" style="border-raidus:50%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAib_OLTbZNk_5jo84gKlynwJhC12p8Sqet9mm05LCdaA&oe=64742455" alt="">
+ 
   <h3>Why Use  DASTGPT?</h3>
 </div>
 </div>

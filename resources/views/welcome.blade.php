@@ -925,8 +925,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
 
 
-        <h3 id="animated-text" style="font-size: large;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</h3>
-
+        <h3 id="animated-text" style="font-size: x-larger;font-weight:bolder;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Security Management.</h3>
+{{-- 
         <script>
           function animateText() {
             const text = document.getElementById('animated-text').textContent;
@@ -951,7 +951,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       
       
 
-
+ --}}
 
 
 
@@ -999,7 +999,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  ">DAST</h3>
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  ">DAST dAPP</h3>
         </div>
         <div class="home-products-feature__card--content">
           <p style="color: rgb(1, 1, 1)"  class="home-products-feature__card--content-description"> You can secure your digital assets by saving it on the DAST security technology layer. It is encrypted and backed up on the blockchain. Only your wallet will be able to view or edit it. DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation.</p>
@@ -1036,7 +1036,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             </div>
             
             <div class="home-products-feature__cta">
-              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-marketing" href="#product" aria-label=" Get started with Marketing Hub">Get started</a>
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-marketing" href="/register" aria-label=" Get started with Marketing Hub">Get started</a>
             </div>
             
           </div>
@@ -1342,8 +1342,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 }
 
       </style>
-      <h3 style="color: rgb(3, 3, 119);" class="home-customers__stat">Over <span class="word-by-word"> Over  500 Million+</span></h3>
-
+      <h3 style="color: rgb(3, 3, 119);" class="home-customers__stat">Over <span class="word-by-word">   500 Million+</span></h3>
+{{-- 
 
       <script>
         const words = document.querySelector('.word-by-word').innerText.split(' ');
@@ -1379,7 +1379,7 @@ function startTyping() {
 // Start the initial typing process
 let typingInterval = setInterval(typeNextLetter, 100);
 
-      </script>
+      </script> --}}
 
       <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure their Assets with DAST.</p>
     </div>
@@ -1499,7 +1499,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
   
     <a class="
   cl-button -secondary -small -white homepage-bottom2
-" href="" rel="noreferrer " style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
+" href="/register" rel="noreferrer " style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
       Get started 
       
         <span class="visually-hidden"> We aim to foster a culture of transparency.</span>
