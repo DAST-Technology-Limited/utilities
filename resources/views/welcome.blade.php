@@ -925,7 +925,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
 
 
-        <h3 id="animated-text" style="font-size: x-larger;font-weight:bolder;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Security Management.</h3>
+        <h3 id="animated-text" style="font-size: x-larger;font-weight:bolder;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments and Digital Asset Security Management.</h3>
 {{-- 
         <script>
           function animateText() {
@@ -1001,6 +1001,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
           <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  ">DAST dAPP</h3>
         </div>
+        
         <div class="home-products-feature__card--content">
           <p style="color: rgb(1, 1, 1)"  class="home-products-feature__card--content-description"> You can secure your digital assets by saving it on the DAST security technology layer. It is encrypted and backed up on the blockchain. Only your wallet will be able to view or edit it. DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation.</p>
           <div class="home-products-feature__features">
