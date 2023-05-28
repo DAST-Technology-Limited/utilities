@@ -975,8 +975,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="homepage-hero-branding-rollout__media">
         
           <div class="homepage-hero-branding-rollout__media-wrapper">
-            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://app.dast.tech/assets/images/key.png">
-            <img class="homepage-hero-branding-rollout__media-image--mobile" alt="DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations." src="https://dast.tech/assets/images/key.png">
+            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://images.unsplash.com/photo-1639468599871-184271aa14fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYWRlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
+            <img class="homepage-hero-branding-rollout__media-image--mobile" alt="DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations." src="https://images.unsplash.com/photo-1639468599871-184271aa14fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYWRlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
           </div>
         
       </div>
@@ -1275,7 +1275,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class=" csol-full-width-cta-card-image">
         <div class="csol-full-width-cta-card-graphic-container "></div>
         <div class="csol-full-width-cta-card-background" style="background: rgb(1, 1, 40);">
-          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://media.istockphoto.com/id/1061357610/photo/internet-security-and-data-protection-concept-blockchain.webp?b=1&s=170667a&w=0&k=20&c=cRC6BbUc7yfBFDFY50Q6JviT3EmfCLior0aF4jSjm24=" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
+          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://app.dast.tech/assets/images/key.png" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
         </div>
       
       </div>
@@ -1388,7 +1388,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
       <div class="home-customers__logo-wrapper">
         <img data-src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="World Wildlife Fund logo" class="home-customers__logo hsg-deferred">
       </div>
-      
+{{--       
       <div class="home-customers__logo-wrapper">
         <img data-src="https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="DoorDash Logo" class="home-customers__logo hsg-deferred">
       </div>
@@ -1415,7 +1415,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
       
       <div class="home-customers__logo-wrapper">
         <img data-src="https://app.dast.tech/assets/images/key.png" alt="DAST" class="home-customers__logo hsg-deferred">
-      </div>
+      </div> --}}
       
     </div>
   </div>
