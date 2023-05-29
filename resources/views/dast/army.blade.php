@@ -1088,22 +1088,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="hsg-full-width-cta-card__card" data-alignment="left">
       <div class="hsg-full-width-cta-card__product">
         <div style="background: rgb(0, 0, 50);" class="hsg-full-width-cta-card__product-text">
-          <img style="border-radius: 100%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aUPTe_aLAIEAX-ahtGP&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDu7B9q-jswr6gmLzjzGei5Dk3jq2B2jJqxnzLh0u7dpQ&oe=64742455" alt="DAST ARMY">
-<style>
-  @keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+          <img style="border-radius: 100%;" id="rotating-image" src="https://media.istockphoto.com/id/1390975349/photo/multiracial-group-of-happy-students-talking-and-having-fun-after-the-lecture-at-campus.webp?b=1&s=170667a&w=0&k=20&c=lJKjRCJ55ZsiMOLQVGSQRbP_BhtpUIlOfwV66YKA2BI=" alt="DAST ARMY">
 
-#rotating-image {
-  animation: rotation 10s infinite linear;
-}
-
-</style>
             <h3 class="hsg-full-width-cta-card__product-heading" style="font-size: small;" >Apply now and be a catalyst for change!
             </h3>
         </div>
@@ -1132,7 +1118,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="hsg-full-width-cta-card__card" data-alignment="left">
       <div class="hsg-full-width-cta-card__product">
         <div style="background: rgb(0, 0, 50);" class="hsg-full-width-cta-card__product-text">
-          <img style="border-radius: 100%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280778474_110450694997233_4292663737736913326_n.png?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=lqJQLiiKAQAAX_qqLxg&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfBb9IcXBEbGxhY-IqQbv0mYZt0OiMJ3qO9i1GwNcI_H6Q&oe=64737DC0" alt="DAST ARMY">
+          <img style="border-radius: 100%;" id="rotating-image" src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="DAST ARMY">
             <h3 style="font-size: small;" class="hsg-full-width-cta-card__product-heading">Are you a passionate Web3 enthusiast eager to make a real difference in the ecosystem? 
             </h3>
         </div>

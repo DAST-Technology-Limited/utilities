@@ -944,7 +944,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <a class="cl-button -primary -regular homepage-platform-demo cta--primary" href="https://calendly.com/dastechnology/30min">Schedule a Call </a>
       
     </div>
-    <h3 style="font-size: large; margin-top:2rem; border-bottom:3px solid blue;"  style="margin-top:1rem;" class="home-growth-stack__logo-header">Why Partner with DAST Lab?</h3>
+    <h3 style="font-size: large; margin-top:2rem; border-bottom:1px dotted blue;"  style="margin-top:1rem;" class="home-growth-stack__logo-header">Why Partner with DAST Lab?</h3>
 
   </div>
   <div class="home-products-feature__container hsg-page-width-normal">

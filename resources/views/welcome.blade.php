@@ -967,7 +967,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       </p>
         <div class="homepage-hero-branding-rollout__cta">
           <a  class="homepage-hero-branding-rollout__cta-link cl-button -primary -small homepage-hero-cta" href="#products">
-            Explore DAST<span class="visually-hidden">Explore DAST</span></a><a class="homepage-hero-branding-rollout__cta-link cl-button -secondary -small homepage-hero2-cta" href="">
+            Explore DAST<span class="visually-hidden">Explore DAST</span></a><a class="homepage-hero-branding-rollout__cta-link cl-button -secondary -small homepage-hero2-cta" href="/register">
  Get started <span class="visually-hidden">Sign Up</span></a></div>
         <p class="homepage-hero-branding-rollout__text-microcopy"> We aim to foster a culture of transparency, trust and collaboration in the web3 ecosystem, while promoting social impact and economic growth.
         </p>
@@ -975,8 +975,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="homepage-hero-branding-rollout__media">
         
           <div class="homepage-hero-branding-rollout__media-wrapper">
-            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://images.unsplash.com/photo-1639468599871-184271aa14fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYWRlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
-            <img class="homepage-hero-branding-rollout__media-image--mobile" alt="DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations." src="https://images.unsplash.com/photo-1639468599871-184271aa14fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYWRlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
+            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://app.dast.tech/assets/images/key.png">
+            <img class="homepage-hero-branding-rollout__media-image--mobile" alt="DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations." src="https://app.dast.tech/assets/images/key.png">
           </div>
         
       </div>
@@ -1276,7 +1276,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class=" csol-full-width-cta-card-image">
         <div class="csol-full-width-cta-card-graphic-container "></div>
         <div class="csol-full-width-cta-card-background" style="background: rgb(1, 1, 40);">
-          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://app.dast.tech/assets/images/key.png" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
+          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://media.istockphoto.com/id/1396848094/photo/neon-web-3-0-glowing-web-3-abstract-neon-glowing-background-3d-render-illustration.webp?b=1&s=170667a&w=0&k=20&c=Q5oUsw8G-SX90nNK42jUMYWVvShFCzBSGUJtHo_JB9Q=" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
         </div>
       
       </div>
@@ -1518,7 +1518,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
 
       
         <div class="csol-cta-content-block-image">
-          <style>
+          {{-- <style>
             @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -1532,7 +1532,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
   animation: rotation 10s infinite linear;
 }
 
-          </style>
+          </style> --}}
           <img style="border-radius: 100%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" alt="" loading="lazy">
 
         </div>
