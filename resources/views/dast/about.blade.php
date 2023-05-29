@@ -30,69 +30,23 @@
       
         
           
-          <link rel="alternate" href="https://www.hubspot.com/our-story" hreflang="x-default">
-          
-        
-        
-          <link rel="alternate" href="https://www.hubspot.com/our-story" hreflang="en">
         
       
         
-        
-          <link rel="alternate" href="https://www.hubspot.es/our-story" hreflang="es">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.fr/our-story" hreflang="fr-FR">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.de/our-story" hreflang="de-DE">
-        
-      
-        
-        
-          <link rel="alternate" href="https://www.hubspot.jp/our-story" hreflang="ja-JP">
-        
-      
-        
-        
-          <link rel="alternate" href="https://br.hubspot.com/our-story" hreflang="pt-BR">
-        
-      
-    
-
-
-
-
-
 <meta name="theme-color" content="#FF7A59">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="description" content="HubSpot is a marketing, sales, and customer service platform that helps companies grow better.">
+<meta name="description" content="Our team of experts is passionate about creating a more equitable and inclusive world through the power of web2, web3, and AI technologies">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
 
-<link rel="icon" type="image/png" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jPKwGELiA9QAX_Z8kGA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfDAOPWyWwJpCcf9YbXD6AeswGAqjbwzoQXwUwOlrKJWhg&oe=64722A15">
-
-<link rel="dns-prefetch" href="https://js.hs-analytics.net">
-<link rel="dns-prefetch" href="https://wtcfns.hubspot.com">
-<link rel="dns-prefetch" href="https://api.hubapi.com">
-<link rel="dns-prefetch" href="https://static.hsappstatic.net">
-<link rel="dns-prefetch" href="https://cdn2.hubspot.net">
-<link rel="dns-prefetch" href="https://api.hubspot.net">
-<link rel="dns-prefetch" href="https://app.hubspot.net">
-<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-<link rel="dns-prefetch" href="https://www.google-analytics.com">
 
 <!-- htmlmin:ignore -->
 
     
 
-    <meta name="twitter:description" content="HubSpot is a marketing, sales, and customer service platform that helps companies grow better.">
-    <meta name="twitter:title" content="Our Story | HubSpot - Internet Marketing Company">
+    <meta name="twitter:title" content="Our Story | We embrace a culture of continuous innovation, pushing the boundaries of Africa to create novel solutions that drive progress and transformation.
+    ">
 
     
 
@@ -131,11 +85,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Domain Settings Code --> 
 <!-- Meta -->
-<meta property="twitter:account_id" content="14458280">
-<meta name="msvalidate.01" content="C5553ABFC995043D86E2C15CA3DADD34">
-<meta name="p:domain_verify" content="7f4fa0f1fccc171fd4d5af64f062521c">
-<meta http-equiv="content-language" content="en-US">
-<meta property="fb:pages" content="6039999393">
 
 
 <meta name="twitter:card" content="summary">
@@ -157,12 +106,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
     
 
-    <link rel="preload" href="https://static2cdn.hubspot.com/hubspot.com/static-1.4200/_hsg-ss/build/icons/hsg-icons.woff2" as="font" crossorigin>
-
     
   <link href="https://www.hubspot.com/wt-assets/static-files/2.2.1/about/styles.css" rel="stylesheet" type="text/css">
 
-<meta name="generator" content="HubSpot"></head>
+<meta name="generator" content="DAST">
+<link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
+
+</head>
 <body>
 
     
@@ -709,12 +659,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <div class="header-nav__ctas ">
                 
                 <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
-                  DAST Armies <span class="visually-hidden"></span>
+                  DAST ARMIES <span class="visually-hidden"></span>
                 </a>
                 
                 
                   <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/dast-partners">
-                    DAST Partners <span class="visually-hidden">DAST Partners</span>
+                    DAST PRTNERS <span class="visually-hidden">DAST PARTNERS</span>
                   </a>
             
                   
@@ -1134,18 +1084,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           About Us</a>
       </li>
       
-      <li class="hsg-footer__nav-item" data-order="2">
-        <a class="ga_nav_link " href="" data-order="2" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Management Team">
-          Management Team</a>
-      </li>
-      <li class="hsg-footer__nav-item" data-order="3">
-        <a class="ga_nav_link " href="" data-order="3" data-linkorder="3" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Board of Directors">
-          Board of Directors</a>
-      </li>
-      <li class="hsg-footer__nav-item" data-order="4">
-        <a class="ga_nav_link " href="" data-order="4" data-linkorder="4" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Investor Relations">
-          Investor Relations</a>
-      </li>
+      
       <li class="hsg-footer__nav-item" data-order="5">
         <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
           Blog</a>
@@ -1207,14 +1146,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
               <span class="hidden-social">Instagram</span>
             </a>
           </li>
-        <li>
-            <a href="" target="_blank" class="ga_nav_link hstc_youtube" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Youtube">
-              <svg class="cl-icon">
-                <use href="#youtube" />
-              </svg>
-              <span class="hidden-social">Youtube</span>
-            </a>
-          </li>
+        
         <li>
             <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
               <svg class="cl-icon">
@@ -1326,7 +1258,7 @@ var hsVars = {
     analytics_page_id: "9493638530",
     category_id: 1,
     folder_id: 0,
-    is_hubspot_user: false
+    
 }
 </script>
 

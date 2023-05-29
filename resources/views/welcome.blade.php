@@ -85,7 +85,8 @@
     <meta property="og:description" content="At DAST Technology, we are committed to providing world-class web3 and AI technology solutions to our clients through innovation, research, and development.">
     <meta property="og:title" content="DAST |  We aim to foster a culture of transparency, trust, and collaboration in the web3 ecosystem, while promoting social impact and economic growth.">
     <meta name="twitter:description" content="DAST|Discover the limitless possibilities of web3 and AI with DASTGPT Bot">
-   
+    <link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
+
 
     
 
@@ -797,12 +798,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div class="header-nav__ctas ">
     
     <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
-      DAST Armies <span class="visually-hidden"></span>
+      DAST ARMIES <span class="visually-hidden"></span>
     </a>
     
     
       <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/dast-partners">
-        DAST Partners <span class="visually-hidden">DAST Partners</span>
+        DAST PARTNERS <span class="visually-hidden">DAST PARTNERS</span>
       </a>
 
       
@@ -924,8 +925,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
 
 
-        <h3 id="animated-text" style="font-size: large;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</h3>
-
+        <h3 id="animated-text" style="font-size: x-larger;font-weight:bolder;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments and Digital Asset Security Management.</h3>
+{{-- 
         <script>
           function animateText() {
             const text = document.getElementById('animated-text').textContent;
@@ -950,7 +951,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       
       
 
-
+ --}}
 
 
 
@@ -974,8 +975,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="homepage-hero-branding-rollout__media">
         
           <div class="homepage-hero-branding-rollout__media-wrapper">
-            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://app.dast.tech/assets/images/key.png">
-            <img class="homepage-hero-branding-rollout__media-image--mobile" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST platform" src="https://dast.tech/assets/images/key.png">
+            <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://images.unsplash.com/photo-1639468599871-184271aa14fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYWRlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
+            <img class="homepage-hero-branding-rollout__media-image--mobile" alt="DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations." src="https://images.unsplash.com/photo-1639468599871-184271aa14fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYWRlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
           </div>
         
       </div>
@@ -998,8 +999,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           <img class="home-products-feature__card--image" src="https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg" alt="" width="30" height="30" style="width: 30px; height: auto;">
-          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  ">DAST</h3>
+          <h3 style="color: rgb(1, 1, 49)"  class="home-products-feature__card--headline  ">DAST dAPP</h3>
         </div>
+        
         <div class="home-products-feature__card--content">
           <p style="color: rgb(1, 1, 1)"  class="home-products-feature__card--content-description"> You can secure your digital assets by saving it on the DAST security technology layer. It is encrypted and backed up on the blockchain. Only your wallet will be able to view or edit it. DAST will generate a recovery token that the user can give to the next of kin or family members that can be used to recover it in case of unforeseen circumstance like loss of life after due diligence validation.</p>
           <div class="home-products-feature__features">
@@ -1035,7 +1037,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             </div>
             
             <div class="home-products-feature__cta">
-              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-marketing" href="#product" aria-label=" Get started with Marketing Hub">Get started</a>
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-marketing" href="/register" aria-label=" Get started with Marketing Hub">Get started</a>
             </div>
             
           </div>
@@ -1274,7 +1276,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class=" csol-full-width-cta-card-image">
         <div class="csol-full-width-cta-card-graphic-container "></div>
         <div class="csol-full-width-cta-card-background" style="background: rgb(1, 1, 40);">
-          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://media.istockphoto.com/id/1061357610/photo/internet-security-and-data-protection-concept-blockchain.webp?b=1&s=170667a&w=0&k=20&c=cRC6BbUc7yfBFDFY50Q6JviT3EmfCLior0aF4jSjm24=" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
+          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://app.dast.tech/assets/images/key.png" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
         </div>
       
       </div>
@@ -1341,8 +1343,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 }
 
       </style>
-      <h3 style="color: rgb(3, 3, 119);" class="home-customers__stat">Over <span class="word-by-word"> Over  500 Million+</span></h3>
-
+      <h3 style="color: rgb(3, 3, 119);" class="home-customers__stat">Over <span class="word-by-word">   500 Million+</span></h3>
+{{-- 
 
       <script>
         const words = document.querySelector('.word-by-word').innerText.split(' ');
@@ -1378,7 +1380,7 @@ function startTyping() {
 // Start the initial typing process
 let typingInterval = setInterval(typeNextLetter, 100);
 
-      </script>
+      </script> --}}
 
       <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure their Assets with DAST.</p>
     </div>
@@ -1387,7 +1389,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
       <div class="home-customers__logo-wrapper">
         <img data-src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="World Wildlife Fund logo" class="home-customers__logo hsg-deferred">
       </div>
-      
+{{--       
       <div class="home-customers__logo-wrapper">
         <img data-src="https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="DoorDash Logo" class="home-customers__logo hsg-deferred">
       </div>
@@ -1414,7 +1416,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
       
       <div class="home-customers__logo-wrapper">
         <img data-src="https://app.dast.tech/assets/images/key.png" alt="DAST" class="home-customers__logo hsg-deferred">
-      </div>
+      </div> --}}
       
     </div>
   </div>
@@ -1498,7 +1500,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
   
     <a class="
   cl-button -secondary -small -white homepage-bottom2
-" href="" rel="noreferrer " style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
+" href="/register" rel="noreferrer " style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
       Get started 
       
         <span class="visually-hidden"> We aim to foster a culture of transparency.</span>
@@ -1625,10 +1627,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
       <a class="ga_nav_link " href="" data-order="3" data-linkorder="3" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Board of Directors">
         Board of Directors</a>
     </li>
-    <li class="hsg-footer__nav-item" data-order="4">
-      <a class="ga_nav_link " href="" data-order="4" data-linkorder="4" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Investor Relations">
-        Investor Relations</a>
-    </li>
+    
     <li class="hsg-footer__nav-item" data-order="5">
       <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
         Blog</a>
@@ -1690,14 +1689,7 @@ let typingInterval = setInterval(typeNextLetter, 100);
             <span class="hidden-social">Instagram</span>
           </a>
         </li>
-      <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_youtube" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Youtube">
-            <svg class="cl-icon">
-              <use href="#youtube" />
-            </svg>
-            <span class="hidden-social">Youtube</span>
-          </a>
-        </li>
+     
       <li>
           <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
             <svg class="cl-icon">

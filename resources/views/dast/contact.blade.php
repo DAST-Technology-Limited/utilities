@@ -2,15 +2,15 @@
 <!doctype html><html class="embed-chat-html" lang="en"><head>
     <meta charset="utf-8">
     <title>Contact  | DAST's Products</title>
-    <meta name="description" content="Call us, chat with us, or book a meeting with our  team to learn how you can use DAST's Product to make life better. ">
+    <meta name="description" content="Please feel free to reach out to us using the contact information below or by filling out the contact form.  ">
    
     
     <script src="/hs/hsstatic/jquery-libs/static-1.1/jquery/jquery-1.7.1.js" nonce="ThkRTThfezslgq47GgHHnQ=="></script>
 <script nonce="ThkRTThfezslgq47GgHHnQ==">hsjQuery = window['jQuery'];</script>
     
     <meta property="og:title" content="Contact  | DAST's Products">
-    <meta name="twitter:description" content="Call us, chat with us, or book a meeting with our sales team to learn how you can use DAST's Products to grow better. ">
-    <meta name="twitter:title" content="Contact Sales | DAST's products">
+    <meta name="twitter:description" content="Please feel free to reach out to us using the contact information below or by filling out the contact form. ">
+    <meta name="twitter:title" content="Thank you for your interest in DAST Technology.">
 
     
 
@@ -19,7 +19,6 @@
 a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
 </style>
 
-<link rel="stylesheet" href="https://offers.hubspot.com/wt-assets/static-files/2.2.3/lp-nav/styles.css?1684594903032">
 
   <style type="text/css">
     .hsg-notice {
@@ -41,8 +40,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
 
     
-    <link rel="canonical" href="https://offers.hubspot.com/contact-sales">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="”content-language”" content="”en-US”">
 <meta name="google-site-verification" content="2IEWx1p87YR79mLbeeSi-osUja8cJtEvdo_CvCgzMtc">
@@ -179,9 +176,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
     
-
-    <link rel="preload" href="https://static2cdn.hubspot.com/hubspot.com/static-1.4200/_hsg-ss/build/icons/hsg-icons.woff2" as="font" crossorigin>
-
     
   
   
@@ -214,53 +208,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <!-- Social Sharing -->
   
+<link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
+
   
-  
-      <meta property="og:image" content="https://wtcfns.hubspot.com/wt-api/social-sharing">
+      
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="335">
-    <meta name="twitter:image" content="https://wtcfns.hubspot.com/wt-api/social-sharing">
-  
+    
   <!-- End -->
 
 
-      
-      
-      
-
-      
-     
-
-      
-      
-        
-          
-          <link rel="alternate" href="https://offers.hubspot.com/contact-sales" hreflang="x-default">
-          
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.com/contact-sales" hreflang="en">
-        
-      
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.es/contact-sales" hreflang="es">
-        
-      
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.fr/contact-sales" hreflang="fr-FR">
-        
-      
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.de/contact-sales" hreflang="de-DE">
-        
-      
-        
-        
-          <link rel="alternate" href="https://offers.hubspot.jp/contact-sales" hreflang="ja-JP">
-        
       
         
         
@@ -278,7 +235,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <!-- Meta tags for Partner search indexing-->
 
-<meta property="og:url" content="https://offers.hubspot.com/contact-sales">
 <meta name="twitter:card" content="summary">
 <meta http-equiv="content-language" content="en">
 
@@ -849,12 +805,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="header-nav__ctas ">
         
         <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
-          DAST Armies <span class="visually-hidden"></span>
+          DAST ARMIES <span class="visually-hidden"></span>
         </a>
         
         
           <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/dast-partners">
-            DAST Partners <span class="visually-hidden">DAST Partners</span>
+            DAST PARTNERS <span class="visually-hidden">DAST PARTNERS</span>
           </a>
     
           
@@ -1152,7 +1108,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
            
              
            
-             
 <footer class="hsg-footer" style="background: rgb(1, 1, 33);">
   <div class="hsg-footer__layout">
     <button id="back-link" class="hsg-footer__logo-caret">
@@ -1168,7 +1123,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Popular Features</button>
   </h2>
   <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
+      <a class="ga_nav_link " href="#products" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
         All Products and Features</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="0">
@@ -1176,7 +1131,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         Free Meeting Scheduler </a>
     </li>
     <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
+      <a class="ga_nav_link " href="/dast-contact" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
         Social Media Tools</a>
     </li>
     
@@ -1190,11 +1145,11 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     
     <li class="hsg-footer__nav-item" data-order="12">
       <a class="ga_nav_link " href="" data-order="12" data-linkorder="13" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Chatbot Builder">
-        DAST Chatbot </a>
+        Privacy and Policy </a>
     </li>
     <li class="hsg-footer__nav-item" data-order="13">
       <a class="ga_nav_link " href="" data-order="13" data-linkorder="14" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Live Chat Software">
-        Free Live Chat </a>
+       Legal Stuff </a>
     </li>
    
     
@@ -1206,30 +1161,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="hsg-footer__nav-right">
         <div class="hsg-footer__nav-full">
           <section class="hsg-footer__nav-column ">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Free Tools</button>
-  </h2>
-  <ul>
+  
    
     
    
     
     
-    <li class="hsg-footer__nav-item" data-order="6">
-      <a class="ga_nav_link " href="" data-order="6" data-linkorder="6" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Free Tools > Marketing Plan Generator">
-        Marketing Plan Generator</a>
-    </li>
-    
-    <li class="hsg-footer__nav-item" data-order="8">
-      <a class="ga_nav_link " href="" data-order="8" data-linkorder="8" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Free Tools > Industry Benchmark Data">
-        Industry Benchmark Data</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="9">
-      <a class="ga_nav_link " href="" data-order="9" data-linkorder="9" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Free Tools > Software Comparisons Library">
-        Software Comparisons Library</a>
-    </li>
-    
-    </ul>
 </section>
 
         </div>
@@ -1239,7 +1176,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Company</button>
   </h2>
   <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
+      <a class="ga_nav_link " href="/dast-about" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
         About Us</a>
     </li>
     
@@ -1251,12 +1188,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <a class="ga_nav_link " href="" data-order="3" data-linkorder="3" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Board of Directors">
         Board of Directors</a>
     </li>
-    <li class="hsg-footer__nav-item" data-order="4">
-      <a class="ga_nav_link " href="" data-order="4" data-linkorder="4" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Investor Relations">
-        Investor Relations</a>
-    </li>
+    
     <li class="hsg-footer__nav-item" data-order="5">
-      <a class="ga_nav_link " href="" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
+      <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
         Blog</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="6">
@@ -1277,7 +1211,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         Customer Support</a>
     </li>
     <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
+      <a class="ga_nav_link " href="https://lnkd.in/deZZhAMM" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
         Join our Telegram Group</a>
     </li>
     </ul>
@@ -1301,7 +1235,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <ul class="hsg-footer__social">
       
       <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
+          <a href="https://lnkd.in/dRtGxc6y" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
             <svg class="cl-icon">
               <use href="#facebook" />
             </svg>
@@ -1316,16 +1250,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             <span class="hidden-social">Instagram</span>
           </a>
         </li>
+     
       <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_youtube" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Youtube">
-            <svg class="cl-icon">
-              <use href="#youtube" />
-            </svg>
-            <span class="hidden-social">Youtube</span>
-          </a>
-        </li>
-      <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
+          <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
             <svg class="cl-icon">
               <use href="#twitter" />
             </svg>
@@ -1333,7 +1260,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           </a>
         </li>
       <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
+          <a href="https://lnkd.in/dbCgsr4d" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
             <svg class="cl-icon">
               <use href="#linkedin" />
             </svg>
@@ -1341,14 +1268,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           </a>
         </li>
      
-      <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_medium" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Tiktok">
-            <svg class="cl-icon">
-              <use href="#tiktok" />
-            </svg>
-            <span class="hidden-social">Tiktok</span>
-          </a>
-        </li>
+     
       
       
     </ul>
@@ -1370,9 +1290,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <ul>
         <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
           Dast Tech</a></li>
-        <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
+        <li><a href="https://app.dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
           DASTdAPP</a></li>
-        <li><a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
+        <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
           DASTGPT</a></li>
 
 
@@ -1381,7 +1301,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
           
-        <li><a href="/about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
+        <li><a href="/dast-about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
           ABOUT US</a></li>
         <li class="hs-footer-cookie-settings" hidden>
           <a href="javascript:void(0)"></a>
@@ -1390,8 +1310,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     </div>
   </section>
 </footer>
-
-    
 <!-- HubSpot performance collection script -->
 <script defer src="https://static.hsappstatic.net/content-cwv-embed/static-1.240/embed.js" nonce="ThkRTThfezslgq47GgHHnQ=="></script>
 <script src="https://offers.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/80991207740/1678704627747/_Web_Team_Assets/Component_Modules/assets/icons.min.js" nonce="ThkRTThfezslgq47GgHHnQ=="></script>
