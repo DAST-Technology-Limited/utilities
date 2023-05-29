@@ -26,37 +26,42 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/email', function () {
-   
+
     return view('emails.mail');
 });
 
 
-Route::get('email-test', function(){
+Route::get('email-test', function () {
     $details['email'] = "iyidaclem@gmail.com";
     $details['title'] = "WELCOME MESSAGE";
     $details['banner'] = "https://dast.tech/assets/images/key.png";
     $details['name'] = "Clement";
     $details['body'] = "I'm so excited to invite to DAST SPECIAL LAUCNH WITH INVESTOR";
     dispatch(new App\Jobs\SendEmailJob($details));
-    echo("Sent");
+    echo ("Sent");
+});
+
+////dast pages route
+Route::get('/dast-about', [DastPagesController::class, 'about']);
+Route::get('/dast-app', [DastPagesController::class, 'app']);
+Route::get('/dast-chat', [DastPagesController::class, 'chat']);
+Route::get('/dast-pay', [DastPagesController::class, 'pay']);
+Route::get('/dast-contact', [DastPagesController::class, 'contact']);
+Route::get('/dast-partners', [DastPagesController::class, 'partners']);
+Route::get('/dast-lab', [DastPagesController::class, 'lab']);
+Route::get('/dast-armies', [DastPagesController::class, 'army']);
+
+
+//// User Verification page
+Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
+
+
+// Funding
+Route::middleware(["auth"])->group(function () {
+    Route::get("/funding/confirm", function () {
+        return view("funding.vella-confirm");
     });
-
-    ////dast pages route
-    Route::get('/dast-about',[DastPagesController::class,'about']);
-    Route::get('/dast-app',[DastPagesController::class,'app']);
-    Route::get('/dast-chat',[DastPagesController::class,'chat']);
-    Route::get('/dast-pay',[DastPagesController::class,'pay']);
-    Route::get('/dast-contact',[DastPagesController::class,'contact']);
-    Route::get('/dast-partners',[DastPagesController::class,'partners']);
-    Route::get('/dast-lab',[DastPagesController::class,'lab']);
-    Route::get('/dast-armies',[DastPagesController::class,'army']);
-
-
-    //// User Verification page
-    Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
-
-
-
+});
 
 // Auth::routes();
 

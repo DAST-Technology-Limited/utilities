@@ -49,9 +49,34 @@ class Wallet extends Model
 
         $this->fundingHistory()->create([
             "currency_id" => $_currency->id,
+            "type" => "credit",
             "amount" => $amount,
             "desc" => $desc,
             "details" => $details
         ]);
     }
+
+    public function debit($currency, $amount, $desc = "", $details = "")
+    {
+        $_currency = Currency::where("symbol", $currency)->first();
+        if (!$_currency) {
+            throw new Exception("Invalid currency");
+        }
+        if ($amount < 0) {
+            throw new Exception("Invalid amount");
+        }       
+        $bal = json_decode($this->balances);
+        $bal->$currency -= $amount;
+        $this->balances = json_encode($bal);
+        $this->save();
+
+        $this->fundingHistory()->create([
+            "currency_id" => $_currency->id,
+            "type" => "debit",
+            "amount" => $amount,
+            "desc" => $desc,
+            "details" => $details
+        ]);
+    }
+    
 }

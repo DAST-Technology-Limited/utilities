@@ -73,7 +73,8 @@ class BaseTelegramController extends Controller
                 array(
                     "text" => $msg,
                     "url" => env("MODE") == "local" ?
-                    "https://dast.tech/verify-user/".$user_id."/".$token : 
+                    "https://dast.tech/verify-user/".$user_id."/".$token 
+                    : 
                     URL("/verify-user/".$user_id."/".$token)
                     
                 )
