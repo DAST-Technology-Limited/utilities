@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DastPagesController;
+use App\Http\Controllers\Funding\VellaFinanceController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\User\UserAuthController;
 use App\Http\Middleware\DomainCheck;
@@ -58,9 +59,7 @@ Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify'
 
 // Funding
 Route::middleware(["auth"])->group(function () {
-    Route::get("/funding/confirm", function () {
-        return view("funding.vella-confirm");
-    });
+    Route::get("/funding/confirm", [VellaFinanceController::class, "confirmPayment"]);
 });
 
 // Auth::routes();
