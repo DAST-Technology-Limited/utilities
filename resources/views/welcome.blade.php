@@ -1136,7 +1136,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0006 (1).jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0005.jpg') }}" alt="My Image">
          
          
         </div>
