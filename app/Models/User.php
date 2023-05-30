@@ -43,12 +43,15 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+
     public function wallet()
     {
-        return $this->hasOne(Wallet::class);
+        $this->hasOne(Wallet::class)->firstOrCreate();
+        return $this->hasOne(Wallet::class)->firstOrCreate();
     }
 
-    public function vellafinance(){
+    public function vellafinance()
+    {
         return $this->hasMany(VellaFinance::class);
     }
 }

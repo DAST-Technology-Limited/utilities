@@ -51,7 +51,8 @@ class VellaFinance extends Model
     {
         $currency = $this->currency()->first();
 
-        $response = $this->client->request('POST', 'https://sandbox.vella.finance/api/v1/payment-links/create', [
+        $response = $this->client->request('POST', 'https://sandbox.vella.finance/api/v1/payment-links/create',
+        [
             'body' => '{
                 "currency":"' . strtoupper($currency->symbol) . '",
                 "payment_type":"' . $this->payment_type . '",
@@ -63,12 +64,13 @@ class VellaFinance extends Model
                 "payment_type":"' . $this->payment_type . '",
                 "reference":"' . $this->reference . '"
             }',
+
             'headers' => [
                 'Authorization' => 'Bearer ' . $this->key,
                 'accept' => 'application/json',
                 'content-type' => 'application/json',
-            ],
-        ]);
+            ]
+            ]);
         $this->response = $response->getBody();
         $this->save();
         return $response;
@@ -81,11 +83,11 @@ class VellaFinance extends Model
         $url = 'https://sandbox.vella.finance/api/v1/checkout/transaction/' . $this->reference . '/verify';
         $response = $this->client->request('GET', $url, [
             'headers' => [
-                'Authorization' => 'Bearer '.$this->key,
+                'Authorization' => 'Bearer ' . $this->key,
             ],
         ]);
-        // $this->response2 = $response->getBody();
-        //   $this->save();
+        //  $this->response2 = $response->getBody();
+        //  $this->save();
         return $response;
     }
 }
