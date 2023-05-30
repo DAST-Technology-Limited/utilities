@@ -483,7 +483,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <div class="hsg-nav__box-link-icon" aria-hidden="true">
                           
                            
-          <img width="200%"  src="{{ asset('images/IMG-20230529-WA0008 (1).jpg') }}" alt="My Image">
+          <img width="200%"  src="{{ asset('/images/IMG-20230529-WA0008 (1).jpg') }}" alt="dast">
                         </div>
                         
                         <div class="hsg-nav__header-container">
@@ -502,7 +502,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <div class="hsg-nav__box-link-icon" aria-hidden="true">
                           
                            
-          <img width="80%" style="height: 100%;"  src="{{ asset('images/IMG-20230529-WA0009 (1).jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0009 (1).jpg') }}" alt="dast">
                           
                         </div>
                         
@@ -519,8 +519,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <div class="hsg-nav__box-link-icon" aria-hidden="true">
                           
-                            
-          <img width="200" style="height: 100%;"  src="{{ asset('images/IMG-20230529-WA0006 (1).jpg') }}" alt="My Image">
+{{--                             
+          <img width="200" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0006 (1).jpg') }}" alt="dast"> --}}
          
                           
                         </div>
@@ -976,7 +976,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <div class="home-products-feature__card--image-wrapper">
           
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('images/IMG-20230529-WA0008 (1).jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0008 (1).jpg') }}" alt="dast dapp">
          
         </div>
         
@@ -1027,7 +1027,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('images/IMG-20230529-WA0009 (1).jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0009 (1).jpg') }}" alt="dast">
          
         </div>
         <div class="home-products-feature__card--content">
@@ -1077,7 +1077,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('images/IMG-20230529-WA0012.jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0012.jpg') }}" alt="dast gpt">
          
         </div>
         <div class="home-products-feature__card--content">
@@ -1137,8 +1137,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0005.jpg') }}" alt="My Image">
-          <img width="80%" style="height: 100%;"  src="{{ asset('images/IMG-20230529-WA0006 (1).jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0005.jpg') }}" alt="dast lab">
          
          
         </div>
@@ -1178,7 +1177,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             </div>
             
             <div class="home-products-feature__cta">
-              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-cms" href="/dast-lab" aria-label=" Get started with CMS Hub">Get started</a>
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-cms" href="/dast-lab" aria-label=" ">Get started</a>
             </div>
             
           </div>
@@ -1193,7 +1192,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
          
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('images/IMG-20230529-WA0010.jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0010.jpg') }}" alt="dast army">
          
         </div>
         <div class="home-products-feature__card--content">
@@ -1335,34 +1334,36 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     <div class="home-customers__logos-grid">
       
       <div class="home-customers__logo-wrapper">
-        <img  data-src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="DAST SECURITY KEY" class="home-customers__logo hsg-deferred">
+        
+        <img width="100%" style="height: 100%;"  src="{{ asset('/images/IMG-20230530-WA0033.jpg') }}" alt="dast army">
       </div>
-{{--       
+     
       <div class="home-customers__logo-wrapper">
-        <img data-src="https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="DoorDash Logo" class="home-customers__logo hsg-deferred">
-      </div>
-      
-      <div class="home-customers__logo-wrapper">
-        <img data-src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8ZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="reddit logo" class="home-customers__logo hsg-deferred">
+       
+        <img width="100%" style="height: 100%;"  src="{{ asset('/images/IMG-20230530-WA0032.jpg') }}" alt="dast army">
       </div>
       
       <div class="home-customers__logo-wrapper">
+        <img width="90%" style="height: 100%;"  src="{{ asset('/images/IMG-20230530-WA0030.jpg') }}" alt="dast army">
+      </div>
+    
+      {{-- <div class="home-customers__logo-wrapper">
         <img data-src="https://media.istockphoto.com/id/1389083254/photo/cyber-security-technology-concept-securing-cloud-online-web-systems-hand-levitating-smart.webp?b=1&s=170667a&w=0&k=20&c=LtDwD-V5oJfl_RG3Eym3zstkWQ1eGnYKQoWvWf34Z_s=" alt="WeightWatchers logo" class="home-customers__logo hsg-deferred">
       </div>
-      
-      <div class="home-customers__logo-wrapper">
+       --}}
+      {{-- <div class="home-customers__logo-wrapper">
         <img data-src="https://media.istockphoto.com/id/1391668469/photo/web3-next-generation-world-wide-web-blockchain-technology-with-decentralized-information.webp?b=1&s=170667a&w=0&k=20&c=NNUoL9BDhtoK9Zwf-Wk3Gy1Q8vcTqXAsMKCaG8AuXKU=" alt="tumblr logo" class="home-customers__logo hsg-deferred">
       </div>
-      
-      <div class="home-customers__logo-wrapper">
+       --}}
+      {{-- <div class="home-customers__logo-wrapper">
         <img data-src="https://media.istockphoto.com/id/1389950296/photo/web3-next-generation-world-wide-web-blockchain-technology-with-decentralized-information.webp?b=1&s=170667a&w=0&k=20&c=6TeWE8yepN7Womy-llBSPOiYCXnDCyzbenUOoETfmWc=" alt="Howard University logo" class="home-customers__logo hsg-deferred">
       </div>
-      
-      <div class="home-customers__logo-wrapper">
+       --}}
+      {{-- <div class="home-customers__logo-wrapper">
         <img data-src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/347413096_962841275058592_1657124879188809863_n.jpg?stp=dst-jpg_p206x206&_nc_cat=109&ccb=1-7&_nc_sid=e33968&_nc_ohc=aUPTe_aLAIEAX-Q51JI&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAVd_RDcqSHxmjfCgXZk7DF8BQHd43p-MezEU4hiG2bEA&oe=64742455" alt="DAST" class="home-customers__logo hsg-deferred">
-      </div>
+      </div> --}}
       
-      <div class="home-customers__logo-wrapper">
+      {{-- <div class="home-customers__logo-wrapper">
         <img data-src="https://app.dast.tech/assets/images/key.png" alt="DAST" class="home-customers__logo hsg-deferred">
       </div> --}}
       
