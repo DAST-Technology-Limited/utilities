@@ -79,9 +79,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 <link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/34844839577/1683744504087/module_34844839577_WTM_-_Products_-_Product_Edition_Grid.min.css">
 <link rel="stylesheet" href="https://cdn2.hubspot.net/hub/53/hub_generated/module_assets/34849897001/1684330978881/module_34849897001_WTM_-_Multi-Col_Cards_Mobile_Slider.min.css">
 
-    
-<link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
 
+<link rel="icon" type="image/x-icon" href="/images/DAST_LOGO.ico">
 
     
 <meta name="viewport" content="width=device-width, initial-scale=1">
