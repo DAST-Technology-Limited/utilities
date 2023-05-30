@@ -37,7 +37,8 @@
   }
 </style>
 
-<link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
+<link rel="icon" type="image/x-icon" href="/images/DAST_LOGO.ico">
+
 
   
 
@@ -920,7 +921,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 
 
-        <p class="homepage-hero-branding-rollout__text-description">DAST Lab offers a unique partnership opportunity that allows you <br> to leverage our educational platform  powered by ChatGPT and DAST<br> Lab to achieve your goals.</p>
+        <p class="homepage-hero-branding-rollout__text-description">DAST Lab offers a unique partnership  <br>     opportunity that allows you  to leverage our <br> educational platform  powered <br> by ChatGPT and DAST<br> Lab to achieve your goals.</p>
         <div class="homepage-hero-branding-rollout__cta">
           
             <span class="visually-hidden">We are dedicated to leveraging the latest technologies in blockchain technology and artificial intelligence to solve real-world problems and drive innovation across various sectors.
@@ -1052,12 +1053,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
   
     
-      <h3 class="csol-full-width-cta-card-header">Act now to secure your spot and join our mission to revolutionise web3 education.</h3>
+      <h3 class="csol-full-width-cta-card-header">Together, let's shape the future of the web3 ecosystem and foster a strong talent pipeline for the industry.
+      </h3>
     
   
 
         
-          <p class="csol-full-width-cta-card-description -large">Our commitment to your success doesn't end with course completion. Access ongoing resources, workshops, webinars, networking events and partnerships to fuel your continuous professional development and growth.
+          <p class="csol-full-width-cta-card-description -large">Let's discuss how we can tailor a collaboration that aligns with your specific goals and contributes to the growth of the web3 ecosystem globally.
+
 
             </p>
         
@@ -1113,7 +1116,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 " href="https://docs.google.com/forms/d/1DKVVGJWNJmtb_rWOK-yeFA_x3c4X5kO-FGQj7OUQlVc/edit" rel="noreferrer " style="font-size: large;" >
       Apply for Partnership
       
-        <span class="visually-hidden">DAST Lab offers a unique partnership opportunity that allows you to leverage our educational platform powered by ChatGPT and DAST Lab to achieve your goals.</span>
+        <span class="visually-hidden">Join Forces with DAST Lab and Expand Your Reach in the Web3 Ecosystem.</span>
       
     </a>
   
@@ -1126,7 +1129,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
             
         </div>
-        <span class="csol-cta-content-block-disclaimer">DAST Lab offers a unique partnership opportunity that allows you to leverage our educational platform powered by ChatGPT and DAST Lab to achieve your goals.</span>
+        <span class="csol-cta-content-block-disclaimer">Join Forces with DAST Lab and Expand Your Reach in the Web3 Ecosystem.</span>
         </div>
 
       

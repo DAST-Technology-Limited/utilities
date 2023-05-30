@@ -110,7 +110,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <link href="https://www.hubspot.com/wt-assets/static-files/2.2.1/about/styles.css" rel="stylesheet" type="text/css">
 
 <meta name="generator" content="DAST">
-<link rel="icon" href="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" type="image/x-icon">
+
+<link rel="icon" type="image/x-icon" href="/images/DAST_LOGO.ico">
 
 </head>
 <body>
