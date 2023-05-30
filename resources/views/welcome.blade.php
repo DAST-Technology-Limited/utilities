@@ -483,7 +483,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <div class="hsg-nav__box-link-icon" aria-hidden="true">
                           
                            
-          <img width="200%"  src="{{ asset('/images/IMG-20230529-WA0008 (1).jpg') }}" alt="My Image">
+          <img width="200%"  src="{{ asset('/images/IMG-20230529-WA0008 (1).jpg') }}" alt="dast">
                         </div>
                         
                         <div class="hsg-nav__header-container">
@@ -502,7 +502,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         <div class="hsg-nav__box-link-icon" aria-hidden="true">
                           
                            
-          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0009 (1).jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0009 (1).jpg') }}" alt="dast">
                           
                         </div>
                         
@@ -519,8 +519,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
                         
                         <div class="hsg-nav__box-link-icon" aria-hidden="true">
                           
-                            
-          <img width="200" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0006 (1).jpg') }}" alt="My Image">
+{{--                             
+          <img width="200" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0006 (1).jpg') }}" alt="dast"> --}}
          
                           
                         </div>
@@ -976,7 +976,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         <div class="home-products-feature__card--image-wrapper">
           
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0008 (1).jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0008 (1).jpg') }}" alt="dast dapp">
          
         </div>
         
@@ -1027,7 +1027,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0009 (1).jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0009 (1).jpg') }}" alt="dast">
          
         </div>
         <div class="home-products-feature__card--content">
@@ -1077,7 +1077,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0012.jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0012.jpg') }}" alt="dast gpt">
          
         </div>
         <div class="home-products-feature__card--content">
@@ -1137,7 +1137,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
           
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0005.jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0005.jpg') }}" alt="dast lab">
          
          
         </div>
@@ -1177,7 +1177,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             </div>
             
             <div class="home-products-feature__cta">
-              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-cms" href="/dast-lab" aria-label=" Get started with CMS Hub">Get started</a>
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-cms" href="/dast-lab" aria-label=" ">Get started</a>
             </div>
             
           </div>
@@ -1192,7 +1192,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
           
          
           
-          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0010.jpg') }}" alt="My Image">
+          <img width="80%" style="height: 100%;"  src="{{ asset('/images/IMG-20230529-WA0010.jpg') }}" alt="dast army">
          
         </div>
         <div class="home-products-feature__card--content">
