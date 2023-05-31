@@ -614,7 +614,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class=" csol-full-width-cta-card-image">
         <div class="csol-full-width-cta-card-graphic-container "></div>
         <div class="csol-full-width-cta-card-background" style="background: rgb(1, 1, 40);">
-          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://media.istockphoto.com/id/1396848094/photo/neon-web-3-0-glowing-web-3-abstract-neon-glowing-background-3d-render-illustration.webp?b=1&s=170667a&w=0&k=20&c=Q5oUsw8G-SX90nNK42jUMYWVvShFCzBSGUJtHo_JB9Q=" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
+          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://media.istockphoto.com/id/1347310666/photo/processor-chip-tech-environment-blockchain-concept.webp?b=1&s=170667a&w=0&k=20&c=SlO_J-vnaYFDFXCQZzeOaCmS05bPoS6qgvhjJdfgUUE=" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
         </div>
       
       </div>
