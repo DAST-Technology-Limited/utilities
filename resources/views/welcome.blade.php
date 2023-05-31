@@ -1,8 +1,12 @@
+@extends('layouts.app')
 
+@section('content')
 <!doctype html><html lang="en">
   <head>
     <meta charset="utf-8">
     <title>DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</title>
+
+
     <style>
       .cl-button{border:1px solid;border-radius:3px;cursor:pointer;display:inline-block;font-size:1rem;font-weight:500;text-align:center;text-decoration:none;transition:background-color .15s linear,color .15s linear}.cl-button:focus-visible,.cl-button:hover{text-decoration:none}.cl-button.-disabled,.cl-button:disabled{cursor:not-allowed;opacity:.5}.cl-button.-primary{background-color:#ff5c35;border-color:transparent;color:#fff}.cl-button.-primary:focus-visible,.cl-button.-primary:hover{background-color:#ffcec2}.cl-button.-primary:active{background-color:#d44325}.cl-button.-primary:focus-visible{outline:2px solid #0b8484;outline-offset:2px}.high-contrast .cl-button.-primary{background-color:#1d0cff}.high-contrast .cl-button.-primary:focus-visible,.high-contrast .cl-button.-primary:hover{background-color:#cee2ff;color:#0c009e}.cl-button.-primaryDark{background-color:#fff;border-color:transparent;color:#2e475d}.cl-button.-primaryDark:focus-visible,.cl-button.-primaryDark:hover{background-color:#f6f9fc}.cl-button.-primaryDark:active{background-color:#eaf0f6}.cl-button.-primaryDark:focus-visible{outline:2px solid #b7ecec;outline-offset:2px}.cl-button.-secondary{background-color:#fff;border-color:#ff5c35;color:#ff5c35}.cl-button.-secondary:focus-visible,.cl-button.-secondary:hover{background-color:#ffebe6}.cl-button.-secondary:active{background-color:#ffebe6}.cl-button.-secondary:focus-visible{outline:2px solid #0b8484;outline-offset:2px}.high-contrast .cl-button.-secondary{background-color:#edf8ff;border-color:#180bb1;color:#180bb1}.high-contrast .cl-button.-secondary:focus-visible,.high-contrast .cl-button.-secondary:hover{background-color:#caebff;border-color:#180bb1;color:#180bb1}.cl-button.-secondaryDark{background-color:transparent;border-color:#fff;color:#fff}.cl-button.-secondaryDark:focus-visible,.cl-button.-secondaryDark:hover{background-color:#fff;color:#2e475d}.cl-button.-secondaryDark:active{background-color:#fff;color:#2e475d}.cl-button.-secondaryDark:focus-visible{outline:2px solid #b7ecec;outline-offset:2px}.cl-button.-tertiary{background-color:#3e5974;border-color:#3e5974;color:#fff}.cl-button.-tertiary:focus-visible,.cl-button.-tertiary:hover{background-color:#516f90}.cl-button.-tertiary:active{background-color:#2e475d}.cl-button.-tertiary:focus-visible{outline:2px solid #0b8484;outline-offset:2px}.cl-button.-tertiaryDark{background-color:#eaf0f6;border-color:#b6c7d6;color:#516f90}.cl-button.-tertiaryDark:focus-visible,.cl-button.-tertiaryDark:hover{background-color:#f6f9fc;border-color:#b6c7d6}.cl-button.-tertiaryDark:active{background-color:#b6c7d6;border-color:#7691ad}.cl-button.-tertiaryDark:focus-visible{outline:2px solid #b7ecec;outline-offset:2px}.cl-button.-small{font-size:.875rem;line-height:1.57;padding:.25rem 1rem}.cl-button.-medium,.cl-button.-regular{font-size:1rem;line-height:1.75;padding:.5rem 2rem}.cl-button.-large{font-size:1.125rem;line-height:1.78;padding:1rem 2.5rem}.home-community-board{background-image:linear-gradient(45deg,#0fbfbf,#4fb06d);padding:7rem 0}.high-contrast .home-community-board{background:#2e475d}@media(max-width:767px){.home-community-board{padding:6rem 0 2.75rem}}.home-community-board__grid-wrapper{margin:30px 0}@media(min-width:501px){.home-community-board__grid-wrapper{display:flex;flex-flow:row wrap;margin:80px 0 0}}.home-community-board__grid-item{padding:30px;text-align:center}@media(min-width:1025px){.home-community-board__grid-item{flex:1 1 25%;max-width:25%}}@media(min-width:501px)and (max-width:1024px){.home-community-board__grid-item{flex:1 1 50%;max-width:50%}}@media(min-width:501px){.home-community-board__grid-item{border-bottom:1px solid #fff;border-right:1px solid #fff}}@media(min-width:1025px){.home-community-board__grid-item:nth-child(4n){border-right:0}.home-community-board__grid-item:nth-child(n+5){border-bottom:0}}@media(min-width:501px)and (max-width:1024px){.home-community-board__grid-item:nth-child(2n){border-right:0}.home-community-board__grid-item:nth-child(n+7){border-bottom:0}}.home-community-board__grid-icon{bottom:0;left:0;margin:auto;max-height:100%;max-width:150px;position:absolute;right:0;top:0}.home-community-board__grid-icon-wrapper{height:40px;margin-bottom:15px;position:relative}.home-community-board__grid-stat{color:#fff;display:inline-block;font-size:2.25rem;font-weight:600;line-height:1.38;margin:0 0 5px}.home-community-board__grid-stat.stat-plus-after{padding-right:10px;position:relative}.home-community-board__grid-stat.stat-plus-after:after{color:#fff;content:"+";display:inline-block;font-size:1rem;font-weight:500;position:absolute;right:0;top:0}.home-community-board__grid-stat-description{color:#fff;font-size:1rem;font-weight:500;margin:0}.convert-community-board .section-header{padding:0}.convert-community-board .section-header .hsg-page-width-normal{max-width:802px}.convert-community-board .home-community-board__grid-wrapper{display:flex;flex-flow:row wrap;justify-content:center;margin:5rem 0 0}.convert-community-board .home-community-board__grid-item{border-bottom:1px solid #fff;border-right:1px solid #fff;flex:1 1 50%;max-width:50%}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item{flex:1 1 26%;max-width:26%}}.convert-community-board .home-community-board__grid-item:nth-child(2n){border-right:0}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item:nth-child(2n){border-right:1px solid #fff}}.convert-community-board .home-community-board__grid-item:nth-child(3n){border-right:1px solid #fff}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item:nth-child(3n){border-right:0}.convert-community-board .home-community-board__grid-item:nth-child(4n){border-bottom:0;border-right:1px solid #fff}}.convert-community-board .home-community-board__grid-item:nth-child(5n){border-bottom:0}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item:nth-child(5n){border-right:1px solid #fff}}.convert-community-board .home-community-board__grid-item:nth-child(6n){border-bottom:0;border-right:0}@media(min-width:1025px){.convert-community-board .home-community-board__grid-item:nth-child(6n){border-bottom:0;border-right:0}}.convert-community-board .home-community-board__grid-stat{font-size:2.25rem}.convert-community-board .home-community-board__grid-stat:after{font-size:1.125rem;font-weight:600;position:relative}
 
@@ -242,6 +246,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   
 
 
+<<<<<<< HEAD
 <header id="hsg-nav-global" class="hsg-nav__wrapper  ">
   <div class="hsg-nav__product-nav-bar">
     <div id="hs-nav-v4" class="nav-width-flex placeholder-nav">
@@ -892,6 +897,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 </div>
   <div id="hsg-main-content" tabindex="-1"></div>
 </header>
+=======
+>>>>>>> versatile
 
  
 
@@ -1260,7 +1267,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class=" csol-full-width-cta-card-image">
         <div class="csol-full-width-cta-card-graphic-container "></div>
         <div class="csol-full-width-cta-card-background" style="background: rgb(1, 1, 40);">
-          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://media.istockphoto.com/id/1396848094/photo/neon-web-3-0-glowing-web-3-abstract-neon-glowing-background-3d-render-illustration.webp?b=1&s=170667a&w=0&k=20&c=Q5oUsw8G-SX90nNK42jUMYWVvShFCzBSGUJtHo_JB9Q=" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
+          <img style="border-radius: 100%;"  class="csol-full-width-cta-card-background-image" src="https://media.istockphoto.com/id/1347310666/photo/processor-chip-tech-environment-blockchain-concept.webp?b=1&s=170667a&w=0&k=20&c=SlO_J-vnaYFDFXCQZzeOaCmS05bPoS6qgvhjJdfgUUE=" alt="DAST CMO shares predictions on AI" width="400" height="330" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px">
         </div>
       
       </div>
@@ -1327,9 +1334,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 }
 
       </style>
-      <h3 style="color: rgb(3, 3, 119);" class="home-customers__stat">Over <span class="word-by-word">   500 Million+</span></h3>
+      <h5 style="color: rgb(3, 3, 119);" class="home-customers__stat"> <span class="word-by-word">DAST PARTNERS</span></h5>
+      <hr>
 
-      <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure their Assets with DAST.</p>
+      <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure their Assets with DAST.We are happy to have a partnership with you.</p>
     </div>
     <div class="home-customers__logos-grid">
       
@@ -1496,208 +1504,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div id="hs_cos_wrapper_module_1580840709351146" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 
 </div>
-<footer class="hsg-footer" style="background: rgb(1, 1, 33);">
-  <div class="hsg-footer__layout">
-    <button id="back-link" class="hsg-footer__logo-caret">
-      
-      <span class="hsg-footer__logo-caret-home">BACK</span>
-      <span class="hsg-footer__close" role="presentation"></span>
-      
-    </button>
-    <nav class="hsg-footer__nav">
-      <div class="hsg-footer__nav-left">
-        <section class="hsg-footer__nav-column hsg-footer__nav-column-left">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Popular Features</button>
-  </h2>
-  <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="#products" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
-        All Products and Features</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="" data-order="0" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Meeting Scheduler App">
-        Free Meeting Scheduler </a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="/dast-contact" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
-        Social Media Tools</a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <li class="hsg-footer__nav-item" data-order="12">
-      <a class="ga_nav_link " href="" data-order="12" data-linkorder="13" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Chatbot Builder">
-        Privacy and Policy </a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="13">
-      <a class="ga_nav_link " href="" data-order="13" data-linkorder="14" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Live Chat Software">
-       Legal Stuff </a>
-    </li>
-   
-    
-    
-    </ul>
-</section>
 
-      </div>
-      <div class="hsg-footer__nav-right">
-        <div class="hsg-footer__nav-full">
-          <section class="hsg-footer__nav-column ">
-  
-   
-    
-   
-    
-    
-</section>
-
-        </div>
-        <div class="hsg-footer__nav-full">
-          <section class="hsg-footer__nav-column ">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Company</button>
-  </h2>
-  <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="/dast-about" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
-        About Us</a>
-    </li>
-    
-    <li class="hsg-footer__nav-item" data-order="2">
-      <a class="ga_nav_link " href="" data-order="2" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Management Team">
-        Management Team</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="3">
-      <a class="ga_nav_link " href="" data-order="3" data-linkorder="3" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Board of Directors">
-        Board of Directors</a>
-    </li>
-    
-    <li class="hsg-footer__nav-item" data-order="5">
-      <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
-        Blog</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="6">
-      <a class="ga_nav_link " href="/dast-contact" data-order="6" data-linkorder="6" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Contact Us">
-        Contact Us</a>
-    </li>
-    </ul>
-</section>
-
-        </div>
-        <div class="hsg-footer__nav-split">
-          <section class="hsg-footer__nav-column ">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Customers</button>
-  </h2>
-  <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="#" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Customer Support">
-        Customer Support</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="https://lnkd.in/deZZhAMM" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
-        Join our Telegram Group</a>
-    </li>
-    </ul>
-</section>
-
-          <section class="hsg-footer__nav-column ">
-  
-  <ul>
-   
-   
-    </li>
-    </ul>
-</section>
-
-        </div>
-      </div>
-    </nav>
-  </div>
-  
-  <section class="hsg-footer__contact-links social-cl">
-    <ul class="hsg-footer__social">
-      
-      <li>
-          <a href="https://lnkd.in/dRtGxc6y" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
-            <svg class="cl-icon">
-              <use href="#facebook" />
-            </svg>
-            <span class="hidden-social">Facebook</span>
-          </a>
-        </li>
-      <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_instagram" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Instagram">
-            <svg class="cl-icon">
-              <use href="#instagram" />
-            </svg>
-            <span class="hidden-social">Instagram</span>
-          </a>
-        </li>
-     
-      <li>
-          <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
-            <svg class="cl-icon">
-              <use href="#twitter" />
-            </svg>
-            <span class="hidden-social">Twitter</span>
-          </a>
-        </li>
-      <li>
-          <a href="https://lnkd.in/dbCgsr4d" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
-            <svg class="cl-icon">
-              <use href="#linkedin" />
-            </svg>
-            <span class="hidden-social">Linkedin</span>
-          </a>
-        </li>
-     
-     
-      
-      
-    </ul>
-  </section>
-  
-  <section class="hsg-footer__bottom">
-    <div class="hsg-footer__apps">
-      
-      
-     
-      
-    </div>
-    <div class="hsg-footer__logo">
-      <a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="DAST Logo">
-      
-      <p>Copyright © 2023 DAST, Inc.</p>
-      </div>
-    <div class="hsg-footer__copyright">
-      <ul>
-        <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
-          Dast Tech</a></li>
-        <li><a href="https://app.dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
-          DASTdAPP</a></li>
-        <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
-          DASTGPT</a></li>
-
-
-
-
-
-
-          
-        <li><a href="/dast-about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
-          ABOUT US</a></li>
-        <li class="hs-footer-cookie-settings" hidden>
-          <a href="javascript:void(0)"></a>
-        </li>
-      </ul>
-    </div>
-  </section>
-</footer>
 <script src="https://www.hubspot.com/wt-assets/static-files/2.2.1/core-nav/scripts.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script></div>
 
     
@@ -1848,3 +1655,4 @@ var hsVars = {
 
 
 </body></html>
+@endsection
