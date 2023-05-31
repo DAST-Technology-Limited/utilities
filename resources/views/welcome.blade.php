@@ -1,3 +1,4 @@
+@extends('layouts.app')
 
 <!doctype html><html lang="en">
   <head>
@@ -3235,333 +3236,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-                
-              
-            </li>
-            
-            <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
-              <div class="hsg-nav__link-wrapper">
-                
-                <a style="color: rgb(1, 1, 49)"  href="/dast-blog" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
-                  <span class="hsg-nav__link-label">
-                   DAST BLOG
-                    
-                  </span>
-                </a>
-                
-              </div>
-              
-            </li>
-
-
-
-
-
- 
-            <li class="hsg-nav__group-item hsg-nav__group-item--order-2 ">
-              <div class="hsg-nav__link-wrapper">
-                
-                <a style="color: rgb(1, 1, 49)"  href="/dast-about" class="ga_nav_link hsg-nav__link hsg-nav__link-active " data-ga_nav_type="header_nav" data-ga_nav_tree_text="Pricing">
-                  <span class="hsg-nav__link-label">
-                   ABOUT
-                    
-                  </span>
-                </a>
-                
-              </div>
-              
-            </li>
-
-
-
-
-
-
-
-            
-            <li class="hsg-nav__group-item hsg-nav__group-item--order-3  hsg-nav__group-item--has-dropdown ">
-              <a href="/dast-contact">
-              <div class="hsg-nav__link-wrapper" >
-                
-                <button class="hsg-nav__link" aria-expanded="false" aria-controls="hsg-nav-submenu-3">
-                  <span class="hsg-nav__link-label" style="color: rgb(1, 1, 49)" >
-                  CONTACT
-                    
-                  </span>
-                </button>
-                
-              </div>
-              
-                
-                 
-                
-              
-            </li>
-            
-            
-            <li class="hsg-nav__group-item  hsg-nav__group-item--has-dropdown  hsg-nav__group-item--about-mobile">
-              
-              <ul id="hsg-nav-about-submenu-mobile" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-               
-                
-                
-                
-               
-                
-                
-                
-                <li class="">
-                  <a href="" class="ga_nav_link hsg-nav__box-link  homepage-nav-contact-us " data-ga_nav_type="header_nav" data-ga_nav_tree_text="About > Contact Us">
-                    <div class="hsg-nav__header">Contact Us</div>
-                    
-                  </a>
-                </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                </ul>
-              
-          </li></ul>
-          
-          <ul class="hsg-nav__group hsg-nav__group--cta" role="none">
-            <li class="hsg-nav__group-item hsg-nav__group-item--cta" role="none">
-              
-
-
-
-
-
-
-
-  
-
-
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-
-
-
-  
-
-  <div class="header-nav__ctas ">
-    
-    <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51);" class="cta--features cta--regular cta--primary ga_nav_link homepage-nav " href="/dast-armies" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get a demo">
-      DAST ARMIES <span class="visually-hidden"></span>
-    </a>
-    
-    
-      <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/dast-partners">
-        DAST PARTNERS <span class="visually-hidden">DAST PARTNERS</span>
-      </a>
-
-      
-    
-  </div> 
-
-
-
-
-            </li>
-          </ul>
-
-          <ul class="hsg-nav__group hsg-nav__group--utility hsg-nav__group--has-contrast-toggle">
-            <li class="hsg-nav__group-item hsg-nav__group--lang">
-              
-              
-              <ul class="hsg-nav__group">
-  
-  <li class="hsg-nav__group-item hsg-nav__group-item--has-dropdown">
-    <div class="hsg-nav__link-wrapper">
-      <button aria-expanded="false" aria-controls="Language-submenu-mobile" class="hsg-nav__link">
-        <span class="hsg-nav__link-label hsg-nav__link-label--globe">
-          <svg class="hsg-nav__globe-icon" aria-hidden="true"><use xlink:href="#hs-icon-globe" fill="currentColor" /></svg>
-          English<span class="visually-hidden">: Select a language</span>
-          
-        </span>
-      </button>
-    </div>
-    <ul id="Language-submenu-mobile" class="hsg-nav__dropdown-list"><li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="ja" data-ga_nav_type="header_nav" data-ga_nav_tree_text="日本語">日本語</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="de" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Deutsch">Deutsch</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link active " href="" aria-current="page" lang="en" data-ga_nav_type="header_nav" data-ga_nav_tree_text="English">English</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="es" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Español">Español</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="pt" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Português">Português</a>
-        </li>
-      <li class="hsg-nav__dropdown-item">
-          <a class="ga_nav_link hsg-nav__dropdown-country-link" href="" lang="fr" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Français">Français</a>
-        </li>
-      </ul>
-  </li>
-
-  
-
-<li class="hsg-nav__group-item hsg-nav__group-item--has-contrast-toggle">
-  <button class="a11y-contrast-toggle -small -icon-left">
-    High Contrast
-  </button>
-</li>
-
-  
-
-
-
-
-</ul>
-              
-            </li>
-            <li class="hsg-nav__group-item hsg-nav__group-item--login">
-              
-              
-              
-              
-              <a href="" data-logged-in-text="Go to my account" data-logged-in-href="" class="ga_nav_link" data-ga_nav_type="header_nav" >Contact Us</a>
-              
-            </li>
-            <li class="hsg-nav__group-item">
-              
-              <a class="ga_nav_link hsg-nav__group-item--utility" href="" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Customer Support">Customer Support</a>
-              
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-</div>
-  <div id="hsg-main-content" tabindex="-1"></div>
-</header>
-
  
 
 
@@ -3706,14 +3380,17 @@
               </ul>
               
             </div>
-            
-            <div class="home-products-feature__cta">
-              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-marketing" href="/register" aria-label=" Get started with Marketing Hub">Get started</a>
+            <div class="homepage-hero-branding-rollout__media">
+
+              <div class="homepage-hero-branding-rollout__media-wrapper">
+                <img class="homepage-hero-branding-rollout__media-image--desktop" alt="View of a DAST user's weekly email, calling, and meeting activity, a contact record, and a customer service report in their DAST  platform" src="https://images.unsplash.com/photo-1639468599871-184271aa14fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYWRlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
+                <img class="homepage-hero-branding-rollout__media-image--mobile" alt="DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations." src="https://images.unsplash.com/photo-1639468599871-184271aa14fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYWRlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
+              </div>
+
             </div>
-            
           </div>
         </div>
-      </div>
+      </section>
     </div>
     <div class="home-products-feature__card"><div class="home-products-feature__card--text-wrapper">
         <div class="home-products-feature__card--image-wrapper">
@@ -3914,26 +3591,6 @@
                   </svg>
                   Proactive and resourceful mindset
 
-                      </li>
-
-                    </ul>
-
-                  </div>
-
-                  <div class="home-products-feature__cta">
-                    <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-operations" href="/dast-armies" aria-label=" Get started with Operations Hub">Get started</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-    </div>
-
-
 
     <div id="hs_cos_wrapper_module_16733782661672" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 
@@ -3982,6 +3639,24 @@
     <a class="
   cl-button -primary -regular -white homepage-campaign-ai
 " href="dast-blog" rel="noreferrer " target="_blank" style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
+      Read the article
+      
+        <span class="visually-hidden">about how DST will revolutionize the Blockchain</span>
+      
+    </a>
+  
+
+
+  
+
+            </div>
+            <div class="csol-full-width-cta-card-content">
+              <h3 class="csol-full-width-cta-card-header">In today's fast-paced world, where technology is rapidly evolving, businesses and organizations are constantly seeking innovative solutions to address real-world challenges. That's where DAST, a leading technology company, comes into play.</h3>
+              <p class="csol-full-width-cta-card-description -large">DAST CMO PRAISE, discusses his predictions for how DAST will revolutionize the future of Blockchain.</p>
+              <div class="csol-full-width-cta-card-cta">
+                <a class="
+  cl-button -primary -regular -white homepage-campaign-ai
+" href="dast-blog" rel="noreferrer " target="_blank" style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;">
                   Read the article
 
                   <span class="visually-hidden">about how DST will revolutionize the Blockchain</span>
@@ -4000,59 +3675,31 @@
           <div class="home-customers__content-wrapper">
             <div class="home-customers__text-wrapper">
 
+  <div id="hs_cos_wrapper_customers" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+<section class="home-customers">
+  <div class="hsg-page-width-normal">
+  <div class="home-customers__content-wrapper">
+    <div class="home-customers__text-wrapper">
+
       <style>
         .word-by-word {
   display: inline-block;
 }
 
       </style>
-      <h3 style="color: rgb(3, 3, 119);" class="home-customers__stat">Over <span class="word-by-word">   500 Million+</span></h3>
-{{-- 
+      <h5 style="color: rgb(3, 3, 119);" class="home-customers__stat"> <span class="word-by-word">DAST PARTNERS</span></h5>
+      <hr>
 
-      <script>
-        const words = document.querySelector('.word-by-word').innerText.split(' ');
-const wordByWordElement = document.querySelector('.word-by-word');
-
-let currentWordIndex = 0;
-let currentLetterIndex = 0;
-
-function typeNextLetter() {
-  const currentWord = words[currentWordIndex];
-  const currentWordLetters = currentWord.slice(0, currentLetterIndex + 1);
-
-  wordByWordElement.innerText = currentWordLetters;
-
-  if (currentLetterIndex === currentWord.length - 1) {
-    currentWordIndex++;
-    currentLetterIndex = 0;
-
-    if (currentWordIndex === words.length) {
-      currentWordIndex = 0;
-      clearInterval(typingInterval);
-      setTimeout(startTyping, 3000); // Wait 3 seconds before starting again
-    }
-  } else {
-    currentLetterIndex++;
-  }
-}
-
-function startTyping() {
-  typingInterval = setInterval(typeNextLetter, 100);
-}
-
-// Start the initial typing process
-let typingInterval = setInterval(typeNextLetter, 100);
-
-      </script> --}}
-
-      <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure their Assets with DAST.</p>
+      <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure their Assets with DAST.We are happy to have a partnership with you.</p>
     </div>
     <div class="home-customers__logos-grid">
       
       <div class="home-customers__logo-wrapper">
-        <img data-src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="World Wildlife Fund logo" class="home-customers__logo hsg-deferred">
+        
+        <img width="100%" style="height: 100%;"  src="{{ asset('/images/IMG-20230530-WA0033.jpg') }}" alt="dast army">
       </div>
-{{--       
+     
       <div class="home-customers__logo-wrapper">
        
         <img width="100%" style="height: 100%;"  src="{{ asset('/images/IMG-20230530-WA0032.jpg') }}" alt="dast army">
@@ -4146,10 +3793,6 @@ let typingInterval = setInterval(typeNextLetter, 100);
           </style>
           <img style="border-radius: 100%;" id="rotating-image" src="https://scontent.fenu1-1.fna.fbcdn.net/v/t39.30808-6/280272480_110451504997152_9173976264510201143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hWSMRDa1e8gAX9rPxoA&_nc_zt=23&_nc_ht=scontent.fenu1-1.fna&oh=00_AfAS3OyTVLVFPX8UKWGUfDFuvWPQwWwcdozShyBdQsigTg&oe=64744BA6" alt="" loading="lazy">
 
-            </div>
-
-          </div>
-
         </div>
       </section>
 
@@ -4157,219 +3800,54 @@ let typingInterval = setInterval(typeNextLetter, 100);
 
     <div id="hs_cos_wrapper_module_1580840709351146" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 
+    </div>
+    <footer class="hsg-footer" style="background: rgb(1, 1, 33);">
+      <div class="hsg-footer__layout">
+        <button id="back-link" class="hsg-footer__logo-caret">
+
+          <span class="hsg-footer__logo-caret-home">BACK</span>
+          <span class="hsg-footer__close" role="presentation"></span>
+
+        </button>
+        <nav class="hsg-footer__nav">
+          <div class="hsg-footer__nav-left">
+            <section class="hsg-footer__nav-column hsg-footer__nav-column-left">
+              <h2 class="hsg-footer__nav-heading">
+                <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Popular Features</button>
+              </h2>
+              <ul>
+                <li class="hsg-footer__nav-item" data-order="0">
+                  <a class="ga_nav_link " href="#products" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
+                    All Products and Features</a>
+                </li>
+                <li class="hsg-footer__nav-item" data-order="0">
+                  <a class="ga_nav_link " href="" data-order="0" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Meeting Scheduler App">
+                    Free Meeting Scheduler </a>
+                </li>
+                <li class="hsg-footer__nav-item" data-order="1">
+                  <a class="ga_nav_link " href="/dast-contact" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
+                    Social Media Tools</a>
+                </li>
+                <li class="hsg-footer__nav-item" data-order="12">
+                  <a class="ga_nav_link " href="" data-order="12" data-linkorder="13" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Chatbot Builder">
+                    Privacy and Policy </a>
+                </li>
+                <li class="hsg-footer__nav-item" data-order="13">
+                  <a class="ga_nav_link " href="" data-order="13" data-linkorder="14" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Live Chat Software">
+                    Legal Stuff </a>
+                </li>
+
 </div>
 <footer class="hsg-footer" style="background: rgb(1, 1, 33);">
   <div class="hsg-footer__layout">
     <button id="back-link" class="hsg-footer__logo-caret">
       
-      <span class="hsg-footer__logo-caret-home">BACK</span>
-      <span class="hsg-footer__close" role="presentation"></span>
-      
-    </button>
-    <nav class="hsg-footer__nav">
-      <div class="hsg-footer__nav-left">
-        <section class="hsg-footer__nav-column hsg-footer__nav-column-left">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Popular Features</button>
-  </h2>
-  <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="#products" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > All Products and Features">
-        All Products and Features</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="" data-order="0" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Meeting Scheduler App">
-        Free Meeting Scheduler </a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="/dast-contact" data-order="1" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Social Media Tools">
-        Social Media Tools</a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <li class="hsg-footer__nav-item" data-order="12">
-      <a class="ga_nav_link " href="" data-order="12" data-linkorder="13" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Chatbot Builder">
-        Privacy and Policy </a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="13">
-      <a class="ga_nav_link " href="" data-order="13" data-linkorder="14" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Popular Features > Free Live Chat Software">
-       Legal Stuff </a>
-    </li>
-   
-    
-    
-    </ul>
-</section>
-
-      </div>
-      <div class="hsg-footer__nav-right">
-        <div class="hsg-footer__nav-full">
-          <section class="hsg-footer__nav-column ">
-  
-   
-    
-   
-    
-    
-</section>
-
-        </div>
-        <div class="hsg-footer__nav-full">
-          <section class="hsg-footer__nav-column ">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Company</button>
-  </h2>
-  <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="/dast-about" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > About Us">
-        About Us</a>
-    </li>
-    
-    <li class="hsg-footer__nav-item" data-order="2">
-      <a class="ga_nav_link " href="" data-order="2" data-linkorder="2" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Management Team">
-        Management Team</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="3">
-      <a class="ga_nav_link " href="" data-order="3" data-linkorder="3" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Board of Directors">
-        Board of Directors</a>
-    </li>
-    
-    <li class="hsg-footer__nav-item" data-order="5">
-      <a class="ga_nav_link " href="/dast-blog" data-order="5" data-linkorder="5" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Blog">
-        Blog</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="6">
-      <a class="ga_nav_link " href="/dast-contact" data-order="6" data-linkorder="6" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Company > Contact Us">
-        Contact Us</a>
-    </li>
-    </ul>
-</section>
-
-        </div>
-        <div class="hsg-footer__nav-split">
-          <section class="hsg-footer__nav-column ">
-  <h2 class="hsg-footer__nav-heading">
-    <button class="hsg-footer__nav-toggle" tabindex="-1" aria-disabled="true">Customers</button>
-  </h2>
-  <ul><li class="hsg-footer__nav-item" data-order="0">
-      <a class="ga_nav_link " href="#" data-order="0" data-linkorder="0" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Customer Support">
-        Customer Support</a>
-    </li>
-    <li class="hsg-footer__nav-item" data-order="1">
-      <a class="ga_nav_link " href="https://lnkd.in/deZZhAMM" data-order="1" data-linkorder="1" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Customers > Join a Local User Group">
-        Join our Telegram Group</a>
-    </li>
-    </ul>
-</section>
-
-          <section class="hsg-footer__nav-column ">
-  
-  <ul>
-   
-   
-    </li>
-    </ul>
-</section>
-
-        </div>
-      </div>
-    </nav>
-  </div>
-  
-  <section class="hsg-footer__contact-links social-cl">
-    <ul class="hsg-footer__social">
-      
-      <li>
-          <a href="https://lnkd.in/dRtGxc6y" target="_blank" class="ga_nav_link hstc_facebook" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Facebook">
-            <svg class="cl-icon">
-              <use href="#facebook" />
-            </svg>
-            <span class="hidden-social">Facebook</span>
-          </a>
-        </li>
-      <li>
-          <a href="" target="_blank" class="ga_nav_link hstc_instagram" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Instagram">
-            <svg class="cl-icon">
-              <use href="#instagram" />
-            </svg>
-            <span class="hidden-social">Instagram</span>
-          </a>
-        </li>
-     
-      <li>
-          <a href="https://lnkd.in/dMZNbBvq" target="_blank" class="ga_nav_link hstc_twitter" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Twitter">
-            <svg class="cl-icon">
-              <use href="#twitter" />
-            </svg>
-            <span class="hidden-social">Twitter</span>
-          </a>
-        </li>
-      <li>
-          <a href="https://lnkd.in/dbCgsr4d" target="_blank" class="ga_nav_link hstc_linkedin" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Linkedin">
-            <svg class="cl-icon">
-              <use href="#linkedin" />
-            </svg>
-            <span class="hidden-social">Linkedin</span>
-          </a>
-        </li>
-     
-     
-      
-      
-    </ul>
-  </section>
-  
-  <section class="hsg-footer__bottom">
-    <div class="hsg-footer__apps">
-      
-      
-     
-      
-    </div>
-    <div class="hsg-footer__logo">
-      <a href="" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="DAST Logo">
-      
-      <p>Copyright © 2023 DAST, Inc.</p>
-      </div>
-    <div class="hsg-footer__copyright">
-      <ul>
-        <li><a href="/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Legal Stuff">
-          Dast Tech</a></li>
-        <li><a href="https://app.dast.tech/" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Privacy Policy">
-          DASTdAPP</a></li>
-        <li><a href="dast-chat" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Security">
-          DASTGPT</a></li>
-
-
-
-
-
-
-          
-        <li><a href="/dast-about" class="ga_nav_link" data-ga_nav_type="footer_nav" data-ga_nav_tree_text="Website Accessibility">
-          ABOUT US</a></li>
-        <li class="hs-footer-cookie-settings" hidden>
-          <a href="javascript:void(0)"></a>
-        </li>
-      </ul>
-    </div>
-  </section>
-</footer>
-<script src="https://www.hubspot.com/wt-assets/static-files/2.2.1/core-nav/scripts.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script></div>
-
-
-  <!-- htmlmin:ignore -->
-
-  <!-- HubSpot performance collection script -->
-  <script defer src="https://static.hsappstatic.net/content-cwv-embed/static-1.194/embed.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
-  <script nonce="7urWKdsavOuOY1tEDAtGXQ==">
-    var hsVars = hsVars || {};
-    hsVars['language'] = 'en';
+    <script nonce="baWixzo/oG9eiCpfxkKMzQ==">
+      window.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('link[rel="preload"]').forEach(function (e) {
+          e.setAttribute("rel", "stylesheet");
+        });
+      });
   </script>
 
   <script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script>
@@ -4491,3 +3969,4 @@ let typingInterval = setInterval(typeNextLetter, 100);
 
 
 </body></html>
+@endsection
