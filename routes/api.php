@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Funding\VellaFinanceController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Mail\SendEmail;
@@ -39,6 +40,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     // Route::put('/user/{user}', [App\Http\Controllers\UserController::class, 'update'])->name('update');
     // Route::delete('/user/{user}', [App\Http\Controllers\UserController::class, 'delete'])->name('delete');
 
+    //Vella
+    Route::post("/vella/webhook", [VellaFinanceController::class, "vellaWebHook"]);
 
     // Other end points
     require_once "chatgpt.php";

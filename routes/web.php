@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DastPagesController;
 use App\Http\Controllers\ImageController;
+use App\Http\Controllers\Funding\VellaFinanceController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\User\UserAuthController;
 use App\Http\Middleware\DomainCheck;
@@ -27,37 +28,40 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/email', function () {
-   
+
     return view('emails.mail');
 });
 
 
-Route::get('email-test', function(){
+Route::get('email-test', function () {
     $details['email'] = "iyidaclem@gmail.com";
     $details['title'] = "WELCOME MESSAGE";
     $details['banner'] = "https://dast.tech/assets/images/key.png";
     $details['name'] = "Clement";
     $details['body'] = "I'm so excited to invite to DAST SPECIAL LAUCNH WITH INVESTOR";
     dispatch(new App\Jobs\SendEmailJob($details));
-    echo("Sent");
-    });
+    echo ("Sent");
+});
 
-    ////dast pages route
-    Route::get('/dast-about',[DastPagesController::class,'about']);
-    Route::get('/dast-app',[DastPagesController::class,'app']);
-    Route::get('/dast-chat',[DastPagesController::class,'chat']);
-    Route::get('/dast-pay',[DastPagesController::class,'pay']);
-    Route::get('/dast-contact',[DastPagesController::class,'contact']);
-    Route::get('/dast-partners',[DastPagesController::class,'partners']);
-    Route::get('/dast-lab',[DastPagesController::class,'lab']);
-    Route::get('/dast-armies',[DastPagesController::class,'army']);
-
-
-    //// User Verification page
-    Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
+////dast pages route
+Route::get('/dast-about', [DastPagesController::class, 'about']);
+Route::get('/dast-app', [DastPagesController::class, 'app']);
+Route::get('/dast-chat', [DastPagesController::class, 'chat']);
+Route::get('/dast-pay', [DastPagesController::class, 'pay']);
+Route::get('/dast-contact', [DastPagesController::class, 'contact']);
+Route::get('/dast-partners', [DastPagesController::class, 'partners']);
+Route::get('/dast-lab', [DastPagesController::class, 'lab']);
+Route::get('/dast-armies', [DastPagesController::class, 'army']);
 
 
+//// User Verification page
+Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
 
+
+// Funding
+Route::middleware(["auth"])->group(function () {
+    Route::get("/funding/confirm", [VellaFinanceController::class, "confirmPayment"]);
+});
 
 // Auth::routes();
 

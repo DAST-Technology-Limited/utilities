@@ -40,7 +40,7 @@ class TelegramChatController extends Controller
     public function getUpdates(Request $request)
     {
 
-        $this->update = $this->baseTelegram->getUpdate($request);    
+        $this->update = $this->baseTelegram->getUpdate($request);
         $this->user_id = $this->update->message->from->id;
         $this->sub_details = $this->userController->verifySub($this->user_id);
         $this->username = $this->update->message->from->username ?? "";

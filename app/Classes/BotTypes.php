@@ -6,13 +6,11 @@ class BotTypes
 {
     private $bot_chat;
     private $bot_pay;
-    private $currencies;
 
     public function __construct()
     {
         $this->bot_chat = "chat";
         $this->bot_pay = "pay";
-        $this->currencies = ["ngn", 'usd'];
     }
 
     public function getBotChat()
@@ -25,8 +23,4 @@ class BotTypes
         return $this->bot_pay;
     }
 
-    public function getCurrencies()
-    {
-        return $this->currencies;
-    }
 }
