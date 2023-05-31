@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DastPagesController;
 use App\Http\Controllers\Funding\VellaFinanceController;
+use App\Http\Controllers\ImageController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\User\UserAuthController;
 use App\Http\Middleware\DomainCheck;
@@ -69,3 +70,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+//image upload
+Route::get('/img',[ImageController::class,'create']);
+Route::post('/image',[ImageController::class,'store']);
+
