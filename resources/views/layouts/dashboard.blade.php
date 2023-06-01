@@ -52,11 +52,11 @@
                 </a>
               </li>
               <li class="nav-item menu-items">
-                <a class="nav-link" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="ui-basic">
+                <a class="nav-link" data-toggle="collapse" href="/funding" aria-expanded="false" aria-controls="ui-basic">
                   <span class="menu-icon">
-                  <i class="bi bi-person text-danger"></i>
+                  <i class="bi bi-currency-dollar text-danger"></i>
                   </span>
-                  <span class="menu-title">Our Team</span>
+                  <span class="menu-title">Funding</span>
                  
                 </a>
               

@@ -60,6 +60,10 @@ Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify'
 
 // Funding
 Route::middleware(["auth"])->group(function () {
+    Route::get("/funding", function () {
+        return view("funding.index");
+    });
+    
     Route::get("/funding/confirm", [VellaFinanceController::class, "confirmPayment"]);
 });
 
@@ -72,6 +76,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //image upload
-Route::get('/img',[ImageController::class,'create']);
-Route::post('/image',[ImageController::class,'store']);
-
+Route::get('/img', [ImageController::class, 'create']);
+Route::post('/image', [ImageController::class, 'store']);
