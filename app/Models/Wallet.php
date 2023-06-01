@@ -80,4 +80,9 @@ class Wallet extends Model
             "details" => $details
         ]);
     }
+
+    public function getBalances()
+    {
+        return json_decode($this->balances);
+    }
 }

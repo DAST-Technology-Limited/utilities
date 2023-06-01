@@ -15,7 +15,9 @@
   <link rel="stylesheet" href="{{asset('dashboard/css/dashboard.css')}}">
 </head>
 <body>
-    
+@livewireStyles
+
+@include("components.preloader")
 
 
     <div class="container-scroller">
@@ -44,7 +46,7 @@
                 <span class="nav-link">Navigation</span>
               </li>
               <li class="nav-item menu-items">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/home">
                   <span class="menu-icon">
                     <i class="bi bi-plus text-light"></i>
                   </span>
@@ -52,11 +54,11 @@
                 </a>
               </li>
               <li class="nav-item menu-items">
-                <a class="nav-link" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="ui-basic">
+                <a class="nav-link" data-toggle="collapse" href="/funding" aria-expanded="false" aria-controls="ui-basic">
                   <span class="menu-icon">
-                  <i class="bi bi-person text-danger"></i>
+                  <i class="bi bi-currency-dollar text-danger"></i>
                   </span>
-                  <span class="menu-title">Our Team</span>
+                  <span class="menu-title">Funding</span>
                  
                 </a>
               
@@ -156,7 +158,7 @@
 
     </div>
 
-
+  @livewireScripts
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="{{asset('dashboard/js/js.js')}}"></script>
 </body>
