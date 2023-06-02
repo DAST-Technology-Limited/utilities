@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\DastPagesController;
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\LanguageController;
@@ -67,7 +68,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-//image upload
-Route::get('/img',[ImageController::class,'create']);
-Route::post('/image',[ImageController::class,'store']);
+/////Blog Routing
+Route::get('/blog',[BlogController::class,'index']);
 
