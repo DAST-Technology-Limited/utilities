@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\DastPagesController;
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\Funding\VellaFinanceController;
@@ -78,3 +79,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //image upload
 Route::get('/img', [ImageController::class, 'create']);
 Route::post('/image', [ImageController::class, 'store']);
+/////Blog Routing
+Route::get('/dast-blog',[BlogController::class,'index']);
+Route::get('/blogs',[BlogController::class,'blogs']);
+Route::get('/create',[BlogController::class,'create']);
+Route::get('/show',[BlogController::class,'show']);
+
+
+
+
