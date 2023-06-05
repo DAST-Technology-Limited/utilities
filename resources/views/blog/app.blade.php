@@ -640,7 +640,7 @@ footer p{
 <body>
     <header style="background-color: rgb(1, 1, 38); color: white">
         <div class="nav container">
-            <a href="/blog" class="logo">DAST <span>BLOG</span></a>
+            <a href="/dast-blog" class="logo">DAST <span>BLOG</span></a>
             <ul class="dast-blog">
                 <li><a href="">About</a></li>
                 <li><a style="border-bottom: 4px solid rgb(2, 2, 159);" href="/blogs">Blog</a></li>
