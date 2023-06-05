@@ -1056,8 +1056,8 @@
       </div>
       <div class="bg-gray-100 legal-text p-24px">
       <ul class="m-0 text-left lg:text-center">
-      <li class="block lg:inline"><a class="p-0 text-gray-700" data-action="legal" id="footer-tos" href="" title="Terms of Use">Terms of Use</a> </li>
-      <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-pp" href="" title="Privacy Policy">Privacy Policy</a> </li>
+      <li class="block lg:inline"><a class="p-0 text-gray-700" data-action="legal" id="footer-tos" href="{{ asset("downloads\Terms of Use for DAST's Website.docx") }}" title="Terms of Use">Terms of Use</a> </li>
+      <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-pp" href="{{ asset("downloads\Privacy Policy for DAST's Website.docx") }}" download title="Privacy Policy">Privacy Policy</a> </li>
       <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-dp" href="" title="Disclosure Policy">Disclosure Policy</a> </li>
       <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-ap" href="" title="Accessibility Policy">Accessibility Policy</a></li>
       <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-tm" href="" title="Copyright, Trademark and Patent Information">Copyright, Trademark and Patent Information</a> </li>
