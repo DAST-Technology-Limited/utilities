@@ -54,4 +54,9 @@ class User extends Authenticatable
     {
         return $this->hasMany(VellaFinance::class);
     }
+
+    public function level()
+    {
+        return $this->belongsTo(Level::class);
+    }
 }
