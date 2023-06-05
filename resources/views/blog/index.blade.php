@@ -24,7 +24,7 @@
         <p class="title-text">
             Never miss out again with where blockchain web3 and tech is going! DAST Blog got you covered!
         </p>
-        <a href="#" class="btn2">Read more</a>
+        <a href="#more" class="btn2">Read more</a>
     </div>
     <div class="imgBx">
         <img src="https://media.istockphoto.com/id/1337408909/photo/shot-of-a-young-woman-working-on-her-laptop-on-the-couch-at-home.jpg?s=612x612&w=0&k=20&c=8QHqDt2-SyUOGaeUQ2krv3I55A_Zrp0ns5kbyg-OFVk=" alt="" class="fitBg">
@@ -38,7 +38,7 @@
     <span class="filter-item" data-filter="news">News</span>
 </div>
 
-<div class="post container">
+<div class="post container" id="more">
     <!-- Post 1 -->
     <div class="post-box tech">
         <img src="https://media.istockphoto.com/id/1049277550/photo/retro-blog-bulb-sign-with-leather-armchair.jpg?s=612x612&w=0&k=20&c=EzRprmTVPOk5bONifiiBrq1S6j7VgqWY1sc8tKVbm4A=" alt="" class="post-img">
