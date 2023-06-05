@@ -69,7 +69,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 /////Blog Routing
-Route::get('/blog',[BlogController::class,'index']);
+Route::get('/dast-blog',[BlogController::class,'index']);
 Route::get('/blogs',[BlogController::class,'blogs']);
 Route::get('/create',[BlogController::class,'create']);
 Route::get('/show',[BlogController::class,'show']);
