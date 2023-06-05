@@ -4,46 +4,25 @@
 
 
 
-<section class="home" id="home" style="margin-top: 5rem;">
-    <div class="home-text container" style="color: rgb(199, 192, 247);">
-       
-
-        
-        <h2 style="font-size: x-larger;" >WEB3 POWERED!</h2>
-        <h5 class="home-title" style="font-size: larger;" class="home-title">TECH INITIATED! DAST PROMPTED</h5>
-
-        <input style="padding:15px;border-radius: 5px;width:300px; color:rgb(2, 2, 98);font-weight:bolder;" type="text" name="" id="" placeholder="youremail@domain.com">
-        <span style="display: block; margin-top:1rem;color: rgb(239, 239, 246);" class="home-subtitle">Already waiting for the next blog post? <br> Let's get to inform you before anyone else </span>
-        <p style="color: gold;">Dast Technologies</p>
-    </div>
-</section>
-
-<section class="about container" id="about">
+<section class="about container" id="about" style="margin-top:1rem;">
     <div class="contentBx">
-        <h2 class="titleText">Catch up with the Latest Trends</h2>
+        <h2 class="titleText"> Latest Trends</h2>
         <p class="title-text">
             Never miss out again with where blockchain web3 and tech is going! DAST Blog got you covered!
         </p>
-        <a href="#" class="btn2">Read more</a>
+        <a href="#blogs" style="background: rgb(1, 1, 92);color:white;" class="btn2">Read more</a>
     </div>
     <div class="imgBx">
-        <img src="https://media.istockphoto.com/id/1337408909/photo/shot-of-a-young-woman-working-on-her-laptop-on-the-couch-at-home.jpg?s=612x612&w=0&k=20&c=8QHqDt2-SyUOGaeUQ2krv3I55A_Zrp0ns5kbyg-OFVk=" alt="" class="fitBg">
+        <img src="https://media.istockphoto.com/id/1438623716/photo/black-woman-with-laptop-reading-typing-and-working-for-online-digital-newspaper-marketing-or.webp?b=1&s=170667a&w=0&k=20&c=l6JsW73GP3gWBLPDEdYbDmp-exPW02MRWpjpEzdPjLg=" alt="" class="fitBg">
     </div>
 </section>
 
-<div class="post-filter container">
-    <span class="filter-item active-filter" data-filter="all">All</span>
-    <span class="filter-item" data-filter="tech">Tech</span>
-    <span class="filter-item" data-filter="food">Food</span>
-    <span class="filter-item" data-filter="news">News</span>
-</div>
-
-<div class="post container">
+<div class="post container" id="blogs">
     <!-- Post 1 -->
     <div class="post-box tech">
         <img src="https://media.istockphoto.com/id/1049277550/photo/retro-blog-bulb-sign-with-leather-armchair.jpg?s=612x612&w=0&k=20&c=EzRprmTVPOk5bONifiiBrq1S6j7VgqWY1sc8tKVbm4A=" alt="" class="post-img">
         <h2 class="category">Tech</h2>
-        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <a href="/show" class="post-title">How to create the best UI with Figma</a>
         <span class="post-date">12 Feb 2022</span>
         <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
         <div class="profile">
@@ -55,7 +34,7 @@
     <div class="post-box food">
         <img src="https://media.istockphoto.com/id/917852860/photo/blogging-concept-yellow-blog-text-over-blue-background.jpg?s=612x612&w=0&k=20&c=wNcIDBbLWgkAYDNI0EZhLOKQWFYUTeNfLQX93AebX1I=" alt="" class="post-img">
         <h2 class="category">Tech</h2>
-        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <a href="show" class="post-title">How to create the best UI with Figma</a>
         <span class="post-date">12 Feb 2022</span>
         <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
         <div class="profile">
@@ -67,7 +46,7 @@
     <div class="post-box food">
         <img src="https://media.istockphoto.com/id/1280349927/photo/lets-start-a-baby-hair-challenge.jpg?s=612x612&w=0&k=20&c=VR1GDgZ50__AD3mJMe1vICrR67O1NBTvjauSoPIvmOc=" alt="" class="post-img">
         <h2 class="category">Food</h2>
-        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <a href="/show" class="post-title">How to create the best UI with Figma</a>
         <span class="post-date">12 Feb 2022</span>
         <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
         <div class="profile">

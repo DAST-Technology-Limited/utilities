@@ -111,9 +111,11 @@ header.shadow .logo{
 .home{
     width: 100%;
     min-height: 440px;
-    background: url("https://media.istockphoto.com/id/1131300577/photo/smart-phone-and-laptop-with-blank-screen-on-a-big-sphere-minimal-technology-concept.jpg?s=612x612&w=0&k=20&c=mD1PLo9K-iztuq53AKOttIB_jibi6nX9Qr-X9RJ8RuI=");
+    /* background: url("https://media.istockphoto.com/id/1131300577/photo/smart-phone-and-laptop-with-blank-screen-on-a-big-sphere-minimal-technology-concept.jpg?s=612x612&w=0&k=20&c=mD1PLo9K-iztuq53AKOttIB_jibi6nX9Qr-X9RJ8RuI="); */
     background-position: center;
+    background: rgb(1, 1, 72);
     background-size: cover;
+    color: white;
     display: grid;
 
     justify-content: center;
@@ -638,10 +640,10 @@ footer p{
 <body>
     <header style="background-color: rgb(1, 1, 38); color: white">
         <div class="nav container">
-            <a href="#" class="logo">DAST <span>BLOG</span></a>
+            <a href="/blog" class="logo">DAST <span>BLOG</span></a>
             <ul class="dast-blog">
                 <li><a href="">About</a></li>
-                <li><a style="border-bottom: 4px solid rgb(2, 2, 159);" href="">Blog</a></li>
+                <li><a style="border-bottom: 4px solid rgb(2, 2, 159);" href="/blogs">Blog</a></li>
                 <li><a href="">Account</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Twitter</a></li>
