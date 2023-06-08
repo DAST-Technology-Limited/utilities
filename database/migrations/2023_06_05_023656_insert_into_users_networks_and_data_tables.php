@@ -25,9 +25,6 @@ return new class extends Migration
             ["network_id" => "7", "network_name" => "SMILE"]
         ]);
 
-        // Create default user level
-        DB::table("levels")->insert(["name" => "user"]);  //create first user level
-
         //Data plans
         DB::table("data")->insert([
             ["data_id" => "300", "network_name" =>	"9MOBILE",	"plan_type" => "CORPORATE GIFTING",	"amount" => "270.0",	"size" => "1.5 GB",	"validity" => "30 days"],
