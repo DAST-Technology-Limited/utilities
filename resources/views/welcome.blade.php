@@ -369,7 +369,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
             </div>
             
             <div class="home-products-feature__cta">
-              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-marketing" href="/register" aria-label=" Get started with Marketing Hub">Get started</a>
+              <a style="background:rgb(1, 1, 49);border:rgb(1, 1, 51); color:white;" class="cl-button -primary -regular homepage-marketing" href="https://app.dast.tech" aria-label=" Get started with Marketing Hub">Get started</a>
             </div>
             
           </div>
