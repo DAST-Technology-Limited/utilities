@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Models\Funds\VellaFinance;
+use App\Models\Utilities\Utility;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -58,5 +59,10 @@ class User extends Authenticatable
     public function level()
     {
         return $this->belongsTo(Level::class);
+    }
+
+    public function utility()
+    {
+        return $this->hasMany(Utility::class);
     }
 }
