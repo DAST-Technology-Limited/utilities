@@ -281,7 +281,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
 
 
-        <h3 id="animated-text" style="font-size: x-larger;font-weight:bolder;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments and Digital Asset Security Management.</h3>
+        <h3 id="animated-text" style="font-size: x-larger;font-weight:1000;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments and Digital Asset Security Management.</h3>
 
 
 
@@ -436,7 +436,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </div>
         <div class="home-products-feature__card--content">
           <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description"> 
-            This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life genrally.
+            This powerful bot seamlessly integrates the advanced capabilities of ChatGPT and provides you with an immersive learning experience on the latest web3 and AI technologies and life generally.
             Join DASTGPT Bot on telegram today and unlock a world of endless possibilities!
 
             </p>
