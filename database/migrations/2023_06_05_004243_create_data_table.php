@@ -16,9 +16,7 @@ return new class extends Migration
     {
         Schema::create('data', function (Blueprint $table) {
             $table->id();
-            $table->string("network_name");
-            $table->string("data_id");
-            $table->string("plan_type");	
+            $table->string("network_id");	
             $table->string("amount");	
             $table->string("size");
             $table->string("validity");
