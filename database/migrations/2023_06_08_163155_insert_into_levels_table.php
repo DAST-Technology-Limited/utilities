@@ -20,7 +20,10 @@ return new class extends Migration
             ["name" => "user"],
             ["name" => "editor"],
             ["name" => "admin"],
-            ["name" => "superadmin"]
+            ["name" => "superadmin"],
+            ["name" => "starter"],
+            ["name" => "intermediate"],
+            ["name" => "premium"]
         ]);  //create first user level
     }
 
