@@ -9,7 +9,7 @@ class Data extends Model
 {
     use HasFactory;
 
-    public function data()
+    public function network()
     {
         return $this->belongsTo(Network::class, "network_name", "network_name");
     }
