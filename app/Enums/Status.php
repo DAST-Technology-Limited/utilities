@@ -9,6 +9,7 @@ use Spatie\Enum\Laravel\Enum;
  * @method static self APPROVED()
  * @method static self CANCELLED()
  * @method static self FAILED()
+ * @method static self SUCCESS()
  */
 
 class Status extends Enum
@@ -20,6 +21,7 @@ class Status extends Enum
             'APPROVED' => 'approved',
             'CANCELLED' => 'cancelled',
             'FAILED' => 'failed',
+            'SUCCESS' => 'successful',
         ];
     }
 }

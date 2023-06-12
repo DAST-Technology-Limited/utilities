@@ -12,6 +12,6 @@ class Network extends Model
     
     public function data()
     {
-        return $this->hasMany(Data::class, "network_name", "network_name");
+        return $this->hasMany(Data::class, "network_id", "network_id");
     }
 }

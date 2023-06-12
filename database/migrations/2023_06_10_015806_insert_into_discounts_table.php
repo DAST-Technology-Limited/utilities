@@ -20,12 +20,21 @@ return new class extends Migration
         // $table->string("discount");
 
         DB::table("discounts")->insert([
-            ["utility_type_id" => "1", "affiliate_level_id" => "5", "discount" => "25"],
-            ["utility_type_id" => "1", "affiliate_level_id" => "6", "discount" => "15"],
-            ["utility_type_id" => "1", "affiliate_level_id" => "7", "discount" => "4"],
-            ["utility_type_id" => "2", "affiliate_level_id" => "5", "discount" => "0"],
-            ["utility_type_id" => "2", "affiliate_level_id" => "6", "discount" => "0"],
-            ["utility_type_id" => "2", "affiliate_level_id" => "7", "discount" => "1"],
+            ["utility_type_id" => "1", "affiliate_level_id" => "5", "discount" => "25", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "1", "affiliate_level_id" => "6", "discount" => "15", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "1", "affiliate_level_id" => "7", "discount" => "4", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "2", "affiliate_level_id" => "5", "discount" => "0", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "2", "affiliate_level_id" => "6", "discount" => "0", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "2", "affiliate_level_id" => "7", "discount" => "1", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "3", "affiliate_level_id" => "5", "discount" => "0", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "3", "affiliate_level_id" => "6", "discount" => "0", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "3", "affiliate_level_id" => "7", "discount" => "0", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "4", "affiliate_level_id" => "5", "discount" => "0", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "4", "affiliate_level_id" => "6", "discount" => "0", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "4", "affiliate_level_id" => "7", "discount" => "0", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "5", "affiliate_level_id" => "5", "discount" => "25", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "5", "affiliate_level_id" => "6", "discount" => "15", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
+            ["utility_type_id" => "5", "affiliate_level_id" => "7", "discount" => "4", "deleted_at" => now(), "created_at" => now(), "updated_at" => now()],
         ]);
     }
 
