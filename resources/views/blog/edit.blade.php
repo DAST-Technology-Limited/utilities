@@ -6,11 +6,11 @@
 
 <section class="about container" id="about" style="margin-top:1rem;">
     <div class="contentBx">
-        <h2 class="titleText">Blog Creation</h2>
+        <h2 class="titleText">Blog Update</h2>
         <p class="title-text">
             DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations.
         </p>
-        <a href="#create" style="background: rgb(1, 1, 92);color:white;" class="btn2">Create</a>
+        <a href="#create" style="background: rgb(1, 1, 92);color:white;" class="btn2">Update</a>
     </div>
     <div class="imgBx">
         <img src="https://media.istockphoto.com/id/1425936006/photo/influencer-reviewing-her-live-broadcast-schedule.webp?b=1&s=170667a&w=0&k=20&c=ehFBnmRqVnrByCyTFrYO281sOqSCs2dIbUd5WcPjqIw=" alt="" class="fitBg">
@@ -74,21 +74,22 @@
   </style>
 
 
-  <form id="create" action="/store" method="post" enctype="multipart/form-data">
+  <form id="create" action="{{ route('blogs.update', $blog->id) }}" method="post" enctype="multipart/form-data">
     @csrf
+    @method('PUT')
     <label for="title">Blog Title:</label>
-    <input type="text" id="title" name="title" required><br><br>
+    <input type="text" id="title" value=" {{$blog->title }}" name="title" required><br><br>
 
     <label for="title">Blog author:</label>
-    <input type="text" id="title" name="author" required><br><br>
+    <input type="text" value=" {{$blog->author }}" id="title" name="author" required><br><br>
 
     <label for="details">Blog Details:</label>
-    <textarea id="details" name="body" required></textarea><br><br>
+    <textarea id="details"  name="body" required> {{$blog->body }}</textarea><br><br>
 
     <label for="file">Upload File:</label>
     <input type="file" id="file" name="image"><br><br>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Update">
   </form>
 
 

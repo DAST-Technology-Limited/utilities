@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\DastPagesController;
+use App\Http\Controllers\CommentController;
+
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\Funding\VellaFinanceController;
 use App\Http\Controllers\LanguageController;
@@ -83,8 +85,42 @@ Route::post('/image', [ImageController::class, 'store']);
 Route::get('/dast-blog',[BlogController::class,'index']);
 Route::get('/blogs',[BlogController::class,'blogs']);
 Route::get('/create',[BlogController::class,'create']);
-Route::get('/show',[BlogController::class,'show']);
+Route::get('/show/{id}',[BlogController::class,'show']);
+Route::post('/store',[BlogController::class,'store']);
+Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy');
+
+Route::get('/blogs/{id}/edit', [BlogController::class, 'edit'])->name('blogs.edit');
+Route::put('/blogs/{id}', [BlogController::class, 'update'])->name('blogs.update');
+Route::get('/admin',[BlogController::class,'admin']);
+Route::put('/blogs/{id}/approve', [BlogController::class, 'approve'])->name('blogs.approve');
+
+Route::put('/blogs/{id}/set-pending', [BlogController::class, 'setPending'])->name('blogs.set-pending');
+
+Route::post('/blogs/{id}/like', [BlogController::class, 'like'])->name('blogs.like');
+Route::post('/blogs/{id}/dislike', [BlogController::class, 'dislike'])->name('blogs.dislike');
 
 
+//comments routing
+Route::post('/comments', [CommentController::class, 'store'])->name('comments.store');
+
+///reply route
+Route::post('/reply/{comment_id}', [CommentController::class, 'reply'])->name('reply.store');
+//fetching replies
+Route::get('/comments/{commentId}/replies', [CommentController::class, 'showReplies'])->name('comments.replies');
+
+
+///delete comment
+Route::delete('/comments/{comment}',[CommentController::class,'destroy'])->name('comments.destroy');
+Route::get('/view_replies/{id}', [CommentController::class, 'view_replies'])->name('view_replies');
+///edit comment
+Route::get('/comments/{comment}/edit', [CommentController::class,'edit'])->name('comments.edit');
+//update comment
+Route::put('/comments/{comment}', [CommentController::class,'update'])->name('comments.update');
+
+Route::get('/xclusive', [CommentController::class, 'xclusive']);
+// admin actions
+Route::get('/users/update-level/{user}', [CommentController::class,'updateLevel'])->name('users.updateLevel');
+
+Route::put('/users/demote-level/{user}', [CommentController::class,'demoteLevel'])->name('users.demoteLevel');
 
 
