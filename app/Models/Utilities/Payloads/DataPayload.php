@@ -2,26 +2,22 @@
 
 namespace App\Models\Utilities\Payloads;
 
+use Illuminate\Support\Str;
+
 class DataPayload
 {
-
-    public $network;            //:network_id
-    public $mobile_number;      //:09095263835
-    public $plan;               //:plan_id
-    public $Ported_number;      //:true
-    // public $payment_medium;     //:payment_medium
+   
+    public $network; // network Id which is 1 for MTN
+    public $phone; // receiver's number
+    public $user_ref; // user defined reference (optional)
 
     public function __construct(
-        $network,
-        $mobile_number,
-        $plan,
-        $Ported_number = true,
-        // $payment_medium = "payment_medium"
-    ) {
+        $phone,
+        $network = "1"
+    )
+    {
         $this->network = $network;
-        $this->mobile_number = $mobile_number;
-        $this->plan = $plan;
-        $this->Ported_number = $Ported_number;
-        // $this->payment_medium = $payment_medium;
+        $this->phone = $phone;
+        $this->user_ref = Str::uuid();
     }
 }

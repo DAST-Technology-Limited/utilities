@@ -85,4 +85,10 @@ class Wallet extends Model
     {
         return json_decode($this->balances);
     }
+
+    public function getBalance($currency)
+    {
+        $bals =  json_decode($this->balances);
+        return isset($bals->$currency) ? $bals->$currency : 0;
+    }
 }
