@@ -20,7 +20,7 @@ class VellaFinanceController extends Controller
 
     public function vellaWebHook(Request $request)
     {
-        file_put_contents("webhook.json", json_encode($request->all()));
+        file_put_contents("webhook.json", $request->type);
        $request = json_decode(json_encode($request->all()));
         if ($request->type == "transaction.completed" && $request->data->status == "successful") {
             $meta_data = json_decode($request->data->meta_data);
