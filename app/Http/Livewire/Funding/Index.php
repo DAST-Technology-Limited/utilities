@@ -15,7 +15,7 @@ class Index extends Component
     public $currencies;
 
     protected $rules = [
-        "amount" => "required|int|min:100",
+        "amount" => "required",
         "currency" => "required"
     ];
 
