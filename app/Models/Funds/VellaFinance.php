@@ -77,16 +77,14 @@ class VellaFinance extends Model
 
     public function confirmPayment()
     {
-        $res = $this->client->request("GET", "https://webhook.site/token/b0c4c8b7-bc1e-45c2-9e60-941b8789ca63/requests");
-        dd($res->getBody()->getContents());
         $url = 'https://sandbox.vella.finance/api/v1/checkout/transaction/' . $this->reference . '/verify';
         $response = $this->client->request('GET', $url, [
             'headers' => [
                 'Authorization' => 'Bearer ' . $this->key,
             ],
         ]);
-        //  $this->response2 = $response->getBody();
-        //  $this->save();
+         $this->response2 = $response->getBody();
+         $this->save();
         return $response;
     }
 }
