@@ -39,7 +39,7 @@ class Index extends Component
                 return redirect($data->data->payment_url);
             }
         } catch (\Throwable $th) {
-            //throw $th;
+            throw $th;
         }
     }
     public function render()
