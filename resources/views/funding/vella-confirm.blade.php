@@ -21,7 +21,7 @@
                 <div class="col-12">Amount: {{strtoupper($vella->currency->symbol)}}{{$vella->amount}}</div>
                 <div class="col-12">Status: {{ucfirst($vella->status)}}</div>
                 
-                <a href="/">
+                <a href="/home">
                     <button class="btn btn-primary w-25 m-5">Home</button>
                 </a>
             </div>
