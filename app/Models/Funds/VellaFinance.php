@@ -77,6 +77,8 @@ class VellaFinance extends Model
             ]
         );
         $this->response = $response->getBody();
+        $data = json_decode($this->response);
+        $this->payment_id = $data->data->id;
         $this->save();
         return $response;
     }
