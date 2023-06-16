@@ -54,7 +54,7 @@
                 </a>
               </li>
               <li class="nav-item menu-items">
-                <a class="nav-link" data-toggle="collapse" href="/funding" aria-expanded="false" aria-controls="ui-basic">
+                <a class="nav-link" data-toggle="collapse" href="/dashboard/funding" aria-expanded="false" aria-controls="ui-basic">
                   <span class="menu-icon">
                   <i class="bi bi-currency-dollar text-danger"></i>
                   </span>
@@ -64,11 +64,11 @@
               
               </li>
               <li class="nav-item menu-items">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/dashboard/tx-history">
                   <span class="menu-icon">
-                    <i class="bi bi-file"></i>
+                    <i class="bi bi-clock-history"></i>
                   </span>
-                  <span class="menu-title">Form Elements</span>
+                  <span class="menu-title">Transactions</span>
                 </a>
               </li>
               <li class="nav-item menu-items">

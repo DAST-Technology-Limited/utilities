@@ -3,7 +3,6 @@
 @section('content')
 <div class="container">
     <div class="row">
-
         <div class="col-md-8 offset-md-2 flex flex-direction-column justify-center text-center border p-5">
           <div class="row">
             <div class="rol-12">

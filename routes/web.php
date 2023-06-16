@@ -59,18 +59,17 @@ Route::get('/dast-armies', [DastPagesController::class, 'army']);
 Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
 
 
-// Funding
+// Authenticated routes
 Route::middleware(["auth"])->group(function () {
-    Route::get("/funding", function () {
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get("/dashboard/funding", function () {
         return view("funding.index");
     });
-    
     Route::get("/funding/confirm", [VellaFinanceController::class, "confirmPayment"]);
+    Route::get("/dashboard/tx-history", function(){ return view("funding.tx-history");});
 });
 
-// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();
 
