@@ -21,7 +21,70 @@
     </div>
 </section>
 
-{{-- <div class="post container" id="blogs"> --}}
+<style>
+    .search-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-input {
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 8px;
+        width: 200px;
+    }
+
+    .search-button {
+        padding: 8px 12px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+</style>
+
+<form action="{{ route('users.search') }}" method="GET" class="search-form">
+    <input type="text" name="search" class="search-input" placeholder="Search users">
+    <button type="submit" class="search-button">Search</button>
+</form>
+
+
+
+<style>
+    .user-details {
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .message {
+        padding: 10px;
+        text-align: center;
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+        border-radius: 4px;
+    }
+</style>
+
+@if(session('users'))
+    @foreach(session('users') as $user)
+        <div class="user-details">
+            <p>Name: {{ $user->name }}</p>
+            <p>Email: {{ $user->email }}</p>
+            <p>Level ID: {{ $user->level_id }}</p>
+        </div>
+    @endforeach
+@elseif(session('message'))
+    <p class="message">{{ session('message') }}</p>
+@endif
+
+
     <div class="container">
         <div class="table-responsive">
             <table class="table">
@@ -53,7 +116,7 @@
                         </td>
                         <td>
                             <a style="color:green;" href="{{ route('users.updateLevel', $user->id) }}">
-                                <img style="width: 30px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8No7tEwRUGaUFt0M4reOoNQdeS8Wtv32eqw&usqp=CAU" alt="">
+                                <img style="width: 40px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAaVBMVEX///8A/wEA/wD//f+X/pYn/yfk/uXa/9lX/1Yy/zI6/zyR/pJQ/1Cm/6XS/tLu/+9z/nO6/rpF/kX3/vew/7GN/ozE/sOE/oKd/pzx/vGp/qgb/xt9/nxe/l+2/rSI/4lm/mXK/sls/mwhJyXaAAADAElEQVRoge2Ya5OrIAyGJSrWXrzU2vt2z/b//8hDAGvQlU5je+Z84J3ZGbUsD0kgBKIoKCgoKCgoKCjo/1Mjs3q3qzPZfApQrBYCrMRiVbwfJNtcE4SWfspb+UZAHJ0q3S0Q6ZeqVD9aFfOQcQKP4af5cpmnnVEgkq7RFWAzgyG32KH6W2+K0nwqi81amK9Ladogcc9m7I0VIhm4Qyb4FdbIrU2oUi6j1l4R7S9zqfkG+MKHA1h/3rgMDPF2IqjyiKy16CbdgsXY6zEefE1kbhEKsuQwpP7fxNvk0jPgyIHoOZPEnhYF9AzxzWEkGA+vr/YPhIJ4LZ5SiUHf+lrcegbTV1GFLvAliyPxFc8OFXVlSOtpsCJ28OIRRS324cnnByCQK4/R4Pz3+OAqiP7wGDg5SUSyc+n+fBfEjrUyOCsYkBVmv+5FzYHUmQJXwhCpYpwuvvBNaaEgdocoU71JEUoLdIGclHMvnMTV4MZkPZDaHk/dj2eKENhKbf++STIhiSEpO5ts/rPd/FBfQY224lb5+v6bKQfpTSg+92M2HpGC2pF0xkL2MqRW/5Xjw4mmWbUc4tKx426aq/muTXpNO7Dbg+ubY9Qs6XuX2tRH2PEhhTOR4PxFXsWlmws8yMNd0Z32CoImE3gsQJ67HoHXo6QU8tgXDrzAkykc5ZRC7OgzbylYU5guxvLyK4UscZ3oGBU4SSu4tYwwcCGdboBXDzkJUg4ZgxCs1fuKAXFTvbNaBkE3lgIn1Q82rZtLcYuYRH3IWYcid/uNNw7EqRUbpHK2E1tIkPog6W2BPuvb4fjLGo+GJVELD8bPcDSi4jHGxd0BLMOdSFvMNaeIqVGZWplziFtVYmkE3oLZr1HBXem40FHHOlTeYvaJxkeHSgwWRKKbzDr5jg9Bt5XT4UHMO5FqPTnO4cEYxOsbyYgyfTDV60PMZzw7YivN9JXtbeKywMCnPPmqpq89Zq2PoUpzgUNucER3gfNOffwqyugfXKpZ0KevB4OCgoKCgoKCguboL5elGmQrXF/oAAAAAElFTkSuQmCC" alt="">
                             </a>
                             <a style="color:green;" href="{{ route('users.demoteLevel', $user->id) }}" onclick="event.preventDefault(); document.getElementById('demote-form-{{ $user->id }}').submit();">
                                 <img style="width: 30px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKKzFjRgauOimxXhDMtRYB0htnib_VOIOgGg&usqp=CAU" alt="">

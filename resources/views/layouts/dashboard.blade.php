@@ -128,14 +128,17 @@
                 </a>
              
               </li>
-              <li class="nav-item menu-items">
-                <a class="nav-link" href="/admin">
-                  <span class="menu-icon">
-                    <i class="bi  bi-box text-light"></i>
-                  </span>
-                  <span class="menu-title">Admin/Editor</span>
-                </a>
-              </li>
+              @if (Auth::user() && in_array(Auth::user()->level_id, [2, 3]))
+    <li class="nav-item menu-items">
+        <a class="nav-link" href="/admin">
+            <span class="menu-icon">
+                <i class="bi bi-box text-light"></i>
+            </span>
+            <span class="menu-title">Admin/Editor</span>
+        </a>
+    </li>
+@endif
+
 
 
 

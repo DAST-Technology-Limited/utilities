@@ -166,4 +166,21 @@ public function demoteLevel(User $user)
 
     return redirect()->back()->with('success', 'User level demoted successfully');
 }
+
+
+///////search users
+
+public function searchUsers(Request $request)
+{
+    $search = $request->input('search');
+    $users = User::where('name', 'LIKE', "%$search%")
+                ->orWhere('email', 'LIKE', "%$search%")
+                ->paginate(10);
+
+    if ($users->isEmpty()) {
+        return redirect()->back()->with('message', 'No results found.');
+    }
+
+    return redirect()->back()->with('users', $users);
+}
 }

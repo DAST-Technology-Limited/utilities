@@ -3,9 +3,11 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\DastPagesController;
 use App\Http\Controllers\CommentController;
+use Illuminate\Support\Facades\URL;
 
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\Funding\VellaFinanceController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\User\UserAuthController;
 use App\Http\Middleware\DomainCheck;
@@ -122,5 +124,15 @@ Route::get('/xclusive', [CommentController::class, 'xclusive']);
 Route::get('/users/update-level/{user}', [CommentController::class,'updateLevel'])->name('users.updateLevel');
 
 Route::put('/users/demote-level/{user}', [CommentController::class,'demoteLevel'])->name('users.demoteLevel');
+///search users
+Route::get('/users/search', [CommentController::class,'searchUsers'] )->name('users.search');
+
+Route::get('/two-places-back', function () {
+    $previousUrl = URL::previous(2); // Get the URL of two places back
+
+    return redirect($previousUrl);
+});
+
+
 
 

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Redirect;
 
 use App\Models\Blog;
 use App\Models\Comment;
@@ -9,7 +10,9 @@ use Illuminate\Support\Facades\Auth;
 
 class BlogController extends Controller
 {
+
     public function index(){
+        
         $blogs = Blog::where('status', 'approved')->paginate(10);
         return view('blog.index', compact('blogs'));
     }
@@ -69,7 +72,7 @@ class BlogController extends Controller
         // Save the blog instance to the database
         if ($blog->save()) {
             // Success response
-          return redirect('/admin');
+            return Redirect::to('/admin')->with('success', 'Blog created successfully');
         } else {
             // Error response
             return response()->json(['error' => 'Failed to store the blog'], 422);
