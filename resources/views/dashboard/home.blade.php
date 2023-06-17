@@ -38,9 +38,9 @@
                       <div class="d-flex align-items-center align-self-start">
                         <h3 class="mb-0">
                           @if(isset(Auth::user()->wallet()->getBalances()->{$currency->symbol}))
-                            {{Auth::user()->wallet()->getBalances()->{$currency->symbol} }}
+                          {{Auth::user()->wallet()->getBalances()->{$currency->symbol} }}
                           @else
-                            0.0
+                          0.0
                           @endif
                         </h3>
                         <p class="text-success ml-2 mb-0 font-weight-medium">+3.5%</p>
@@ -79,6 +79,29 @@
               </div>
             </div>
           </div>
+
+
+          <div class="row text-center p-5">
+            <div class="col-12">
+              <div class="text-center">
+                <h1>Purchase Utilities</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/airtime"><img src="{{asset('/images/s_topup.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_mtnsmedata.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_airsmedata.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_glo.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_bundles.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_gotv.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_dstv.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_startimes.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_neco.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_waec.jpg')}}" class="w-100" alt=""></a></div>
+          </div>
+
         </div>
         <!-- content-wrapper ends -->
 

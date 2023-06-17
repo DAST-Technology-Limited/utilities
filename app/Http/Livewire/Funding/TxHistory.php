@@ -13,7 +13,7 @@ class TxHistory extends Component
     public function mount()
     {
         $user = User::find(auth()->id());
-        $this->histories = $user->wallet()->fundingHistory()->paginate(10);
+        $this->histories = $user->wallet()->fundingHistory()->latest()->paginate(10);
     }
 
     public function render()

@@ -72,11 +72,11 @@
                 </a>
               </li>
               <li class="nav-item menu-items">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/dashboard/airtime">
                   <span class="menu-icon">
                     <i class="bi bi-table"></i>
                   </span>
-                  <span class="menu-title">Tables</span>
+                  <span class="menu-title">Airtime</span>
                 </a>
               </li>
               <li class="nav-item menu-items">

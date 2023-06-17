@@ -64,7 +64,7 @@ class Utility extends Model
                 $this->status = Status::APPROVED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::SUCCESS(),
                     "response" => $response
                 ]);
@@ -73,13 +73,13 @@ class Utility extends Model
                 $this->status = Status::FAILED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::FAILED(),
                     "response" => $response
                 ]);
             }
         } catch (\Throwable $th) {
-            return response()->json([
+            return json_encode([
                 "status" => Status::FAILED(),
                 "response" => $th
             ]);
@@ -105,7 +105,7 @@ class Utility extends Model
                 $this->status = Status::APPROVED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::SUCCESS(),
                     "response" => $response
                 ]);
@@ -114,13 +114,13 @@ class Utility extends Model
                 $this->status = Status::FAILED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::FAILED(),
                     "response" => $response
                 ]);
             }
         } catch (\Throwable $th) {
-            return response()->json([
+            return json_encode([
                 "status" => Status::FAILED(),
                 "response" => $th
             ]);
@@ -145,7 +145,7 @@ class Utility extends Model
                 $this->status = Status::APPROVED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::SUCCESS(),
                     "response" => $response
                 ]);
@@ -154,13 +154,13 @@ class Utility extends Model
                 $this->status = Status::FAILED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::FAILED(),
                     "response" => $response
                 ]);
             }
         } catch (\Throwable $th) {
-            return response()->json([
+            return json_encode([
                 "status" => Status::FAILED(),
                 "response" => $th
             ]);
@@ -188,7 +188,7 @@ class Utility extends Model
                 $this->status = Status::APPROVED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::SUCCESS(),
                     "response" => $response
                 ]);
@@ -197,13 +197,13 @@ class Utility extends Model
                 $this->status = Status::FAILED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::FAILED(),
                     "response" => $response
                 ]);
             }
         } catch (\Throwable $th) {
-            return response()->json([
+            return json_encode([
                 "status" => Status::FAILED(),
                 "response" => $th
             ]);
@@ -222,28 +222,28 @@ class Utility extends Model
             $payload = json_decode($this->payload);
             $this->user->wallet()->debit("ngn", $this->getPrice("2"), "Airtime purchase - " . $payload->phone, $this->payload);
 
-            $response = file_get_contents("https://mobileairtimeng.com/httpapi/?userid=" . $this->userid . "&pass=" . $this->pass . "&network=" . $payload->network . "&phone=" . $payload->phone . "&amt=" . $payload->amt . "&user_ref=" . $payload->reference . "&jsn=json");
+            $response = file_get_contents("https://mobileairtimeng.com/httpapi/?userid=" . $this->userid . "&pass=" . $this->pass . "&network=" . $payload->network . "&phone=" . $payload->phone . "&amt=" . $payload->amt . "&user_ref=" . $this->reference . "&jsn=json");
             $res = json_decode($response);
             if ($res->code == "100") {
                 $this->status = Status::APPROVED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::SUCCESS(),
                     "response" => $response
                 ]);
             } else {
-                $this->user->wallet()->credit("ngn", $this->getPrice("1"), "Refund failed airtime purchase - " . $payload->phone, $response);
+                $this->user->wallet()->credit("ngn", $this->getPrice("2"), "Refund failed airtime purchase - " . $payload->phone, $response);
                 $this->status = Status::FAILED();
                 $this->response = $response;
                 $this->save();
-                return response()->json([
+                return json_encode([
                     "status" => Status::FAILED(),
                     "response" => $response
                 ]);
             }
         } catch (\Throwable $th) {
-            return response()->json([
+            return json_encode([
                 "status" => Status::FAILED(),
                 "response" => $th
             ]);
@@ -257,79 +257,79 @@ class Utility extends Model
      * created and payload 'App\Models\Utilities\Payloads\ResultCheckerPayload' saved
      */
 
-     public function buyWaec()
-     {
-         try {
-             $payload = json_decode($this->payload);
-             $this->user->wallet()->debit("ngn", $this->getPrice("5"), "WAEC result checker pin", $this->payload);
- 
-             $response = file_get_contents("https://mobileairtimeng.com/httpapi/waecdirect?userid=".$this->userid."&pass=".$this->pass."&jsn=json&user_ref=".$this->reference);
-             $res = json_decode($response);
-             if ($res->code == "100") {
-                 $this->status = Status::APPROVED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::SUCCESS(),
-                     "response" => $response
-                 ]);
-             } else {
-                 $this->user->wallet()->credit("ngn", $this->getPrice("5"), "Refund failed WAEC pin purchase " . $payload->phone, $response);
-                 $this->status = Status::FAILED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::FAILED(),
-                     "response" => $response
-                 ]);
-             }
-         } catch (\Throwable $th) {
-             return response()->json([
-                 "status" => Status::FAILED(),
-                 "response" => $th
-             ]);
-         }
-     }
+    public function buyWaec()
+    {
+        try {
+            $payload = json_decode($this->payload);
+            $this->user->wallet()->debit("ngn", $this->getPrice("5"), "WAEC result checker pin", $this->payload);
 
-         /**
+            $response = file_get_contents("https://mobileairtimeng.com/httpapi/waecdirect?userid=" . $this->userid . "&pass=" . $this->pass . "&jsn=json&user_ref=" . $this->reference);
+            $res = json_decode($response);
+            if ($res->code == "100") {
+                $this->status = Status::APPROVED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::SUCCESS(),
+                    "response" => $response
+                ]);
+            } else {
+                $this->user->wallet()->credit("ngn", $this->getPrice("5"), "Refund failed WAEC pin purchase " . $payload->phone, $response);
+                $this->status = Status::FAILED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::FAILED(),
+                    "response" => $response
+                ]);
+            }
+        } catch (\Throwable $th) {
+            return json_encode([
+                "status" => Status::FAILED(),
+                "response" => $th
+            ]);
+        }
+    }
+
+    /**
      * buyNeco - function to purchase NECO result checker pins
      * It is expected that 'App\Models\Utilities\Utility' has been
      * created and payload 'App\Models\Utilities\Payloads\ResultCheckerPayload' saved
      */
 
-     public function buyNeco()
-     {
-         try {
-             $payload = json_decode($this->payload);
-             $this->user->wallet()->debit("ngn", $this->getPrice("5"), "NECO result checker pin", $this->payload);
- 
-             $response = file_get_contents("https://mobileairtimeng.com/httpapi/neco?userid=".$this->userid."&pass=".$this->pass."&pcs=".$payload->quantity."&jsn=json&user_ref=".$this->reference);
-             $res = json_decode($response);
-             if ($res->code == "100") {
-                 $this->status = Status::APPROVED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::SUCCESS(),
-                     "response" => $response
-                 ]);
-             } else {
-                 $this->user->wallet()->credit("ngn", $this->getPrice("5"), "Refund failed NECO pin purchase", $response);
-                 $this->status = Status::FAILED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::FAILED(),
-                     "response" => $response
-                 ]);
-             }
-         } catch (\Throwable $th) {
-             return response()->json([
-                 "status" => Status::FAILED(),
-                 "response" => $th
-             ]);
-         }
-     }
+    public function buyNeco()
+    {
+        try {
+            $payload = json_decode($this->payload);
+            $this->user->wallet()->debit("ngn", $this->getPrice("5"), "NECO result checker pin", $this->payload);
+
+            $response = file_get_contents("https://mobileairtimeng.com/httpapi/neco?userid=" . $this->userid . "&pass=" . $this->pass . "&pcs=" . $payload->quantity . "&jsn=json&user_ref=" . $this->reference);
+            $res = json_decode($response);
+            if ($res->code == "100") {
+                $this->status = Status::APPROVED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::SUCCESS(),
+                    "response" => $response
+                ]);
+            } else {
+                $this->user->wallet()->credit("ngn", $this->getPrice("5"), "Refund failed NECO pin purchase", $response);
+                $this->status = Status::FAILED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::FAILED(),
+                    "response" => $response
+                ]);
+            }
+        } catch (\Throwable $th) {
+            return json_encode([
+                "status" => Status::FAILED(),
+                "response" => $th
+            ]);
+        }
+    }
 
     /**
      * buyElectricity - function to purchase electricity bills pins
@@ -337,120 +337,117 @@ class Utility extends Model
      * created and payload 'App\Models\Utilities\Payloads\ElectricityPayload' saved
      */
 
-     public function buyElectricity()
-     {
-         try {
-             $payload = json_decode($this->payload);
-             $this->user->wallet()->debit("ngn", $this->getPrice("3"), "Eletricity bill", $this->payload);
- 
-             $response = file_get_contents("http://mobileairtimeng.com/httpapi/power-pay?userid=".GetAppEnv::getMobileAirtimePhone()."&pass=".GetAppEnv::getMobileAirtimeKey()."&user_ref=".$this->reference."&service=".$payload->service."&meterno=".$payload->meterno."&mtype=".$payload->mtype."&amt=".$this->getPrice("3")."&jsn=json");
-             $res = json_decode($response);
-             if ($res->code == "100") {
-                 $this->status = Status::APPROVED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::SUCCESS(),
-                     "response" => $response
-                 ]);
-             } else {
-                 $this->user->wallet()->credit("ngn", $this->getPrice("3"), "Refund failed electricity bill purchase", $response);
-                 $this->status = Status::FAILED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::FAILED(),
-                     "response" => $response
-                 ]);
-             }
-         } catch (\Throwable $th) {
-             return response()->json([
-                 "status" => Status::FAILED(),
-                 "response" => $th
-             ]);
-         }
-     }
+    public function buyElectricity()
+    {
+        try {
+            $payload = json_decode($this->payload);
+            $this->user->wallet()->debit("ngn", $this->getPrice("3"), "Eletricity bill", $this->payload);
 
-     /**
+            $response = file_get_contents("http://mobileairtimeng.com/httpapi/power-pay?userid=" . GetAppEnv::getMobileAirtimePhone() . "&pass=" . GetAppEnv::getMobileAirtimeKey() . "&user_ref=" . $this->reference . "&service=" . $payload->service . "&meterno=" . $payload->meterno . "&mtype=" . $payload->mtype . "&amt=" . $this->getPrice("3") . "&jsn=json");
+            $res = json_decode($response);
+            if ($res->code == "100") {
+                $this->status = Status::APPROVED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::SUCCESS(),
+                    "response" => $response
+                ]);
+            } else {
+                $this->user->wallet()->credit("ngn", $this->getPrice("3"), "Refund failed electricity bill purchase", $response);
+                $this->status = Status::FAILED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::FAILED(),
+                    "response" => $response
+                ]);
+            }
+        } catch (\Throwable $th) {
+            return json_encode([
+                "status" => Status::FAILED(),
+                "response" => $th
+            ]);
+        }
+    }
+
+    /**
      * buyStarTimes - function to purchase StarTimes cable
      * It is expected that 'App\Models\Utilities\Utility' has been
      * created and payload 'App\Models\Utilities\Payloads\StarTimesPayload' saved
      */
 
-     public function buyStarTimes()
-     {
-         try {
-             $payload = json_decode($this->payload);
-             $this->user->wallet()->debit("ngn", $this->getPrice("4"), "StarTimes purchase", $this->payload);
- 
-             $response = file_get_contents("https://mobileairtimeng.com/httpapi/startimes-u?userid=".GetAppEnv::getMobileAirtimePhone()."&pass=".GetAppEnv::getMobileAirtimeKey()."&phone=".$payload->phone."&amt=".$payload->amt."&smartno=".$payload->smartno."&vcode=".$payload->vcode."&jsn=json&user_ref=".$this->reference);
-             $res = json_decode($response);
-             if ($res->code == "100") {
-                 $this->status = Status::APPROVED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::SUCCESS(),
-                     "response" => $response
-                 ]);
-             } else {
-                 $this->user->wallet()->credit("ngn", $this->getPrice("4"), "Refund failed startimes purchase", $response);
-                 $this->status = Status::FAILED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::FAILED(),
-                     "response" => $response
-                 ]);
-             }
-         } catch (\Throwable $th) {
-             return response()->json([
-                 "status" => Status::FAILED(),
-                 "response" => $th
-             ]);
-         }
-     }
+    public function buyStarTimes()
+    {
+        try {
+            $payload = json_decode($this->payload);
+            $this->user->wallet()->debit("ngn", $this->getPrice("4"), "StarTimes purchase", $this->payload);
 
-      /**
+            $response = file_get_contents("https://mobileairtimeng.com/httpapi/startimes-u?userid=" . GetAppEnv::getMobileAirtimePhone() . "&pass=" . GetAppEnv::getMobileAirtimeKey() . "&phone=" . $payload->phone . "&amt=" . $payload->amt . "&smartno=" . $payload->smartno . "&vcode=" . $payload->vcode . "&jsn=json&user_ref=" . $this->reference);
+            $res = json_decode($response);
+            if ($res->code == "100") {
+                $this->status = Status::APPROVED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::SUCCESS(),
+                    "response" => $response
+                ]);
+            } else {
+                $this->user->wallet()->credit("ngn", $this->getPrice("4"), "Refund failed startimes purchase", $response);
+                $this->status = Status::FAILED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::FAILED(),
+                    "response" => $response
+                ]);
+            }
+        } catch (\Throwable $th) {
+            return json_encode([
+                "status" => Status::FAILED(),
+                "response" => $th
+            ]);
+        }
+    }
+
+    /**
      * buyGOTVDSTV - function to purchase GOTVDSTV cable
      * It is expected that 'App\Models\Utilities\Utility' has been
      * created and payload 'App\Models\Utilities\Payloads\GOTVDSTVPayload' saved
      */
 
-     public function buyGOTVDSTV()
-     {
-         try {
-             $payload = json_decode($this->payload);
-             $this->user->wallet()->debit("ngn", $this->getPrice("4"), strtoupper($payload->billtype)." purchase", $this->payload);
- 
-             $response = file_get_contents("https://mobileairtimeng.com/httpapi/multichoice?userid=".GetAppEnv::getMobileAirtimePhone()."&pass=".GetAppEnv::getMobileAirtimeKey()."&phone=".$payload->phone."&amt=".$payload->amt."&smartno=".$payload->smartno."&product=".$payload->product."&customer=".$payload->customer."&invoice=".$payload->invoice."&billtype=".$payload->billtype."&customernumber=".$payload->customernumber."&jsn=json");
-             $res = json_decode($response);
-             if ($res->code == "100") {
-                 $this->status = Status::APPROVED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::SUCCESS(),
-                     "response" => $response
-                 ]);
-             } else {
-                 $this->user->wallet()->credit("ngn", $this->getPrice("4"), "Refund failed ".strtoupper($payload->billtype)." purchase", $response);
-                 $this->status = Status::FAILED();
-                 $this->response = $response;
-                 $this->save();
-                 return response()->json([
-                     "status" => Status::FAILED(),
-                     "response" => $response
-                 ]);
-             }
-         } catch (\Throwable $th) {
-             return response()->json([
-                 "status" => Status::FAILED(),
-                 "response" => $th
-             ]);
-         }
-     }
+    public function buyGOTVDSTV()
+    {
+        try {
+            $payload = json_decode($this->payload);
+            $this->user->wallet()->debit("ngn", $this->getPrice("4"), strtoupper($payload->billtype) . " purchase", $this->payload);
 
-
-     
+            $response = file_get_contents("https://mobileairtimeng.com/httpapi/multichoice?userid=" . GetAppEnv::getMobileAirtimePhone() . "&pass=" . GetAppEnv::getMobileAirtimeKey() . "&phone=" . $payload->phone . "&amt=" . $payload->amt . "&smartno=" . $payload->smartno . "&product=" . $payload->product . "&customer=" . $payload->customer . "&invoice=" . $payload->invoice . "&billtype=" . $payload->billtype . "&customernumber=" . $payload->customernumber . "&jsn=json");
+            $res = json_decode($response);
+            if ($res->code == "100") {
+                $this->status = Status::APPROVED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::SUCCESS(),
+                    "response" => $response
+                ]);
+            } else {
+                $this->user->wallet()->credit("ngn", $this->getPrice("4"), "Refund failed " . strtoupper($payload->billtype) . " purchase", $response);
+                $this->status = Status::FAILED();
+                $this->response = $response;
+                $this->save();
+                return json_encode([
+                    "status" => Status::FAILED(),
+                    "response" => $response
+                ]);
+            }
+        } catch (\Throwable $th) {
+            return json_encode([
+                "status" => Status::FAILED(),
+                "response" => $th
+            ]);
+        }
+    }
 }

@@ -67,6 +67,9 @@ Route::middleware(["auth"])->group(function () {
     });
     Route::get("/funding/confirm", [VellaFinanceController::class, "confirmPayment"]);
     Route::get("/dashboard/tx-history", function(){ return view("funding.tx-history");});
+
+    // Utilities
+    Route::get("/dashboard/airtime", function(){ return view("utilities.airtime");});
 });
 
 
