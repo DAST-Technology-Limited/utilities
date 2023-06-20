@@ -20,23 +20,45 @@
 @include("components.preloader")
 
 
-    <div class="container-scroller">
-        <nav class="sidebar sidebar-offcanvas" id="sidebar">
-            <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-              <a class="sidebar-brand brand-logo" href="/"><h1 class="text-light">{{env("APP_NAME")}}</h1></a>
-              <a class="sidebar-brand brand-logo-mini" href="/"><h1>{{env("APP_NAME")}}</h1></a>
+    <div style="
+  background: linear-gradient(#9C27B0,#009688);
+    
+    " class="container-scroller">
+        <nav style="
+  background: rgb(4, 2, 29);
+        
+        "   class="sidebar sidebar-offcanvas" id="sidebar">
+            <div style="
+            background: rgb(4, 2, 29);
+                  
+                  "   class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+              <a class="sidebar-brand brand-logo" href="/"><h1 class="text-light">Dashboard</h1></a>
+              <a class="sidebar-brand brand-logo-mini" href="/"><h1>Dashboard</h1></a>
             </div>
             <ul class="nav">
               <li class="nav-item profile">
                 <div class="profile-desc">
                   <div class="profile-pic">
                     <div class="count-indicator">
-                      <img class="img-xs rounded-circle " src="{{asset('dashboard/assets/img/profile.jfif')}}" alt="">
+                      <img class="img-xs rounded-circle " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZhSGWGJePk37KjtmeLgjgy0hp5zq_zFHkSw&usqp=CAU" alt="">
                       <span class="count bg-success"></span>
                     </div>
                     <div class="profile-name">
                       <h5 class="mb-0 font-weight-normal">{{ucfirst(explode(" ", Auth::user()->name)[0])}}</h5>
-                      <span>Gold Member</span>
+
+
+                      <span>@php
+                        $roleNames = [
+                            1 => 'User',
+                            2 => 'Editor',
+                            3 => 'Admin',
+                        ];
+                    @endphp
+                    
+                    {{ ucfirst($roleNames[Auth::user()->level_id]) }}
+                    
+                      </span>
+                      
                     </div>
                   </div>
                   
@@ -105,24 +127,62 @@
                 </a>
               </li>
               <li class="nav-item menu-items">
-                <a class="nav-link" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="auth">
+                <a class="nav-link" data-toggle="collapse" href="/blogs" aria-expanded="false" aria-controls="auth">
                   <span class="menu-icon">
                     <i class="bi bi-pen-fill text-light"></i>
               
                   </span>
-                  <span class="menu-title">User Pages</span>
+                  <span class="menu-title">Blogs</span>
                  
                 </a>
              
               </li>
-              <li class="nav-item menu-items">
-                <a class="nav-link" href="#">
-                  <span class="menu-icon">
-                    <i class="bi  bi-box text-light"></i>
-                  </span>
-                  <span class="menu-title">Documentation</span>
+              @if (Auth::user() && in_array(Auth::user()->level_id, [2, 3]))
+    <li class="nav-item menu-items">
+        <a class="nav-link" href="/admin">
+            <span class="menu-icon">
+                <i class="bi bi-box text-light"></i>
+            </span>
+            <span class="menu-title">Admin/Editor</span>
+        </a>
+    </li>
+@endif
+
+
+
+
+
+
+
+
+
+              <li style="margin-left:2.3rem;" class="nav-item dropdown">
+              
+
+                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                  <i class="bi bi-box-arrow-right text-light"></i>
+                  {{-- {{ucfirst(explode(" ", Auth::user()->name)[0])}} --}}
                 </a>
-              </li>
+                
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <a style="background: rgb(92, 4, 4);" class="dropdown-item" href="{{ route('logout') }}"
+                       onclick="event.preventDefault();
+                                     document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+                </div>
+            </li>
+       
+
+
+
+
+
+
             </ul>
           </nav>
 
@@ -130,16 +190,25 @@
       <div class="container-fluid page-body-wrapper">
         <nav class="navbar p-0 fixed-top d-flex flex-row">
             <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
-              <a class="navbar-brand brand-logo-mini" href="/"><h1 class="text-light">{{env("APP_NAME")}}</h1></a>
+              <a class="navbar-brand brand-logo-mini" href="/"><h1 class="text-light">Dashboard</h1></a>
             </div>
-            <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <div style="
+            background: rgb(4, 2, 29);
+                  
+                  "   class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
               <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
                
               </button>
-              <ul class="navbar-nav w-100">
+              <ul style="
+              background: rgb(4, 2, 29);
+                    
+                    "   class="navbar-nav w-100">
                 <li class="nav-item w-100">
                   <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
-                    <input type="text" class="form-control" placeholder="Search products">
+                    <input style="
+  background: rgb(4, 2, 29);
+        
+       color:white; "   type="text" class="form-control" placeholder="Search products">
                   </form>
                 </li>
               </ul>
@@ -148,7 +217,7 @@
                 <li class="nav-item ">
                   <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                     <div class="navbar-profile">
-                      <img class="img-xs rounded-circle" src="{{asset('dashboard/assets/img/face-1.jfif')}}" alt="">
+                      <img class="img-xs rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZhSGWGJePk37KjtmeLgjgy0hp5zq_zFHkSw&usqp=CAU" alt="">
                       <p class="mb-0 d-none d-sm-block navbar-profile-name">{{ucfirst(explode(" ", Auth::user()->name)[0])}}</p>
                     </div>
                   </a>

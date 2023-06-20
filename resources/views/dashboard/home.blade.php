@@ -14,8 +14,8 @@
                     <div class="col-4 col-sm-3 col-xl-2">
                       <img src="assets/img/port1.jpg" class="gradient-corona-img img-fluid" alt="">
                     </div>
-                    <div class="col-5 col-sm-7 col-xl-8 p-0">
-                      <h4 class="mb-1 mb-sm-0">Want even more features clem!!?</h4>
+                    <div  class="col-5 col-sm-7 col-xl-8 p-0">
+                      <h4 class="mb-1 mb-sm-0">Want even more features {{ucfirst(explode(" ", Auth::user()->name)[0])}}</h4>
                       <p class="mb-0 font-weight-normal d-none d-sm-block">Stay connected and get news letters!</p>
                     </div>
                     <div class="col-3 col-sm-2 col-xl-2 pl-0 text-center">

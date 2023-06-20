@@ -65,4 +65,9 @@ class User extends Authenticatable
     {
         return $this->hasMany(Utility::class);
     }
+
+    public static function countUsersWithLevelTwo()
+    {
+        return self::where('level_id', 2)->count();
+    }
 }

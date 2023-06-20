@@ -111,9 +111,9 @@ header.shadow .logo{
 .home{
     width: 100%;
     min-height: 440px;
-    /* background: url("https://media.istockphoto.com/id/1131300577/photo/smart-phone-and-laptop-with-blank-screen-on-a-big-sphere-minimal-technology-concept.jpg?s=612x612&w=0&k=20&c=mD1PLo9K-iztuq53AKOttIB_jibi6nX9Qr-X9RJ8RuI="); */
+    /* background: url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJsb2clMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"); */
     background-position: center;
-    background: rgb(1, 1, 72);
+    background: rgb(1, 1, 39);
     background-size: cover;
     color: white;
     display: grid;
@@ -640,14 +640,19 @@ footer p{
 <body>
     <header style="background-color: rgb(1, 1, 38); color: white">
         <div class="nav container">
-            <a href="/dast-blog" class="logo">DAST <span>BLOG</span></a>
+            <a href="/home" class="logo">DAST <span>BLOG</span></a>
             <ul class="dast-blog">
                 <li><a href="">About</a></li>
                 <li><a style="border-bottom: 4px solid rgb(2, 2, 159);" href="/blogs">Blog</a></li>
                 <li><a href="">Account</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Telegram</a></li>
+                <li><a href="">          <img style="width: 30px;"  src="{{ asset('/images/download__1_-removebg-preview.png') }}" alt="dast gpt">
+                </a></li>
+
+
+
+                <li><a href="">          <img style="width: 30px;"  src="{{ asset('/images/download-removebg-preview.png') }}" alt="dast gpt">
+                </a></li>
             </ul>
             <div class="hamburger">
                 <div class="line"></div>

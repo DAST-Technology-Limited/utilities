@@ -290,7 +290,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       
       <div class="product-core-header__ctas ">
-        <a href="" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Join Our Community</a>
+        <a href="https://lnkd.in/deZZhAMM" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Join Our Community</a>
         
           <a href="" class="product-core-header__text--cta-secondary cta--secondary product-core-header__text-multi-cta cms-hero-2">
             Get started 
@@ -407,7 +407,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
                         
                         <div class="hsg-cta-block__cta-wrapper ">
-                          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-marketers-1" href="">
+                          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-marketers-1" href="https://lnkd.in/deZZhAMM
+                          ">
      Join Our Community
     </a>
     <a class="cta--secondary cta--small cms-marketers-2" href="">
