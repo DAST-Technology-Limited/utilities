@@ -91,10 +91,10 @@
 
           <div class="row">
             <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/airtime"><img src="{{asset('/images/s_topup.jpg')}}" class="w-100" alt=""></a></div>
-            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_mtnsmedata.jpg')}}" class="w-100" alt=""></a></div>
-            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_airsmedata.jpg')}}" class="w-100" alt=""></a></div>
-            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_glo.jpg')}}" class="w-100" alt=""></a></div>
-            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_bundles.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/data"><img src="{{asset('/images/s_mtnsmedata.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/data"><img src="{{asset('/images/s_airsmedata.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/data"><img src="{{asset('/images/s_glo.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/data"><img src="{{asset('/images/s_bundles.jpg')}}" class="w-100" alt=""></a></div>
             <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_gotv.jpg')}}" class="w-100" alt=""></a></div>
             <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_dstv.jpg')}}" class="w-100" alt=""></a></div>
             <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_startimes.jpg')}}" class="w-100" alt=""></a></div>
