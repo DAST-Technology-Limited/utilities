@@ -70,6 +70,7 @@ Route::middleware(["auth"])->group(function () {
 
     // Utilities
     Route::get("/dashboard/airtime", function(){ return view("utilities.airtime");});
+    Route::get("/dashboard/data", function(){ return view("utilities.data");});
 });
 
 

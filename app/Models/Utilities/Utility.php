@@ -47,6 +47,30 @@ class Utility extends Model
     }
 
     /**
+     * getDataSize - used to get the actual data size E.G. 500MB = 500, 1GB = 1000
+     * @param: $sise - size in MB OR GB OR TB
+     */
+
+     public static function getDataSize($size)
+     {
+        if (str_contains($size, "MB"))
+        {
+            return explode("MB", $size)[0];
+        }
+        else if(str_contains($size, "GB"))
+        {
+            return explode("GB", $size)[0] * 1000;
+        }
+        else if(str_contains("TB", $size))
+        {
+            return explode("TB", $size)[0] * 1000000;
+        }
+        else {
+            return $size;
+        }
+     }
+
+    /**
      * Function to buy mtn sme data.
      * It is assumed that the utility payloads (App\Models\Utilities\Payloads\SMEDataPayload) has been
      * stored in the 'utiliies' tables so this function fetches 
@@ -168,12 +192,42 @@ class Utility extends Model
     }
 
     /**
+     * buySme() - function to buy an same data based on the network
+     * @param: $network - airtel, 9mobile, glo, mtn
+     * Return: ["status => "sting", "response" => object]
+     */
+
+     public function buySme($network)
+     {
+       if ($network == "airtel")
+        {
+            return $this->buyAirtelSme();
+        }
+        elseif  ($network == "mtn")
+        {
+            return $this->buyMtnSme();
+        }
+        else if ($network == "glo")
+        {
+            return $this->buyGloSme();
+        }
+        else 
+        {
+            return json_encode([
+                "status" => Status::FAILED(),
+                "response" => ""
+            ]);
+        }
+     }
+
+    /**
      * buyDirectData - function to purchase direct data bundles
      * It is expected that 'App\Models\Utilities\Utility' has been
      */
 
     public function buyDirectData()
     {
+        
         try {
             $payload = json_decode($this->payload);
             $this->user->wallet()->debit("ngn", $this->getPrice("1"), "Data purchase - " . $payload->phone, $this->payload);
@@ -184,6 +238,7 @@ class Utility extends Model
             }
 
             $res = json_decode($response);
+           
             if ($res->code == "100") {
                 $this->status = Status::APPROVED();
                 $this->response = $response;

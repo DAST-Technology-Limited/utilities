@@ -63,20 +63,29 @@
                 </a>
               
               </li>
-              <li class="nav-item menu-items">
-                <a class="nav-link" href="/dashboard/tx-history">
-                  <span class="menu-icon">
-                    <i class="bi bi-clock-history"></i>
-                  </span>
-                  <span class="menu-title">Transactions</span>
-                </a>
-              </li>
+              
               <li class="nav-item menu-items">
                 <a class="nav-link" href="/dashboard/airtime">
                   <span class="menu-icon">
                     <i class="bi bi-table"></i>
                   </span>
                   <span class="menu-title">Airtime</span>
+                </a>
+              </li>
+              <li class="nav-item menu-items">
+                <a class="nav-link" href="/dashboard/data">
+                  <span class="menu-icon">
+                    <i class="bi bi-table"></i>
+                  </span>
+                  <span class="menu-title">Data Plan</span>
+                </a>
+              </li>
+              <li class="nav-item menu-items">
+                <a class="nav-link" href="/dashboard/tx-history">
+                  <span class="menu-icon">
+                    <i class="bi bi-clock-history"></i>
+                  </span>
+                  <span class="menu-title">Transactions</span>
                 </a>
               </li>
               <li class="nav-item menu-items">
