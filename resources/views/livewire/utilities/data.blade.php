@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         
-                    <label for="network">Network</label>
+                        <label for="network">Network</label>
                         <select wire:model="network" id="" wire:change="onChooseNetwork()" class="w-100 alert alert-muted">
                             <option value="">Select</option>
                             @foreach($networks as $net)
@@ -31,11 +31,11 @@
                             @foreach($data_types as $dt)
                             <option value="{{$dt}}">{{strtoupper($dt)}}</option>
                             @endforeach
-                        </select> 
+                        </select>
                         @error("data_type")
                         <div class="alert alert-danger">{{$message}}</div>
                         @enderror
-                        
+
                         @if($data_type)
                         <label for="amount">Amount</label>
                         <select wire:model="amount" id="" class="w-100 alert alert-muted">
@@ -43,7 +43,7 @@
                             @foreach($data_list as $data_item)
                             <option value="{{$loop->index}}">{{$data_item["size"]. " ". $data_item["validity"]}} - N{{number_format($data_item["discountAmount"])}}</option>
                             @endforeach
-                           @endif
+                            @endif
                         </select>
                         @error("amount")
                         <div class="alert alert-danger">{{$message}}</div>

@@ -75,6 +75,8 @@ Route::middleware(["auth"])->group(function () {
     // Utilities
     Route::get("/dashboard/airtime", function(){ return view("utilities.airtime");});
     Route::get("/dashboard/data", function(){ return view("utilities.data");});
+    Route::get("/dashboard/waec", function(){ return view("utilities.waec");});
+    Route::get("/dashboard/neco", function(){ return view("utilities.neco");});
 });
 
 

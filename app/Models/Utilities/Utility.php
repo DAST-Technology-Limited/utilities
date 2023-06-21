@@ -314,12 +314,13 @@ class Utility extends Model
 
     public function buyWaec()
     {
-        try {
+        try { 
             $payload = json_decode($this->payload);
             $this->user->wallet()->debit("ngn", $this->getPrice("5"), "WAEC result checker pin", $this->payload);
-
-            $response = file_get_contents("https://mobileairtimeng.com/httpapi/waecdirect?userid=" . $this->userid . "&pass=" . $this->pass . "&jsn=json&user_ref=" . $this->reference);
+          
+            $response = file_get_contents("https://mobileairtimeng.com/httpapi/waecdirect?userid=" . $this->userid . "&pass=" . $this->pass . "&jsn=json&user_ref=" . $this->reference. "");
             $res = json_decode($response);
+
             if ($res->code == "100") {
                 $this->status = Status::APPROVED();
                 $this->response = $response;
@@ -329,7 +330,7 @@ class Utility extends Model
                     "response" => $response
                 ]);
             } else {
-                $this->user->wallet()->credit("ngn", $this->getPrice("5"), "Refund failed WAEC pin purchase " . $payload->phone, $response);
+                $this->user->wallet()->credit("ngn", $this->getPrice("5"), "Refund failed WAEC pin purchase ", $response);
                 $this->status = Status::FAILED();
                 $this->response = $response;
                 $this->save();

@@ -98,8 +98,8 @@
             <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_gotv.jpg')}}" class="w-100" alt=""></a></div>
             <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_dstv.jpg')}}" class="w-100" alt=""></a></div>
             <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_startimes.jpg')}}" class="w-100" alt=""></a></div>
-            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_neco.jpg')}}" class="w-100" alt=""></a></div>
-            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href=""><img src="{{asset('/images/s_waec.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/neco"><img src="{{asset('/images/s_neco.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/waec"><img src="{{asset('/images/s_waec.jpg')}}" class="w-100" alt=""></a></div>
           </div>
 
         </div>
