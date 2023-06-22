@@ -37,8 +37,17 @@ class ProductList
 
     public static function getElectricityList()
     {
-        $response = file_get_contents("http://mobileairtimeng.com/httpapi/power-lists?userid=" . GetAppEnv::getMobileAirtimePhone() . "&pass=" . GetAppEnv::getMobileAirtimeKey());
-        return json_decode($response);
+        try {
+            $response = file_get_contents("http://mobileairtimeng.com/httpapi/power-lists?userid=" . GetAppEnv::getMobileAirtimePhone() . "&pass=" . GetAppEnv::getMobileAirtimeKey());
+            $res = json_decode($response); 
+            if ($res->result)
+            {
+                return $res->result;
+            }
+        } catch (\Throwable $th) {
+            return json_decode(json_encode([]));
+        }
+        return json_decode(json_encode([]));
     }
 
     /**

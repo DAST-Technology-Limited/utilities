@@ -17,7 +17,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body text-danger">
-        Are you sure you want purchase {{$result_checker_name}} Pin at N{{$discountPrice}}
+        Are you sure you want to purchase {{$result_checker_name}} Pin at N{{$discountPrice}}
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>

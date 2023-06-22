@@ -89,7 +89,7 @@
               <li class="nav-item menu-items">
                 <a class="nav-link" href="/dashboard/airtime">
                   <span class="menu-icon">
-                    <i class="bi bi-table"></i>
+                    <i class="bi bi-phone"></i>
                   </span>
                   <span class="menu-title">Airtime</span>
                 </a>
@@ -97,9 +97,17 @@
               <li class="nav-item menu-items">
                 <a class="nav-link" href="/dashboard/data">
                   <span class="menu-icon">
-                    <i class="bi bi-table"></i>
+                    <i class="bi bi-wifi"></i>
                   </span>
                   <span class="menu-title">Data Plan</span>
+                </a>
+              </li>
+              <li class="nav-item menu-items">
+                <a class="nav-link" href="/dashboard/electricity">
+                  <span class="menu-icon">
+                    <i class="bi bi-lightbulb"></i>
+                  </span>
+                  <span class="menu-title">Electricity</span>
                 </a>
               </li>
               <li class="nav-item menu-items">
