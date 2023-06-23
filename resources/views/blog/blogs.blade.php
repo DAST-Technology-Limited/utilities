@@ -16,7 +16,9 @@
             Never miss out again with where blockchain web3 and tech is going! DAST Blog got you covered!
         </p>
         <a href="#blogs" style="background: rgb(1, 1, 92);color:white;" class="btn2">Read more</a>
+        @if (Auth::user() && in_array(Auth::user()->level_id, [2, 3]))
         <a href="/create" style="background: rgb(1, 1, 37);color:white;" class="btn2">Create Post</a>
+        @endif
     </div>
     <div class="imgBx">
         <img src="https://media.istockphoto.com/id/1438623716/photo/black-woman-with-laptop-reading-typing-and-working-for-online-digital-newspaper-marketing-or.webp?b=1&s=170667a&w=0&k=20&c=l6JsW73GP3gWBLPDEdYbDmp-exPW02MRWpjpEzdPjLg=" alt="" class="fitBg">
@@ -27,6 +29,7 @@
 @foreach ($blogs as $blog)
 
     <!-- Post 1 -->
+    
     <div class="post-box tech">
         @if ($blog->image)
         <img class="post-img" src="{{ asset('storage/' . $blog->image) }}" alt="Blog Image">
