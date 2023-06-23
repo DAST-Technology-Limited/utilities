@@ -29,6 +29,7 @@
 @foreach ($blogs as $blog)
 
     <!-- Post 1 -->
+    
     <div class="post-box tech">
         @if ($blog->image)
         <img class="post-img" src="{{ asset('storage/' . $blog->image) }}" alt="Blog Image">
