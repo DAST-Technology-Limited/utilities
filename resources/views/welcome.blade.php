@@ -684,7 +684,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <h5 style="color: rgb(3, 3, 119);" class="home-customers__stat"> <span class="word-by-word">DAST PARTNERS</span></h5>
       <hr>
 
-      <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure  their digital  Assets with DAST products and her partners.We are happy to have you as a partner with DAST Technology.</p>
+      <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure  their digital  Assets with DAST products and her partners. We are happy to have you as a partner with DAST Technology.</p>
     </div>
     <div class="home-customers__logos-grid">
       
@@ -817,7 +817,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
             </div>
           
-        </div><span class="csol-cta-content-block-disclaimer">DAST,providing world-class web3 and AI technology solutions to our clients through innovation, research and development.</span>
+        </div><span class="csol-cta-content-block-disclaimer">DAST, providing world-class web3 and AI technology solutions to our clients through innovation, research and development.</span>
         </div>
 
       
