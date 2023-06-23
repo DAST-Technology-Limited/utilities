@@ -28,11 +28,12 @@ class Electricity extends Component
     public function verifyMeter()
     {
         $res = ProductList::validateMeterNo($this->electricity_list[$this->electricity_index]["product_id"], $this->meter_no);
-        dd($res);
         if ($res->code == "100")
         {
             $this->meter_info = $res->message;
             $this->isMeterVerified = true;
+
+            
         }
         else 
         {
