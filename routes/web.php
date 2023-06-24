@@ -78,6 +78,7 @@ Route::middleware(["auth"])->group(function () {
     Route::get("/dashboard/waec", function(){ return view("utilities.waec");});
     Route::get("/dashboard/neco", function(){ return view("utilities.neco");});
     Route::get("/dashboard/electricity", function(){ return view("utilities.electricity");});
+    Route::get("/dashboard/cable", function(){ return view("utilities.cable");});
 });
 
 
