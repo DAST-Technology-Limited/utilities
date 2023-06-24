@@ -55,7 +55,7 @@
                         <div class="alert alert-danger">{{$message}}</div>
                         @enderror
 
-                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#airtimePurchase">Buy Airtime</button>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#airtimePurchase">Buy Data Plan</button>
                         @if($network != "" && $phone_number != "" && $amount != "")
                         @include("livewire.utilities.inc.confirm_data")
                         @endif
