@@ -7,7 +7,7 @@
 <section class="about container" id="about" style="margin-top:1rem;">
   
     <div class="contentBx">
-@if(Auth::user()->id == $blog->user_id)
+@if(Auth::check() && Auth::user()->id == $blog->user_id)
 
       <form style="margin-right:2.5rem;" action="{{ route('blogs.destroy', $blog->id) }}" method="POST">
         @csrf
