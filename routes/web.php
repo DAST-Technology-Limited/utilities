@@ -93,11 +93,11 @@ Route::post('/image', [ImageController::class, 'store']);
 /////Blog Routing
 Route::get('/dast-blog',[BlogController::class,'index']);
 Route::get('/blogs',[BlogController::class,'blogs']);
-Route::get('/create',[BlogController::class,'create']);
+Route::get('/create',[BlogController::class,'create'])->middleware("auth");
 Route::get('/show/{id}',[BlogController::class,'show']);
-Route::post('/store',[BlogController::class,'store']);
+Route::post('/store',[BlogController::class,'store'])->middleware("auth");
 Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy');
-
+Route::middleware(["auth"])->group(function () {
 Route::get('/blogs/{id}/edit', [BlogController::class, 'edit'])->name('blogs.edit');
 Route::put('/blogs/{id}', [BlogController::class, 'update'])->name('blogs.update');
 Route::get('/admin',[BlogController::class,'admin']);
@@ -108,7 +108,7 @@ Route::put('/blogs/{id}/set-pending', [BlogController::class, 'setPending'])->na
 Route::post('/blogs/{id}/like', [BlogController::class, 'like'])->name('blogs.like');
 Route::post('/blogs/{id}/dislike', [BlogController::class, 'dislike'])->name('blogs.dislike');
 
-
+});
 //comments routing
 Route::post('/comments', [CommentController::class, 'store'])->name('comments.store');
 
