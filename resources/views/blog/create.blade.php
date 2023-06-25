@@ -85,7 +85,7 @@
     <input type="text" id="title" name="title" required><br><br>
 
     <label for="author">Blog author:</label>
-    <input type="text" id="author" name="author" required><br><br>
+    <input type="text" id="author" name="author" value={{Auth::user()->name}} required><br><br>
 
     <label for="details">Blog Details:</label>
     <textarea id="details" name="body" required></textarea><br><br>

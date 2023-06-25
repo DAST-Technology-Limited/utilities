@@ -74,7 +74,7 @@
     <input type="text" id="title" value=" {{$blog->title }}" name="title" required><br><br>
 
     <label for="title">Blog author:</label>
-    <input type="text" value=" {{$blog->author }}" id="title" name="author" required><br><br>
+    <input type="text" value=" {{$blog->author }}" id="title" name="author"  required><br><br>
 
     <label for="details">Blog Details:</label>
     <textarea id="details"  name="body" required> {{$blog->body }}</textarea><br><br>
