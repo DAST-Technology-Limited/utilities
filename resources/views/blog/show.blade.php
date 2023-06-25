@@ -7,7 +7,7 @@
 <section class="about container" id="about" style="margin-top:1rem;">
   
     <div class="contentBx">
-@if(Auth::check() && Auth::user()->id == $blog->user_id)
+      @if(Auth::check() && Auth::user()->id == $blog->user_id)
 
       <form style="margin-right:2.5rem;" action="{{ route('blogs.destroy', $blog->id) }}" method="POST">
         @csrf
@@ -205,17 +205,22 @@
              
 
               <div id="reply-section-comment-{{ $comment->id }}" class="reply-section">
-                  <form class="reply-form" action="{{ route('reply.store', ['comment_id' => $comment->id]) }}" method="POST">
-                      @csrf
-                      <input type="hidden" name="blog_id" value="{{ $blog->id }}">
-                      <input type="hidden" name="comment_id" value="{{ $comment->id }}">
-                      <input type="hidden" id="name" name="name" value="{{ Auth::user()->name }}" required>
+                
+@if(Auth::check() && Auth::user()->name)
 
-                      <label for="reply-{{ $comment->id }}">Your Reply:</label>
-                      <textarea id="reply-{{ $comment->id }}" name="content" required></textarea><br><br>
+<form class="reply-form" action="{{ route('reply.store', ['comment_id' => $comment->id]) }}" method="POST">
+    @csrf
+    <input type="hidden" name="blog_id" value="{{ $blog->id }}">
+    <input type="hidden" name="comment_id" value="{{ $comment->id }}">
+    <input type="hidden" id="name" name="name" value="{{ Auth::user()->name }}" required>
 
-                      <input type="submit" value="Submit">
-                  </form>
+    <label for="reply-{{ $comment->id }}">Your Reply:</label>
+    <textarea id="reply-{{ $comment->id }}" name="content" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+@endif
               </div>
                 {{-- <!-- Display the replies here -->
         @foreach ($comment->replies as $reply)
@@ -238,7 +243,8 @@
           <form action="{{ route('comments.store') }}?comment={{ urlencode(Request::url()) }}" class="reply-form" id="comment" method="POST">
               @csrf
               <input type="hidden" name="blog_id" value="{{ $blog->id }}">
-              <input type="hidden" id="name" name="name" value="{{ Auth::user()->name }}" required>
+              <input type="hidden" id="name" name="name" value="{{ Auth::check() ? Auth::user()->name : '' }}" required>
+
 
               <label for="comment">Leave a Comment:</label>
               <textarea id="comment" name="content" required></textarea><br><br>
