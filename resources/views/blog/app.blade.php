@@ -7,7 +7,8 @@
     <title>DAST BLOG</title>
     <!-- Box-icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-   
+    <script src="https://cdn.tiny.cloud/1/t1z5rqxi98ch2jc0vuqycqv4aniu58hp58fty93l20n17ynx/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+ 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
 *{
@@ -645,7 +646,7 @@ footer p{
                 <li><a href="">About</a></li>
                 <li><a style="border-bottom: 4px solid rgb(2, 2, 159);" href="/blogs">Blog</a></li>
                 <li><a href="">Account</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="/admin">Dashboard</a></li>
                 <li><a href="">          <img style="width: 30px;"  src="{{ asset('/images/download__1_-removebg-preview.png') }}" alt="dast gpt">
                 </a></li>
 
@@ -916,5 +917,17 @@ document.querySelector('.hamburger').addEventListener('click', function() {
 
     </script>
 
+<script>
+    tinymce.init({
+      selector: 'textarea',
+      plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+      toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+      setup: function(editor) {
+        editor.on('change', function(e) {
+          editor.save();
+        });
+      }
+    });
+  </script>
 </body>
 </html>

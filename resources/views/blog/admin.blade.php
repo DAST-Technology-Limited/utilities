@@ -6,7 +6,12 @@
 
    
   
-   
+<style>
+    * .post-description{
+        height: 50px;
+        overflow: hidden;
+    }
+</style>
 
 
 
@@ -43,14 +48,19 @@
     <!-- Post 1 -->
     <div class="post-box tech">
         @if ($blog->image)
+        <a href="/show/{{ $blog->id }}">
         <img class="post-img" src="{{ asset('storage/' . $blog->image) }}" alt="Blog Image">
+        </a>
     @else
+    
+    <a href="/show/{{ $blog->id }}">
         <img src="https://app.dast.tech/assets/images/key.png" alt="Default Image">
+    </a>
     @endif
     <a style="color:{{ $blog->status === 'approved' ? 'green' : ($blog->status === 'pending' ? 'red' : 'rgb(1, 1, 56)') }};" href="/show/{{ $blog->id }}" class="post-title">{{ $blog->title }}</a>
 
         <p>Created at: <span class="post-date">{{ $blog->created_at->format('F d, Y') }}</span></p>
-        <p class="post-description">{{ Str::limit($blog->body, 30) }}</p>
+        <div class="post-description"> <p >{!! $blog->body !!}</p></div>
         <div class="profile">
             <img src="https://media.istockphoto.com/id/1198229233/photo/getting-close-enough-to-capture-the-details.jpg?s=612x612&w=0&k=20&c=8ssdkOODW1LIVQKvvUDB1UrNOeXtGHT0ey6oU2_WVhs=" alt="" class="profile-img">
             <p class="profile-name">Author: {{ $blog->author }}</p>

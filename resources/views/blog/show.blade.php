@@ -20,7 +20,7 @@
 
         <h2 class="titleText">{{ $blog->title }}</h2>
         <p class="title-text">
-          {{$blog->body }}
+          {!! $blog->body !!}
         </p>
         <div style="display:flex; ">
 
