@@ -176,15 +176,9 @@ Route::get('/show/{id}',[BlogController::class,'show']);
 // Route::post('/blogs/{id}/like', [BlogController::class, 'like'])->name('blogs.like');
 // Route::post('/blogs/{id}/dislike', [BlogController::class, 'dislike'])->name('blogs.dislike');
 
-<<<<<<< HEAD
-});
-//comments routing
-Route::post('/comments', [CommentController::class, 'store'])->name('comments.store');
-=======
 
 // //comments routing
 // Route::post('/comments', [CommentController::class, 'store'])->name('comments.store');
->>>>>>> versatile
 
 // ///reply route
 // Route::post('/reply/{comment_id}', [CommentController::class, 'reply'])->name('reply.store');
