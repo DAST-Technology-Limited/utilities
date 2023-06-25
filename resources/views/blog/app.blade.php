@@ -644,7 +644,7 @@ footer p{
             <a href="/home" class="logo">DAST <span>BLOG</span></a>
             <ul class="dast-blog">
                 <li><a href="">About</a></li>
-                <li><a style="border-bottom: 4px solid rgb(2, 2, 159);" href="/blogs">Blog</a></li>
+                <li><a style="border-bottom: 4px solid rgb(2, 2, 159);" href="/dast-blog">Blog</a></li>
                 <li><a href="">Account</a></li>
                 <li><a href="/admin">Dashboard</a></li>
                 <li><a href="">          <img style="width: 30px;"  src="{{ asset('/images/download__1_-removebg-preview.png') }}" alt="dast gpt">
