@@ -91,7 +91,7 @@ Route::get('/blogs',[BlogController::class,'blogs']);
 // auth middleware for blogs
 Route::middleware(['auth'])->group(function () {
     Route::get('/create', [BlogController::class, 'create']);
-    Route::get('/show/{id}', [BlogController::class, 'show']);
+    // Route::get('/show/{id}', [BlogController::class, 'show']);
     Route::post('/store', [BlogController::class, 'store']);
     Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy');
     
@@ -153,7 +153,7 @@ Route::middleware(['auth'])->group(function () {
 
 
 // Route::get('/create',[BlogController::class,'create']);
-// Route::get('/show/{id}',[BlogController::class,'show']);
+Route::get('/show/{id}',[BlogController::class,'show']);
 // Route::post('/store',[BlogController::class,'store']);
 // Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy');
 
