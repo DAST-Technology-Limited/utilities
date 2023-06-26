@@ -98,10 +98,10 @@ class TelegramChatController extends Controller
                         break;
 
                         case "/dast_products":
-                        $data = array("message" => "Discover and Explore DAST Products and their Potential!\n
-                        Experience the future of technology with DAST's groundbreaking products. 
-                        From innovative blockchain solutions to AI-driven technologies, we empower individuals and businesses to thrive in the digital age.
-                        Explore our product lineup and witness the transformative impact of AI/web3 technologies. Unlock new opportunities, enhance efficiency, and stay ahead of the curve with DAST", 
+                        $data = array("message" => "Discover and Explore DAST Products and their Potential!
+                        \n✅Experience the future of technology with DAST's groundbreaking products. 
+                        \n✅From innovative blockchain solutions to AI-driven technologies, we empower individuals and businesses to thrive in the digital age.
+                        \n✅Explore our product lineup and witness the transformative impact of AI/web3 technologies. Unlock new opportunities, enhance efficiency, and stay ahead of the curve with DAST", 
                         "buttons" => [
                             ["Dast Dapp", "https://app.dast.tech"],
                             ["Dast Pay", URL("/dast-pay")],
@@ -116,8 +116,8 @@ class TelegramChatController extends Controller
 
                         case "/dast_partners":
                         $data = array("message" => "Driving Innovation and Collaboration in the Web3 Ecosystem!\n
-                        At DAST, we are proud to collaborate with a diverse network of partners who share our vision of harnessing the power of web3 technology. Together, we are pushing the boundaries of innovation and shaping the future.
-                        Explore our esteemed partners, ranging from leading blockchain projects to cutting-edge tech companies. Join us on this transformative journey and unlock new possibilities in the web3 ecosystem. - NODO News, Vella Finance, Mobile Airtime, MKT, LokDon ", 
+                        \n✅At DAST, we are proud to collaborate with a diverse network of partners who share our vision of harnessing the power of web3 technology. Together, we are pushing the boundaries of innovation and shaping the future.
+                        \n✅Explore our esteemed partners, ranging from leading blockchain projects to cutting-edge tech companies. Join us on this transformative journey and unlock new possibilities in the web3 ecosystem. - NODO News, Vella Finance, Mobile Airtime, MKT, LokDon ", 
                         "buttons" => [
                             ["DAST Partners", URL("/dast-partners")]]);
                         $this->baseTelegram->sendBtnMessage($this->user_id, $data);
@@ -125,10 +125,10 @@ class TelegramChatController extends Controller
 
                         case "/dast_events":
                         $data = array("message" => "Unleash the Power of Web3 Technology at DAST Events!
-                        Discover the latest trends, innovations, and opportunities in the web3 ecosystem. 
-                        Connect with experts, participate in workshops, and explore real-world applications. 
-                        Don't miss out on both virtual and physical DAST events! 
-                        -Releasing of DAST GPT app on 30th June, 2030", 
+                        \n✅Discover the latest trends, innovations, and opportunities in the web3 ecosystem. 
+                        \n✅Connect with experts, participate in workshops, and explore real-world applications. 
+                        \n✅Don't miss out on both virtual and physical DAST events! 
+                        ", 
                         "buttons" => [
                             ["Events", URL("/")]
                         ]);
@@ -137,8 +137,8 @@ class TelegramChatController extends Controller
 
                         case "/dast_jobs":
                         $data = array("message" => "Join a Dynamic Team and Unlock the Potential of Web3 Technology!'n
-                        Are you ready to be part of a forward-thinking company at the forefront of technological innovation? DAST is seeking passionate and talented individuals for placement to help shape the future of web3 technology.
-                        DAST campus Lead across Universities in Africa ", 
+                        \n✅Are you ready to be part of a forward-thinking company at the forefront of technological innovation? DAST is seeking passionate and talented individuals for placement to help shape the future of web3 technology.
+                        \n✅DAST campus Lead across Universities in Africa ", 
                         "buttons" => [["Jobs", URL("/")]]);
                         $this->baseTelegram->sendBtnMessage($this->user_id, $data);
                         break;
@@ -146,9 +146,9 @@ class TelegramChatController extends Controller
 
                         case "/dast_airdrop":
                         $data = array("message" => "Don't Miss Out on Exclusive Airdrops: Join the DAST Community!
-                        As part of our commitment to fostering a vibrant and engaged community, we regularly offer exclusive airdrops to our loyal members. Don't miss the chance to be rewarded with exciting tokens and benefits.
-                        Stay tuned for upcoming airdrops and be part of the DAST community to unlock amazing opportunities. Join us today and be among the first to know about our exclusive airdrop events.
-                        #DASTCommunity #ExclusiveAirdrops #Rewards", 
+                        \n✅As part of our commitment to fostering a vibrant and engaged community, we regularly offer exclusive airdrops to our loyal members. Don't miss the chance to be rewarded with exciting tokens and benefits.
+                        \n✅Stay tuned for upcoming airdrops and be part of the DAST community to unlock amazing opportunities. Join us today and be among the first to know about our exclusive airdrop events.
+                        \n#DASTCommunity #ExclusiveAirdrops #Rewards", 
                         "buttons" => [["Airdrops", URL("/")]]);
                         $this->baseTelegram->sendBtnMessage($this->user_id, $data);
                         break;
