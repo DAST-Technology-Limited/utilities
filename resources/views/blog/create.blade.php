@@ -1,3 +1,9 @@
+
+
+
+
+
+
 @extends('blog.app')
 
 @section('content')
@@ -89,13 +95,7 @@
   </head>
   <body>
     <section class="about container" id="about" style="margin-top:1rem;">
-      <div class="contentBx">
-        <h2 class="titleText">Blog Creation</h2>
-        <p class="title-text">
-          DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses, and organizations.
-        </p>
-        <a href="#create" style="background: rgb(1, 1, 92);color:white;" class="btn2">Create</a>
-      </div>
+      
       <div class="imgBx">
         <img src="https://media.istockphoto.com/id/1425936006/photo/influencer-reviewing-her-live-broadcast-schedule.webp?b=1&s=170667a&w=0&k=20&c=ehFBnmRqVnrByCyTFrYO281sOqSCs2dIbUd5WcPjqIw=" alt="" class="fitBg">
       </div>
@@ -119,5 +119,17 @@
     </form>
   
   
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+@endsection

@@ -136,7 +136,7 @@ public function update(Request $request, Comment $comment)
     $comment->content = $validatedData['content'];
     $comment->save();
 
-    return redirect('/blogs')->with('success', 'Comment updated successfully.');
+    return redirect('/dast-blog')->with('success', 'Comment updated successfully.');
 }
 
 
