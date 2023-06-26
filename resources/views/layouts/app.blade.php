@@ -951,9 +951,7 @@
       <div class="footer-main">
       <div class="footer-site-info">
       <a href="/"><h3 style="">DAST TECH</h3></a>
-      <p class="text-gray-700">Empowering Web3 Adoption, Global Payments and Digital Asset <br> Security Management. <br> <br> DAST is a technology company that provides software development solutions, <br> blockchain solutions and digital services to individuals, businesses and organisations. </p>
-      <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-tm" href="" title="Copyright, Trademark and Patent Information">Copyright 2023 DAST TECHNOLOGY LIMITED.</a> </li>
-      <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-tm" href="" title="Copyright, Trademark and Patent Information">Alright Reserved</a> </li>
+      <p class="text-gray-700">Empowering Web3 Adoption, Global Payments and Digital Asset <br> Security Management. <br>DAST is a technology company that provides software development solutions, <br> blockchain solutions and digital services to individuals, businesses and organisations. </p>
       <ul class="footer-social">
       <li class="mr-8px"><a target="_blank" class="block text-center text-white rounded-full w-32px h-32px hover:text-white pr-10px bg-magenta-700 hover:bg-purple-700" data-action="social-icons" href="https://lnkd.in/dRtGxc6y">
       <span class="sr-only">Facebook</span>
@@ -1005,17 +1003,12 @@
       <div class="footer-list">
       <h2 class="uppercase">Legal stuff</h2>
       <ul>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="">Legal</a></li>
-
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="">Privacy</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="">Terms and conditions</a></li>
-
-
-      {{-- <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="></a></li>DASTPAY --}}
-      {{-- <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-armies">DAST ARMY</a></li> --}}
-
-      {{-- <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" target="_blank" href="/dast-lab">DAST LAB</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-chat">DAST GPT</a></li> --}}
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="https://app.dast.tech/">DASTdAPP</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-partners">DAST Partners</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="></a></li>DASTPAY
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-armies">DAST ARMY</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" target="_blank" href="/dast-lab">DAST LAB</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-chat">DAST GPT</a></li>
       </ul>
       </div>
       
@@ -1023,10 +1016,10 @@
       <div class="footer-list">
       <h2 class="uppercase">Others</h2>
       <ul>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank">Support</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">v.vella</a></li>
       <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" 
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" >FAQs</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" >Blog</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">KT</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">Blocklex</a></li>
      
       </ul>
       </div>

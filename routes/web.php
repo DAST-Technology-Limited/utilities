@@ -106,7 +106,6 @@ Route::group(['middleware' => 'auth'], function () {
     // Route::get('/show/{id}', [BlogController::class, 'show']);
     Route::post('/store', [BlogController::class, 'store']);
     Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy');
-
     Route::get('/blogs/{id}/edit', [BlogController::class, 'edit'])->name('blogs.edit');
     Route::put('/blogs/{id}', [BlogController::class, 'update'])->name('blogs.update');
     Route::get('/admin', [BlogController::class, 'admin']);
@@ -193,6 +192,9 @@ Route::get('/two-places-back', function () {
 
     return redirect($previousUrl);
 });
+
+
+
 
 
 
