@@ -39,9 +39,11 @@
 	<div class="btx-row" style="margin:0 -30px;">
 
 					<div class="btx-text-content btx-col-12" style="padding:0 30px;">
-				<div class="btx-text-content-inner">
+				<div style="margin:1rem;" class="btx-text-content-inner">
+          
 											{{ $blog->title }}<br><br>  {{$blog->body }}	
-                    
+                      {{-- <img src="{{ asset('storage/' . $blog->image) }}" alt="" /> --}}
+                  
                       <div style="display:flex">
 
                       
@@ -97,7 +99,7 @@
 	<div class="btx-image-container">
 		<div class="btx-media-wrapper" style="max-width:100%;"><div class="btx-media-wrapper-inner">
 
-			<img src="{{ asset('storage/' . $blog->image) }}" alt="">
+      <img src="{{ asset('storage/' . $blog->image) }}" alt="" />
 			
 			</div></div>	</div>
 </div>
@@ -349,8 +351,29 @@
     <input type="hidden" id="name" name="name" value="{{ Auth::user()->name }}" required>
 
     <label for="reply-{{ $comment->id }}">Your Reply:</label>
-    <textarea id="reply-{{ $comment->id }}" name="content" required></textarea><br><br>
-
+    <textarea id="reply-{{ $comment->id }}" name="content" required></textarea>
+    <p id="word-count">0/20 words</p>
+    
+    <script>
+      const textarea = document.getElementById("reply-{{ $comment->id }}");
+      const wordCount = document.getElementById("word-count");
+      
+      textarea.addEventListener("input", function() {
+        const content = this.value;
+        const words = content.trim().split(/\s+/);
+        const wordCountText = words.length + "/20 words";
+        
+        if (words.length > 20) {
+          // Truncate the content to the first 20 words
+          const truncatedContent = words.slice(0, 20).join(" ");
+          textarea.value = truncatedContent;
+          wordCountText = "20/20 words";
+        }
+        
+        wordCount.textContent = wordCountText;
+      });
+    </script>
+    
     <input type="submit" value="Submit">
 </form>
 
