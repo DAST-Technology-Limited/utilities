@@ -58,13 +58,58 @@ class TelegramUtilityController extends Controller
 
         try {
             if (count($command_array)) {
-                if ($command_array[0] == "/start") {
-                    $this->baseTelegram->sendWelcome($this->user_id);
-                } else if ($command_array[0] == "/dastgpt") {
-                    $this->baseTelegram->sendBotLink($this->user_id, $this->bot_url, "chat");
-                }else {
-                    $this->baseTelegram->sendWelcome($this->user_id);
+                switch($command_array[0])
+                {
+                    case "/start":
+                        $this->baseTelegram->sendWelcome($this->user_id);
+                        break;
+
+                    case "/dastgpt":
+                        $this->baseTelegram->sendBotLink($this->user_id, $this->bot_url, "chat");
+                        break;
+
+                         $this->baseTelegram->sendWelcome($this->user_id);
+                    case "Airtime":
+                        $data = array("message" => "You can purchase Airtime from our website", "buttons" => [["Buy Airtime", URL("/dashboard/airtime")]]);
+                        $this->baseTelegram->sendBtnMessage($this->user_id, $data);
+                        break;
+
+                    case "Data":
+                        $data = array("message" => "You can purchase Data plan from our website", "buttons" => [["Buy Data Plan", URL("/dashboard/data")]]);
+                        $this->baseTelegram->sendBtnMessage($this->user_id, $data);
+                        break;
+
+                    case "Electricity":
+                        $data = array("message" => "You can pay for electricity bills from our website", "buttons" => [["Pay for electricity bills", URL("/dashboard/electricity")]]);
+                        $this->baseTelegram->sendBtnMessage($this->user_id, $data);
+                        break;
+
+                    case "WAEC":
+                        $data = array("message" => "You can buy WAEC result checker pin from our website", "buttons" => [["Purchase WAEC pins", URL("/dashboard/waec")]]);
+                        $this->baseTelegram->sendBtnMessage($this->user_id, $data);
+                        break;
+
+                    case "NECO":
+                        $data = array("message" => "You can buy NECO result checker pin from our website", "buttons" => [["Purchase NECO pins", URL("/dashboard/neco")]]);
+                        $this->baseTelegram->sendBtnMessage($this->user_id, $data);
+                        break;
+
+                    case "DSTV":
+                    case "STARTIMES":
+                    case "GOTV":
+                        $data = array("message" => "You can subscribe for DSTV, GOVT and STARTIMES from our website", "buttons" => [["Subscribe your cable", URL("/dashboard/cable")]]);
+                        $this->baseTelegram->sendBtnMessage($this->user_id, $data);
+                        break;
+                    default:
+                        $this->baseTelegram->sendWelcome($this->user_id);
                 }
+                // if ($command_array[0] == "/start") {
+                //     $this->baseTelegram->sendWelcome($this->user_id);
+                // } else if ($command_array[0] == "/dastgpt") {
+                //     $this->baseTelegram->sendBotLink($this->user_id, $this->bot_url, "chat");
+                // }else {
+                //     $this->baseTelegram->sendWelcome($this->user_id);
+                // }
             }
         } catch (\Throwable $th) {
         } finally {

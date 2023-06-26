@@ -59,8 +59,6 @@ Route::get('/dast-lab', [DastPagesController::class, 'lab']);
 Route::get('/dast-armies', [DastPagesController::class, 'army']);
 
 
-//// User Verification page
-Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
 
 
 // Funding
@@ -68,17 +66,35 @@ Route::middleware(["auth"])->group(function () {
     Route::get("/funding", function () {
         return view("funding.index");
     });
-    
+
+    //// User Verification page
+    Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
+
+
     Route::get("/funding/confirm", [VellaFinanceController::class, "confirmPayment"]);
-    Route::get("/dashboard/tx-history", function(){ return view("funding.tx-history");});
+    Route::get("/dashboard/tx-history", function () {
+        return view("funding.tx-history");
+    });
 
     // Utilities
-    Route::get("/dashboard/airtime", function(){ return view("utilities.airtime");});
-    Route::get("/dashboard/data", function(){ return view("utilities.data");});
-    Route::get("/dashboard/waec", function(){ return view("utilities.waec");});
-    Route::get("/dashboard/neco", function(){ return view("utilities.neco");});
-    Route::get("/dashboard/electricity", function(){ return view("utilities.electricity");});
-    Route::get("/dashboard/cable", function(){ return view("utilities.cable");});
+    Route::get("/dashboard/airtime", function () {
+        return view("utilities.airtime");
+    });
+    Route::get("/dashboard/data", function () {
+        return view("utilities.data");
+    });
+    Route::get("/dashboard/waec", function () {
+        return view("utilities.waec");
+    });
+    Route::get("/dashboard/neco", function () {
+        return view("utilities.neco");
+    });
+    Route::get("/dashboard/electricity", function () {
+        return view("utilities.electricity");
+    });
+    Route::get("/dashboard/cable", function () {
+        return view("utilities.cable");
+    });
 });
 
 // Auth::routes();
@@ -93,8 +109,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/img', [ImageController::class, 'create']);
 Route::post('/image', [ImageController::class, 'store']);
 /////Blog Routing
-Route::get('/dast-blog',[BlogController::class,'index']);
-Route::get('/blogs',[BlogController::class,'blogs']);
+Route::get('/dast-blog', [BlogController::class, 'index']);
+Route::get('/blogs', [BlogController::class, 'blogs']);
 
 
 // auth middleware for blogs
@@ -103,25 +119,25 @@ Route::middleware(['auth'])->group(function () {
     // Route::get('/show/{id}', [BlogController::class, 'show']);
     Route::post('/store', [BlogController::class, 'store']);
     Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy');
-    
+
     Route::get('/blogs/{id}/edit', [BlogController::class, 'edit'])->name('blogs.edit');
     Route::put('/blogs/{id}', [BlogController::class, 'update'])->name('blogs.update');
     Route::get('/admin', [BlogController::class, 'admin']);
     Route::put('/blogs/{id}/approve', [BlogController::class, 'approve'])->name('blogs.approve');
-    
+
     Route::put('/blogs/{id}/set-pending', [BlogController::class, 'setPending'])->name('blogs.set-pending');
-    
+
     Route::post('/blogs/{id}/like', [BlogController::class, 'like'])->name('blogs.like');
     Route::post('/blogs/{id}/dislike', [BlogController::class, 'dislike'])->name('blogs.dislike');
-    
+
     // comments routing
     Route::post('/comments', [CommentController::class, 'store'])->name('comments.store');
-    
+
     // reply route
     Route::post('/reply/{comment_id}', [CommentController::class, 'reply'])->name('reply.store');
     // fetching replies
     Route::get('/comments/{commentId}/replies', [CommentController::class, 'showReplies'])->name('comments.replies');
-    
+
     // delete comment
     Route::delete('/comments/{comment}', [CommentController::class, 'destroy'])->name('comments.destroy');
     Route::get('/view_replies/{id}', [CommentController::class, 'view_replies'])->name('view_replies');
@@ -129,11 +145,11 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/comments/{comment}/edit', [CommentController::class, 'edit'])->name('comments.edit');
     // update comment
     Route::put('/comments/{comment}', [CommentController::class, 'update'])->name('comments.update');
-    
+
     Route::get('/xclusive', [CommentController::class, 'xclusive']);
     // admin actions
     Route::get('/users/update-level/{user}', [CommentController::class, 'updateLevel'])->name('users.updateLevel');
-    
+
     Route::put('/users/demote-level/{user}', [CommentController::class, 'demoteLevel'])->name('users.demoteLevel');
     // search users
     Route::get('/users/search', [CommentController::class, 'searchUsers'])->name('users.search');
@@ -162,7 +178,7 @@ Route::middleware(['auth'])->group(function () {
 
 
 // Route::get('/create',[BlogController::class,'create']);
-Route::get('/show/{id}',[BlogController::class,'show']);
+Route::get('/show/{id}', [BlogController::class, 'show']);
 // Route::post('/store',[BlogController::class,'store']);
 // Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy');
 
@@ -207,10 +223,3 @@ Route::get('/two-places-back', function () {
 
     return redirect($previousUrl);
 });
-
-
-
-
-
-
-

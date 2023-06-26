@@ -37,9 +37,9 @@ class BaseTelegramController extends Controller
     {
         $bot_types = new BotTypes();
         $msg = $bot_types->getBotPay() == $bot_type ? "DASTPAY" : "DASTGPT";
-        $desc = $bot_types->getBotPay() == $bot_type ? 
-             "DASTPAY - Global payment and utility bills" : 
-             "DASTGPT - Eductional bot powered by CHAPTGPT and DAST Technology";
+        $desc = $bot_types->getBotPay() == $bot_type ?
+            "DASTPAY - Global payment and utility bills" :
+            "DASTGPT - Eductional bot powered by CHAPTGPT and DAST Technology";
         $keyboard = array(
             array(
                 array(
@@ -63,6 +63,36 @@ class BaseTelegramController extends Controller
         $this->sendRequest("sendMessage", $msg1);
     }
 
+    /**
+     * SendBtnMessage - A function to send btn message with InlineKeyBoardMarkUp
+     * @param: data - array("message" => "message", "buttons" => [["BTN", "URL"], ["BTN", "URL]])
+     */
+    public function sendBtnMessage($user_id,  array $data)
+    {
+        $keyboard =  array();
+        foreach ($data["buttons"] as $button) {
+            array_push($keyboard, array(
+                array(
+                    "text" => $button[0],
+                    "url" => $button[1]
+                )
+            ));
+        }
+        
+        $InlineKeyboardMarkup = array(
+            "inline_keyboard" => $keyboard
+        );
+
+
+        $msg1 = array(
+            "chat_id" => $user_id,
+            "text" => $data["message"],
+            "reply_markup" => json_encode($InlineKeyboardMarkup),
+            "parse_mode" => "html"
+        );
+        return $this->sendRequest("sendMessage", $msg1);
+    }
+
     public function sendRequestAuth($user_id, $token)
     {
         $bot_types = new BotTypes();
@@ -73,10 +103,10 @@ class BaseTelegramController extends Controller
                 array(
                     "text" => $msg,
                     "url" => env("MODE") == "local" ?
-                    "https://dast.tech/verify-user/".$user_id."/".$token 
-                    : 
-                    URL("/verify-user/".$user_id."/".$token)
-                    
+                        "https://dast.tech/verify-user/" . $user_id . "/" . $token
+                        :
+                        URL("/verify-user/" . $user_id . "/" . $token)
+
                 )
             )
         );
@@ -92,7 +122,7 @@ class BaseTelegramController extends Controller
             "parse_mode" => "html"
         );
 
-       return $this->sendRequest("sendMessage", $msg1);
+        return $this->sendRequest("sendMessage", $msg1);
     }
 
     public function sendRequest($method, $msg)
@@ -150,6 +180,10 @@ class BaseTelegramController extends Controller
                 array("Data"),
                 array("Electricity"),
                 array("WAEC"),
+                array("NECO"),
+                array("DSTV"),
+                array("STARTIMES"),
+                array("GOTV")
             );
             $ReplyKeyboardMarkup = array(
                 "keyboard" => $keyboard,
