@@ -22,6 +22,208 @@
 <link rel='dns-prefetch' href='//fonts-api.wp.com' />
 <link rel='dns-prefetch' href='//c0.wp.com' />
 
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-164782432-1"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.16';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-164782432-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+							
+														parameters.send_to = monsterinsights_frontend.ua;
+							__gtagDataLayer(type, name, parameters);
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+															__gtagTracker('config', 'UA-164782432-1', {"forceSSL":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/greenkitchenstories.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
 <style type="text/css">
 img.wp-smiley,
 img.emoji {
@@ -55,7 +257,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </style>
 <link rel='stylesheet' id='wpcom-text-widget-styles-css' href='https://greenkitchenstories.com/wp-content/mu-plugins/wpcomsh/vendor/automattic/text-media-widget-styles/css/widget-text.css?ver=20170607' type='text/css' media='all' />
 <link rel='stylesheet' id='advanced-popups-css' href='https://greenkitchenstories.com/wp-content/plugins/advanced-popups/public/css/advanced-popups-public.css?ver=1.1.7' type='text/css' media='all' />
-<link rel='stylesheet' id='contact-form-7-css' href='https://greenkitchenstories.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.7' type='text/css' media='all' />
+
+
 <link rel='stylesheet' id='printomatic-css-css' href='https://greenkitchenstories.com/wp-content/plugins/print-o-matic/css/style.css?ver=2.0' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-layout-css' href='https://c0.wp.com/p/woocommerce/7.8.0/assets/css/woocommerce-layout.css' type='text/css' media='all' />
 <style id='woocommerce-layout-inline-css' type='text/css'>
@@ -66,9 +269,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </style>
 <link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://c0.wp.com/p/woocommerce/7.8.0/assets/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
 <link rel='stylesheet' id='woocommerce-general-css' href='https://c0.wp.com/p/woocommerce/7.8.0/assets/css/woocommerce.css' type='text/css' media='all' />
+
+{{-- 
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
-</style>
+</style> --}}
+
+
 <link rel='stylesheet' id='bateaux-css' href='https://greenkitchenstories.com/wp-content/themes/bateaux/dist/css/main.min.css?ver=1.2.6' type='text/css' media='all' />
 <link rel='stylesheet' id='bateaux-custom-css' href='//greenkitchenstories.com/wp-content/uploads/style-custom.css?ver=5ad1925b' type='text/css' media='all' />
 <link rel='stylesheet' id='wpdreams-asl-basic-css' href='https://greenkitchenstories.com/wp-content/plugins/ajax-search-lite/css/style.basic.css?ver=4.11.2' type='text/css' media='all' />
@@ -79,19 +286,34 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js' id='wp-polyfill-inert-js'></script>
 <script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/dist/vendor/regenerator-runtime.min.js' id='regenerator-runtime-js'></script>
 <script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></script>
-
+<script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/dist/hooks.min.js' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://stats.wp.com/w.js?ver=202326' id='woo-tracks-js'></script>
+<script type='text/javascript' id='layerslider-greensock-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.7.6"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://greenkitchenstories.com/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js?ver=1.19.0' id='layerslider-greensock-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://greenkitchenstories.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.6' id='layerslider-js'></script>
+<script type='text/javascript' src='https://greenkitchenstories.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js?ver=6.7.6' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://greenkitchenstories.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.16' id='monsterinsights-frontend-script-js'></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/greenkitchenstories.com","hash_tracking":"false","ua":"UA-164782432-1","v4_id":""};/* ]]> */
+</script>
+<script type='text/javascript' src='https://greenkitchenstories.com/wp-content/plugins/advanced-popups/public/js/advanced-popups-public.js?ver=1.1.7' id='advanced-popups-js'></script>
+<script defer type='text/javascript' src='https://stats.wp.com/s-202326.js' id='woocommerce-analytics-js'></script>
+<script type='text/javascript' src='//use.typekit.net/fbx0hre.js?ver=6.2.2' id='bateaux-typekit-js'></script>
 <meta name="generator" content="Powered by LayerSlider 6.7.6 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
 <!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
 <link rel="https://api.w.org/" href="https://greenkitchenstories.com/wp-json/" /><link rel="alternate" type="application/json" href="https://greenkitchenstories.com/wp-json/wp/v2/pages/15826" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://greenkitchenstories.com/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://greenkitchenstories.com/wp-includes/wlwmanifest.xml" />
 
-
-
-{{-- 
 <link rel='shortlink' href='https://wp.me/PaCtAc-47g' />
 <link rel="alternate" type="application/json+oembed" href="https://greenkitchenstories.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgreenkitchenstories.com%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://greenkitchenstories.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgreenkitchenstories.com%2F&#038;format=xml" />
-		<link rel="preload" href="https://greenkitchenstories.com/wp-content/plugins/advanced-popups/fonts/advanced-popups-icons.woff" as="font" type="font/woff" crossorigin> --}}
+		<link rel="preload" href="https://greenkitchenstories.com/wp-content/plugins/advanced-popups/fonts/advanced-popups-icons.woff" as="font" type="font/woff" crossorigin>
 			<style>img#wpstats{display:none}</style>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--[if lte IE 9]><style type="text/css">.btx-opacity1 { opacity: 1; }</style><![endif]-->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -926,7 +1148,7 @@ img.btx-fixed-nav-logo, .btx-navbar.btx-navbar--alternate img.btx-navbar-logo--i
 		<div class="btx-navbar-content-wrapper">
 			<ul id="menu-home" class="btx-navbar-nav btx-menu btx-menu-inline-left"><li  id="menu-item-15812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15812"><a href="/">DAST TECH</a></li>
                 
-                <li  id="menu-item-16694" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16694"><a href="#blogs">Blogs</a></li><li  id="menu-item-21928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21928"><a href="/create">create blogs</a></li></ul><ul class="btx-navbar-nav btx-menu btx-menu-inline-right"><li  id="menu-item-17979" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17979"><a href="/register">Account</a></li><li  id="menu-item-15975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15975"><a href="https://lnkd.in/deZZhAMM">Telegram</a></li><li  id="menu-item-16531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16531"><a href="https://lnkd.in/dMZNbBvq">Twitter</a></li>
+                <li  id="menu-item-16694" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16694"><a href="">About</a></li><li  id="menu-item-21928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21928"><a href="#blogs">Our Blogs</a></li></ul><ul class="btx-navbar-nav btx-menu btx-menu-inline-right"><li  id="menu-item-17979" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17979"><a href="/register">Account</a></li><li  id="menu-item-15975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15975"><a href="https://lnkd.in/deZZhAMM">Telegram</a></li><li  id="menu-item-16531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16531"><a href="https://lnkd.in/dMZNbBvq">Twitter</a></li>
                     
                    
                         
@@ -968,7 +1190,7 @@ img.btx-fixed-nav-logo, .btx-navbar.btx-navbar--alternate img.btx-navbar-logo--i
 	<div class="btx-container--fullwidth">
 		<div class="btx-navbar-content-wrapper">
 			<div class="btx-navbar-header">
-				<a class="btx-navbar-brand" href="#">
+				<a class="btx-navbar-brand" href="/">
 DAST TECH
 									</a>
 			</div>
@@ -981,7 +1203,7 @@ DAST TECH
 						<div class="btx-collapsed-menu-inner">
 							<ul id="menu-home-1" class="btx-navbar-nav btx-menu"><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15812"><a href="/dast-blog">DAST TECH</a></li>
                              
-                                <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16694"><a href="">About</a></li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21928"><a href="">Our Blogs</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17979"><a href="">Account</a></li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15975"><a href="">Telegarm</a></li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16531"><a href="">Twitter</a></li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16229">
+                                <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16694"><a href="#about">About</a></li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21928"><a href="#blogs">Our Blogs</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17979"><a href="/register">Account</a></li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15975"><a href="https://lnkd.in/deZZhAMM">Telegarm</a></li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16531"><a href="https://lnkd.in/dMZNbBvq">Twitter</a></li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16229">
                                 
                                     
                                     
@@ -996,7 +1218,6 @@ DAST TECH
 
 		
 	
-
 
 
 
@@ -1036,7 +1257,6 @@ DAST TECH
 		</style>
 		
 		
-			
 		<footer class="btx-footer btx-dark-scheme type-footer-bottombar">
 
 <div class="btx-footer-widgets btx-left-align">
@@ -1047,8 +1267,7 @@ DAST TECH
 																					<div class="btx-footer-column btx-p-border-border btx-col-4">
 			<div class="btx-widgets">
 				<ul class="btx-widgets-list">
-					<li id="text-5" class="widget widget_text">			<div class="textwidget"><p>DAST is a technology company that provides software development solutions,
-blockchain solutions and digital services to individuals, businesses and organisations.</p>
+					<li id="text-5" class="widget widget_text">			<div class="textwidget"><p>Welcome to DAST TECHNOLOGY.DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses and organisations.</p>
 </div>
 </li>
 				</ul>
@@ -1057,7 +1276,7 @@ blockchain solutions and digital services to individuals, businesses and organis
 																															<div class="btx-footer-column btx-p-border-border btx-col-4">
 			<div class="btx-widgets">
 				<ul class="btx-widgets-list">
-					<li id="bateaux_widget_social-3" class="widget btx-widget btx-widget-social"><div class="btx-social"><div class="btx-social-inner"><a href="https://lnkd.in/dRtGxc6y" class="btx-social-item btx-social-facebook" target="_blank"><span class="btx-icon btx-icon--with-hover btx-icon--plain btx-icon--hover-plain btx-icon--small"><span class="btx-icon-normal btx-icon-plain btx-p-text-color" ><i class="twf twf-facebook"></i></span><span class="btx-icon-hover btx-icon-plain btx-p-brand-color" ><i class="twf twf-facebook"></i></span></span></a><a href="https://lnkd.in/deZZhAMM" class="btx-social-item btx-social-instagram" target="_blank"><span class="btx-icon btx-icon--with-hover btx-icon--plain btx-icon--hover-plain btx-icon--small"><span class="btx-icon-normal btx-icon-plain btx-p-text-color" ><i class="twf twf-instagram"></i></span><span class="btx-icon-hover btx-icon-plain btx-p-brand-color" ><i class="twf twf-instagram"></i></span></span></a><a href="https://lnkd.in/deZZhAMM" class="btx-social-item btx-social-youtube" target="_blank"><span class="btx-icon btx-icon--with-hover btx-icon--plain btx-icon--hover-plain btx-icon--small"><span class="btx-icon-normal btx-icon-plain btx-p-text-color" ><i class="twf twf-youtube"></i></span><span class="btx-icon-hover btx-icon-plain btx-p-brand-color" ><i class="twf twf-youtube"></i></span></span></a></div></div></li>
+					<li id="bateaux_widget_social-3" class="widget btx-widget btx-widget-social"><div class="btx-social"><div class="btx-social-inner"><a href="https://lnkd.in/dRtGxc6y" class="btx-social-item btx-social-facebook" target="_blank"><span class="btx-icon btx-icon--with-hover btx-icon--plain btx-icon--hover-plain btx-icon--small"><span class="btx-icon-normal btx-icon-plain btx-p-text-color" ><i class="twf twf-facebook"></i></span><span class="btx-icon-hover btx-icon-plain btx-p-brand-color" ><i class="twf twf-facebook"></i></span></span></a><a href="https://lnkd.in/deZZhAMM" class="btx-social-item btx-social-instagram" target="_blank"><span class="btx-icon btx-icon--with-hover btx-icon--plain btx-icon--hover-plain btx-icon--small"><span class="btx-icon-normal btx-icon-plain btx-p-text-color" ><i class="twf twf-instagram"></i></span><span class="btx-icon-hover btx-icon-plain btx-p-brand-color" ><i class="twf twf-instagram"></i></span></span></a><a href="https://lnkd.in/dMZNbBvq" class="btx-social-item btx-social-youtube" target="_blank"><span class="btx-icon btx-icon--with-hover btx-icon--plain btx-icon--hover-plain btx-icon--small"><span class="btx-icon-normal btx-icon-plain btx-p-text-color" ><i class="twf twf-youtube"></i></span><span class="btx-icon-hover btx-icon-plain btx-p-brand-color" ><i class="twf twf-youtube"></i></span></span></a></div></div></li>
 				</ul>
 			</div>
 		</div>
@@ -1085,8 +1304,8 @@ blockchain solutions and digital services to individuals, businesses and organis
 
 																		<div class="btx-widgets left">
 
-														<div class="widget btx-widget-text">All content is © 2022 by DAST TEAM.
-All rights reserved. Design by  <b><a>TECH TEAM</a></b>.</div>
+														<div class="widget btx-widget-text">All content is © 2022 by TECH TEAM.
+All rights reserved. Design by  <b><a>DAST TEAM</a></b>.</div>
 		
 		
 		
@@ -1104,9 +1323,78 @@ All rights reserved. Design by  <b><a>TECH TEAM</a></b>.</div>
 .sd-social-icon .sd-content ul li a.sd-button>span {
 margin-left: 0;
 }
+</style><script defer id="bilmur" data-provider="wordpress.com" data-service="atomic"  src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202326"></script>
+<!-- Facebook Pixel Code -->
+<noscript>
+<img
+height="1"
+width="1"
+style="display:none"
+alt="fbpx"
+src="https://www.facebook.com/tr?id=216287506677118&ev=PageView&noscript=1"
+/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<script type="text/javascript">
+(function () {
+var c = document.body.className;
+c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+document.body.className = c;
+})();
+</script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/comment-reply.min.js' id='comment-reply-js'></script>
+<script type='text/javascript' id='mediaelement-core-js-before'>
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/mediaelement/mediaelement-and-player.min.js' id='mediaelement-core-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/mediaelement/mediaelement-migrate.min.js' id='mediaelement-migrate-js'></script>
+<script type='text/javascript' id='mediaelement-js-extra'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/mediaelement/wp-mediaelement.min.js' id='wp-mediaelement-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/hoverIntent.min.js' id='hoverIntent-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/6.2.2/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://greenkitchenstories.com/wp-content/themes/bateaux/dist/js/main-vendors.min.js?ver=1.2.6' id='bateaux-main-vendors-js'></script>
+<script type='text/javascript' id='bateaux-js-extra'>
+/* <![CDATA[ */
+var BateauxOptions = {"ajax_url":"https:\/\/greenkitchenstories.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://greenkitchenstories.com/wp-content/themes/bateaux/dist/js/main.min.js?ver=1.2.6' id='bateaux-js'></script>
 
+<script type='text/javascript' id='printomatic-js-js-before'>
+var print_data = {"pom_html_top":"","pom_html_bottom":"","pom_do_not_print":"","pom_pause_time":""}
+</script>
+<script type='text/javascript' src='https://greenkitchenstories.com/wp-content/plugins/print-o-matic/js/printomat.js?ver=2.0.11' id='printomatic-js-js'></script>
+<script type='text/javascript' src='https://greenkitchenstories.com/wp-content/plugins/print-o-matic/js/print_elements.js?ver=1.1' id='pe-js-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/p/woocommerce/7.8.0/assets/js/jquery-blockui/jquery.blockUI.min.js' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/greenkitchenstories.com\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://c0.wp.com/p/woocommerce/7.8.0/assets/js/frontend/add-to-cart.min.js' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/p/woocommerce/7.8.0/assets/js/js-cookie/js.cookie.min.js' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
 
+<script type='text/javascript' id='jetpack-stats-js-after'>
+_stq = window._stq || [];
+_stq.push([ "view", {v:'ext',blog:'156933544',post:'15826',tz:'2',srv:'greenkitchenstories.com',hp:'atomic',ac:'2',amp:'0',j:'1:12.3-a.7'} ]);
+_stq.push([ "clickTrackerInit", "156933544", "15826" ]);
+</script>
 
 
 </body>
 </html>
+<!--
+generated 68 seconds ago
+generated in 0.565 seconds
+served from batcache in 0.003 seconds
+expires in 232 seconds
+-->
