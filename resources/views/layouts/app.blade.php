@@ -952,6 +952,21 @@
       <div class="footer-site-info">
       <a href="/"><h3 style="">DAST TECH</h3></a>
       <p class="text-gray-700">Empowering Web3 Adoption, Global Payments and Digital Asset <br> Security Management. <br>DAST is a technology company that provides software development solutions, <br> blockchain solutions and digital services to individuals, businesses and organisations. </p>
+
+
+      <p class="text-gray-700" style="color:white;"> Copyright 2023 DAST TECHNOLOGY LIMITED <br> Alright Reserved </p>
+
+      <br> 
+     
+    <a href="">  <img style="width: 50px; border-radius: 50%; background: wheat;" src="{{ asset('/images/IMG-20230627-WA0007-removebg-preview.png') }}" alt="dast army">
+    </a>
+
+{{--     
+    <a href="">  <img style="width: 40px; border-radius: 50%; background: wheat;" src="{{ asset('/images/download (3).png') }}" alt="dast army">
+    </a> --}}
+
+
+
       <ul class="footer-social">
       <li class="mr-8px"><a target="_blank" class="block text-center text-white rounded-full w-32px h-32px hover:text-white pr-10px bg-magenta-700 hover:bg-purple-700" data-action="social-icons" href="https://lnkd.in/dRtGxc6y">
       <span class="sr-only">Facebook</span>
@@ -1003,12 +1018,18 @@
       <div class="footer-list">
       <h2 class="uppercase">Legal stuff</h2>
       <ul>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="https://app.dast.tech/">DASTdAPP</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-partners">DAST Partners</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="></a></li>DASTPAY
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-armies">DAST ARMY</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" target="_blank" href="/dast-lab">DAST LAB</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-chat">DAST GPT</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="#">Legal</a></li>
+
+      <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px">
+        <a class="p-0 text-gray-700" data-action="legal" id="footer-pp" href="{{ asset('downloads/Privacy Policy for DAST\'s Website (2).pdf') }}" target="_blank" title="Privacy Policy">Privacy Policy</a>
+      </li>
+<br>
+<br>
+      <li class="block lg:inline">
+        <a class="p-0 text-gray-700" data-action="legal" id="footer-tos" href="{{ asset('downloads/Terms of Use for DAST\'s Website.pdf') }}" title="Terms of Use" target="_blank">Terms and Conditions</a>
+      </li>
+      {{-- <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" target="_blank" href="/dast-lab">DAST LAB</a></li> --}}
+      {{-- <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-chat">DAST GPT</a></li> --}}
       </ul>
       </div>
       
@@ -1016,15 +1037,17 @@
       <div class="footer-list">
       <h2 class="uppercase">Others</h2>
       <ul>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">v.vella</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">Support</a></li>
       <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" 
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">KT</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">Blocklex</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="#">FAQs</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="/dast-blog">Blog</a></li>
      
       </ul>
       </div>
       </div>
       </div>
+{{-- 
+
       <div class="bg-gray-100 legal-text p-24px">
       <ul class="m-0 text-left lg:text-center">
         <li class="block lg:inline">
@@ -1041,7 +1064,7 @@
       <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-tc" href="" title="Terms and Conditions">Terms and Conditions</a> </li>
       <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-ccpa" href="/" title="Do Not Sell My Personal Information.">Do&nbsp;Not&nbsp;Sell My Personal Information</a> </li>
       </ul>
-      </div>
+      </div> --}}
       </footer>
       <script src="https://www.hubspot.com/wt-assets/static-files/2.2.1/core-nav/scripts.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script></div>
       

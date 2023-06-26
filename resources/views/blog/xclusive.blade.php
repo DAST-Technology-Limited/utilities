@@ -5,7 +5,7 @@
 
 
 
-@extends('blog.app')
+
 
 
 
@@ -55,7 +55,7 @@
       
         
 <p>Total Editors: {{ $totalUsersWithLevelTwo }}</p>
-        <a href="#blogs" style="background: rgb(5, 171, 7);color:white;" class="btn2">View Users</a>
+        <a href="/dast-blog" style="background: rgb(5, 171, 7);color:white;" class="btn2">View Blogs</a>
         <a href="/create" style="background: rgb(1, 1, 37);color:white;" class="btn2">Create Post</a>
     </div>
     <div class="imgBx">

@@ -364,40 +364,42 @@
 </style>
 
 
-
-
 <div class="container" id="blogs">
-    <div class="spacer"></div>
-    <div class="blog-grid">
-      @foreach ($blogs as $blog)
-      <article class="blog-entry">
-        <div class="blog-entry-inner">
-          <div class="blog-entry-header">
-            <div class="blog-entry-media">
-              @if ($blog->image)
-              <a class="image-zoom" href="/show/{{ $blog->id }}">
-                <div class="media-wrapper">
-                  <div class="media-wrapper-inner">
-                    <img src="{{ asset('storage/' . $blog->image) }}" alt="" />
-                  </div>
-                </div>
-              </a>
-              @else
-              <img src="https://app.dast.tech/assets/images/key.png" alt="Default Image" />
-              @endif
-            </div>
-          </div>
-          <div class="blog-entry-body">
-            <div class="blog-entry-content">
-             <a style="color:rgb(5, 5, 55);" href="/show/{{ $blog->id }}"> <h4 style="color:rgb(5, 5, 55);" class="blog-entry-title">{{ $blog->title }}</h4></a>
-              <p>Created at: <span class="post-date">{{ $blog->created_at->format('F d, Y') }}</span></p>
-              <div class="blog-entry-excerpt">{{ Str::limit($blog->body, 80) }}</div>
-            </div>
-          </div>
-        </div>
-      </article>
-      @endforeach
-    </div>
+	<div class="spacer"></div>
+	<div class="blog-grid">
+	  @forelse ($blogs as $blog)
+	  <article class="blog-entry">
+		<div class="blog-entry-inner">
+		  <div class="blog-entry-header">
+			<div class="blog-entry-media">
+			  @if ($blog->image)
+			  <a class="image-zoom" href="/show/{{ $blog->id }}">
+				<div class="media-wrapper">
+				  <div class="media-wrapper-inner">
+					<img src="{{ asset('storage/' . $blog->image) }}" alt="" />
+				  </div>
+				</div>
+			  </a>
+			  @else
+			  <img src="https://app.dast.tech/assets/images/key.png" alt="Default Image" />
+			  @endif
+			</div>
+		  </div>
+		  <div class="blog-entry-body">
+			<div class="blog-entry-content">
+			  <a style="color: rgb(5, 5, 55);" href="/show/{{ $blog->id }}">
+				<h4 style="color: rgb(5, 5, 55);" class="blog-entry-title">{{ $blog->title }}</h4>
+			  </a>
+			  <p>Created at: <span class="post-date">{{ $blog->created_at->format('F d, Y') }}</span></p>
+			  <div class="blog-entry-excerpt">{{ Str::limit($blog->body, 80) }}</div>
+			</div>
+		  </div>
+		</div>
+	  </article>
+	  @empty
+	  <p>No blogs found, check back again</p>
+	  @endforelse
+	</div>
   </div>
   {{ $blogs->links() }}
   
@@ -473,7 +475,7 @@
 	<div class="btx-image-container">
 		<div class="btx-media-wrapper" style="max-width:100%;"><div class="btx-media-wrapper-inner">
 
-			<img src="https://digitmoni.com/BlogPhotos/How-to-Become-a-Blockchain-Developer-in-2022WhatsApp%20Image%202021-12-20%20at%206.47.46%20PM.jpeg" alt="">
+			<img src="https://media.istockphoto.com/id/1410392192/photo/asian-cyber-sport-gamer-lose-game.webp?b=1&s=170667a&w=0&k=20&c=y1usry1n9aXJw2cgXjc4ErYlInuo7bi7jL3_Rmdf6Ks=" alt="">
 			
 			</div></div>	</div>
 </div>

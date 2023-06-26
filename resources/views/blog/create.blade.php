@@ -96,7 +96,7 @@
   <body>
     <section class="about container" id="about" style="margin-top:1rem;">
       
-      <div class="imgBx">
+      <div class="imgBx" style="margin-top:1rem;">
         <img src="https://media.istockphoto.com/id/1425936006/photo/influencer-reviewing-her-live-broadcast-schedule.webp?b=1&s=170667a&w=0&k=20&c=ehFBnmRqVnrByCyTFrYO281sOqSCs2dIbUd5WcPjqIw=" alt="" class="fitBg">
       </div>
     </section>
