@@ -1035,6 +1035,8 @@
       </li>
 
 <br>
+<br>
+
       <li class="block lg:inline">
         <a class="p-0 text-gray-700" data-action="legal" id="footer-tos" href="{{ asset('downloads/Terms of Use for DAST\'s Website.pdf') }}" title="Terms of Use" target="_blank">Terms and Conditions</a>
       </li>

@@ -394,51 +394,60 @@
 
 </style>
 
+<div class="container">
+    <div class="spacer"></div>
+    <div class="blog-grid">
+        @if ($blogs->isEmpty())
+            <p>No blogs found. Please check back later.</p>
+        @else
+            @foreach ($blogs as $blog)
+                <article class="blog-entry">
+                    <div class="blog-entry-inner">
+                        <div class="blog-entry-header">
+                            <div class="blog-entry-media">
+                                @if ($blog->image)
+                                    <a class="image-zoom" href="/show/{{ $blog->id }}">
+                                        <div class="media-wrapper">
+                                            <div class="media-wrapper-inner">
+                                                <img src="{{ asset('storage/' . $blog->image) }}" alt="" />
+                                            </div>
+                                        </div>
+                                    </a>
+                                @else
+                                    <img src="https://app.dast.tech/assets/images/key.png" alt="Default Image" />
+                                @endif
+                            </div>
+                        </div>
+                        <div class="blog-entry-body">
+                            <div class="blog-entry-content">
+                                <a style="color:rgb(5, 5, 55);" href="/show/{{ $blog->id }}">
+                                    <h4 style="color:rgb(5, 5, 55);" class="blog-entry-title">{{ $blog->title }}</h4>
+                                </a>
+                                <p>Created at: <span class="post-date">{{ $blog->created_at->format('F d, Y') }}</span></p>
+                                <div class="blog-entry-excerpt">{{ Str::limit($blog->body, 80) }}</div>
+                                <p class="profile-name">Author: {{ $blog->author }}</p>
+                                <p class="profile-name">Status: {{ $blog->status }}</p>
+                                <p class="profile-name">
+                                    Categories:
+                                    @if ($blog->categories->isEmpty())
+                                        No category assigned
+                                    @else
+                                        @foreach ($blog->categories as $category)
+                                            <span>{{ $category->name }}</span>
+                                        @endforeach
+                                    @endif
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            @endforeach
+        @endif
+    </div>
+</div>
 
-<div class="container" id="blogs">
-	<div class="spacer"></div>
-	<div class="blog-grid">
-	  @forelse ($blogs as $blog)
-	  <article class="blog-entry">
-		<div class="blog-entry-inner">
-		  <div class="blog-entry-header">
-			<div class="blog-entry-media">
-			  @if ($blog->image)
-			  <a class="image-zoom" href="/show/{{ $blog->id }}">
-				<div class="media-wrapper">
-				  <div class="media-wrapper-inner">
-					<img src="{{ asset('storage/' . $blog->image) }}" alt="" />
-				  </div>
-				</div>
-			  </a>
-			  @else
-			  <img src="https://app.dast.tech/assets/images/key.png" alt="Default Image" />
-			  @endif
-			</div>
-		  </div>
-		  <div class="blog-entry-body">
-			<div class="blog-entry-content">
-			  <a style="color: rgb(5, 5, 55);" href="/show/{{ $blog->id }}">
-				<h4 style="color: rgb(5, 5, 55);" class="blog-entry-title">{{ $blog->title }}</h4>
-@if ($blog->category)
-    <p>Category: {{ $blog->categories->name }}</p>
-@else
-    <p>No category assigned</p>
-@endif
 
-
-			  </a>
-			  <p>Created at: <span class="post-date">{{ $blog->created_at->format('F d, Y') }}</span></p>
-			  <div class="blog-entry-excerpt">{{ Str::limit($blog->body, 80) }}</div>
-			</div>
-		  </div>
-		</div>
-	  </article>
-	  @empty
-	  <p>No blogs found, check back again</p>
-	  @endforelse
-	</div>
-  </div>
+  
   {{ $blogs->links() }}
   
 

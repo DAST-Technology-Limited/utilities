@@ -18,13 +18,16 @@ class BlogController extends Controller
         $selectedCategoryId = $request->input('category');
 
         $query = Blog::query();
-
+        
         if ($selectedCategoryId) {
-            $query->where('category_id', $selectedCategoryId);
+            $query->whereHas('categories', function ($q) use ($selectedCategoryId) {
+                $q->where('categories.id', $selectedCategoryId); // Specify the table name for 'id' column
+            });
         }
-
+        
         $blogs = $query->where('status', 'approved')->paginate(100);
         $categories = Category::all();
+        
 
         return view('blog.index', compact('blogs', 'categories'));
     }
@@ -55,53 +58,45 @@ class BlogController extends Controller
 
         return view('blog.show', ['blog' => $blog, 'comments' => $comments]);
     }
-
-public function store(Request $request)
-{
-    // Validate the request data
-    $validatedData = $request->validate([
-        'title' => 'required',
-        'author' => 'required',
-        'body' => 'required',
-        'category_id' => 'required|array', // Make sure category_id is an array
-        'category_id.*' => 'exists:categories,id', // Validate each category_id exists in the categories table
-        'image' => 'required|image|max:2048',
-    ]);
-
-    // Get the authenticated user's ID
-    $userId = Auth::id();
-
-    // Store the image file
-    $imagePath = $request->file('image')->store('blog_images', 'public');
-
-    // Create a new blog instance with the validated data
-    $blog = new Blog();
-    $blog->user_id = $userId;
-    $blog->title = $validatedData['title'];
-    $blog->author = $validatedData['author'];
-    $blog->body = $validatedData['body'];
-    $blog->image = $imagePath;
-
-   // Save the blog instance to the database
-if ($blog->save()) {
-    // Attach the selected categories to the blog
-    $blog->categories()->attach($validatedData['category_id']);
-
-    // Success response
-    return redirect('/admin')->with('message', 'Blog created successfully');
-} else {
-    // Error response
-    return response()->json(['error' => 'Failed to store the blog'], 422);
-}
-
-}
-
-
-
-
-
-
-
+    public function store(Request $request)
+    {
+        // Validate the request data
+        $validatedData = $request->validate([
+            'title' => 'required',
+            'author' => 'required',
+            'body' => 'required',
+            'category_id' => 'required|array', // Make sure category_id is an array
+            'category_id.*' => 'exists:categories,id', // Validate each category_id exists in the categories table
+            'image' => 'required|image|max:2048',
+        ]);
+    
+        // Get the authenticated user's ID
+        $userId = Auth::id();
+    
+        // Store the image file
+        $imagePath = $request->file('image')->store('blog_images', 'public');
+    
+        // Create a new blog instance with the validated data
+        $blog = new Blog();
+        $blog->user_id = $userId;
+        $blog->title = $validatedData['title'];
+        $blog->author = $validatedData['author'];
+        $blog->body = $validatedData['body'];
+        $blog->image = $imagePath;
+        
+        // Save the blog instance to the database
+        if ($blog->save()) {
+            // Attach the selected categories to the blog
+            $blog->categories()->attach($validatedData['category_id']);
+    
+            // Success response
+            return redirect('/admin')->with('message', 'Blog created successfully');
+        } else {
+            // Error response
+            return response()->json(['error' => 'Failed to store the blog'], 422);
+        }
+    }
+    
 
 
 

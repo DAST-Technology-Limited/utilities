@@ -27,15 +27,24 @@ class Blog extends Model
         return $this->hasMany(Comment::class);
     }
 
-    public function categories()
+   // Blog.php (model)
+
+public function categories()
 {
-    return $this->belongsToMany(Category::class, 'blog_category');
+    return $this->belongsToMany(Category::class, 'blog_category', 'blog_id', 'category_id');
 }
+
 
 // public function category()
 // {
 //     return $this->belongsTo(Category::class, 'category_id');
 // }
+// Blog.php (model)
+
+public function getCategoryIdsAttribute()
+{
+    return $this->categories->pluck('id');
+}
 
 
 }

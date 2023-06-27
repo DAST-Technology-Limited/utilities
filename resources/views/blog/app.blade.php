@@ -1160,7 +1160,7 @@ img.btx-fixed-nav-logo, .btx-navbar.btx-navbar--alternate img.btx-navbar-logo--i
 </div></div></div></li></ul>
 			
 			<div class="btx-navbar-header">
-				<a class="btx-navbar-brand" href="#blogs">
+				<a class="btx-navbar-brand" href="/dast-blog">
 
 																	DAST BLOGS
 									</a>
