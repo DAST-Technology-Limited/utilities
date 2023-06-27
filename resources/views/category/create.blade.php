@@ -78,20 +78,83 @@
       input[type="submit"] {
         width: 100%;
       }
+
+      
     }
   </style>
-  
+
+ 
   <form action="{{ route('categories.store') }}" method="POST">
-      @csrf
-     <a href="/create"><h4>Create Blog</h4></a>
-      <label for="name">Category Name:</label>
-      <input type="text" id="name" name="name" required><br><br>
-  
-      <label for="description">Category Description:</label>
-      <textarea id="description" name="description" required></textarea><br><br>
-  
-      <input type="submit" value="Create Category">
-  </form>
+
+
+    @if ($errors->any())
+    <div id="error-message" class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
+<script>
+    setTimeout(function() {
+        var errorMessage = document.getElementById('error-message');
+        if (errorMessage) {
+            errorMessage.style.display = 'none';
+        }
+    }, 35000); // 35 seconds in milliseconds
+</script>
+
+    <style>
+      <style>
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+    }
+
+    .alert ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .alert li {
+        margin-bottom: 5px;
+    }
+</style>
+
+    </style>
+    @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
+    @csrf
+    <a href="/create"><h4>Create Blog</h4></a>
+    <label for="name">Category Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="description">Category Description:</label>
+    <textarea id="description" name="description" required></textarea><br><br>
+
+    <input type="submit" value="Create Category">
+</form>
+
+
   
   
   

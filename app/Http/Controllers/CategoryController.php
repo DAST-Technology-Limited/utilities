@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
+
 
 class CategoryController extends Controller
 {
@@ -14,11 +16,10 @@ class CategoryController extends Controller
         return view('category.create');
     }
 
-
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            'name' => 'required',
+            'name' => 'required|unique:categories',
             'description' => 'required',
         ]);
     
@@ -37,5 +38,4 @@ class CategoryController extends Controller
         return redirect('/create');
     }
     
-
 }
