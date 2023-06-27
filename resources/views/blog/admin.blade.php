@@ -339,7 +339,7 @@
 
 .btn2 {
   display: inline-block;
-  padding: 0.2rem;
+  /* padding: 0.2rem; */
   font-size: 1rem;
   /* text-align: center; */
   text-decoration: none;
@@ -386,12 +386,140 @@
 		}, 3000);
 	</script>
 	
-<a href="dast-blog" class="btn2 btn-read-more">Read more</a>
-<a href="/create" class="btn2 btn-create-post">Create Post</a>
-@if (Auth::user() && Auth::user()->level_id == 3)
-    <a href="/xclusive" class="btn2 btn-admin">Admin X</a>
+{{-- <a href="dast-blog" class="btn2 btn-read-more">Read more</a> --}}
+
+
+<style>
+	.overlay {
+		display: none;
+		position: fixed;
+		z-index: 9999;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.categories-container {
+		display: none;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: white;
+		padding: 20px;
+		border-radius: 5px;
+		width: 50%;
+		max-width: 90%;
+		max-height: 90%;
+		overflow: auto;
+	}
+
+	.close-icon {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		cursor: pointer;
+	}
+
+	.categories-table {
+		margin-top: 20px;
+	}
+
+	/* Responsive styles */
+	@media screen and (max-width: 768px) {
+		.categories-container {
+			width: 90%;
+		}
+	}
+</style>
+<script>
+	function showCategories() {
+		var overlay = document.getElementById("overlay");
+		var categoriesContainer = document.getElementById("categories-container");
+
+		overlay.style.display = "block";
+		categoriesContainer.style.display = "block";
+	}
+
+	function hideCategories() {
+		var overlay = document.getElementById("overlay");
+		var categoriesContainer = document.getElementById("categories-container");
+
+		overlay.style.display = "none";
+		categoriesContainer.style.display = "none";
+	}
+</script>
+</head>
+<body>
+<button onclick="showCategories()">View Categories</button>
+
+<div id="overlay" class="overlay">
+	<div id="categories-container" class="categories-container">
+		<span class="close-icon" onclick="hideCategories()">&#10005;</span>
+		<h2>Categories</h2>
+		<div class="categories-table">
+			<table style="border-collapse: collapse; border: 1px solid black;">
+				<thead>
+					<tr>
+						<th style="border: 1px solid black;">Name</th>
+						<th style="border: 1px solid black;">Description</th>
+						<th style="border: 1px solid black;">Actions</th>
+					</tr>
+				</thead>
+				<tbody id="categories-data">
+					@foreach ($categories as $category)
+						<tr>
+							<td style="border: 1px solid black;">{{ $category->name }}</td>
+							<td style="border: 1px solid black;">{{ $category->description }}</td>
+							<td style="border: 1px solid black;">
+								<form action="{{ route('categories.destroy', $category->id) }}" method="POST" onsubmit="return confirmDelete(event)">
+									@csrf
+									@method('DELETE')
+									<button type="submit" title="delete" style="color: red; font-weight: 900; background: none; border: none; cursor: pointer;">
+										&#x2716;
+									</button>
+								</form>
+							</td>
+							
+							<script>
+								function confirmDelete(event) {
+									var confirmDelete = confirm("Are you sure you want to delete this category?");
+							
+									if (!confirmDelete) {
+										event.preventDefault();
+										return false;
+									}
+							
+									return true;
+								}
+							</script>
+							
+							
+							
+
+							<td style="border: 1px solid black;">
+								<a style="color:red; font-weight:900;" title="edit?" href="#" onclick="openEditModal({{ $category->id }})">&#x270E;</a>
+							</td>
+							
+					@endforeach
+				</tbody>
+			</table>
+			
+		</div>
+	</div>
+</div>
+<button>
+<a href="/create" class="">Create Post</a>
+
+</button>
+<button>
+	@if (Auth::user() && Auth::user()->level_id == 3)
+    <a href="/xclusive" class="">Admin X</a>
 @endif
 
+</button>
     
 <style>
 	.btn2 {

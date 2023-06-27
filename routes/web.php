@@ -226,7 +226,7 @@ Route::get('/two-places-back', function () {
 Route::get('/categories/create', [CategoryController::class,'create'])->name('categories.create');
 Route::post('/categories', [CategoryController::class,'store'])->name('categories.store');
 
-
+Route::delete('/categories/{id}', [CategoryController::class, 'destroy'])->name('categories.destroy');
 
 
 

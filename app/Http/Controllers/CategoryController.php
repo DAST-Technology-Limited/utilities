@@ -37,5 +37,23 @@ class CategoryController extends Controller
     
         return redirect('/create');
     }
+
+
+    public function destroy($id)
+    {
+        $category = Category::findOrFail($id);
+        $category->delete();
+
+        return redirect()->back()->with('success', 'Category deleted successfully');
+    }
+
+
+    public function edit($id)
+{
+    $category = Category::findOrFail($id);
+
+    return view('categories.create', compact('category'));
+}
+
     
 }

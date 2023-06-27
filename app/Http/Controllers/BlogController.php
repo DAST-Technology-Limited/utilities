@@ -162,13 +162,16 @@ class BlogController extends Controller
         return redirect('/admin')->with('success', 'Blog updated successfully.');
     }
 
+    
+    
     public function admin()
     {
-        $blogs = Blog::all(); // Paginate with 10 blogs per page
-
-        return view('blog.admin', compact('blogs'));
+        $blogs = Blog::all();
+        $categories = Category::all();
+    
+        return view('blog.admin', compact('blogs', 'categories'));
     }
-
+    
 
 
 
