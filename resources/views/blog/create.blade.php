@@ -148,12 +148,49 @@
       <input type="text" id="author" name="author" required><br><br>
 
       <label for="category_id">Categories:</label>
-<select name="category_id[]" id="category_id" multiple class="multiselect">
-  @foreach($categories as $category)
-    <option value="{{ $category->id }}">{{ $category->name }}</option>
-  @endforeach
-</select><br><br>
+      <div class="checkbox-container">
+        @foreach($categories as $category)
+          <div class="category-item">
+            <input type="checkbox" name="category_id[]" id="category_{{ $category->id }}" value="{{ $category->id }}">
+            <label for="category_{{ $category->id }}">{{ $category->name }}</label>
+          </div>
+        @endforeach
+      </div>
+      
+<style>
+  .checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.category-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.category-item input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.category-item label {
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .category-item {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .category-item {
+    margin-right: 5px;
+  }
+}
+
+</style>
       
 
       <label for="details">Blog Details:</label>

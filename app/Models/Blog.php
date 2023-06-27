@@ -13,7 +13,7 @@ class Blog extends Model
         'title',
         'author',
         'body',
-        'image',
+        'image'
 
 
 
@@ -30,5 +30,11 @@ class Blog extends Model
 {
     return $this->belongsToMany(Category::class, 'blog_category');
 }
+
+// public function category()
+// {
+//     return $this->belongsTo(Category::class, 'category_id');
+// }
+
 
 }
