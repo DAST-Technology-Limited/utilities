@@ -20,11 +20,11 @@ class Category extends Model
 
 
 
-
-
     public function blogs()
-{
-    return $this->hasMany(Blog::class);
-}
+    {
+        return $this->belongsToMany(Blog::class, 'blog_category');
+    }
+    
+    
 
 }

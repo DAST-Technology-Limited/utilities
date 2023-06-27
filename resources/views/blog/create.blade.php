@@ -107,7 +107,12 @@
 
 
    
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.16/css/bootstrap-multiselect.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.16/js/bootstrap-multiselect.min.js"></script>
+    
 
     <form id="create" action="/store" method="post" enctype="multipart/form-data">
       @csrf
@@ -142,12 +147,14 @@
       <label for="author">Blog author:</label>
       <input type="text" id="author" name="author" required><br><br>
 
-      <label for="category_id">Category:</label>
-      <select name="category_id" id="category_id">
-          @foreach($categories as $category)
-          <option value="{{ $category->id }}">{{ $category->name }}</option>
-          @endforeach
-      </select><br><br>
+      <label for="category_id">Categories:</label>
+<select name="category_id[]" id="category_id" multiple class="multiselect">
+  @foreach($categories as $category)
+    <option value="{{ $category->id }}">{{ $category->name }}</option>
+  @endforeach
+</select><br><br>
+
+      
 
       <label for="details">Blog Details:</label>
       <textarea id="details" name="body" required></textarea><br><br>
@@ -160,6 +167,15 @@
 
 
 
+<script>
+  $(document).ready(function() {
+  $('.multiselect').multiselect({
+    buttonWidth: '200px',
+    enableFiltering: true,
+    includeSelectAllOption: true
+  });
+});
 
+</script>
 
 @endsection
