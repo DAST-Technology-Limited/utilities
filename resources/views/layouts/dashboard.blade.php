@@ -76,7 +76,7 @@
                 </a>
               </li>
               <li class="nav-item menu-items">
-                <a class="nav-link" data-toggle="collapse" href="/dashboard/funding" aria-expanded="false" aria-controls="ui-basic">
+                <a class="nav-link" data-toggle="collapse" href="/funding" aria-expanded="false" aria-controls="ui-basic">
                   <span class="menu-icon">
                   <i class="bi bi-currency-dollar text-danger"></i>
                   </span>

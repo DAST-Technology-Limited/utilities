@@ -1,10 +1,10 @@
 DAST CHATGPT COMMANDS
 dastpay - Pay utility bills with dast!
-dast_products - Discover and Explore DAST Products and their Potential!
-dast_partners - Driving Innovation and Collaboration in the Web3 Ecosystem!
-dast_events - Unleash the Power of Web3 Technology at DAST Events!
-dast_jobs - Join a Dynamic Team and Unlock the Potential of Web3 Technology!
-dast_airdrop - Don't Miss Out on Exclusive Airdrops: Join the DAST Community!
+dast_products - Products and Services!
+dast_partners - Partners!
+dast_events - Events!
+dast_jobs - Jobs!
+dast_airdrop - Airdrops!
 
 DAST PAY COMMANDS
 
