@@ -14,13 +14,13 @@
                     <div class="col-4 col-sm-3 col-xl-2">
                       <img src="assets/img/port1.jpg" class="gradient-corona-img img-fluid" alt="">
                     </div>
-                    <div  class="col-5 col-sm-7 col-xl-8 p-0">
-                      <h4 class="mb-1 mb-sm-0">Want even more features {{ucfirst(explode(" ", Auth::user()->name)[0])}}</h4>
-                      <p class="mb-0 font-weight-normal d-none d-sm-block">Stay connected and get news letters!</p>
+                    <div class="col-5 col-sm-7 col-xl-8 p-0">
+                      <h4 class="mb-1 mb-sm-0">Hello {{ucfirst(explode(" ", Auth::user()->name)[0])}} Do you want to start earning referral rewards </h4>
+                      <p class="mb-0 font-weight-normal d-none d-sm-block">Buy cheap and earn more!</p>
                     </div>
                     <div class="col-3 col-sm-2 col-xl-2 pl-0 text-center">
                       <span>
-                        <a href="#" target="_blank" class="btn btn-outline-light btn-rounded get-started-btn">Upgrade to PRO</a>
+                        <a href="/dashboard/pricing" class="btn btn-outline-light btn-rounded get-started-btn">Upgrade to PRO</a>
                       </span>
                     </div>
                   </div>
@@ -38,9 +38,9 @@
                       <div class="d-flex align-items-center align-self-start">
                         <h3 class="mb-0">
                           @if(isset(Auth::user()->wallet()->getBalances()->{$currency->symbol}))
-                            {{Auth::user()->wallet()->getBalances()->{$currency->symbol} }}
+                          {{Auth::user()->wallet()->getBalances()->{$currency->symbol} }}
                           @else
-                            0.0
+                          0.0
                           @endif
                         </h3>
                         <p class="text-success ml-2 mb-0 font-weight-medium">+3.5%</p>
@@ -79,6 +79,36 @@
               </div>
             </div>
           </div>
+
+
+          <div class="row text-center p-5">
+
+
+            <div class="col-12 grid-margin stretch-card">
+              <livewire:subscription.refbuton />
+            </div>
+
+            <div class="col-12">
+              <div class="text-center">
+                <h1>Purchase Utilities</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/airtime"><img src="{{asset('/images/s_topup.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/data"><img src="{{asset('/images/s_mtnsmedata.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/data"><img src="{{asset('/images/s_airsmedata.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/data"><img src="{{asset('/images/s_glo.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/data"><img src="{{asset('/images/s_bundles.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/cable?bill=gotv"><img src="{{asset('/images/s_gotv.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/cable?bill=dstv"><img src="{{asset('/images/s_dstv.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/cable?bill=startimes"><img src="{{asset('/images/s_startimes.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/neco"><img src="{{asset('/images/s_neco.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/waec"><img src="{{asset('/images/s_waec.jpg')}}" class="w-100" alt=""></a></div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3"><a href="/dashboard/electricity"><img src="{{asset('/images/s_electricity.jpg')}}" class="w-100" alt=""></a></div>
+          </div>
+
         </div>
         <!-- content-wrapper ends -->
 

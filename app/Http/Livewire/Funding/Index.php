@@ -15,7 +15,7 @@ class Index extends Component
     public $currencies;
 
     protected $rules = [
-        "amount" => "required|int|min:100",
+        "amount" => "required",
         "currency" => "required"
     ];
 
@@ -39,7 +39,7 @@ class Index extends Component
                 return redirect($data->data->payment_url);
             }
         } catch (\Throwable $th) {
-            //throw $th;
+            throw $th;
         }
     }
     public function render()

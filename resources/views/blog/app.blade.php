@@ -1390,6 +1390,18 @@ _stq.push([ "clickTrackerInit", "156933544", "15826" ]);
 </script>
 
 
+<script>
+    tinymce.init({
+      selector: 'textarea',
+      plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+      toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+      setup: function(editor) {
+        editor.on('change', function(e) {
+          editor.save();
+        });
+      }
+    });
+  </script>
 </body>
 </html>
 <!--

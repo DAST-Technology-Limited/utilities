@@ -383,7 +383,11 @@
       });
     </script>
     
+<<<<<<< HEAD
+    <input type="submit" value="Submit">
+=======
     <input style="background: rgb(1, 1, 54);color:white;" type="submit" value="Submit">
+>>>>>>> versatile
 </form>
 
 @endif

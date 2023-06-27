@@ -60,8 +60,6 @@ Route::get('/dast-lab', [DastPagesController::class, 'lab']);
 Route::get('/dast-armies', [DastPagesController::class, 'army']);
 
 
-//// User Verification page
-Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
 
 
 // Funding
@@ -69,8 +67,38 @@ Route::middleware(["auth"])->group(function () {
     Route::get("/funding", function () {
         return view("funding.index");
     });
-    
+
+    //// User Verification page
+    Route::get("/verify-user/{id}/{token}", [UserAuthController::class, 'viewVerify']);
+
+
     Route::get("/funding/confirm", [VellaFinanceController::class, "confirmPayment"]);
+    Route::get("/dashboard/tx-history", function () {
+        return view("funding.tx-history");
+    });
+
+    // Utilities
+    Route::get("/dashboard/airtime", function () {
+        return view("utilities.airtime");
+    });
+    Route::get("/dashboard/data", function () {
+        return view("utilities.data");
+    });
+    Route::get("/dashboard/waec", function () {
+        return view("utilities.waec");
+    });
+    Route::get("/dashboard/neco", function () {
+        return view("utilities.neco");
+    });
+    Route::get("/dashboard/electricity", function () {
+        return view("utilities.electricity");
+    });
+    Route::get("/dashboard/cable", function () {
+        return view("utilities.cable");
+    });
+    Route::get("/dashboard/pricing", function () {
+        return view("subscription.pricing");
+    });
 });
 
 // Auth::routes();
@@ -148,7 +176,7 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 // Route::get('/create',[BlogController::class,'create']);
-Route::get('/show/{id}',[BlogController::class,'show']);
+Route::get('/show/{id}', [BlogController::class, 'show']);
 // Route::post('/store',[BlogController::class,'store']);
 // Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy');
 
@@ -193,7 +221,6 @@ Route::get('/two-places-back', function () {
 
     return redirect($previousUrl);
 });
-
 
 
 Route::get('/categories/create', [CategoryController::class,'create'])->name('categories.create');

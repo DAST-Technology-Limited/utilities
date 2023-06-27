@@ -70,7 +70,11 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password'])
         ]);
 
-        $user->wallet()->create();
+        $user->wallet()->create(["user_id" => $user->id]);
+        if (session("ref_id")) {
+            $user->referred_by = session("ref_id");
+            $user->save();
+        }
         return $user;
     }
 }

@@ -63,8 +63,14 @@ class Wallet extends Model
         if (!$_currency) {
             throw new Exception("Invalid currency");
         }
-        if ($amount < 0) {
+        if ($amount <= 0 || !is_numeric($amount)) {
             throw new Exception("Invalid amount");
+        }
+
+        if ($amount > $this->getBalance($currency))
+        {
+            
+            throw new Exception("Insufficient balance");
         }
         
         $bal = json_decode($this->balances);

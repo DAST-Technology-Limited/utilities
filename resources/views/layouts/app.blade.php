@@ -880,6 +880,16 @@
             <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/dast-partners">
                DAST PARTNERS <span class="visually-hidden">DAST PARTNERS</span>
             </a>
+            
+            @if(Auth::check())
+            <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/home">
+               Dashboard <span class="visually-hidden">Dashboard</span>
+            </a>
+            @else
+            <a style="background:rgb(246, 246, 247);border:rgb(1, 1, 51); color:rgb(1, 10, 44);" class="cta--features cta--regular cta--secondary ga_nav_link homepage-nav2" data-ga_nav_type="header_nav" data-ga_nav_tree_text="Get started free" href="/login">
+               Login <span class="visually-hidden">Login</span>
+            </a>
+            @endif
       
             
           

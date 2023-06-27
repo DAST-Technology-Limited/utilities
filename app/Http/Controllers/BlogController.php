@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Support\Facades\Redirect;
 
 use App\Models\Blog;
@@ -15,45 +16,45 @@ class BlogController extends Controller
     public function index(Request $request)
     {
         $selectedCategoryId = $request->input('category');
-    
+
         $query = Blog::query();
-    
+
         if ($selectedCategoryId) {
             $query->where('category_id', $selectedCategoryId);
         }
-    
+
         $blogs = $query->where('status', 'approved')->paginate(100);
         $categories = Category::all();
-    
+
         return view('blog.index', compact('blogs', 'categories'));
     }
-    
+
 
     public function blogs()
     {
         $blogs = Blog::where('status', 'approved')->paginate(10);
 
         return view('blog.blogs', compact('blogs'));
-
     }
 
 
 
-    
-    public function create(){
+
+    public function create()
+    {
         $categories = Category::all();
-    return view('blog.create', compact('categories'));
+        return view('blog.create', compact('categories'));
     }
 
-     
+
 
     public function show($id)
-{
-    $blog = Blog::findOrFail($id);
-    $comments = Comment::where('blog_id', $id)->get();
+    {
+        $blog = Blog::findOrFail($id);
+        $comments = Comment::where('blog_id', $id)->get();
 
-    return view('blog.show', ['blog' => $blog, 'comments' => $comments]);
-}
+        return view('blog.show', ['blog' => $blog, 'comments' => $comments]);
+    }
 
 public function store(Request $request)
 {
@@ -95,149 +96,159 @@ if ($blog->save()) {
 
 }
 
-public function destroy($id)
-{
-    $blog = Blog::find($id);
 
-    if (!$blog) {
-        return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+
+
+
+
+
+
+
+
+
+
+    public function destroy($id)
+    {
+        $blog = Blog::find($id);
+
+        if (!$blog) {
+            return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+        }
+
+        // Delete the blog post
+        $blog->delete();
+
+        return redirect('/admin')->with('success', 'Blog deleted successfully.');
     }
 
-    // Delete the blog post
-    $blog->delete();
-
-    return redirect('/admin')->with('success', 'Blog deleted successfully.');
-}
 
 
+    public function edit($id)
+    {
+        $blog = Blog::find($id);
 
-public function edit($id)
-{
-    $blog = Blog::find($id);
+        if (!$blog) {
+            return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+        }
 
-    if (!$blog) {
-        return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+        return view('blog.edit', ['blog' => $blog]);
     }
 
-    return view('blog.edit', ['blog' => $blog]);
-}
+    public function update(Request $request, $id)
+    {
+        $blog = Blog::find($id);
 
-public function update(Request $request, $id)
-{
-    $blog = Blog::find($id);
+        if (!$blog) {
+            return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+        }
 
-    if (!$blog) {
-        return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+        // Validate the request data
+        $request->validate([
+            'title' => 'required',
+            'author' => 'required',
+            'body' => 'required',
+            'image' => 'image|mimes:jpeg,png,jpg,gif|max:2048', // assuming image upload validation rules
+        ]);
+
+        // Update the blog post
+        $blog->title = $request->input('title');
+        $blog->author = $request->input('author');
+        $blog->body = $request->input('body');
+
+        if ($request->hasFile('image')) {
+            // Process and store the updated image
+            // Assuming you have a storage mechanism in place for the image
+            $imagePath = $request->file('image')->store('images', 'public');
+            $blog->image = $imagePath;
+        }
+
+        $blog->save();
+
+        return redirect('/admin')->with('success', 'Blog updated successfully.');
     }
 
-    // Validate the request data
-    $request->validate([
-        'title' => 'required',
-        'author' => 'required',
-        'body' => 'required',
-        'image' => 'image|mimes:jpeg,png,jpg,gif|max:2048', // assuming image upload validation rules
-    ]);
+    public function admin()
+    {
+        $blogs = Blog::all(); // Paginate with 10 blogs per page
 
-    // Update the blog post
-    $blog->title = $request->input('title');
-    $blog->author = $request->input('author');
-    $blog->body = $request->input('body');
-
-    if ($request->hasFile('image')) {
-        // Process and store the updated image
-        // Assuming you have a storage mechanism in place for the image
-        $imagePath = $request->file('image')->store('images', 'public');
-        $blog->image = $imagePath;
+        return view('blog.admin', compact('blogs'));
     }
 
-    $blog->save();
-
-    return redirect('/admin')->with('success', 'Blog updated successfully.');
-}
-
-public function admin()
-{
-    $blogs = Blog::all(); // Paginate with 10 blogs per page
-    
-    return view('blog.admin', compact('blogs'));
-}
 
 
 
 
 
 
+    public function approve($id)
+    {
+        $blog = Blog::find($id);
 
-public function approve($id)
-{
-    $blog = Blog::find($id);
+        if (!$blog) {
+            return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+        }
 
-    if (!$blog) {
-        return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+        // Update the status to "approved"
+        $blog->status = 'approved';
+        $blog->save();
+
+        return redirect('/admin')->with('success', 'Blog approved successfully.');
     }
 
-    // Update the status to "approved"
-    $blog->status = 'approved';
-    $blog->save();
-
-    return redirect('/admin')->with('success', 'Blog approved successfully.');
-}
 
 
 
 
+    public function setPending($id)
+    {
+        $blog = Blog::find($id);
 
-public function setPending($id)
-{
-    $blog = Blog::find($id);
+        if (!$blog) {
+            return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+        }
 
-    if (!$blog) {
-        return redirect()->back()->with('error', 'Blog not found.'); // or handle the case when the blog post is not found
+        // Update the status to "pending"
+        $blog->status = 'pending';
+        $blog->save();
+
+        return redirect('/admin')->with('success', 'Blog set to pending successfully.');
     }
 
-    // Update the status to "pending"
-    $blog->status = 'pending';
-    $blog->save();
 
-    return redirect('/admin')->with('success', 'Blog set to pending successfully.');
-}
+    ///liking and disliking of post
+    public function like($id)
+    {
+        $blog = Blog::find($id);
 
+        if (!$blog) {
+            return redirect()->back()->with('error', 'Blog not found.');
+        }
 
-///liking and disliking of post
-public function like($id)
-{
-    $blog = Blog::find($id);
+        if ($blog->dislikes > 0) {
+            $blog->dislikes--;
+        }
 
-    if (!$blog) {
-        return redirect()->back()->with('error', 'Blog not found.');
+        $blog->likes++;
+        $blog->save();
+
+        return redirect()->back();
     }
 
-    if ($blog->dislikes > 0) {
-        $blog->dislikes--;
+    public function dislike($id)
+    {
+        $blog = Blog::find($id);
+
+        if (!$blog) {
+            return redirect()->back()->with('error', 'Blog not found.');
+        }
+
+        if ($blog->likes > 0) {
+            $blog->likes--;
+        }
+
+        $blog->dislikes++;
+        $blog->save();
+
+        return redirect()->back();
     }
-
-    $blog->likes++;
-    $blog->save();
-
-    return redirect()->back();
-}
-
-public function dislike($id)
-{
-    $blog = Blog::find($id);
-
-    if (!$blog) {
-        return redirect()->back()->with('error', 'Blog not found.');
-    }
-
-    if ($blog->likes > 0) {
-        $blog->likes--;
-    }
-
-    $blog->dislikes++;
-    $blog->save();
-
-    return redirect()->back();
-}
-
 }

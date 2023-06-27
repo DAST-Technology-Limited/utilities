@@ -19,6 +19,7 @@ class VellaFinance extends Model
     public $payment_type;
     private $client;
     private $key;
+    private $api_url;
     public function __construct()
     {
         $this->photo_url = asset("/images/logo.png");
@@ -27,7 +28,9 @@ class VellaFinance extends Model
         $this->redirect_url = URL("/funding/confirm");
         $this->payment_type = "SINGLE";
         $this->client = new Client();
-        $this->key = env("MODE") == 'local' ? env("SANDBOX_VELLA_KEY") : env("LIVE_VELLA_KEY");
+        $this->key = env("MODE") == 'live' ? env("LIVE_VELLA_KEY") : env("SANDBOX_VELLA_KEY");
+        $this->api_url = env("MODE") == 'live' ? env("VELLA_LIVE_API_URL") : env("VELLA_SANDBOX_API_URL");
+    
     }
 
     protected $guarded = [];
@@ -51,9 +54,11 @@ class VellaFinance extends Model
     {
         $currency = $this->currency()->first();
 
-        $response = $this->client->request('POST', 'https://sandbox.vella.finance/api/v1/payment-links/create',
-        [
-            'body' => '{
+        $response = $this->client->request(
+            'POST',
+            $this->api_url.'/api/v1/payment-links/create',
+            [
+                'body' => '{
                 "currency":"' . strtoupper($currency->symbol) . '",
                 "payment_type":"' . $this->payment_type . '",
                 "amount": "' . $this->amount . '",
@@ -64,29 +69,30 @@ class VellaFinance extends Model
                 "payment_type":"' . $this->payment_type . '",
                 "reference":"' . $this->reference . '"
             }',
-            'headers' => [
-                'Authorization' => 'Bearer ' . $this->key,
-                'accept' => 'application/json',
-                'content-type' => 'application/json',
+                'headers' => [
+                    'Authorization' => 'Bearer ' . $this->key,
+                    'accept' => 'application/json',
+                    'content-type' => 'application/json',
+                ]
             ]
-            ]);
+        );
         $this->response = $response->getBody();
+        $data = json_decode($this->response);
+        $this->payment_id = $data->data->id;
         $this->save();
         return $response;
     }
 
     public function confirmPayment()
     {
-        $res = $this->client->request("GET", "https://webhook.site/token/b0c4c8b7-bc1e-45c2-9e60-941b8789ca63/requests");
-        dd($res->getBody()->getContents());
-        $url = 'https://sandbox.vella.finance/api/v1/checkout/transaction/' . $this->reference . '/verify';
+        $url = $this->api_url.'/api/v1/checkout/transaction/' . $this->reference . '/verify';
         $response = $this->client->request('GET', $url, [
             'headers' => [
                 'Authorization' => 'Bearer ' . $this->key,
             ],
         ]);
-        //  $this->response2 = $response->getBody();
-        //  $this->save();
+        $this->response2 = $response->getBody();
+        $this->save();
         return $response;
     }
 }

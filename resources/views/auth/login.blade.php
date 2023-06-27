@@ -65,6 +65,11 @@
                                 @endif
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-12 text-center p-3">
+                                Don't have account? <a href="register">Create one</a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

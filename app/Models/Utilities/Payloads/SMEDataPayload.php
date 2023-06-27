@@ -2,18 +2,16 @@
 
 namespace App\Models\Utilities\Payloads;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 use App\Models\Utilities\Payloads\DataPayload;
 
-class SMEMTNDataPayload extends DataPayload
+class SMEDataPayload extends DataPayload
 {
     public $datasize;
     
     public function __construct(
         $datasize,
-        $network = "1",
-        $phone
+        $phone,
+        $network = "1"
     )
     {
         parent::__construct($phone, $network);

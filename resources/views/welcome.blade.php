@@ -386,7 +386,6 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </div>
         <div class="home-products-feature__card--content">
           <p style="color: rgb(1, 1, 49)"  class="home-products-feature__card--content-description">  DASTPay is the ultimate fintech mobile app designed to revolutionise the way you handle your financial transactions. Seamlessly integrated into major messaging apps, DASTPay empowers you to effortlessly carry out bill payments, mobile payments and cross-border remittance, all in one secure and convenient platform.
-
 </p>
           <div class="home-products-feature__features">
             <h4 class="home-products-feature__card--heading">Popular Features</h4>
@@ -684,7 +683,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <h5 style="color: rgb(3, 3, 119);" class="home-customers__stat"> <span class="word-by-word">DAST PARTNERS</span></h5>
       <hr>
 
-      <p style="color: rgb(1, 1, 49) class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure  their digital  Assets with DAST products and her partners. We are happy to have you as a partner with DAST Technology.</p>
+      <p style="color: rgb(1, 1, 49)" class="home-customers__stat-description" >People all  over the world <strong></strong>  hoping to grow and Secure  their digital  Assets with DAST products and her partners. We are happy to have you as a partner with DAST Technology.</p>
     </div>
     <div class="home-customers__logos-grid">
       
