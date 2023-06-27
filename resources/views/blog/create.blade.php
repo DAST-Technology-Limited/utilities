@@ -157,6 +157,7 @@
         @endforeach
       </div>
       
+      
 <style>
   .checkbox-container {
   display: flex;

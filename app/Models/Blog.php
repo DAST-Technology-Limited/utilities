@@ -13,7 +13,8 @@ class Blog extends Model
         'title',
         'author',
         'body',
-        'image'
+        'image',
+        'category_id'
 
 
 

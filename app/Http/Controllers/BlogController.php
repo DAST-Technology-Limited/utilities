@@ -81,12 +81,16 @@ public function store(Request $request)
     $blog->author = $validatedData['author'];
     $blog->body = $validatedData['body'];
     $blog->image = $imagePath;
+    $blog->category_id = implode(',', $validatedData['category_id']);
 
     // Save the blog instance to the database
     if ($blog->save()) {
+      
         // Attach the selected categories to the blog
         $blog->categories()->attach($validatedData['category_id']);
 
+        // dd($blog);
+ 
         // Success response
         return redirect('/admin')->with('message', 'Blog created successfully');
     } else {
