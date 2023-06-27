@@ -168,7 +168,17 @@
         </a>
     </li>
 @endif
+@if (Auth::user() && in_array(Auth::user()->level_id, [2, 3]))
+<li class="nav-item menu-items">
+  <a class="nav-link" href="audience">
+      <span class="menu-icon">
+          <i class="bi bi-box text-light"></i>
+      </span>
+      <span class="menu-title">Announcements</span>
+  </a>
+</li>
 
+@endif
 
 
 

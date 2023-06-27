@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AudienceController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DastPagesController;
@@ -131,6 +132,14 @@ Route::get('/dast-blog',[BlogController::class,'index']);
 
 
 Route::group(['middleware' => 'auth'], function () {
+
+
+    Route::get('/audience',[AudienceController::class,'index']);
+// Route::get('/audiences', [AudienceController::class, 'index'])->name('audiences.index');
+Route::get('/audiences/create', [AudienceController::class, 'create'])->name('audiences.create');
+Route::post('/audiences', [AudienceController::class, 'store'])->name('audiences.store');
+
+
     Route::get('/create', [BlogController::class, 'create']);
     // Route::get('/show/{id}', [BlogController::class, 'show']);
     Route::post('/store', [BlogController::class, 'store']);
@@ -228,6 +237,9 @@ Route::post('/categories', [CategoryController::class,'store'])->name('categorie
 
 Route::delete('/categories/{id}', [CategoryController::class, 'destroy'])->name('categories.destroy');
 
+
+
+///announcements routes
 
 
 
