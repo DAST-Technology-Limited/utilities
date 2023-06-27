@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Redirect;
 
 use App\Models\Blog;
+use App\Models\Category;
 use App\Models\Comment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -11,11 +12,22 @@ use Illuminate\Support\Facades\Auth;
 class BlogController extends Controller
 {
 
-    public function index(){
-        
-        $blogs = Blog::where('status', 'approved')->paginate(100);
-        return view('blog.index', compact('blogs'));
+    public function index(Request $request)
+    {
+        $selectedCategoryId = $request->input('category');
+    
+        $query = Blog::query();
+    
+        if ($selectedCategoryId) {
+            $query->where('category_id', $selectedCategoryId);
+        }
+    
+        $blogs = $query->where('status', 'approved')->paginate(100);
+        $categories = Category::all();
+    
+        return view('blog.index', compact('blogs', 'categories'));
     }
+    
 
     public function blogs()
     {
@@ -29,7 +41,8 @@ class BlogController extends Controller
 
     
     public function create(){
-        return view('blog.create');
+        $categories = Category::all();
+    return view('blog.create', compact('categories'));
     }
 
      
@@ -52,6 +65,7 @@ class BlogController extends Controller
             'title' => 'required',
             'author' => 'required',
             'body' => 'required',
+            'category_id'=>'required',
             'image' => 'required|image|max:2048', // Assuming image is uploaded as a file input
         ]);
 
@@ -67,6 +81,7 @@ class BlogController extends Controller
         $blog->title = $validatedData['title'];
         $blog->author = $validatedData['author'];
         $blog->body = $validatedData['body'];
+        $blog->category_id = $request->input('category_id');
         $blog->image = $imagePath;
 
         // Save the blog instance to the database
