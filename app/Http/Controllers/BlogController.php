@@ -55,7 +55,6 @@ class BlogController extends Controller
     return view('blog.show', ['blog' => $blog, 'comments' => $comments]);
 }
 
-
 public function store(Request $request)
 {
     // Validate the request data
@@ -81,36 +80,21 @@ public function store(Request $request)
     $blog->author = $validatedData['author'];
     $blog->body = $validatedData['body'];
     $blog->image = $imagePath;
-    $blog->category_id = implode(',', $validatedData['category_id']);
 
-    // Save the blog instance to the database
-    if ($blog->save()) {
-      
-        // Attach the selected categories to the blog
-        $blog->categories()->attach($validatedData['category_id']);
+   // Save the blog instance to the database
+if ($blog->save()) {
+    // Attach the selected categories to the blog
+    $blog->categories()->attach($validatedData['category_id']);
 
-        // dd($blog);
- 
-        // Success response
-        return redirect('/admin')->with('message', 'Blog created successfully');
-    } else {
-        // Error response
-        return response()->json(['error' => 'Failed to store the blog'], 422);
-    }
+    // Success response
+    return redirect('/admin')->with('message', 'Blog created successfully');
+} else {
+    // Error response
+    return response()->json(['error' => 'Failed to store the blog'], 422);
 }
 
+}
 
-
-
-
-
-
-
-
-
-
-
-    
 public function destroy($id)
 {
     $blog = Blog::find($id);
