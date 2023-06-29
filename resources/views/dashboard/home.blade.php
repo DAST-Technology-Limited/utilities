@@ -14,13 +14,13 @@
                     <div class="col-4 col-sm-3 col-xl-2">
                       <img src="assets/img/port1.jpg" class="gradient-corona-img img-fluid" alt="">
                     </div>
-                    <div  class="col-5 col-sm-7 col-xl-8 p-0">
-                      <h4 class="mb-1 mb-sm-0">Want even more features {{ucfirst(explode(" ", Auth::user()->name)[0])}}</h4>
-                      <p class="mb-0 font-weight-normal d-none d-sm-block">Stay connected and get news letters!</p>
+                    <div class="col-5 col-sm-7 col-xl-8 p-0">
+                      <h4 class="mb-1 mb-sm-0">Hello {{ucfirst(explode(" ", Auth::user()->name)[0])}} Do you want to start earning referral rewards </h4>
+                      <p class="mb-0 font-weight-normal d-none d-sm-block">Buy cheap and earn more!</p>
                     </div>
                     <div class="col-3 col-sm-2 col-xl-2 pl-0 text-center">
                       <span>
-                        <a href="#" target="_blank" class="btn btn-outline-light btn-rounded get-started-btn">Upgrade to PRO</a>
+                        <a href="/dashboard/pricing" class="btn btn-outline-light btn-rounded get-started-btn">Upgrade to PRO</a>
                       </span>
                     </div>
                   </div>
@@ -82,6 +82,12 @@
 
 
           <div class="row text-center p-5">
+
+
+            <div class="col-12 grid-margin stretch-card">
+              <livewire:subscription.refbuton />
+            </div>
+
             <div class="col-12">
               <div class="text-center">
                 <h1>Purchase Utilities</h1>

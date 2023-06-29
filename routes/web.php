@@ -95,6 +95,9 @@ Route::middleware(["auth"])->group(function () {
     Route::get("/dashboard/cable", function () {
         return view("utilities.cable");
     });
+    Route::get("/dashboard/pricing", function () {
+        return view("subscription.pricing");
+    });
 });
 
 // Auth::routes();
