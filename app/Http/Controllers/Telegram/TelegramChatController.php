@@ -181,7 +181,7 @@ class TelegramChatController extends Controller
 
                                 ["🔗Follow DAST on Facebook", "https://www.facebook.com/dastofficial1?mibextid=ZbWKwL"],
 
-                                ["🔗Upvote and Review @ Nodo News", "https://nodo.xyz/discover/dast-technology"]
+                                ["🔗Upvote and Review DAST @ Nodo News", "https://nodo.xyz/discover/dast-technology"]
                             ]
                         );
                         $this->baseTelegram->sendBtnMessage($this->user_id, $data);
