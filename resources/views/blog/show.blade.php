@@ -7,10 +7,6 @@
 <section class="about container" id="about" style="margin-top:1rem;">
   
     <div class="contentBx">
-<<<<<<< HEAD
-      @if(Auth::check() && Auth::user()->id == $blog->user_id)
-=======
->>>>>>> 64c77872e40fa12cb5cc344b30d819bc0440c955
 
 
 											
@@ -79,13 +75,6 @@
 
 
 
-<<<<<<< HEAD
-        <h2 class="titleText">{{ $blog->title }}</h2>
-        <p class="title-text">
-          {!! $blog->body !!}
-        </p>
-        <div style="display:flex; ">
-=======
 
 
 
@@ -126,7 +115,6 @@
 
 
 <div style="display:flex; ">
->>>>>>> versatile
 
        
   
@@ -363,10 +351,6 @@
     <input type="hidden" id="name" name="name" value="{{ Auth::user()->name }}" required>
 
     <label for="reply-{{ $comment->id }}">Your Reply:</label>
-<<<<<<< HEAD
-    <textarea id="reply-{{ $comment->id }}" name="content" required></textarea><br><br>
-
-=======
     <textarea id="reply-{{ $comment->id }}" name="content" required></textarea>
     <p id="word-count">0/20 words</p>
     
@@ -390,7 +374,6 @@
       });
     </script>
     
->>>>>>> 64c77872e40fa12cb5cc344b30d819bc0440c955
     <input type="submit" value="Submit">
 </form>
 
