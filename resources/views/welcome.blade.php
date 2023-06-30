@@ -700,11 +700,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       <div class="home-customers__logo-wrapper">
         <img width="90%" style="height: 100%;"  src="{{ asset('/images/IMG-20230530-WA0030.jpg') }}" alt="dast army">
       </div>
+      <div class="home-customers__logo-wrapper">
+        <img width="90%" style="height: 100%;"  src="{{ asset('/images/IMG-20230627-WA0007.jpg') }}" alt="dast army">
+      </div>
     
       {{-- <div class="home-customers__logo-wrapper">
-        <img data-src="https://media.istockphoto.com/id/1389083254/photo/cyber-security-technology-concept-securing-cloud-online-web-systems-hand-levitating-smart.webp?b=1&s=170667a&w=0&k=20&c=LtDwD-V5oJfl_RG3Eym3zstkWQ1eGnYKQoWvWf34Z_s=" alt="WeightWatchers logo" class="home-customers__logo hsg-deferred">
-      </div>
-       --}}
+        <img data-src="{{ asset('/images/IMG-20230627-WA0007.jpg') }}" alt="WeightWatchers logo" class="home-customers__logo hsg-deferred">
+      </div> --}}
+      
       {{-- <div class="home-customers__logo-wrapper">
         <img data-src="https://media.istockphoto.com/id/1391668469/photo/web3-next-generation-world-wide-web-blockchain-technology-with-decentralized-information.webp?b=1&s=170667a&w=0&k=20&c=NNUoL9BDhtoK9Zwf-Wk3Gy1Q8vcTqXAsMKCaG8AuXKU=" alt="tumblr logo" class="home-customers__logo hsg-deferred">
       </div>

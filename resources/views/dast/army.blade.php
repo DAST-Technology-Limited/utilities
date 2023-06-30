@@ -296,9 +296,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 					<p>We invite you to join the prestigious DAST Army, a dedicated group of volunteers who will revolutionise the industry. 
           </p>
 					<div class="hsg-page-header__ctas">
-							<a class="cta--primary cta--medium services-request-hero" data-target-modal="request-information-services" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit">
-   Enrol Now
-    </a>
+						<a class="hsg-full-width-cta-card__cta professional-learnmore" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit" target="_blank" data-mce-target="_blank">
+               Enrol Now
+            </a>
     
 						</div></div>
 			</div>
@@ -454,8 +454,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </div>
       </div>
       <div class="hsg-full-width-cta-card__content">
-				<h4 style="font-size: small;" class="hsg-full-width-cta-card__heading">Not a member?</h4><p class="hsg-full-width-cta-card__description" >Don't miss this incredible opportunity to be part of the selected few who will shape the future of Web3. Join the DAST Army today as a dedicated volunteer and unleash your potential in the Web3 revolution.</p><!-- generateModuleCtas Called --><a class="hsg-full-width-cta-card__cta onboarding-learnmore" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit" target="_blank" data-mce-target="_blank">
-          Apply Now
+				<h4 style="font-size: small;" class="hsg-full-width-cta-card__heading">Not a member?</h4><p class="hsg-full-width-cta-card__description" >Don't miss this incredible opportunity to be part of the selected few who will shape the future of Web3. Join the DAST Army today as a dedicated volunteer and unleash your potential in the Web3 revolution.</p><!-- generateModuleCtas Called -->
+
+      <a class="hsg-full-width-cta-card__cta professional-learnmore" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit" target="_blank" data-mce-target="_blank">
+      Apply Now
     </a>
     
 				
@@ -483,7 +485,8 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         </div>
       </div>
       <div class="hsg-full-width-cta-card__content">
-				<h4 class="hsg-full-width-cta-card__heading">Project Opportunities</h4><p class="hsg-full-width-cta-card__description">The DAST Army is an elite group of volunteers who are passionate about Web3 technologies and are dedicated to making a real impact in the ecosystem. By joining the DAST Army, you become part of a community that is driving innovation and shaping the future of Web3..</p><!-- generateModuleCtas Called --><a class="hsg-full-width-cta-card__cta professional-learnmore" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit" target="_blank" data-mce-target="_blank">
+				<h4 class="hsg-full-width-cta-card__heading">Project Opportunities</h4><p class="hsg-full-width-cta-card__description">The DAST Army is an elite group of volunteers who are passionate about Web3 technologies and are dedicated to making a real impact in the ecosystem. By joining the DAST Army, you become part of a community that is driving innovation and shaping the future of Web3..</p><!-- generateModuleCtas Called -->
+        <a class="hsg-full-width-cta-card__cta professional-learnmore" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit" target="_blank" data-mce-target="_blank">
       Apply Now
     </a>
     
@@ -568,12 +571,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
 <section class="hsg-full-width-cta" data-background="dark"  style="background: rgb(0, 0, 43);">
   <div class="hsg-full-width-cta__wrapper" style="background: rgb(1, 1, 23);">
-    <p></p><p class="hsg-full-width-cta__header csol-full-width-cta-header">Don't miss this incredible opportunity to be part of the select few who will shape the future of Web3. Join the DAST Army today as a dedicated volunteer and unleash your potential in the Web3 revolution.
-      Apply now and be a catalyst for change!.</p><p></p>
+    <p></p><p class="hsg-full-width-cta__header csol-full-width-cta-header">Don't miss this incredible opportunity to be part of the selected few who will shape the future of Web3. Join the DAST Army today as a dedicated volunteer and unleash your potential in the Web3 revolution.
+      Apply now and be a catalyst for change!</p><p></p>
     <div class="hsg-full-width-cta__buttons">
-      <a class="cta--primary cta--medium services-request-middle" data-target-modal="request-information-services" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit">
-        Apply now 
-    </a>
+      <a class="hsg-full-width-cta-card__cta professional-learnmore" href="https://docs.google.com/forms/d/10Db7ENBb10-vW5nvUal8VIv7wCokDYtOmAiT3K0o68Q/edit" target="_blank" data-mce-target="_blank">
+        Apply Now
+      </a>
     
     </div>
   </div>
@@ -614,13 +617,14 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <div class="hsg-page-width-normal hsg-cta-block__inner"  style="background: rgb(1, 1, 23);">
     <div class="hsg-flex hsg-cta-block__content-wrapper">
       <div class="hsg-cta-block__content">
-        <h2 style="font-size:small;" class="hsg-cta-block__header">Get More Information DAST ARMY</h2>
+        <h2 style="font-size:larger; font-weight:800;" class="hsg-cta-block__header">Get More Information DAST ARMY</h2>
         <p class="hsg-cta-block__subheader"> Collaborate with DAST and our partners to execute impactful campaigns and initiatives. Make your voice heard and play an active role in shaping the future of Web3 technologies.</p>
 
         <div class="hsg-cta-block__cta-wrapper">
-          <!-- generateModuleCtas Called --><!--macro 125 {cta_label=Request more information, cta_link={url={type=EXTERNAL, content_id=null, href=https://www.hubspot.com}, open_in_new_tab=false, no_follow=false, sponsored=false, user_generated_content=false, rel=}, modal_id=request-information-services, options={custom_class=services-request-bottom, new_tab=false, no_crawl=false}, smart_rules={label=, type=}, type=modal, video={type=wistia, url={type=EXTERNAL, content_id=null, href=}}} --><a class="cta--primary cta--large services-request-bottom" data-target-modal="request-information-services" href="#">
-      Apply Now
-    </a>
+          <!-- generateModuleCtas Called --><!--macro 125 {cta_label=Request more information, cta_link={url={type=EXTERNAL, content_id=null, href=https://www.hubspot.com}, open_in_new_tab=false, no_follow=false, sponsored=false, user_generated_content=false, rel=}, modal_id=request-information-services, options={custom_class=services-request-bottom, new_tab=false, no_crawl=false}, smart_rules={label=, type=}, type=modal, video={type=wistia, url={type=EXTERNAL, content_id=null, href=}}} -->
+          <a class="hsg-full-width-cta-card__cta professional-learnmore" href="https://calendly.com/dominion_ndubuisi/dast-ambassadors-armies?month=2023-06" target="_blank" data-mce-target="_blank">
+            Book a meeting
+          </a>
     
         </div></div>
 

@@ -112,17 +112,28 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/img', [ImageController::class, 'create']);
 Route::post('/image', [ImageController::class, 'store']);
 /////Blog Routing
-Route::get('/dast-blog', [BlogController::class, 'index']);
-Route::get('/blogs', [BlogController::class, 'blogs']);
+Route::get('/dast-blog',[BlogController::class,'index']);
+// Route::get('/blogs',[BlogController::class,'blogs']);
 
 
-// auth middleware for blogs
-Route::middleware(['auth'])->group(function () {
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::group(['middleware' => 'auth'], function () {
     Route::get('/create', [BlogController::class, 'create']);
     // Route::get('/show/{id}', [BlogController::class, 'show']);
     Route::post('/store', [BlogController::class, 'store']);
     Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy');
-
     Route::get('/blogs/{id}/edit', [BlogController::class, 'edit'])->name('blogs.edit');
     Route::put('/blogs/{id}', [BlogController::class, 'update'])->name('blogs.update');
     Route::get('/admin', [BlogController::class, 'admin']);
@@ -138,47 +149,30 @@ Route::middleware(['auth'])->group(function () {
 
     // reply route
     Route::post('/reply/{comment_id}', [CommentController::class, 'reply'])->name('reply.store');
+
     // fetching replies
     Route::get('/comments/{commentId}/replies', [CommentController::class, 'showReplies'])->name('comments.replies');
 
     // delete comment
     Route::delete('/comments/{comment}', [CommentController::class, 'destroy'])->name('comments.destroy');
     Route::get('/view_replies/{id}', [CommentController::class, 'view_replies'])->name('view_replies');
+
     // edit comment
     Route::get('/comments/{comment}/edit', [CommentController::class, 'edit'])->name('comments.edit');
+
     // update comment
     Route::put('/comments/{comment}', [CommentController::class, 'update'])->name('comments.update');
 
     Route::get('/xclusive', [CommentController::class, 'xclusive']);
+
     // admin actions
     Route::get('/users/update-level/{user}', [CommentController::class, 'updateLevel'])->name('users.updateLevel');
 
     Route::put('/users/demote-level/{user}', [CommentController::class, 'demoteLevel'])->name('users.demoteLevel');
+
     // search users
     Route::get('/users/search', [CommentController::class, 'searchUsers'])->name('users.search');
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Route::get('/create',[BlogController::class,'create']);
 Route::get('/show/{id}', [BlogController::class, 'show']);

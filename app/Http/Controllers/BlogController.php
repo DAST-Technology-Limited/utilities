@@ -13,7 +13,7 @@ class BlogController extends Controller
 
     public function index(){
         
-        $blogs = Blog::where('status', 'approved')->paginate(10);
+        $blogs = Blog::where('status', 'approved')->paginate(100);
         return view('blog.index', compact('blogs'));
     }
 
@@ -153,7 +153,7 @@ public function update(Request $request, $id)
 
 public function admin()
 {
-    $blogs = Blog::paginate(10); // Paginate with 10 blogs per page
+    $blogs = Blog::all(); // Paginate with 10 blogs per page
     
     return view('blog.admin', compact('blogs'));
 }
