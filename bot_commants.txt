@@ -9,4 +9,3 @@ dast_airdrop - Airdrops!
 
 DAST PAY COMMANDS
 
-/
