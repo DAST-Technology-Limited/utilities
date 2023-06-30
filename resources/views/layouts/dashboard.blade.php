@@ -118,7 +118,7 @@
                 </a>
               </li>
               <li class="nav-item menu-items">
-                <a class="nav-link" data-toggle="collapse" href="/blogs" aria-expanded="false" aria-controls="auth">
+                <a class="nav-link" data-toggle="collapse" href="/dast-blog" aria-expanded="false" aria-controls="auth">
                   <span class="menu-icon">
                     <i class="bi bi-pen-fill text-light"></i>
               

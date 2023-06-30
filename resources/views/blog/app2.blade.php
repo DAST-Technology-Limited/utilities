@@ -3,59 +3,17 @@
 @section('content')
 
 
-
-
-
-
-
-
-<style>
-    .contentBx {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.contentBx p {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.btn2 {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 0.25rem;
-  transition: background-color 0.3s ease;
-}
-
-.btn2:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.btn2:first-child {
-  background: rgb(5, 171, 7);
-  color: white;
-}
-
-.btn2:last-child {
-  background: rgb(1, 1, 37);
-  color: white;
-}
-
-</style>
    
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-<section class="about container" id="about" style="margin-top:3rem;">
+<section class="about container" id="about" style="margin-top:1rem;">
     <div class="contentBx">
-      
+        <h2 class="titleText">Admin Actions</h2>
+        <p class="title-text">
+            Never miss out again with where blockchain web3 and tech is going! DAST Blog got you covered!
+        </p>
         
 <p>Total Editors: {{ $totalUsersWithLevelTwo }}</p>
-        <a href="/dast-blog" style="background: rgb(5, 171, 7);color:white;" class="btn2">View Blogs</a>
+        <a href="#blogs" style="background: rgb(5, 171, 7);color:white;" class="btn2">View Users</a>
         <a href="/create" style="background: rgb(1, 1, 37);color:white;" class="btn2">Create Post</a>
     </div>
     <div class="imgBx">
@@ -184,8 +142,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 
-
-
-
-
-@endsection

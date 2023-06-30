@@ -512,7 +512,7 @@
                     </div>
                     
                        <!-- Software -->
-                       <ul style="background: linear-gradient(rgb(1, 1, 49),wheat);" id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
+                       <ul  id="hsg-nav-submenu-1" class="hsg-nav__dropdown-list hsg-nav__dropdown-cards hsg-nav__dropdown-list--1-col hsg-nav__dropdown-variant-c">
                         <li class="hsg-nav__dropdown-list-title">
                           <h2 class="hsg-nav__dropdown-list-title-text" style="color: rgb(1, 1, 49)">DAST</h2>
                         </li>
@@ -952,6 +952,21 @@
       <div class="footer-site-info">
       <a href="/"><h3 style="">DAST TECH</h3></a>
       <p class="text-gray-700">Empowering Web3 Adoption, Global Payments and Digital Asset <br> Security Management. <br>DAST is a technology company that provides software development solutions, <br> blockchain solutions and digital services to individuals, businesses and organisations. </p>
+
+
+      <p class="text-gray-700" style="color:white;"> Copyright 2023 DAST TECHNOLOGY LIMITED <br> Alright Reserved </p>
+
+      <br> 
+     
+    <a href="">  <img style="width: 50px; border-radius: 50%; background: wheat;" src="{{ asset('/images/IMG-20230627-WA0007-removebg-preview.png') }}" alt="dast army">
+    </a>
+
+{{--     
+    <a href="">  <img style="width: 40px; border-radius: 50%; background: wheat;" src="{{ asset('/images/download (3).png') }}" alt="dast army">
+    </a> --}}
+
+
+
       <ul class="footer-social">
       <li class="mr-8px"><a target="_blank" class="block text-center text-white rounded-full w-32px h-32px hover:text-white pr-10px bg-magenta-700 hover:bg-purple-700" data-action="social-icons" href="https://lnkd.in/dRtGxc6y">
       <span class="sr-only">Facebook</span>
@@ -974,12 +989,15 @@
       <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
       </svg>
       </a></li>
-      <li class="mr-8px"><a target="_blank" class="block text-center text-white rounded-full w-32px h-32px hover:text-white pr-10px bg-magenta-700 hover:bg-purple-700" data-action="social-icons" href="https://lnkd.in/dRjwuC-f">
+      <li class="mr-8px"><a target="_blank" class="block text-center text-white rounded-full w-32px h-32px hover:text-white pr-10px bg-magenta-700 hover:bg-purple-700" data-action="social-icons" href="https://lnkd.in/deZZhAMM">
         <span class="sr-only">Instagram</span>
         <svg class="h-full w-16px" viewBox="0 0 448 512">
-        <title>Instagram</title>
-        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+        <title>Telegram</title>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 0c-6.617 0-12 5.383-12 12s5.383 12 12 12 12-5.383 12-12-5.383-12-12-12zm-1.774 18.081l-1.72 5.504 5.555-1.837 2.977 2.319c.29.224.673.278 1.006.141.103-.033.204-.088.295-.17l7.81-6.23-10.923-4.628-4.992 10.838zm8.131-8.413c.266.213.619.277.928.169l2.289-.757c.333-.109.667.056.83.35l1.457 2.666c.135.248.092.556-.107.763l-4.175 4.58c-.164.18-.35.325-.559.421l-2.942 1.276c-.313.135-.666.063-.93-.17l-5.207-4.166-3.123.972c-.288.09-.596.014-.827-.2l-1.862-1.574c-.249-.213-.331-.568-.21-.879l2.527-6.987c.121-.333.422-.558.776-.558h6.739l-.276-1.737c-.048-.248-.027-.499.068-.724l1.35-3.09c.146-.334.475-.563.846-.563l.918.004c.37.001.708.241.834.6l1.559 4.063 4.012.001c.361 0 .694.206.849.532z"/>
         </svg>
+        
+       
         </a></li>
      
       </ul>
@@ -991,35 +1009,45 @@
       <ul>
       <li><a class="text-gray-700 hover:text-gray-1100" data-action="about" href="/dast-about">About Us</a></li>
       
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="about" href="/dast-contact">Contact</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="about" href="/dast-contact">Contact us</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="about" href="#">Carriers</a></li>
+
       
       </ul>
       </div>
       <div class="footer-list">
-      <h2 class="uppercase">Our Products</h2>
+      <h2 class="uppercase">Legal stuff</h2>
       <ul>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="https://app.dast.tech/">DASTdAPP</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-partners">DAST Partners</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="></a></li>DASTPAY
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-armies">DAST ARMY</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" target="_blank" href="/dast-lab">DAST LAB</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-chat">DAST GPT</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="#">Legal</a></li>
+
+      <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px">
+        <a class="p-0 text-gray-700" data-action="legal" id="footer-pp" href="{{ asset('downloads/Privacy Policy for DAST\'s Website (2).pdf') }}" target="_blank" title="Privacy Policy">Privacy Policy</a>
+      </li>
+<br>
+<br>
+      <li class="block lg:inline">
+        <a class="p-0 text-gray-700" data-action="legal" id="footer-tos" href="{{ asset('downloads/Terms of Use for DAST\'s Website.pdf') }}" title="Terms of Use" target="_blank">Terms and Conditions</a>
+      </li>
+      {{-- <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" target="_blank" href="/dast-lab">DAST LAB</a></li> --}}
+      {{-- <li><a class="text-gray-700 hover:text-gray-1100" data-action="services" href="/dast-chat">DAST GPT</a></li> --}}
       </ul>
       </div>
       
      
       <div class="footer-list">
-      <h2 class="uppercase">Our Partners</h2>
+      <h2 class="uppercase">Others</h2>
       <ul>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">v.vella</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">Support</a></li>
       <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" 
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">KT</a></li>
-      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="">Blocklex</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="#">FAQs</a></li>
+      <li><a class="text-gray-700 hover:text-gray-1100" data-action="tmf-affiliates" target="_blank" href="/dast-blog">Blog</a></li>
      
       </ul>
       </div>
       </div>
       </div>
+{{-- 
+
       <div class="bg-gray-100 legal-text p-24px">
       <ul class="m-0 text-left lg:text-center">
         <li class="block lg:inline">
@@ -1036,7 +1064,7 @@
       <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-tc" href="" title="Terms and Conditions">Terms and Conditions</a> </li>
       <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px"><a class="p-0 text-gray-700" data-action="legal" id="footer-ccpa" href="/" title="Do Not Sell My Personal Information.">Do&nbsp;Not&nbsp;Sell My Personal Information</a> </li>
       </ul>
-      </div>
+      </div> --}}
       </footer>
       <script src="https://www.hubspot.com/wt-assets/static-files/2.2.1/core-nav/scripts.js" nonce="7urWKdsavOuOY1tEDAtGXQ=="></script></div>
       
