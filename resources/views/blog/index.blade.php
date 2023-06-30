@@ -485,9 +485,7 @@
 							</div>
 			</div>
 </div>
-
-
-		
+	
 	</article>
 </main>
 

@@ -188,7 +188,7 @@ class TelegramChatController extends Controller
                         break;
 
                     default:
-                        if ($this->sub_details["active_sub"] || $this->sub_details["totalrequests"] < 10) {
+                        if (true || $this->sub_details["active_sub"] || $this->sub_details["totalrequests"] < 10) {
                             $createQuestion = true;
                             $response = $this->handleChat($command);
                             $this->baseTelegram->sendMessage($this->user_id, $response);
