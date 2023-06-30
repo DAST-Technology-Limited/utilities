@@ -102,7 +102,8 @@
 
 														<div class="btx-slider-body btx-s-text-color">
 
-																	<div class="btx-slider-subtitle--top btx-primary-font"><span class="font-style" style="font-size: 11px;"><font color="#ffffff"><span style="caret-color: rgb(255, 255, 255);">C I T Y &nbsp;G U I D E</span></font></span></div>
+																	<div class="btx-slider-subtitle--top btx-primary-font">
+																		{{-- <span class="font-style" style="font-size: 11px;"><font color="#ffffff"><span style="caret-color: rgb(255, 255, 255);">C I T Y &nbsp;G U I D E</span></font></span></div> --}}
 								
 																	<div class="btx-slider-title btx-secondary-font" style="letter-spacing:0px;"><span class="font-style font-style-big" style="font-size: 52px;"><a href="#"><span style="color: rgb(255, 255, 255);">DAST</span><br><span style="color: rgb(255, 255, 255);">TEAM</span></a><a href="#"></a><span style="color: rgb(255, 255, 255);"><a href="#"></a></span></span></div>
 								
@@ -128,32 +129,10 @@
 							<div class="btx-row btx-row--main">
 									<div class="btx-col-12">
 <div class="btx-item js-item-html btx-html">
-	<script>
-  (function(w, d, t, h, s, n) {
-    w.FlodeskObject = n;
-    var fn = function() {
-      (w[n].q = w[n].q || []).push(arguments);
-    };
-    w[n] = w[n] || fn;
-    var f = d.getElementsByTagName(t)[0];
-    var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
-    var sm = d.createElement(t);
-    sm.async = true;
-    sm.type = 'module';
-    sm.src = h + s + '.mjs' + v;
-    f.parentNode.insertBefore(sm, f);
-    var sn = d.createElement(t);
-    sn.async = true;
-    sn.noModule = true;
-    sn.src = h + s + '.js' + v;
-    f.parentNode.insertBefore(sn, f);
-  })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
-</script>
-<script>
-  window.fd('form', {
-    formId: '61544f2a337f1c2aacf5327c'
-  });
-</script></div>
+	
+
+
+</div>
 
 	<div class="btx-item js-item-slider btx-slider btx-slider--fit-height" data-loop="true" data-duration="5000" data-screen_percent="50">
 

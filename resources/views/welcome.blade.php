@@ -4,7 +4,7 @@
 <!doctype html><html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>DAST - Empowering Web3 Adoption, Global Payments, and Digital Asset Management</title>
+    <title>DAST - Empowering Web3 Adoption/AI, Global Payments, and Digital Asset Management</title>
 
 
     <style>
@@ -281,7 +281,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
         
 
 
-        <h3 id="animated-text" style="font-size: x-larger;font-weight:1000;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3 Adoption, Global Payments and Digital Asset Security Management.</h3>
+        <h3 id="animated-text" style="font-size: x-larger;font-weight:1000;" class="homepage-hero-branding-rollout__text-title -secondary">DAST - Empowering Web3/AI Adoption, Global Payments and Digital Asset Security Management.</h3>
 
 
 
