@@ -67,47 +67,6 @@
       input[type="submit"] {
         width: 100%;
       }
-<<<<<<< HEAD
-    }
-  </style>
-</head>
-
-<body>
-  <section class="about container" id="about" style="margin-top:1rem;">
-    <div class="contentBx">
-      <h2 class="titleText">Blog Creation</h2>
-      <p class="title-text">
-        DAST is a technology company that provides software development solutions, blockchain solutions and digital services to individuals, businesses, and organizations.
-      </p>
-      <a href="#create" style="background: rgb(1, 1, 92);color:white;" class="btn2">Create</a>
-    </div>
-    <div class="imgBx">
-      <img src="https://media.istockphoto.com/id/1425936006/photo/influencer-reviewing-her-live-broadcast-schedule.webp?b=1&s=170667a&w=0&k=20&c=ehFBnmRqVnrByCyTFrYO281sOqSCs2dIbUd5WcPjqIw=" alt="" class="fitBg">
-    </div>
-  </section>
-
-  <form id="create" action="/store" method="post" enctype="multipart/form-data">
-    @csrf
-    <label for="title">Blog Title:</label>
-    <input type="text" id="title" name="title" required><br><br>
-
-    <label for="author">Blog author:</label>
-    <input type="text" id="author" name="author" value={{Auth::user()->name}} required><br><br>
-
-    <label for="details">Blog Details:</label>
-    <textarea id="details" name="body" required></textarea><br><br>
-
-    <label for="file">Upload File:</label>
-    <input type="file" id="file" name="image"><br><br>
-
-    <input type="submit" value="Submit">
-  </form>
-
-  
-</body>
-
-</html>
-=======
   
       input[type="submit"]:hover {
         background-color: #45a049;
@@ -166,4 +125,3 @@
 
 
 @endsection
->>>>>>> versatile
