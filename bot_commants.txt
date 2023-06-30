@@ -1,4 +1,5 @@
 DAST CHATGPT COMMANDS
+community - Join DAST Community
 dastpay - Pay utility bills with dast!
 dast_products - Products and Services!
 dast_partners - Partners!

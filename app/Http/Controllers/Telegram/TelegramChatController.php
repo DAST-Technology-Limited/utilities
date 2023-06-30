@@ -152,6 +152,32 @@ class TelegramChatController extends Controller
                         "buttons" => [["Airdrops", URL("/")]]);
                         $this->baseTelegram->sendBtnMessage($this->user_id, $data);
                         break;
+
+                        case "/community":
+                        $data = array("message" => "
+                        \n📣 Hey there DASTGPT Bot users!  
+                        \n👋 Looking to connect with like-minded individuals who share your interest in DAST? 
+                        \n🌟 Join our thriving DAST communities today!  
+                        \n🌐 Share insights, tips, and challenges with fellow enthusiasts who understand your passion.  
+                        \n🤝 Together, let's explore the world of DAST ecosystem and take our skills and networks to new heights!  
+                        \n🚀 #JoinDASTCommunities Today
+                        ", 
+                        "buttons" => [
+                        ["🔗Join DAST Telegram Channel", " https://t.me/dast_announcement"],
+
+                        ["🔗Join DAST Telegram Group", " https://t.me/dastofficialtg"],
+
+                        ["🔗Follow DAST on Linkedin", " https://www.linkedin.com/company/dast-tech/ "],
+
+                        ["🔗Follow DAST on Twitter ", " https://twitter.com/DastCommunity?s=09 "],
+
+                        ["🔗Follow DAST on Facebook", " https://www.facebook.com/dastofficial1?mibextid=ZbWKwL"],
+
+                        ["🔗Upvote and Review @ Nodo News", " https://nodo.xyz/discover/dast-technology "]
+                        ]);
+                        $this->baseTelegram->sendBtnMessage($this->user_id, $data);
+                        break;
+                        
                     
                     default:
                         if ($this->sub_details["active_sub"] || $this->sub_details["totalrequests"] < 10) {
