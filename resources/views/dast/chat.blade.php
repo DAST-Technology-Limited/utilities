@@ -349,7 +349,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   <ol class="hsg-page-width-normal"><li class="hsg-multi-row__item">
       <div class="hsg-multi-row__text-content content-wrapper">
         <h2 class="hsg-multi-row__heading">DAST GPT,Your Gateway to Web3 and AI Technologies</h2>
-        <div class="hsg-multi-row__description"><p>DAST is proud to offer a range of innovative GPT (Generative Pre-trained Transformer) services that leverage the power of AI to enhance user experiences, provide personalized information, and explore the exciting realms of Web3 technologies. Here are some of the key GPT services provided by DAST</p></div>
+        <div class="hsg-multi-row__description"><p>ChatGPT is an AI language model developed by OpenAI, based on the GPT (Generative Pre-trained Transformer) architecture. It is designed to understand and generate human-like text based on the input it receives. As a conversational AI chatbot, ChatGPT can help you do a variety of tasks, such as drafting messages, creating content, answering questions, and even engaging in casual conversations.</p></div>
         
         
       </div>
