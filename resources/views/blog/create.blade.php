@@ -146,13 +146,6 @@
 
       <label for="file">Upload File:</label>
       <input type="file" id="file" name="image"><br><br>
-<<<<<<< HEAD
-  
-      <input type="submit" value="Submit">
-    </form>
-    
-@endsection
-=======
 
       <input type="submit" value="Submit"  style="background: rgb(1, 1, 54);color:white;" >
   </form>
@@ -162,4 +155,3 @@
 
 
 @endsection
->>>>>>> versatile
