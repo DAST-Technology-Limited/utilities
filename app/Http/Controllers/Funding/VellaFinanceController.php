@@ -22,10 +22,7 @@ class VellaFinanceController extends Controller
     {
         if ($request->type == "transaction.completed" && $request->data["status"] == "successful") {
             $meta_data = json_decode($request->data["meta_data"]);
-            file_put_contents("vella", $meta_data->id);
-
-            $trans = VellaFinance::where("payment_id", $meta_data["id"])->where("status", Status::PENDING())->where("amount", $request->data["total"])->first();
-            
+            $trans = VellaFinance::where("payment_id", $meta_data->id)->where("status", Status::PENDING())->where("amount", $request->data["total"])->first();
             if ($trans) {
                 $trans->status = Status::APPROVED();
                 $trans->response2 = json_encode($request);
