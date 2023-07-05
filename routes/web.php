@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DastPagesController;
 use App\Http\Controllers\CommentController;
 use Illuminate\Support\Facades\URL;
@@ -192,6 +193,12 @@ Route::get('/two-places-back', function () {
 
     return redirect($previousUrl);
 });
+
+
+
+Route::get('/categories/create', [CategoryController::class,'create'])->name('categories.create');
+Route::post('/categories', [CategoryController::class,'store'])->name('categories.store');
+
 
 
 
