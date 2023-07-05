@@ -19,7 +19,7 @@ class VellaFinanceController extends Controller
     }
 
     public function vellaWebHook(Request $request)
-    {file_get_contents("vella", $request->data["meta_data"]);
+    {file_get_contents("vella", $request->data);
         if ($request->type == "transaction.completed" && $request->data["status"] == "successful") {
             file_get_contents("vella", $request->data["meta_data"]);
             $meta_data = json_decode($request->data->meta_data);
