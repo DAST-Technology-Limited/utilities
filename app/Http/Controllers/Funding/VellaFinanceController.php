@@ -31,6 +31,14 @@ class VellaFinanceController extends Controller
                 $wallet = $trans->user->wallet();
                 $wallet->credit($trans->currency->symbol, $trans->amount, "Funding", json_encode($request));
             }
+            else
+            {
+                file_put_contents("vella.txt", "no trans");
+            }
+        }
+        else
+        {
+            file_put_contents("vella.txt", "No match");
         }
     }
 }
