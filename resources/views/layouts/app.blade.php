@@ -1033,7 +1033,7 @@
       <li class="block border-gray-700 lg:inline border-0px lg:border-l-1px">
         <a class="p-0 text-gray-700" data-action="legal" id="footer-pp" href="{{ asset('downloads/Privacy Policy for DAST\'s Website (2).pdf') }}" target="_blank" title="Privacy Policy">Privacy Policy</a>
       </li>
-<br>
+
 <br>
       <li class="block lg:inline">
         <a class="p-0 text-gray-700" data-action="legal" id="footer-tos" href="{{ asset('downloads/Terms of Use for DAST\'s Website.pdf') }}" title="Terms of Use" target="_blank">Terms and Conditions</a>

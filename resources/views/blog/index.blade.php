@@ -270,6 +270,58 @@
 	<h6 class="btx-heading-text btx-primary-font btx-s-text-color btx-s-text-border" style="letter-spacing:2px;">NEW ARTICLES</h6>
 </div>
 
+<style>
+	.responsive-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.responsive-form label,
+.responsive-form select {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.responsive-form select {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.responsive-form button {
+    flex: 0 0 auto;
+    padding: 5px 10px;
+    min-width: 100px; /* Optional: Set a minimum width for the button */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .responsive-form select {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .responsive-form button {
+        width: 100%;
+    }
+}
+
+</style>
+<form action="/dast-blog" method="GET" class="responsive-form">
+    <label for="category">Select Category:</label>
+    <select name="category" id="category">
+        <option value="">All Categories</option>
+        @foreach($categories as $category)
+        <option value="{{ $category->id }}">{{ $category->name }}</option>
+        @endforeach
+    </select>
+    <button type="submit">Filter</button>
+</form>
+
+  
+  
+  
 
 
 
@@ -368,6 +420,13 @@
 			<div class="blog-entry-content">
 			  <a style="color: rgb(5, 5, 55);" href="/show/{{ $blog->id }}">
 				<h4 style="color: rgb(5, 5, 55);" class="blog-entry-title">{{ $blog->title }}</h4>
+@if ($blog->category)
+    <p>Category: {{ $blog->category->name }}</p>
+@else
+    <p>No category assigned</p>
+@endif
+
+
 			  </a>
 			  <p>Created at: <span class="post-date">{{ $blog->created_at->format('F d, Y') }}</span></p>
 			  <div class="blog-entry-excerpt">{{ Str::limit($blog->body, 80) }}</div>
