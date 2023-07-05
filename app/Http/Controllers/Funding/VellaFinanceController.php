@@ -25,19 +25,16 @@ class VellaFinanceController extends Controller
             $trans = VellaFinance::where("payment_id", $meta_data->id)->where("status", Status::PENDING())->where("amount", $request->data->total)->first();
 
             if ($trans) {
+                file_put_contents("vella.txt", json_encode($trans));
                 $trans->status = Status::APPROVED();
                 $trans->response2 = json_encode($request);
                 $trans->save();
                 $wallet = $trans->user->wallet();
                 $wallet->credit($trans->currency->symbol, $trans->amount, "Funding", json_encode($request));
-            }
-            else
-            {
+            } else {
                 file_put_contents("vella.txt", "no trans");
             }
-        }
-        else
-        {
+        } else {
             file_put_contents("vella.txt", "No match");
         }
     }
