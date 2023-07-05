@@ -20,11 +20,9 @@ class VellaFinanceController extends Controller
 
     public function vellaWebHook(Request $request)
     {
-        $request = json_decode($request);
-        file_put_contents('vella', $request);
+        file_put_contents('vella', $request->data);
         if ($request->type == "transaction.completed" && $request->data->status == "successful") {
-            // $meta_data = json_decode($request->data->meta_data);
-            $meta_data = $request->data->meta_data;
+            $meta_data = json_decode($request->data->meta_data);
             $trans = VellaFinance::where("payment_id", $meta_data->id)->where("status", Status::PENDING())->where("amount", $request->data->total)->first();
 
             if ($trans) {
