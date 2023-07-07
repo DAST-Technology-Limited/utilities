@@ -421,7 +421,7 @@
 			  <a style="color: rgb(5, 5, 55);" href="/show/{{ $blog->id }}">
 				<h4 style="color: rgb(5, 5, 55);" class="blog-entry-title">{{ $blog->title }}</h4>
 @if ($blog->category)
-    <p>Category: {{ $blog->category->name }}</p>
+    <p>Category: {{ $blog->categories->name }}</p>
 @else
     <p>No category assigned</p>
 @endif
