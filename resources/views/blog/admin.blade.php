@@ -466,6 +466,7 @@
     <div class="spacer"></div>
     <div class="blog-grid">
       @foreach ($blogs as $blog)
+	  
       <article class="blog-entry">
         <div class="blog-entry-inner">
           <div class="blog-entry-header">
@@ -489,6 +490,7 @@
               <p>Created at: <span class="post-date">{{ $blog->created_at->format('F d, Y') }}</span></p>
               <div class="blog-entry-excerpt">{{ Str::limit($blog->body, 80) }}</div>
             <p class="profile-name">Author: {{ $blog->author }}</p>
+			<p class="profile-name">status: {{ $blog->status }}</p>
 
 
 
