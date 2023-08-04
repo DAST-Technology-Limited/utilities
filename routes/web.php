@@ -12,6 +12,7 @@ use App\Http\Controllers\Funding\VellaFinanceController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\User\UserAuthController;
+use App\Http\Livewire\Subscription\Pay;
 use App\Http\Middleware\DomainCheck;
 use App\Http\Middleware\TokenAuth;
 use Illuminate\Support\Facades\Route;
@@ -100,6 +101,8 @@ Route::middleware(["auth"])->group(function () {
     Route::get("/dashboard/pricing", function () {
         return view("subscription.pricing");
     });
+
+    Route::get("/dashboard/subscription/pay/{package_id}", Pay::class);
 });
 
 // Auth::routes();
@@ -114,7 +117,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/img', [ImageController::class, 'create']);
 Route::post('/image', [ImageController::class, 'store']);
 /////Blog Routing
-Route::get('/dast-blog',[BlogController::class,'index']);
+Route::get('/dast-blog', [BlogController::class, 'index']);
 // Route::get('/blogs',[BlogController::class,'blogs']);
 
 
@@ -134,10 +137,10 @@ Route::get('/dast-blog',[BlogController::class,'index']);
 Route::group(['middleware' => 'auth'], function () {
 
 
-    Route::get('/audience',[AudienceController::class,'index']);
-// Route::get('/audiences', [AudienceController::class, 'index'])->name('audiences.index');
-Route::get('/audiences/create', [AudienceController::class, 'create'])->name('audiences.create');
-Route::post('/audiences', [AudienceController::class, 'store'])->name('audiences.store');
+    Route::get('/audience', [AudienceController::class, 'index']);
+    // Route::get('/audiences', [AudienceController::class, 'index'])->name('audiences.index');
+    Route::get('/audiences/create', [AudienceController::class, 'create'])->name('audiences.create');
+    Route::post('/audiences', [AudienceController::class, 'store'])->name('audiences.store');
 
 
     Route::get('/create', [BlogController::class, 'create']);
@@ -232,16 +235,11 @@ Route::get('/two-places-back', function () {
 });
 
 
-Route::get('/categories/create', [CategoryController::class,'create'])->name('categories.create');
-Route::post('/categories', [CategoryController::class,'store'])->name('categories.store');
+Route::get('/categories/create', [CategoryController::class, 'create'])->name('categories.create');
+Route::post('/categories', [CategoryController::class, 'store'])->name('categories.store');
 
 Route::delete('/categories/{id}', [CategoryController::class, 'destroy'])->name('categories.destroy');
 
 
 
 ///announcements routes
-
-
-
-
-

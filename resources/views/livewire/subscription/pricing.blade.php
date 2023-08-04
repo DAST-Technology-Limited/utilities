@@ -126,7 +126,7 @@
 								</ul>
 								<!-- Plan Bottom -->
 								<div class="plan-bottom">
-									<a class="plan-button" href="#" id="basicSignup_1">Subscribe Now</a>
+									<a class="plan-button" href="/dashboard/subscription/pay/{7}" id="basicSignup_1">Subscribe Now</a>
 								</div>
 							</form>
 						</div>
@@ -213,7 +213,7 @@
 							</ul>
 							<!-- Plan Bottom -->
 							<div class="plan-bottom">
-								<a class="plan-button" href="#" id="standardSignup_1">Subscribe Now</a>
+								<a class="plan-button" href="/dashboard/subscription/pay/6" id="standardSignup_1">Subscribe Now</a>
 							</div>
 						</div>
 					</div>
@@ -298,7 +298,7 @@
 							</ul>
 							<!-- Plan Bottom -->
 							<div class="plan-bottom">
-								<a class="plan-button" href="#" id="premiumSignup_1">Subscribe Now</a>
+								<a class="plan-button" href="/dashboard/subscription/pay/7" id="premiumSignup_1">Subscribe Now</a>
 							</div>
 						</div>
 					</div>
