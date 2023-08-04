@@ -247,7 +247,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       </h4>
       
       <div class="product-core-header__ctas ">
-        <a href="" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Apply Now</a>
+        <a href="https://docs.google.com/forms/d/1geRoJQPraJIaEkaJOwL7aNvg69FuSamYIQ-Gsio4wfE/edit" class="product-core-header__text--cta cta--primary product-core-header__text-multi-cta cms-hero-1">Apply Now</a>
         
         
       </div>
@@ -364,7 +364,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
                         
                         <div class="hsg-cta-block__cta-wrapper ">
-                          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-marketers-1" href="https://lnkd.in/deZZhAMM">
+                          <!-- generateModuleCtas Called --><a class="cta--primary cta--small cms-marketers-1" href="https://t.me/dastofficialcommunity">
       Join our Community
     </a>
     {{-- <a class="cta--secondary cta--small cms-marketers-2" href="">
