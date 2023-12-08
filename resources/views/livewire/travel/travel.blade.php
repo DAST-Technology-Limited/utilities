@@ -20,7 +20,7 @@
                 <h2>Problems we are solving</h2><br>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">VISA APPLICATION COMPLEXITIES</h5>
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">FINANCIAL
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">UNRELIABLE
@@ -102,7 +102,7 @@
                 <h2>OUR SERVICES</h2><br>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">VISA
@@ -116,7 +116,7 @@
             </div>
 
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">FINANCIAL
@@ -129,7 +129,7 @@
             </div>
 
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">AFRIGLOBAL
@@ -148,7 +148,7 @@
                 </h2>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">BUILD REPUTATION</h5>
@@ -160,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">MAKE CONTRIBUTION</h5>
@@ -172,7 +172,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">ACCESS FUNDING</h5>
@@ -190,14 +190,14 @@
                 <h2>PACKAGE PRICE</h2><br>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">HIGH PRIORITY</h5>
                         <p>
                             <br>
                         <div class="text-center">
-                            <span class="alert alert-success p-1">$1000</span>
+                            <span class="alert alert-success p-1 font-weight-bold">$1000</span>
                         </div>
                         <br>
 
@@ -209,19 +209,19 @@
                         sponsorship
                         </p>
                         
-                      <a class="btn btn-primary" href="https://me.vella.finance/link/high-priority">Enroll</a>
+                      <a  style="width: 150px; font-size:large" class="btn btn-primary" href="https://me.vella.finance/link/high-priority">Enroll</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">PRIORITY</h5>
                         <p>
                             <br>
                         <div class="text-center">
-                            <span class="alert alert-success p-1">$500</span>
+                            <span class="alert alert-success p-1 font-weight-bold">$500</span>
                         </div>
                         <br>
 
@@ -232,19 +232,19 @@
                         to access funding
                         </p>
                         
-                      <a class="btn btn-primary" href="https://me.vella.finance/link/priority">Enroll</a>
+                      <a  style="width: 150px; font-size:large" class="btn btn-primary" href="https://me.vella.finance/link/priority">Enroll</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">GENERAL</h5>
                         <p>
                             <br>
                         <div class="text-center">
-                            <span class="alert alert-success p-1">$50</span>
+                            <span class="alert alert-success p-1 font-weight-bold">$50</span>
                         </div>
                         <br>
 
@@ -254,7 +254,7 @@
 
                         DAO
                         </p>
-                      <a class="btn btn-primary" href="https://me.vella.finance/link/gen">Enroll</a>
+                      <a  style="width: 150px; font-size:large" class="btn btn-primary" href="https://me.vella.finance/link/gen">Enroll</a>
                     </div>
                 </div>
             </div>
