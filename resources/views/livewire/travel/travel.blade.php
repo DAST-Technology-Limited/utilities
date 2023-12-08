@@ -20,7 +20,7 @@
                 <h2>Problems we are solving</h2><br>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">VISA APPLICATION COMPLEXITIES</h5>
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">FINANCIAL
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">UNRELIABLE
@@ -102,7 +102,7 @@
                 <h2>OUR SERVICES</h2><br>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">VISA
@@ -116,7 +116,7 @@
             </div>
 
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">FINANCIAL
@@ -129,7 +129,7 @@
             </div>
 
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">AFRIGLOBAL
@@ -148,7 +148,7 @@
                 </h2>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">BUILD REPUTATION</h5>
@@ -160,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">MAKE CONTRIBUTION</h5>
@@ -172,7 +172,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">ACCESS FUNDING</h5>
@@ -190,7 +190,7 @@
                 <h2>PACKAGE PRICE</h2><br>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">HIGH PRIORITY</h5>
@@ -214,7 +214,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">PRIORITY</h5>
@@ -237,7 +237,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">GENERAL</h5>
