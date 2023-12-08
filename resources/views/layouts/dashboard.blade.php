@@ -19,14 +19,10 @@
 
 @include("components.preloader")
 
-
     <div style="
-  background: linear-gradient(#9C27B0,#009688);
-    
+    background: linear-gradient(#9C27B0,#009688);
     " class="container-scroller">
-        <nav style="
-  background: rgb(4, 2, 29);
-        
+        <nav style="background: rgb(4, 2, 29);  
         "   class="sidebar sidebar-offcanvas" id="sidebar">
             <div style="
             background: rgb(4, 2, 29);
@@ -73,6 +69,14 @@
                     <i class="bi bi-plus text-light"></i>
                   </span>
                   <span class="menu-title">Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-item menu-items">
+                <a class="nav-link" href="/home/travel">
+                  <span class="menu-icon">
+                    <i class="bi bi-airplane text-light"></i>
+                  </span>
+                  <span class="menu-title">Travel DAO</span>
                 </a>
               </li>
               <li class="nav-item menu-items">

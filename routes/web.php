@@ -13,6 +13,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\User\UserAuthController;
 use App\Http\Livewire\Subscription\Pay;
+use App\Http\Livewire\Travel\Travel;
 use App\Http\Middleware\DomainCheck;
 use App\Http\Middleware\TokenAuth;
 use Illuminate\Support\Facades\Route;
@@ -119,18 +120,6 @@ Route::post('/image', [ImageController::class, 'store']);
 /////Blog Routing
 Route::get('/dast-blog', [BlogController::class, 'index']);
 // Route::get('/blogs',[BlogController::class,'blogs']);
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -243,3 +232,5 @@ Route::delete('/categories/{id}', [CategoryController::class, 'destroy'])->name(
 
 
 ///announcements routes
+
+Route::get("/home/travel", Travel::class);
